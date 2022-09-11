@@ -22,8 +22,8 @@ redirect_from:
 </p>
 
 # 🔥 新闻
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.08*: &nbsp;🎉🎉 2022年“建行杯”第8届安徽省“互联网+”大学生创新创业大赛 金奖. 
+- *2022.08*: &nbsp;🎉🎉 2022年第24届中国机器人及人工智能大赛全国 一等奖. 
 
 # 📝 Publications 
 
@@ -53,8 +53,6 @@ redirect_from:
 - *2022.04*, 飞桨产业实践范例库&&商品识别产业应用实战.  \| [\[video\]](https://www.bilibili.com/video/BV1Fu411y7co?spm_id_from=333.999.0.0)
 - *2021.07*, 飞桨领航团AI达人创造营.  \| [\[video\]](https://www.bilibili.com/video/BV1qq4y1X7uZ?spm_id_from=333.999.0.0&vd_source=02aea3a5719f15c2ff7a32ade6916170)
 - *2021.05*, 飞桨开发者说&&商品识别产业应用实战.  \| [\[video\]](https://www.bilibili.com/video/BV13p4y1t76K?spm_id_from=333.999.0.0)
-
-
 
 
 
