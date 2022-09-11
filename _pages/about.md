@@ -17,8 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<p style="line-height:2.4;">
 <font size="4">我目前就读于华东理工大学自动化专业本科四年级. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 计算机视觉、自然语言处理、强化学习、推理部署等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 开源多个基于PaddlePaddle的具有落地性质的项目, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目. </font>
-
+</p>
 
 # 🔥 新闻
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
