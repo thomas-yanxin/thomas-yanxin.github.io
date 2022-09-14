@@ -24,16 +24,16 @@ redirect_from:
 截止目前，我共获得国家级奖项<strong>3</strong>项，省市级奖项<strong>8</strong>项，校企相关奖项若干。相关工作曾受到OpenI启智、飞桨PaddlePaddle、Datawhale等国内顶级开源社区的相关报导。
 </p>
 
-# 🔥 新闻
+# 🔥 News
 - *2022.08*: &nbsp;🎉🎉 2022年“建行杯”第8届安徽省“互联网+”大学生创新创业大赛 金奖. 
 - *2022.08*: &nbsp;🎉🎉 2022年第24届中国机器人及人工智能大赛全国 一等奖. 
 - *2022.08*: &nbsp;🎉🎉 2022年第7届“创客中国”百度赛道创客组 优胜奖(Top10)
 
-# 📖 教育经历
+# 📖 Educations
 - *2019.09 - 2023.06 (now)*, 信息科学与工程学院，华东理工大学. 
 
 
-# 📝 出版物 
+# 📝 Publications
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> -->
@@ -45,7 +45,7 @@ redirect_from:
 - 【[软件著作权]()】：基于领域知识库的智能问答系统V1.0； 著作权人：黄小悦；韩响尘；王鑫；**颜鑫**；林宏聪；任竞展；周天奕； 登记号：2022SRE025369
 
 
-# 🎖 荣誉和奖项
+# 🎖 Honors and Awards
 - 【晓声科技】2022年“建行杯”第8届安徽省“互联网+”大学生创新创业大赛 <strong>金奖</strong>
 
 - 【镜选未来】2022年“建行杯”第8届中国国际“互联网+”大学生创新创业大赛江苏省选拔赛 <strong>银奖</strong>
@@ -91,7 +91,7 @@ redirect_from:
 - 2020年华东理工大学信息科学与工程学院社会工作奖C等
 
 
-# 💬 受邀讲座
+# 💬 Invited Talks
 - *2022.04*, 飞桨产业实践范例库&&商品识别产业应用实战.  \| [\[video\]](https://www.bilibili.com/video/BV1Fu411y7co?spm_id_from=333.999.0.0)
 - *2021.07*, 飞桨领航团AI达人创造营.  \| [\[video\]](https://www.bilibili.com/video/BV1qq4y1X7uZ?spm_id_from=333.999.0.0&vd_source=02aea3a5719f15c2ff7a32ade6916170)
 - *2021.05*, 飞桨开发者说&&商品识别产业应用实战.  \| [\[video\]](https://www.bilibili.com/video/BV13p4y1t76K?spm_id_from=333.999.0.0)
