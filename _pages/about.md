@@ -29,7 +29,7 @@ redirect_from:
 - *2022.08*: &nbsp;🎉🎉 2022年第24届中国机器人及人工智能大赛全国 一等奖. 
 - *2022.08*: &nbsp;🎉🎉 2022年第7届“创客中国”百度赛道创客组 优胜奖(Top10)
 
-# 📝 Publications 
+# 📝 出版物 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> -->
@@ -42,14 +42,10 @@ redirect_from:
 
 
 
-# 🎖 Honors and Awards
-<ul>
-  <li>【晓声科技】2022年“建行杯”第8届安徽省“互联网+”大学生创新创业大赛 <strong>金奖</strong></li>
-</ul>
+# 🎖 荣誉和奖项
+- 【晓声科技】2022年“建行杯”第8届安徽省“互联网+”大学生创新创业大赛 <strong>金奖</strong>
 
-<ul>
-  <li><a href='./个人经历相关材料/第八届江苏省“互联网+”大学生创新创业大赛_路演项目评审结果发布版本%20.pdf'>【镜选未来】2022年“建行杯”第8届中国国际“互联网+”大学生创新创业大赛江苏省选拔赛 <strong>二等奖</strong></a></li>
-</ul>
+- 【镜选未来】2022年“建行杯”第8届中国国际“互联网+”大学生创新创业大赛江苏省选拔赛 <strong>银奖</strong>
 
 <ul>
   <li><a href='./个人经历相关材料/第八届上海市“互联网+”大学生创新创业大赛_主赛道.pdf'>【Medbio】2022年“建行杯”第8届上海市“互联网+”大学生创新创业大赛 <strong>银奖</strong></a></li>
