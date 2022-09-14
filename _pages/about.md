@@ -19,7 +19,7 @@ redirect_from:
 
 <p style="line-height:2.4;">
 我目前就读于华东理工大学自动化专业本科四年级. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 计算机视觉、自然语言处理、强化学习、推理部署等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 开源多个基于PaddlePaddle的具有落地性质的项目, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目. 
-<br />
+
 <br />
 截止目前，我共获得国家级奖项<strong>3</strong>项，省市级奖项<strong>8</strong>项，校企相关奖项若干。相关工作曾受到OpenI启智、飞桨PaddlePaddle、Datawhale等国内顶级开源社区的相关报导。
 </p>
@@ -40,8 +40,6 @@ redirect_from:
 - 【[软件著作权]()】：慧眼识垃圾系统V1.0； 著作权人：**颜鑫**；沈晨；杜旭东； 登记号：2021SR0986633
 - 【[软件著作权]()】：基于领域知识库的智能问答系统V1.0； 著作权人：黄小悦；韩响尘；王鑫；**颜鑫**；林宏聪；任竞展；周天奕； 登记号：2022SRE025369
 
-</div>
-</div>
 
 
 # 🎖 Honors and Awards
@@ -68,7 +66,6 @@ redirect_from:
   <li><a href="https://mp.weixin.qq.com/s/WgE9zxD4Nv4H-f_2sXr5pw">【袋鼯麻麻】2022年第10届华东理工大学“奋进杯”大学生创业计划竞赛 <strong>金奖</strong></a></li>
 </ul>
 
-<hr>
 <ul>
   <li>2022年国家级大学生创新创业项目 <strong>第一主持人</strong></li>
 </ul>
@@ -113,7 +110,6 @@ redirect_from:
   <li><a href="https://github.com/Awesome-DeepLearning/WAVESUMMIT2021_Rank">2021年WAVE SUMMIT 2021+ 优秀开源项目</a></li>
 </ul>
 
-<hr>
 
 <ul>
   <li><a href='./个人经历相关材料/优秀奖学金.jpg'>2020年华东理工大学校综合课程奖学金三等</a></li>
