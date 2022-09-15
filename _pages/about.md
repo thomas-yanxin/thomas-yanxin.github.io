@@ -89,6 +89,27 @@ redirect_from:
 
 - 2020年华东理工大学信息科学与工程学院社会工作奖C等
 
+# ✨ Honor 
+
+- 百度飞桨开发者技术专家
+
+- Datawhale成员
+
+- 华为云云享专家
+
+- 中国人工智能学会会员
+
+- 中国自动化学会预备会员
+
+- 中国宇航学会会员
+
+- 2022年OpenI启智社区首批资深体验官
+
+- 2021年度OpenI启智社区积极贡献者
+
+- 百度飞桨WAVE SUMMIT 2021优秀开源开发者
+
+- 百度飞桨WAVE SUMMIT 2021+ 优秀开源开发者
 
 # 💬 Invited Talks
 - *2022.04*, 飞桨产业实践范例库&&商品识别产业应用实战.  \| [\[video\]](https://www.bilibili.com/video/BV1Fu411y7co?spm_id_from=333.999.0.0)
