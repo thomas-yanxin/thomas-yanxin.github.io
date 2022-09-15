@@ -49,7 +49,7 @@ redirect_from:
 
 - 【镜选未来】2022年第7届“创客中国”百度赛道创客组 <strong>优胜奖(Top10)</strong>  \| [\[点击\]](https://mp.weixin.qq.com/s/kAp6jfZpvG2eolcWSANHSQ)
 
-- 【袋鼯麻麻】2022年第13届“挑战杯”大学生创业计划竞赛上海市 <strong>铜奖</strong> \| [\[点击\]](/proof/2022%E5%B9%B4%E6%8C%91%E6%88%98%E6%9D%AF%E5%B8%82%E7%BA%A7%E5%A4%8D%E8%B5%9B%E7%BB%93%E6%9E%9C-%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6.pdf)
+- 【袋鼯麻麻】2022年第13届“挑战杯”大学生创业计划竞赛上海市 <strong>铜奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E6%8C%91%E6%88%98%E6%9D%AF%E5%B8%82%E7%BA%A7%E5%A4%8D%E8%B5%9B%E7%BB%93%E6%9E%9C-%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6.pdf)
 
 - 【袋鼯麻麻】2022年第10届华东理工大学“奋进杯”大学生创业计划竞赛 <strong>金奖</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/WgE9zxD4Nv4H-f_2sXr5pw)
 
