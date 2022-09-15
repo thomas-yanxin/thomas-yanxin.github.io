@@ -15,6 +15,9 @@ main:
   - title: "Awards"
     url: "/#-awards"
 
+  - title: "Honors"
+    url: "/#-honors"
+
   - title: "Projects"
     url: "/#-projects"
 
