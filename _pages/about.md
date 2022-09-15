@@ -40,7 +40,7 @@ redirect_from:
 - 【[软件著作权]()】：慧眼识垃圾系统V1.0； 著作权人：**颜鑫**；沈晨；杜旭东； 登记号：2021SR0986633
 - 【[软件著作权]()】：基于领域知识库的智能问答系统V1.0； 著作权人：黄小悦；韩响尘；王鑫；**颜鑫**；林宏聪；任竞展；周天奕； 登记号：2022SRE025369
 
-# 🎖 Awards
+# 📘 Awards
 - 【晓声科技】2022年“建行杯”第8届安徽省“互联网+”大学生创新创业大赛 <strong>金奖</strong> \| [\[点击\]]()
 
 - 【镜选未来】2022年“建行杯”第8届中国国际“互联网+”大学生创新创业大赛江苏省选拔赛 <strong>银奖</strong> \| [\[点击\]]()
@@ -107,7 +107,7 @@ redirect_from:
 
 - 百度飞桨WAVE SUMMIT 2021+ 优秀开源开发者 \| [\[点击\]]()
 
-# ✨ Projects
+# 🚀 Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ColugoMum</div><img src='images/structure1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
