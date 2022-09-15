@@ -120,7 +120,7 @@ redirect_from:
 - 【组队学习】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
 - 【OpenI启智】连续4周上榜的这位开发者，活出了当代大学生该有的样子 \| [\[链接\]](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A)
 - 【Datawhale】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/V8eBkYZvb-mNJtyez7n_Rg)
-- 【OpenI启智】OpenI开源项目推荐-ColugoMum | 基于国产深度学习框架PaddlePadddle开源的零售行业解决方案 \| [\[链接\]](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw)
+- 【OpenI启智】OpenI开源项目推荐-ColugoMum \| 基于国产深度学习框架PaddlePadddle开源的零售行业解决方案 \| [\[链接\]](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw)
 - 【Datawhale】第七期录取名单 \| [\[链接\]](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
 - 【人工智能爱好者社区】10分钟搭建商品结算平台！商品、车辆识别一网打尽 \| [\[链接\]](https://mp.weixin.qq.com/s/CFE9sQQHC3nyNPVbA8jOjQ)
 - 【飞桨PaddlePaddle】智能结算新方案，这个商品识别算法你值得拥有！\| [\[链接\]](https://mp.weixin.qq.com/s/_-ES_KqQAbk3c2kjrMOAaA)
