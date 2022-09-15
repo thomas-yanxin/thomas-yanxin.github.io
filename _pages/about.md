@@ -20,7 +20,7 @@ redirect_from:
 <p style="line-height:2.4;">
 我目前就读于华东理工大学自动化专业本科四年级。我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 计算机视觉、自然语言处理、强化学习、推理部署等。我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 开源多个基于PaddlePaddle的具有落地性质的项目, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目。
 <br />
-  截止目前，我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇，累计获得国家级奖项<strong>3</strong>项，省市级奖项<strong>8</strong>项，校企相关奖项若干。相关工作曾受邀参加Wave Summit2021峰会市集展览，受到OpenI启智、飞桨PaddlePaddle、Datawhale等国内顶级开源社区的相关报导。
+截止目前，我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇，累计获得国家级奖项<strong>3</strong>项，省市级奖项<strong>8</strong>项，校企相关奖项若干。相关工作曾受邀参加Wave Summit2021峰会市集展览，受到OpenI启智、飞桨PaddlePaddle、Datawhale等国内顶级开源社区的相关报导。
 </p>
 
 # 🔥 News
@@ -33,9 +33,6 @@ redirect_from:
 
 
 # 📝 Publications
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> -->
 
 - **X. Yan**, Q. Hu, X. Huang and C. Shen, "[Intelligent Retail Settlement Platform based on Image Retrieval](https://ieeexplore.ieee.org/document/9851085)," 2022 4th International Conference on Communications, Information System and Computer Engineering (CISCE), 2022, pp. 609-616, doi: 10.1109/CISCE55963.2022.9851085.
 - 【[实用新型专利]()】：智能零售结算平台； 发明人：**颜鑫**、沈晨、杜旭东； 专利号：ZL 2022 2 0828888.8； 授权公告号： CN 216979871 U
