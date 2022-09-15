@@ -43,9 +43,9 @@ redirect_from:
 # 📘 Awards
 - 【晓声科技】2022年“建行杯”第8届安徽省“互联网+”大学生创新创业大赛 <strong>金奖</strong> \| [\[点击\]](/proof/)
 
-- 【镜选未来】2022年“建行杯”第8届中国国际“互联网+”大学生创新创业大赛江苏省选拔赛 <strong>银奖</strong> \| [\[点击\]](/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E6%B1%9F%E8%8B%8F%E7%9C%81%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E8%B7%AF%E6%BC%94%E9%A1%B9%E7%9B%AE%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%20.pdf)
+- 【镜选未来】2022年“建行杯”第8届中国国际“互联网+”大学生创新创业大赛江苏省选拔赛 <strong>银奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E6%B1%9F%E8%8B%8F%E7%9C%81%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E8%B7%AF%E6%BC%94%E9%A1%B9%E7%9B%AE%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%20.pdf)
 
-- 【Medbio】2022年“建行杯”第8届上海市“互联网+”大学生创新创业大赛 <strong>银奖</strong> \| [\[点击\]](/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E4%B8%8A%E6%B5%B7%E5%B8%82%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E4%B8%BB%E8%B5%9B%E9%81%93.pdf)
+- 【Medbio】2022年“建行杯”第8届上海市“互联网+”大学生创新创业大赛 <strong>银奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E4%B8%8A%E6%B5%B7%E5%B8%82%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E4%B8%BB%E8%B5%9B%E9%81%93.pdf)
 
 - 【镜选未来】2022年第7届“创客中国”百度赛道创客组 <strong>优胜奖(Top10)</strong>  \| [\[点击\]](https://mp.weixin.qq.com/s/kAp6jfZpvG2eolcWSANHSQ)
 
@@ -53,13 +53,13 @@ redirect_from:
 
 - 【袋鼯麻麻】2022年第10届华东理工大学“奋进杯”大学生创业计划竞赛 <strong>金奖</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/WgE9zxD4Nv4H-f_2sXr5pw)
 
-- 2022年第24届中国机器人及人工智能大赛全国 <strong>一等奖</strong> \| [\[点击\]](/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf)
+- 2022年第24届中国机器人及人工智能大赛全国 <strong>一等奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf)
 
-- 2022年第15届中国大学生计算机设计大赛（程序设计组）全国 <strong>三等奖</strong> \| [\[点击\]](/proof/2022%E5%B9%B4%EF%BC%88%E7%AC%AC15%E5%B1%8A%EF%BC%89%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%E4%B8%89%E7%AD%89%E5%A5%96.pdf)
+- 2022年第15届中国大学生计算机设计大赛（程序设计组）全国 <strong>三等奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%EF%BC%88%E7%AC%AC15%E5%B1%8A%EF%BC%89%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%E4%B8%89%E7%AD%89%E5%A5%96.pdf)
 
-- 2022年第15届中国大学生计算机设计大赛（物联网组）全国 <strong>三等奖</strong> \| [\[点击\]](/proof/2022%E5%B9%B4%E7%AC%AC15%E5%B1%8A%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%EF%BC%88%E7%89%A9%E8%81%94%E7%BD%91%E7%BB%84%EF%BC%89%E5%85%A8%E5%9B%BD%E4%B8%89%E7%AD%89%E5%A5%96.jpg)
+- 2022年第15届中国大学生计算机设计大赛（物联网组）全国 <strong>三等奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC15%E5%B1%8A%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%EF%BC%88%E7%89%A9%E8%81%94%E7%BD%91%E7%BB%84%EF%BC%89%E5%85%A8%E5%9B%BD%E4%B8%89%E7%AD%89%E5%A5%96.jpg)
 
-- 2022年第24届中国机器人及人工智能大赛（上海赛区）人工智能创新赛 <strong>一等奖</strong> \| [\[点击\]](/proof/%E7%9B%96%E7%AB%A0%E5%85%AC%E7%A4%BA-%E4%B8%8A%E6%B5%B7%E8%B5%9B%E5%8C%BA%E6%8B%9F%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA%E7%9A%84%E9%80%9A%E7%9F%A5.pdf)
+- 2022年第24届中国机器人及人工智能大赛（上海赛区）人工智能创新赛 <strong>一等奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%9B%96%E7%AB%A0%E5%85%AC%E7%A4%BA-%E4%B8%8A%E6%B5%B7%E8%B5%9B%E5%8C%BA%E6%8B%9F%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA%E7%9A%84%E9%80%9A%E7%9F%A5.pdf)
 
 - 2022年第14届上海市计算机应用能力设计大赛（程序设计组） <strong>二等奖</strong> \| [\[点击\]](/proof/)
   
@@ -75,11 +75,11 @@ redirect_from:
 
 - 2020年华东理工大学校综合课程奖学金三等 \| [\[点击\]](/proof/)
 
-- 2020年华东理工大学信息科学与工程学院优秀团员 \| [\[点击\]](/proof/%E4%BC%98%E7%A7%80%E5%9B%A2%E5%91%98.jpg)
+- 2020年华东理工大学信息科学与工程学院优秀团员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E4%BC%98%E7%A7%80%E5%9B%A2%E5%91%98.jpg)
 
-- 2020年华东理工大学优秀志愿者 \| [\[点击\]](/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
+- 2020年华东理工大学优秀志愿者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
 
-- 2020年华东理工大学信息科学与工程学院第六期创新实践育人计划优秀学员 \| [\[点击\]](/proof/%E5%88%9B%E6%96%B0%E8%82%B2%E4%BA%BA.jpg)
+- 2020年华东理工大学信息科学与工程学院第六期创新实践育人计划优秀学员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E5%88%9B%E6%96%B0%E8%82%B2%E4%BA%BA.jpg)
 
 - 2020年华东理工大学信息科学与工程学院社会工作奖C等 \| [\[点击\]]()
 
@@ -93,15 +93,15 @@ redirect_from:
 
 - 华为云云享专家
 
-- 中国人工智能学会会员 \| [\[点击\]](/proof/CAAI_Card.png)
+- 中国人工智能学会会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/CAAI_Card.png)
 
-- 中国自动化学会预备会员 \| [\[点击\]](/proof/CAA_MemberCard.png)
+- 中国自动化学会预备会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/CAA_MemberCard.png)
 
-- 中国宇航学会会员 \| [\[点击\]](/proof/csaspace_Member.pdf)
+- 中国宇航学会会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/csaspace_Member.pdf)
 
 - 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 
-- 2021年度OpenI启智社区积极贡献者 \| [\[点击\]](/proof/OpenI%E5%90%AF%E6%99%BA%E7%A4%BE%E5%8C%BA%E7%A7%AF%E6%9E%81%E8%B4%A1%E7%8C%AE%E8%80%85-%E9%A2%9C%E9%91%AB.png)
+- 2021年度OpenI启智社区积极贡献者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/OpenI%E5%90%AF%E6%99%BA%E7%A4%BE%E5%8C%BA%E7%A7%AF%E6%9E%81%E8%B4%A1%E7%8C%AE%E8%80%85-%E9%A2%9C%E9%91%AB.png)
 
 - 百度飞桨WAVE SUMMIT 2021优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVE_SUMMIT_Ranking_List)
 
