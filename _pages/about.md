@@ -118,7 +118,6 @@ redirect_from:
 [袋鼯麻麻——智能零售结算平台](https://github.com/thomas-yanxin/Smart_container)
 
 - 本项目打通硬件(Jetson Nano)、小程序(微信小程序)、web端，构建三平台合一的综合智能购物平台。ColugoMum 打破传统目标检测算法应用于智能零售行业的成本大、训练难等问题，基于PP-ShiTu算法，构建新型智能零售购物识别算法，为新零售行业中无人零售视觉化智能解决多类别、小样本、高相似和更新频繁的特殊图像识别场景痛难点提供了可参考示范。本项目使得AI能够更为广泛地应用于零售行业，推动了零售业智能化、无人化、自动化程度。
-- 本项目发表<strong><a href='https://ieeexplore.ieee.org/document/9851085'>一篇国际会议论文</a></strong>，荣获 <strong>第十三届“挑战杯”大学生创业计划竞赛上海市铜奖</strong>、<strong><a href='https://mp.weixin.qq.com/s/WgE9zxD4Nv4H-f_2sXr5pw'>华东理工大学第十届“奋进杯”大学生创业计划竞赛金奖</strong></a>、<strong>2022年第24届中国机器人及人工智能大赛全国一等奖</strong>、<strong>2022年第15届中国大学生计算机设计大赛（物联网组）全国三等奖</strong>、<strong>第二十四届中国机器人及人工智能大赛（上海赛区）一等奖</strong>、<strong>第十四届上海市应用能力设计大赛二等奖</strong>、<strong>2021年度PPSIG优秀开源项目奖</strong>、<strong><a href='https://github.com/Awesome-DeepLearning/WAVESUMMIT2021_Rank'>2021年度Wave Summit 2021+ 优秀开源项目</a></strong>，顺利通过<strong><a href='https://www.paddlepaddle.org.cn/PaddlePaddleHackathon'>PaddlePaddle Hackathon</a></strong>验收。在<strong><a href="https://www.wavesummit.com.cn/#/home">Wave Summit 2021+ 飞桨PaddlePaddle开发者峰会</a></strong>市集展示中，本项目获得包括<strong>百度</strong>、<strong>启智社区</strong>、<strong>Datawhale</strong>、<strong>上海人工智能协会</strong>等多个企事业单位及开源社区的重点关注，收获包括<strong>Datawhale、启智社区、飞桨PaddlePaddle</strong>在内的多个AI社区报道，总浏览量10万+。项目入选<strong><a href='https://git.openi.org.cn/'>启智社区优秀开源项目孵化器</a></strong>，入选教育部产学合作协同育人项目（百度公司&&华东理工大学）的课程建设成果。获得北京邮电大学陈光教授(爱可可爱生活)<a href='https://weibo.com/1402400261/LoJZivRcL'>微博转发</a>。 
 </div>
 </div>
 
