@@ -110,7 +110,7 @@ redirect_from:
 
 - 百度飞桨WAVE SUMMIT 2021+ 优秀开源开发者
 
-
+# ✨ Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ColugoMum</div><img src='images/structure1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -120,6 +120,16 @@ redirect_from:
 - 本项目打通硬件(Jetson Nano)、小程序(微信小程序)、web端，构建三平台合一的综合智能购物平台。ColugoMum 打破传统目标检测算法应用于智能零售行业的成本大、训练难等问题，基于PP-ShiTu算法，构建新型智能零售购物识别算法，为新零售行业中无人零售视觉化智能解决多类别、小样本、高相似和更新频繁的特殊图像识别场景痛难点提供了可参考示范。本项目使得AI能够更为广泛地应用于零售行业，推动了零售业智能化、无人化、自动化程度。
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ColugoMum</div><img src='images/structure2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[慧眼识垃圾](https://github.com/thomas-yanxin/the-eye-knows-the-garbage)
+
+- 本项目试图构建个人、垃圾桶及政府三合一的垃圾分类识别系统，助力垃圾分类识别政策的落地实现。目前本项目已收获软件著作权，竞赛方面本项目获得<strong>2022年第15届中国大学生计算机设计大赛全国三等奖</strong>、<strong>2022年第十四届上海市应用能力设计大赛二等奖</strong>、<strong>2021年中国机器人及人工智能大赛上海赛区人工智能大赛创新类二等奖</strong>。同时，本项目在<a href="https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg">飞桨(PaddlePaddle)推文展出</a>，获<a href="https://mp.weixin.qq.com/s/3t77lWWJXMCFwCWsRAluoA">PaddleWeekly每周项目推荐</a>。
+</div>
+</div>
+
 
 # 💬 Invited Talks
 - *2022.04*, 飞桨产业实践范例库&&商品识别产业应用实战.  \| [\[视频\]](https://www.bilibili.com/video/BV1Fu411y7co?spm_id_from=333.999.0.0)
