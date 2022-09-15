@@ -89,7 +89,7 @@ redirect_from:
 
 - 百度飞桨开发者技术专家 \| [\[点击\]](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
 
-- Datawhale成员 \| [\[点击\]]()
+- Datawhale成员 \| [\[点击\]](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
 
 - 华为云云享专家
 
@@ -99,13 +99,13 @@ redirect_from:
 
 - 中国宇航学会会员 \| [\[点击\]]()
 
-- 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?a=show&c=index&catid=221&id=53&m=content)
+- 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 
 - 2021年度OpenI启智社区积极贡献者 \| [\[点击\]]()
 
-- 百度飞桨WAVE SUMMIT 2021优秀开源开发者 \| [\[点击\]]()
+- 百度飞桨WAVE SUMMIT 2021优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVE_SUMMIT_Ranking_List)
 
-- 百度飞桨WAVE SUMMIT 2021+ 优秀开源开发者 \| [\[点击\]]()
+- 百度飞桨WAVE SUMMIT 2021+ 优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVESUMMIT2021_Rank)
 
 # 🚀 Projects
 
