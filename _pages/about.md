@@ -112,38 +112,24 @@ redirect_from:
 - 百度飞桨WAVE SUMMIT 2021+ 优秀开源开发者
 
 # 💬 Invited Talks
-- *2022.04*, 飞桨产业实践范例库&&商品识别产业应用实战.  \| [\[video\]](https://www.bilibili.com/video/BV1Fu411y7co?spm_id_from=333.999.0.0)
-- *2021.07*, 飞桨领航团AI达人创造营.  \| [\[video\]](https://www.bilibili.com/video/BV1qq4y1X7uZ?spm_id_from=333.999.0.0&vd_source=02aea3a5719f15c2ff7a32ade6916170)
-- *2021.05*, 飞桨开发者说&&商品识别产业应用实战.  \| [\[video\]](https://www.bilibili.com/video/BV13p4y1t76K?spm_id_from=333.999.0.0)
-
+- *2022.04*, 飞桨产业实践范例库&&商品识别产业应用实战.  \| [\[视频\]](https://www.bilibili.com/video/BV1Fu411y7co?spm_id_from=333.999.0.0)
+- *2021.07*, 飞桨领航团AI达人创造营.  \| [\[视频\]](https://www.bilibili.com/video/BV1qq4y1X7uZ?spm_id_from=333.999.0.0&vd_source=02aea3a5719f15c2ff7a32ade6916170)
+- *2021.05*, 飞桨开发者说&&商品识别产业应用实战.  \| [\[视频\]](https://www.bilibili.com/video/BV13p4y1t76K?spm_id_from=333.999.0.0)
 
 # 🚀 Dispersion
-- 【组队学习】我们做了一个智能零售结算平台 | [链接](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
-
-
-- 【OpenI启智】连续4周上榜的这位开发者，活出了当代大学生该有的样子 | [链接](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A)
-
-- 【Datawhale】我们做了一个智能零售结算平台 | [链接](https://mp.weixin.qq.com/s/V8eBkYZvb-mNJtyez7n_Rg)
-
-- 【OpenI启智】OpenI开源项目推荐-ColugoMum | 基于国产深度学习框架PaddlePadddle开源的零售行业解决方案 | [链接](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw)
-
-- 【Datawhale】第七期录取名单 | [链接](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
-
-- 【人工智能爱好者社区】10分钟搭建商品结算平台！商品、车辆识别一网打尽 | [链接](https://mp.weixin.qq.com/s/CFE9sQQHC3nyNPVbA8jOjQ)
-
-- 【飞桨PaddlePaddle】智能结算新方案，这个商品识别算法你值得拥有！| [链接](https://mp.weixin.qq.com/s/_-ES_KqQAbk3c2kjrMOAaA)
-
-- 【GitHubDaily】GitHub 斩获 3100+ Star，国人开源的这个图像识别系统好用到爆！！！| [链接](https://mp.weixin.qq.com/s/_ORBu5cxR4zZ0uFxTO8iGw)
-
-- 【我爱计算机视觉】10分钟搭建商品结算平台！商品、车辆识别一网打尽！| [链接](https://mp.weixin.qq.com/s/_ORBu5cxR4zZ0uFxTO8iGw)
-
-- 【百度AI】智慧零售产业应用实战，30分钟上手的高精度商品识别！| [链接](https://mp.weixin.qq.com/s/wWEd9I4f6LHfSj4GVGfRxQ)
-
-- 【OSC开源社区】高效率、高精度，30分钟上手的识别算法 | [链接](https://mp.weixin.qq.com/s/YjeQxkhFpxgG9ROHIPBRuA)
-
-- 【飞桨PaddlePaddle】智慧零售产业应用实战，30分钟上手的高精度商品识别！| [链接](https://mp.weixin.qq.com/s/5olzwmAUHBPnAezKw8AnLA)
-
-- 【CSDN】智慧零售产业应用实战，30分钟上手的高精度商品识别！| [链接](https://blog.csdn.net/PaddlePaddle/article/details/124113836?utm_source=app&app_version=5.3.1&code=app_1562916241&uLinkId=usr1mkqgl919blen)
+- 【组队学习】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
+- 【OpenI启智】连续4周上榜的这位开发者，活出了当代大学生该有的样子 \| [\[链接\]](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A)
+- 【Datawhale】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/V8eBkYZvb-mNJtyez7n_Rg)
+- 【OpenI启智】OpenI开源项目推荐-ColugoMum | 基于国产深度学习框架PaddlePadddle开源的零售行业解决方案 \| [\[链接\]](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw)
+- 【Datawhale】第七期录取名单 \| [\[链接\]](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
+- 【人工智能爱好者社区】10分钟搭建商品结算平台！商品、车辆识别一网打尽 \| [\[链接\]](https://mp.weixin.qq.com/s/CFE9sQQHC3nyNPVbA8jOjQ)
+- 【飞桨PaddlePaddle】智能结算新方案，这个商品识别算法你值得拥有！\| [\[链接\]](https://mp.weixin.qq.com/s/_-ES_KqQAbk3c2kjrMOAaA)
+- 【GitHubDaily】GitHub 斩获 3100+ Star，国人开源的这个图像识别系统好用到爆！！！\| [\[链接\]](https://mp.weixin.qq.com/s/_ORBu5cxR4zZ0uFxTO8iGw)
+- 【我爱计算机视觉】10分钟搭建商品结算平台！商品、车辆识别一网打尽！\| [\[链接\]](https://mp.weixin.qq.com/s/_ORBu5cxR4zZ0uFxTO8iGw)
+- 【百度AI】智慧零售产业应用实战，30分钟上手的高精度商品识别！\| [\[链接\]](https://mp.weixin.qq.com/s/wWEd9I4f6LHfSj4GVGfRxQ)
+- 【OSC开源社区】高效率、高精度，30分钟上手的识别算法 \| [\[链接\]](https://mp.weixin.qq.com/s/YjeQxkhFpxgG9ROHIPBRuA)
+- 【飞桨PaddlePaddle】智慧零售产业应用实战，30分钟上手的高精度商品识别！\| [\[链接\]](https://mp.weixin.qq.com/s/5olzwmAUHBPnAezKw8AnLA)
+- 【CSDN】智慧零售产业应用实战，30分钟上手的高精度商品识别！\| [\[链接\]](https://blog.csdn.net/PaddlePaddle/article/details/124113836?utm_source=app&app_version=5.3.1&code=app_1562916241&uLinkId=usr1mkqgl919blen)
 
 
 <!-- # 💻 Internships
