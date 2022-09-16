@@ -91,7 +91,7 @@ redirect_from:
 
 - Datawhale成员 \| [\[点击\]](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
 
-- 华为云云享专家
+- 华为云云享专家 \| [\[点击\]]()
 
 - 中国人工智能学会会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/CAAI_Card.png)
 
