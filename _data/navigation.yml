@@ -21,6 +21,12 @@ main:
   - title: "Projects"
     url: "/#-projects"
 
+  - title: "Activities"
+    url: "/#-activities"
+
+  - title: "Social Practices"
+    url: "/#-social-practices"
+    
   - title: "Invited Talks"
     url: "/#-invited-talks"
 
