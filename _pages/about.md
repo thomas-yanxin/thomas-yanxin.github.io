@@ -125,7 +125,7 @@ redirect_from:
 
 - 本项目试图构建个人、垃圾桶及政府三合一的垃圾分类识别系统，助力垃圾分类识别政策的落地实现。目前本项目已收获软件著作权，竞赛方面本项目获得<strong>2022年第15届中国大学生计算机设计大赛全国三等奖</strong>、<strong>2022年第十四届上海市应用能力设计大赛二等奖</strong>、<strong>2021年中国机器人及人工智能大赛上海赛区人工智能大赛创新类二等奖</strong>。同时，本项目在<a href="https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg">飞桨(PaddlePaddle)推文展出</a>，获<a href="https://mp.weixin.qq.com/s/3t77lWWJXMCFwCWsRAluoA">PaddleWeekly每周项目推荐</a>。
 </div>
-</div>
+- 更多项目及详细内容请见[Github主页](https://github.com/thomas-yanxin).
 
 # 👨‍🔬 Activities
 
