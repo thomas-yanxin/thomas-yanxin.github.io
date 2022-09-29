@@ -24,9 +24,9 @@ redirect_from:
 </p>
 
 # 🔥 News
+- *2022.09*: &nbsp;🎉🎉 AI Studio 2022年度影响力人物 **Top10**. 
 - *2022.08*: &nbsp;🎉🎉 2022年“建行杯”第8届安徽省“互联网+”大学生创新创业大赛 金奖. 
 - *2022.08*: &nbsp;🎉🎉 2022年第24届中国机器人及人工智能大赛全国 一等奖. 
-- *2022.08*: &nbsp;🎉🎉 2022年第7届“创客中国”百度赛道创客组 优胜奖(Top10).
 
 # 📖 Educations
 - *2019.09 - 2023.06 (now)*, 信息科学与工程学院，华东理工大学. 
@@ -98,6 +98,8 @@ redirect_from:
 - 中国自动化学会预备会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/CAA_MemberCard.png)
 
 - 中国宇航学会会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/csaspace_Member.pdf)
+
+- AI Studio 2022年度影响力人物 **Top10** \| [\[点击\]](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)
 
 - 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 
