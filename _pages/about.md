@@ -24,7 +24,7 @@ redirect_from:
 </p>
 
 # 🔥 News
-- *2022.09*: &nbsp;🎉🎉 AI Studio 2022年度影响力人物 **Top10**. 
+- *2022.09*: &nbsp;🎉🎉 百度飞桨AI Studio 2022年度影响力人物 **TOP10**. 
 - *2022.08*: &nbsp;🎉🎉 2022年“建行杯”第8届安徽省“互联网+”大学生创新创业大赛 金奖. 
 - *2022.08*: &nbsp;🎉🎉 2022年第24届中国机器人及人工智能大赛全国 一等奖. 
 
@@ -99,7 +99,7 @@ redirect_from:
 
 - 中国宇航学会会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/csaspace_Member.pdf)
 
-- AI Studio 2022年度影响力人物 **Top10** \| [\[点击\]](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)
+- 百度飞桨AI Studio 2022年度影响力人物 **TOP10** \| [\[点击\]](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)
 
 - 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 
