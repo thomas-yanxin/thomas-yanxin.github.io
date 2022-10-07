@@ -61,6 +61,8 @@ redirect_from:
 
 - 2022年第24届中国机器人及人工智能大赛（上海赛区）人工智能创新赛 <strong>一等奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%9B%96%E7%AB%A0%E5%85%AC%E7%A4%BA-%E4%B8%8A%E6%B5%B7%E8%B5%9B%E5%8C%BA%E6%8B%9F%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA%E7%9A%84%E9%80%9A%E7%9F%A5.pdf)
 
+- 2022年第5届中国高校计算机大赛人工智能创意赛区域赛（华东区）<strong>二等奖</strong> \| [\[点击\]]()
+
 - 2022年第14届上海市计算机应用能力设计大赛（程序设计组） <strong>二等奖</strong> \| [\[点击\]](/proof/)
   
 - 2022年第14届上海市计算机应用能力设计大赛（物联网组） <strong>二等奖</strong> \| [\[点击\]]()
