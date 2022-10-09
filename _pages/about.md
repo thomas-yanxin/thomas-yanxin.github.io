@@ -23,10 +23,10 @@ redirect_from:
 截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>3</strong>项, 省市级奖项<strong>8</strong>项, 校企相关奖项若干. 相关工作曾受邀参加百度Wave Summit2021+峰会市集展览, 受到OpenI启智、百度飞桨PaddlePaddle、Datawhale等国内顶级开源社区的相关报导.
 </p>
 
-# 🔥 News
+<!-- # 🔥 News
 * *2022.09*: &nbsp; 🎉🎉 百度飞桨AI Studio 2022年度影响力人物 **TOP10**. 
 * *2022.08*: &nbsp; 🎉🎉 2022年"建行杯"第8届安徽省"互联网+"大学生创新创业大赛 金奖. 
-* *2022.08*: &nbsp; 🎉🎉 2022年第24届中国机器人及人工智能大赛全国 一等奖. 
+* *2022.08*: &nbsp; 🎉🎉 2022年第24届中国机器人及人工智能大赛全国 一等奖.  -->
 # 📖 Educations
 * *2019.09 - 2023.06 (now)*, 信息科学与工程学院, 华东理工大学. 
 # 📝 Publications
