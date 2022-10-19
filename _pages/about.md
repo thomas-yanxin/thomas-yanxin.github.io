@@ -4,8 +4,8 @@ title: ""
 excerpt: ""
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  + /about/
+  + /about.html
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -24,9 +24,9 @@ redirect_from:
 </p>
 
 # 🔥 News
-- *2022.09*: &nbsp; 🎉🎉 百度飞桨AI Studio 2022年度影响力人物 **TOP10**. 
-- *2022.08*: &nbsp; 🎉🎉 2022年"建行杯"第8届安徽省"互联网+"大学生创新创业大赛 金奖. 
-- *2022.08*: &nbsp; 🎉🎉 2022年第24届中国机器人及人工智能大赛全国 一等奖. 
+* *2022.09*: &nbsp; 🎉🎉 百度飞桨AI Studio 2022年度影响力人物 **TOP10**. 
+* *2022.08*: &nbsp; 🎉🎉 2022年"建行杯"第8届安徽省"互联网+"大学生创新创业大赛 金奖. 
+* *2022.08*: &nbsp; 🎉🎉 2022年第24届中国机器人及人工智能大赛全国 一等奖. 
 # 📖 Educations
 * *2019.09 - 2023.06 (now)*, 信息科学与工程学院, 华东理工大学. 
 # 📝 Publications
@@ -48,7 +48,7 @@ redirect_from:
 
 * 【袋鼯麻麻】2022年第10届华东理工大学"奋进杯"大学生创业计划竞赛 <strong>金奖</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/WgE9zxD4Nv4H-f_2sXr5pw)
 
-* 【晓声科技】2022年第1届合肥工业大学“智能杯”创新创业大赛 <strong>二等奖</strong> \| [\[点击\]](http://imi.hfut.edu.cn/2022/0925/c12254a283784/page.htm)
+* 【晓声科技】2022年第1届合肥工业大学"智能杯"创新创业大赛 <strong>二等奖</strong> \| [\[点击\]](http://imi.hfut.edu.cn/2022/0925/c12254a283784/page.htm)
 
 * 2022年第24届中国机器人及人工智能大赛全国 <strong>一等奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf)
 
@@ -139,6 +139,8 @@ redirect_from:
 * 参与五大学院的社团联合活动"社团交流会"的组织、筹划与主持工作, 具体负责活动前期的材料准备、社团邀请函的制作与派发、活动期间的主持与串场、活动结束后的复盘总结撰写等.
 # 🏃 Social Practices
 * 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
+
+* 2022年OpenI启智社区&&合肥工业大学情感计算与先进智能机器安徽省重点实验室产学研共建学生负责人 \| [\[点击\]](/proof/OpenI&MAC_LAB.jpg)
 
 * 2022年百度飞桨智慧零售商品识别产业案例共建者 \| [\[点击\]](https://www.bilibili.com/video/BV1Fu411y7co/)
 
