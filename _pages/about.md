@@ -48,7 +48,7 @@ redirect_from:
 
 * 【袋鼯麻麻】2022年第10届华东理工大学"奋进杯"大学生创业计划竞赛 <strong>金奖</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/WgE9zxD4Nv4H-f_2sXr5pw)
 
-* 【晓声科技】2022年第1届合肥工业大学"智能杯"创新创业大赛 <strong>二等奖</strong> \| [\[点击\]](http://imi.hfut.edu.cn/2022/0925/c12254a283784/page.htm)
+* 【晓声科技】2022年第1届合肥工业大学"智能杯"创新创业大赛 <strong>二等奖</strong> \| [\[点击\]](/proof/%E9%A6%96%E5%B1%8A%E5%90%88%E8%82%A5%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E2%80%9D%E6%99%BA%E8%83%BD%E6%9D%AF%E2%80%9C%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B%E5%A4%A7%E5%88%9B%E7%BB%84%E4%BA%8C%E7%AD%89%E5%A5%96.jpg)
 
 * 2022年第24届中国机器人及人工智能大赛全国 <strong>一等奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf)
 
