@@ -136,6 +136,7 @@ redirect_from:
 </div>
 </div>
 * 更多项目及详细内容请见[Github主页](https://github.com/thomas-yanxin).
+
 # 👨‍🔬 Activities
 
 [飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) - 华东区主管 - (2021.9-2022.7)
