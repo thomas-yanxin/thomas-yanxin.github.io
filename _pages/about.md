@@ -93,7 +93,7 @@ redirect_from:
 
 * 2020年华东理工大学信息科学与工程学院社会工作奖C等 \| [\[点击\]]()
 # ✨ Honors 
-* 2022年国家级大学生创新创业项目 <strong>第一主持人</strong> \| [\[点击\]](/proof)
+* 2022年国家级大学生创新创业项目 <strong>第一主持人</strong> \| [\[点击\]](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=941768&year=2022&type=student&IsLXItem=0)
 
 * 百度飞桨开发者技术专家 \| [\[点击\]](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
 
