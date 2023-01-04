@@ -24,7 +24,7 @@ redirect_from:
 </p>
 
 # 🔥 News
-* *2022.11*: &nbsp; 🎉🎉 2022年第8届中国国际“互联网+”大学生创新创业大赛 **银奖**.
+* *2022.11*: &nbsp; 🎉🎉 2022年第8届中国国际"互联网+"大学生创新创业大赛 **银奖**.
 * *2022.09*: &nbsp; 🎉🎉 百度飞桨AI Studio 2022年度影响力人物 **TOP10**. 
 * *2022.08*: &nbsp; 🎉🎉 2022年"建行杯"第8届安徽省"互联网+"大学生创新创业大赛 **金奖**. 
 * *2022.08*: &nbsp; 🎉🎉 2022年第24届中国机器人及人工智能大赛全国 **一等奖**. 
@@ -37,7 +37,7 @@ redirect_from:
 * 【[软件著作权](/proof/%E8%BD%AF%E4%BB%B6%E8%91%97%E4%BD%9C%E6%9D%83-%E6%85%A7%E7%9C%BC%E8%AF%86%E5%9E%83%E5%9C%BE.jpg)】: 慧眼识垃圾系统V1.0; 著作权人:**颜鑫**; 沈晨; 杜旭东; 登记号:2021SR0986633.
 * 【[软件著作权](/proof/%E8%BD%AF%E4%BB%B6%E8%91%97%E4%BD%9C%E6%9D%83-%E8%87%AA%E5%8A%A8%E9%97%AE%E7%AD%94.pdf)】: 基于领域知识库的智能问答系统V1.0; 著作权人: 黄小悦; 韩响尘; 王鑫; **颜鑫**; 林宏聪; 任竞展; 周天奕; 登记号:2022SRE025369.
 # 📘 Awards
-* 【晓声科技】2022年第8届中国国际“互联网+”大学生创新创业大赛 <strong>银奖</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)
+* 【晓声科技】2022年第8届中国国际"互联网+"大学生创新创业大赛 <strong>银奖</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)
 
 * 【晓声科技】2022年"建行杯"第8届安徽省"互联网+"大学生创新创业大赛 <strong>金奖</strong> \| [\[点击\]](/proof/).
 
@@ -137,7 +137,6 @@ redirect_from:
 </div>
 
 * 更多项目及详细内容请见[Github主页](https://github.com/thomas-yanxin).
-
 # 👨‍🔬 Activities
 
 [飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) - 华东区主管 - (2021.9-2022.7)
@@ -181,6 +180,7 @@ redirect_from:
 * *2021.07*, 飞桨领航团AI达人创造营.  \| [\[视频\]](https://www.bilibili.com/video/BV1qq4y1X7uZ?spm_id_from=333.999.0.0&vd_source=02aea3a5719f15c2ff7a32ade6916170)
 * *2021.05*, 飞桨开发者说&&商品识别产业应用实战.  \| [\[视频\]](https://www.bilibili.com/video/BV13p4y1t76K?spm_id_from=333.999.0.0)
 # 🚀 Dispersions
+* 【飞桨PaddlePaddle】飞桨助力合肥工业大学普适心理计算团队斩获"互联网+"大赛全国银奖 \| [\[链接\]](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)
 * 【组队学习】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
 * 【OpenI启智】连续4周上榜的这位开发者, 活出了当代大学生该有的样子 \| [\[链接\]](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A)
 * 【Datawhale】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/V8eBkYZvb-mNJtyez7n_Rg)
