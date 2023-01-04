@@ -75,7 +75,7 @@ redirect_from:
 
 * 2022年OpenI启智社区"优秀开源项目征集" **第二名** \| [\[点击\]](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png)
 
-* 2022年第2届“点宽杯”全国高校金融科技黑客松大赛 **优胜队伍** \| [\[点击\]](https://mp.weixin.qq.com/s/0nwc8CRLXZZaJnAg6JJjVA)
+* 2022年第2届"点宽杯"全国高校金融科技黑客松大赛 **优胜队伍** \| [\[点击\]](https://mp.weixin.qq.com/s/0nwc8CRLXZZaJnAg6JJjVA)
 
 * 2021年第23届中国机器人及人工智能大赛(上海赛区)人工智能创新赛 <strong>二等奖</strong> \| [\[点击\]]()
 
