@@ -75,6 +75,8 @@ redirect_from:
 
 * 2022年OpenI启智社区"优秀开源项目征集" **第二名** \| [\[点击\]](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png)
 
+* 2022年第2届“点宽杯”全国高校金融科技黑客松大赛 **优胜队伍** \| [\[点击\]](https://mp.weixin.qq.com/s/0nwc8CRLXZZaJnAg6JJjVA)
+
 * 2021年第23届中国机器人及人工智能大赛(上海赛区)人工智能创新赛 <strong>二等奖</strong> \| [\[点击\]]()
 
 * 2021年PPSIG **优秀开源项目奖** \| [\[点击\]](/proof/PPSIG%E5%A5%96%E6%9D%AF.jpg)
@@ -109,7 +111,9 @@ redirect_from:
 
 * 百度飞桨AI Studio 2022年度影响力人物 **TOP10** \| [\[点击\]](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)
 
-* 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
+* OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
+
+* Jina社区活跃贡献者 \| [\[点击\]]()
 
 * 2021年度OpenI启智社区积极贡献者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/OpenI%E5%90%AF%E6%99%BA%E7%A4%BE%E5%8C%BA%E7%A7%AF%E6%9E%81%E8%B4%A1%E7%8C%AE%E8%80%85-%E9%A2%9C%E9%91%AB.png)
 
