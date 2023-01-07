@@ -191,7 +191,7 @@ redirect_from:
 * 【OpenI启智】OpenI开源项目推荐-ColugoMum \| 基于国产深度学习框架PaddlePadddle开源的零售行业解决方案 \| [\[链接\]](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw)
 * 【Datawhale】第七期录取名单 \| [\[链接\]](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
 * 【飞桨PaddlePaddle】聚百川之源, 欢迎17名AI开发者加入飞桨开发者技术专家计划! \| [\[链接\]](https://mp.weixin.qq.com/s/PAeREjahNTSJmwn1QtI3Zg)
-* 【太原理工大学互联网PLUS提升平台】学院新闻 | 太原理工大学百度飞桨校园Fest圆满结束! \| [\[链接\]](https://mp.weixin.qq.com/s/-VoCDzr1MjeGm4UQuRxORw)
+* 【太原理工大学互联网PLUS提升平台】学院新闻丨太原理工大学百度飞桨校园Fest圆满结束! \| [\[链接\]](https://mp.weixin.qq.com/s/-VoCDzr1MjeGm4UQuRxORw)
 * 【安徽工程大学计算机学院团委】院校新闻丨首届AI科创节圆满结束 \| [\[链接\]](https://mp.weixin.qq.com/s/oCVRHA5Hg41PqTQ-yJQgkg)
 * 【飞桨PaddlePaddle】基于飞桨开发垃圾分类小程序, 实现"慧眼识垃圾" \| [\[链接\]](https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg)
 * 【机器学习AI算法工程】垃圾分类: 慧眼识垃圾系统 \| [\[链接\]](https://mp.weixin.qq.com/s/rsJSLKaNxtJ06HnwbWbL-w)
