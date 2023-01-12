@@ -24,7 +24,7 @@ redirect_from:
 </p>
 
 # 🔥 News
-* *2023.01*: &nbsp; 🎉🎉 2022讯飞开放生态AI先锋应用评比 年度最佳应用 **Top10**.
+* *2023.01*: &nbsp; 🎉🎉 2022讯飞开放生态AI先锋应用评比 年度最佳应用 **TOP10**.
 * *2022.11*: &nbsp; 🎉🎉 2022年第8届中国国际"互联网+"大学生创新创业大赛 **银奖**.
 * *2022.09*: &nbsp; 🎉🎉 百度飞桨AI Studio 2022年度影响力人物 **TOP10**. 
 * *2022.08*: &nbsp; 🎉🎉 2022年第24届中国机器人及人工智能大赛全国 **一等奖**. 
@@ -75,7 +75,7 @@ redirect_from:
 
 * 2022年OpenI启智社区"优秀开源项目征集" **第二名** \| [\[点击\]](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png)
 
-* 2022讯飞开放生态AI先锋应用评比 **年度最佳应用** <strong>Top10</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/P6VaXjlXWLT0JGvBFRDIvQ)
+* 2022讯飞开放生态AI先锋应用评比 **年度最佳应用** <strong>TOP10</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/P6VaXjlXWLT0JGvBFRDIvQ)
 
 * 2022年第2届"点宽杯"全国高校金融科技黑客松大赛 **优胜队伍** \| [\[点击\]](https://mp.weixin.qq.com/s/0nwc8CRLXZZaJnAg6JJjVA)
 
