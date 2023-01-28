@@ -143,10 +143,11 @@ redirect_from:
 </div>
 
 [OxiaoPeng欧小鹏](https://github.com/thomas-yanxin/OXiaoPeng)
-* 连接文心ERNIE、盘古PanGu、源1.0、ChatGPT等AI大模型, 以微信为基础平台、欧小鹏为入口, 将用户体验作为大模型的评价标准, 打造AI大模型的试炼场, 并基于此辅助社区基本运营, 支持包括文生图、对话、基于领域知识库的自动问答等功能, 加速大模型落地应用.
+* 连接文心ERNIE、盘古PanGu、源1.0、ChatGPT等AI大模型, 以微信为基础平台、欧小鹏为入口, **将用户体验作为大模型的评价标准, 打造AI大模型的试炼场**, 并基于此辅助社区基本运营, 支持包括文生图、对话、基于领域知识库的自动问答等功能, 加速大模型落地应用.
 * 欧小鹏直接用户**400+**, 间接覆盖用户**2000+**, 支持包括OpenI启智社区、飞桨领航团等多个AI社区. **并获得2023年奇绩春季创业营(S23)的面试资格**.
 
-* 更多项目及详细内容请见[Github主页](https://github.com/thomas-yanxin).
+**更多项目及详细内容请见[Github主页](https://github.com/thomas-yanxin)**.
+
 # 👨‍🔬 Activities
 
 [飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) - 华东区主管 - (2021.9-2022.7)
