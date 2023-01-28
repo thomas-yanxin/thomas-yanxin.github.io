@@ -142,6 +142,10 @@ redirect_from:
 </div>
 </div>
 
+
+[OxiaoPeng](https://www.paddlepaddle.org.cn/ppdenavigategroup) - 华东区主管 - (2021.9-2022.7)
+* 集中负责飞桨领航团华东七省(山东、安徽、江苏、上海、浙江、江西、台湾)的相关运营工作, 包括高校拓展、团长面试、活动推进、项目安排等. 在任期间华东区域累计增长50+所高校, 涵盖浙江大学、东南大学、上海科技大学、南京航空航天大学、苏州大学、华东理工大学、合肥工业大学等一系列国家重点高校, 并且在持续高速增长过程中.
+* 
 * 更多项目及详细内容请见[Github主页](https://github.com/thomas-yanxin).
 # 👨‍🔬 Activities
 
