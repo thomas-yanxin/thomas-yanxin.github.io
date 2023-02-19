@@ -136,7 +136,7 @@ redirect_from:
 * 2022年OpenI启智社区&&合肥工业大学情感计算与先进智能机器安徽省重点实验室产学研共建学生负责人 \| [\[点击\]](/proof/OpenI&MAC_LAB.jpg)
 * 2022年百度飞桨智慧零售商品识别产业案例共建者 \| [\[点击\]](https://www.bilibili.com/video/BV1Fu411y7co/)
 * 2022年华东理工大学通海茶叙第130期讲座嘉宾 \| [\[点击\]](https://mp.weixin.qq.com/s/yyOjg0qnRo8TggylMhyqgA)
-* 2022年Datawhale 组队学习【第34期】航海士 \| [\[点击\]](https://mp.weixin.qq.com/s/8NAmTy5n7TXxVH85WAR-gA)
+* 2022年Datawhale组队学习【第34期】航海士 \| [\[点击\]](https://mp.weixin.qq.com/s/8NAmTy5n7TXxVH85WAR-gA)
 * 2022年百度飞桨领航团AI达人创造营第二期讲师 \| [\[点击\]](https://mp.weixin.qq.com/s/JfHYZZE701Qt7vJJa1K11w)
 * 2021年百度飞桨领航团AI达人创造营第一期讲师 \| [\[点击\]](https://mp.weixin.qq.com/s/MD-ni4z5EITpdrAZd2FGyg)
 * 2021年10月31日百度上海飞桨领航团&五角场创新创业学院meetup活动 \| [\[点击\]](https://mp.weixin.qq.com/s/NMJVAttPUHiZEaIIz1zQoA)
