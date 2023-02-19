@@ -74,7 +74,10 @@ redirect_from:
 * 2021年第23届中国机器人及人工智能大赛(上海赛区)人工智能创新赛 <strong>二等奖</strong> \| [\[点击\]]()
 * 2021年PPSIG **优秀开源项目奖** \| [\[点击\]](/proof/PPSIG%E5%A5%96%E6%9D%AF.jpg)
 * 2021年飞桨黑客马拉松 **优秀开源项目奖** \| [\[点击\]](/proof/%E9%A3%9E%E6%A1%A8%E9%BB%91%E5%AE%A2%E6%9D%BE.jpg)
-* 2021年WAVE SUMMIT 2021+ **优秀开源项目** \| [\[点击\]](/proof/WS%E4%BC%98%E7%A7%80%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.jpg)
+* 2021年WAVE SUMMIT 2021+ **优秀开源项目** \| [\[点击\]](/proof/WS%E4%BC%98%E7%A7%80%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.jpg)  
+  
+  
+
 # ✨ Honors 
 * 2022年国家级大学生创新创业项目 <strong>第一主持人</strong> \| [\[点击\]](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=941768&year=2022&type=student&IsLXItem=0)
 * 百度飞桨开发者技术专家 \| [\[点击\]](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
