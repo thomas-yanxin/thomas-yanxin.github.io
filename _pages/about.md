@@ -31,7 +31,14 @@ redirect_from:
   
 
 # 📖 Educations
-* *2019.09 - 2023.06 (now)*, 信息科学与工程学院, 华东理工大学.  
+
+*2019.09 - 2023.06 (now)*, 自动化专业, 信息科学与工程学院, 华东理工大学.  
+
+* 华东理工大学校综合课程奖学金三等 \| [\[点击\]](/proof/)
+* 华东理工大学信息科学与工程学院优秀团员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E4%BC%98%E7%A7%80%E5%9B%A2%E5%91%98.jpg)
+* 华东理工大学优秀志愿者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
+* 华东理工大学信息科学与工程学院第六期创新实践育人计划优秀学员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E5%88%9B%E6%96%B0%E8%82%B2%E4%BA%BA.jpg)
+* 华东理工大学信息科学与工程学院社会工作奖C等 \| [\[点击\]](/proof/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E4%BD%9C%E5%A5%96.jpg)
   
 
 # 📝 Publications
@@ -68,13 +75,6 @@ redirect_from:
 * 2021年PPSIG **优秀开源项目奖** \| [\[点击\]](/proof/PPSIG%E5%A5%96%E6%9D%AF.jpg)
 * 2021年飞桨黑客马拉松 **优秀开源项目奖** \| [\[点击\]](/proof/%E9%A3%9E%E6%A1%A8%E9%BB%91%E5%AE%A2%E6%9D%BE.jpg)
 * 2021年WAVE SUMMIT 2021+ **优秀开源项目** \| [\[点击\]](/proof/WS%E4%BC%98%E7%A7%80%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.jpg)
-* 2020年华东理工大学校综合课程奖学金三等 \| [\[点击\]](/proof/)
-* 2020年华东理工大学信息科学与工程学院优秀团员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E4%BC%98%E7%A7%80%E5%9B%A2%E5%91%98.jpg)
-* 2020年华东理工大学优秀志愿者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
-* 2020年华东理工大学信息科学与工程学院第六期创新实践育人计划优秀学员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E5%88%9B%E6%96%B0%E8%82%B2%E4%BA%BA.jpg)
-* 2020年华东理工大学信息科学与工程学院社会工作奖C等 \| [\[点击\]](/proof/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E4%BD%9C%E5%A5%96.jpg)
-  
-
 # ✨ Honors 
 * 2022年国家级大学生创新创业项目 <strong>第一主持人</strong> \| [\[点击\]](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=941768&year=2022&type=student&IsLXItem=0)
 * 百度飞桨开发者技术专家 \| [\[点击\]](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
