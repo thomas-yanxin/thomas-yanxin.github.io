@@ -32,12 +32,16 @@ redirect_from:
 
 # 📖 Educations
 * *2019.09 - 2023.06 (now)*, 信息科学与工程学院, 华东理工大学.  
+  
+
 # 📝 Publications
 * **X. Yan**, Q. Hu, X. Huang and C. Shen, "[Intelligent Retail Settlement Platform based on Image Retrieval](https://ieeexplore.ieee.org/document/9851085), " 2022 4th International Conference on Communications, Information System and Computer Engineering (CISCE), 2022, pp. 609-616, doi: 10.1109/CISCE55963.2022.9851085
 * 【[实用新型专利](/proof/%E4%B8%93%E5%88%A9-2022208288888%E6%99%BA%E8%83%BD%E9%9B%B6%E5%94%AE%E7%BB%93%E7%AE%97%E5%B9%B3%E5%8F%B0.pdf)】: 智能零售结算平台; 发明人:**颜鑫**、沈晨、杜旭东; 专利号: ZL 2022 2 0828888.8; 授权公告号: CN 216979871 U
 * 【[软件著作权](/proof/%E8%BD%AF%E4%BB%B6%E8%91%97%E4%BD%9C%E6%9D%83-%E8%A2%8B%E9%BC%AF%E9%BA%BB%E9%BA%BB.jpg)】: 袋鼯麻麻——智能零售结算系统V1.0; 著作权人:**颜鑫**; 胡庆春; 沈晨; 杜旭东; 黄小悦; 申佳川; 登记号:2022SRE010935
 * 【[软件著作权](/proof/%E8%BD%AF%E4%BB%B6%E8%91%97%E4%BD%9C%E6%9D%83-%E6%85%A7%E7%9C%BC%E8%AF%86%E5%9E%83%E5%9C%BE.jpg)】: 慧眼识垃圾系统V1.0; 著作权人:**颜鑫**; 沈晨; 杜旭东; 登记号:2021SR0986633
 * 【[软件著作权](/proof/%E8%BD%AF%E4%BB%B6%E8%91%97%E4%BD%9C%E6%9D%83-%E8%87%AA%E5%8A%A8%E9%97%AE%E7%AD%94.pdf)】: 基于领域知识库的智能问答系统V1.0; 著作权人: 黄小悦; 韩响尘; 王鑫; **颜鑫**; 林宏聪; 任竞展; 周天奕; 登记号:2022SRE025369
+  
+
 # 📘 Awards
 * 【晓声科技】2022年第8届中国国际"互联网+"大学生创新创业大赛 <strong>银奖</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)
 * 【晓声科技】2022年"建行杯"第8届安徽省"互联网+"大学生创新创业大赛 <strong>金奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E3%80%90%E6%99%93%E5%A3%B0%E7%A7%91%E6%8A%80%E3%80%91%E5%AE%89%E5%BE%BD%E7%9C%81%E9%87%91%E5%A5%96.pdf)
@@ -69,6 +73,8 @@ redirect_from:
 * 2020年华东理工大学优秀志愿者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
 * 2020年华东理工大学信息科学与工程学院第六期创新实践育人计划优秀学员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E5%88%9B%E6%96%B0%E8%82%B2%E4%BA%BA.jpg)
 * 2020年华东理工大学信息科学与工程学院社会工作奖C等 \| [\[点击\]](/proof/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E4%BD%9C%E5%A5%96.jpg)
+  
+
 # ✨ Honors 
 * 2022年国家级大学生创新创业项目 <strong>第一主持人</strong> \| [\[点击\]](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=941768&year=2022&type=student&IsLXItem=0)
 * 百度飞桨开发者技术专家 \| [\[点击\]](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
@@ -83,6 +89,8 @@ redirect_from:
 * 2021年度OpenI启智社区积极贡献者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/OpenI%E5%90%AF%E6%99%BA%E7%A4%BE%E5%8C%BA%E7%A7%AF%E6%9E%81%E8%B4%A1%E7%8C%AE%E8%80%85-%E9%A2%9C%E9%91%AB.png)
 * 百度飞桨WAVE SUMMIT 2021优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVE_SUMMIT_Ranking_List)
 * 百度飞桨WAVE SUMMIT 2021+ 优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVESUMMIT2021_Rank)
+  
+
 # 🚀 Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ColugoMum</div><img src='images/structure1.png' alt="sym" width="100%"></div></div>
@@ -118,7 +126,9 @@ redirect_from:
 * 任职期间, 领航团累计举办活动**5+**次, 活跃规模**100+**人次, 孵化**10+**个精品项目, **推动教育部产学合作协同育人项目(百度公司&&华东理工大学)的课程建设落地应用**.
 **华东理工大学信息学院社团管理部 - 顾问 - (2019.10~2020.6)**
 * 协调各社团之间的工作, 维持社团与院团委的联系, 协助社团举办"社团招新"、"新人培训"等社团活动. 参与院级活动"班歌班标大赛"的组织与筹划工作, 具体负责协助各班级拍摄活动视频并审核视频质量、活动场地的舞美布置、人员协调等.
-* 参与五大学院的社团联合活动"社团交流会"的组织、筹划与主持工作, 具体负责活动前期的材料准备、社团邀请函的制作与派发、活动期间的主持与串场、活动结束后的复盘总结撰写等.
+* 参与五大学院的社团联合活动"社团交流会"的组织、筹划与主持工作, 具体负责活动前期的材料准备、社团邀请函的制作与派发、活动期间的主持与串场、活动结束后的复盘总结撰写等.  
+  
+
 # 🏃 Social Practices
 * 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 * 2022年OpenI启智社区&&合肥工业大学情感计算与先进智能机器安徽省重点实验室产学研共建学生负责人 \| [\[点击\]](/proof/OpenI&MAC_LAB.jpg)
@@ -132,11 +142,15 @@ redirect_from:
 * 2021年上海市献血活动无偿献血 \| [\[点击\]]()
 * 2020年华东理工大学95公益周"爱加餐项目"作为项目志愿者 \| [\[点击\]]()
 * 2019年华东理工大学寒假招生宣传、自主宣讲活动获优秀团队奖 \| [\[点击\]](./个人经历相关材料/招生宣传.jpg)
-* 2019年华东理工大学青年马克思主义者培养工程顺利结业 \| [\[点击\]](./个人经历相关材料/青马班.jpg)
+* 2019年华东理工大学青年马克思主义者培养工程顺利结业 \| [\[点击\]](./个人经历相关材料/青马班.jpg)  
+  
+
 # 💬 Invited Talks
 * *2022.04*, 飞桨产业实践范例库&&商品识别产业应用实战.  \| [\[视频\]](https://www.bilibili.com/video/BV1Fu411y7co?spm_id_from=333.999.0.0)
 * *2021.07*, 飞桨领航团AI达人创造营.  \| [\[视频\]](https://www.bilibili.com/video/BV1qq4y1X7uZ?spm_id_from=333.999.0.0&vd_source=02aea3a5719f15c2ff7a32ade6916170)
 * *2021.05*, 飞桨开发者说&&商品识别产业应用实战.  \| [\[视频\]](https://www.bilibili.com/video/BV13p4y1t76K?spm_id_from=333.999.0.0)
+  
+
 # 🚀 Dispersions
 * 【飞桨PaddlePaddle】飞桨助力合肥工业大学普适心理计算团队斩获"互联网+"大赛全国银奖 \| [\[链接\]](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)
 * 【组队学习】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
