@@ -67,6 +67,8 @@ redirect_from:
 * 2022年第5届中国高校计算机大赛(人工智能创意赛)区域赛(华东赛区)<strong>二等奖</strong> \| [\[点击\]]()
 * 2022年第14届上海市计算机应用能力设计大赛(程序设计组) <strong>二等奖</strong> \| [\[点击\]](/proof/)
 * 2022年第14届上海市计算机应用能力设计大赛(物联网组) <strong>二等奖</strong> \| [\[点击\]]()
+* 2022年OpenI启智社区 **社区先锋奖** \| [\[点击\]]()
+* 2022年OpenI启智社区 **优秀孵化项目奖** \| [\[点击\]]()
 * 2022年OpenI启智社区"优秀开源项目征集" **第一名** \| [\[点击\]](/proof/%E8%A2%8B%E9%BC%AF%E9%BA%BB%E9%BA%BB.png)
 * 2022年OpenI启智社区"优秀开源项目征集" **第二名** \| [\[点击\]](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png)
 * 2022讯飞开放生态AI先锋应用评比 **年度最佳应用** <strong>TOP10</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/P6VaXjlXWLT0JGvBFRDIvQ)
@@ -80,13 +82,13 @@ redirect_from:
 # ✨ Honors 
 * 2022年国家级大学生创新创业项目 <strong>第一主持人</strong> \| [\[点击\]](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=941768&year=2022&type=student&IsLXItem=0)
 * 百度飞桨开发者技术专家 \| [\[点击\]](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
+* OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 * Datawhale成员 \| [\[点击\]](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
 * 华为云云享专家 \| [\[点击\]]()
 * 中国人工智能学会会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/CAAI_Card.png)
 * 中国自动化学会预备会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/CAA_MemberCard.png)
 * 中国宇航学会会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/csaspace_Member.pdf)
 * 百度飞桨AIStudio 2022年度影响力人物 **TOP10** \| [\[点击\]](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)
-* OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 * 2022年Jina社区活跃贡献者 \| [\[点击\]]()
 * 2021年度OpenI启智社区积极贡献者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/OpenI%E5%90%AF%E6%99%BA%E7%A4%BE%E5%8C%BA%E7%A7%AF%E6%9E%81%E8%B4%A1%E7%8C%AE%E8%80%85-%E9%A2%9C%E9%91%AB.png)
 * 百度飞桨WAVE SUMMIT 2021优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVE_SUMMIT_Ranking_List)
@@ -100,7 +102,7 @@ redirect_from:
 
 **[袋鼯麻麻——智能零售结算平台](https://github.com/thomas-yanxin/Smart_container)**
 
-* ColugoMum 打破传统目标检测算法应用于智能零售行业的成本大、训练难等问题, 构建新型智能零售购物识别算法, 为新零售行业中无人零售视觉化智能解决多类别、小样本、高相似和更新频繁的特殊图像识别场景痛难点提供了可参考示范. 本项目荣获**2022年第24届中国机器人及人工智能大赛全国一等奖**等, 并受邀**参加百度Wave Summit 2021+ 开发者峰会市集展览**, 总浏览量**10万+**. 项目正**入选启智社区优秀开源项目孵化器**, **入选教育部产学合作协同育人项目(百度公司&&华东理工大学)的课程建设成果**.
+* ColugoMum 打破传统目标检测算法应用于智能零售行业的成本大、训练难等问题, 构建新型智能零售购物识别算法, 为新零售行业中无人零售视觉化智能解决多类别、小样本、高相似和更新频繁的特殊图像识别场景痛难点提供了可参考示范. 本项目荣获**2022年第24届中国机器人及人工智能大赛全国一等奖**等, 并受邀**参加百度Wave Summit 2021+ 开发者峰会市集展览**, 总浏览量**10万+**. 项目正**入选启智社区优秀开源项目孵化器**, 获得**2022年启智社区 优秀孵化项目奖**, 入选**教育部产学合作协同育人项目(百度公司&&华东理工大学)的课程建设成果**.
 </div>
 </div>
 
@@ -115,7 +117,7 @@ redirect_from:
 
 **[欧小鹏 OxiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng)**
 * 连接文心ERNIE、盘古PanGu、源1.0、ChatYuan、ChatGPT等AI大模型, 以微信、飞书、QQ等为基础平台、欧小鹏为入口, **将用户体验作为大模型的评价标准, 打造AI大模型的试炼场**, 并基于此辅助社区基本运营, 支持包括文生图、对话、基于领域知识库的自动问答等功能, 加速大模型落地应用.
-* 欧小鹏直接用户**700+**, 间接覆盖用户**11, 000+**, 支持包括OpenI启智社区、鹏程·盘古、元语智能、飞桨领航团等多个AI社区. **并获得2023年奇绩春季创业营(S23)的面试资格**.
+* 欧小鹏直接用户**700+**, 间接覆盖用户**11, 000+**, 支持包括OpenI启智社区、鹏程·盘古、元语智能、飞桨领航团等多个AI社区. **获得2023年奇绩春季创业营(S23)的面试资格**, 荣获**2022年启智社区 优秀孵化项目奖**.
 
 **更多项目及详细内容请见[Github主页](https://github.com/thomas-yanxin)**.
 
