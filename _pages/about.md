@@ -36,7 +36,7 @@ redirect_from:
 
 * 华东理工大学校综合课程奖学金三等 \| [\[点击\]](/proof/)
 * 华东理工大学信息科学与工程学院优秀团员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E4%BC%98%E7%A7%80%E5%9B%A2%E5%91%98.jpg)
-* 华东理工大学优秀志愿者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
+* 华东理工大学青春战“疫”优秀志愿者者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
 * 华东理工大学信息科学与工程学院第六期创新实践育人计划优秀学员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E5%88%9B%E6%96%B0%E8%82%B2%E4%BA%BA.jpg)
 * 华东理工大学信息科学与工程学院社会工作奖C等 \| [\[点击\]](/proof/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E4%BD%9C%E5%A5%96.jpg)
   
