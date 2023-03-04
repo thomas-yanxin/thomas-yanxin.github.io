@@ -90,6 +90,7 @@ redirect_from:
 * 中国宇航学会会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/csaspace_Member.pdf)
 * 百度飞桨AIStudio 2022年度影响力人物 **TOP10** \| [\[点击\]](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)
 * 2022年Jina社区活跃贡献者 \| [\[点击\]]()
+* 阿里云开发者社区乘风者计划 **专家博主** \| [\[点击\]]()
 * OpenI启智社区积极贡献者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/OpenI%E5%90%AF%E6%99%BA%E7%A4%BE%E5%8C%BA%E7%A7%AF%E6%9E%81%E8%B4%A1%E7%8C%AE%E8%80%85-%E9%A2%9C%E9%91%AB.png)
 * 百度飞桨WAVE SUMMIT 2021优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVE_SUMMIT_Ranking_List)
 * 百度飞桨WAVE SUMMIT 2021+ 优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVESUMMIT2021_Rank)
