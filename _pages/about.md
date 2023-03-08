@@ -161,7 +161,7 @@ redirect_from:
 
 # 🚀 Dispersions
 * 【OpenI启智】强强角逐, 筑梦开源——2022年度启智社区优秀项目及开发者评选结果正式揭晓 \| [\[链接\]](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA)
-* 【OpenI启智】碰撞高校智慧, 凝聚青春力量 | 因"AI"而"深"-高校开源专场顺利举办! \| [\[链接\]](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag)
+* 【OpenI启智】碰撞高校智慧, 凝聚青春力量 \| 因"AI"而"深"-高校开源专场顺利举办! \| [\[链接\]](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag)
 * 【飞桨PaddlePaddle】飞桨助力合肥工业大学普适心理计算团队斩获"互联网+"大赛全国银奖 \| [\[链接\]](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)
 * 【组队学习】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
 * 【OpenI启智】连续4周上榜的这位开发者, 活出了当代大学生该有的样子 \| [\[链接\]](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A)
