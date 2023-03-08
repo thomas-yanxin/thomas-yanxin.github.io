@@ -36,7 +36,7 @@ redirect_from:
 
 * 华东理工大学校综合课程奖学金三等 \| [\[点击\]](/proof/)
 * 华东理工大学信息科学与工程学院优秀团员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E4%BC%98%E7%A7%80%E5%9B%A2%E5%91%98.jpg)
-* 华东理工大学青春战“疫”优秀志愿者者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
+* 华东理工大学青春战"疫"优秀志愿者者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
 * 华东理工大学信息科学与工程学院第六期创新实践育人计划优秀学员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E5%88%9B%E6%96%B0%E8%82%B2%E4%BA%BA.jpg)
 * 华东理工大学信息科学与工程学院社会工作奖C等 \| [\[点击\]](/proof/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E4%BD%9C%E5%A5%96.jpg)
   
@@ -92,6 +92,7 @@ redirect_from:
 * 2022年Jina社区活跃贡献者 \| [\[点击\]]()
 * 阿里云开发者社区乘风者计划 **专家博主** \| [\[点击\]]()
 * OpenI启智社区积极贡献者 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/OpenI%E5%90%AF%E6%99%BA%E7%A4%BE%E5%8C%BA%E7%A7%AF%E6%9E%81%E8%B4%A1%E7%8C%AE%E8%80%85-%E9%A2%9C%E9%91%AB.png)
+* OpenI启智社区积极贡献者 \| [\[点击\]](/proof/OpenI%E6%B4%BB%E8%B7%83%E5%BC%80%E5%8F%91%E8%80%85%E2%80%94%E9%A2%9C%E9%91%AB.jpg)
 * 百度飞桨WAVE SUMMIT 2021优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVE_SUMMIT_Ranking_List)
 * 百度飞桨WAVE SUMMIT 2021+ 优秀开源开发者 \| [\[点击\]](https://github.com/Awesome-DeepLearning/WAVESUMMIT2021_Rank)
   
@@ -159,8 +160,8 @@ redirect_from:
   
 
 # 🚀 Dispersions
-* 【OpenI启智】强强角逐，筑梦开源——2022年度启智社区优秀项目及开发者评选结果正式揭晓 \| [\[链接\]](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA)
-* 【OpenI启智】碰撞高校智慧，凝聚青春力量 | 因“AI”而“深”-高校开源专场顺利举办！\| [\[链接\]](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag)
+* 【OpenI启智】强强角逐, 筑梦开源——2022年度启智社区优秀项目及开发者评选结果正式揭晓 \| [\[链接\]](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA)
+* 【OpenI启智】碰撞高校智慧, 凝聚青春力量 | 因"AI"而"深"-高校开源专场顺利举办!\| [\[链接\]](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag)
 * 【飞桨PaddlePaddle】飞桨助力合肥工业大学普适心理计算团队斩获"互联网+"大赛全国银奖 \| [\[链接\]](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)
 * 【组队学习】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
 * 【OpenI启智】连续4周上榜的这位开发者, 活出了当代大学生该有的样子 \| [\[链接\]](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A)
