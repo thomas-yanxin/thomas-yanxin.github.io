@@ -18,9 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <p style="line-height:2.4; ">
-我目前就读于华东理工大学自动化专业本科四年级. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 计算机视觉、自然语言处理、强化学习、推理部署等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, Github总Stars数<strong>1.5k+</strong>, 涵盖大模型、智慧零售、社区问答等场景, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
+我毕业于华东理工大学自动化专业本科四年级. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 计算机视觉、自然语言处理、强化学习、推理部署等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 主导并亲自训练包括<strong>Sunsimiao: 孙思邈中文医疗大模型</strong>、<strong>MindChat: 漫谈心理大模型</strong>等多个垂直行业大模型, Github总Stars数<strong>2.5k+</strong>, 涵盖大模型、智慧零售、社区问答等场景, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
-截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>4</strong>项, 省市级奖项<strong>9</strong>项, 校企相关奖项<strong>若干</strong>. 相关工作曾受邀参加百度Wave Summit2021+峰会市集展览, 受到OpenI启智、百度飞桨PaddlePaddle、Datawhale等国内顶级开源社区的相关报导.
+截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>4</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 相关工作曾受邀参加百度Wave Summit2021+峰会市集展览, 受到OpenI启智、百度飞桨PaddlePaddle、Datawhale等国内顶级开源社区的相关报导.
 </p>
 
 # 🔥 News
@@ -119,7 +119,7 @@ redirect_from:
 
 **[欧小鹏 OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng)**
 * 连接百度文心ERNIE、鹏程·盘古PanGu、浪潮源Yuan1.0、元语智能ChatYuan、ChatGPT等AI大模型, 以微信、飞书、QQ等为基础平台、欧小鹏为入口, **将用户体验作为大模型的评价标准, 打造AI大模型的试炼场**, 并基于此辅助社区基本运营, 支持包括文生图、对话、基于领域知识库的自动问答等功能, 加速大模型落地应用.
-* 欧小鹏直接用户**1000+**, 间接覆盖用户**14, 000+**, 支持包括OpenI启智社区、鹏程·盘古、元语智能、飞桨领航团等多个AI社区. **获得2023年奇绩春季创业营(S23)的面试资格**, 荣获**2022年启智社区 优秀孵化项目奖**.
+* 欧小鹏直接用户**2000+**, 间接覆盖用户**20, 000+**, 支持包括OpenI启智社区、鹏程·盘古、元语智能、飞桨领航团等多个AI社区. **获得2023年奇绩春季创业营(S23)的面试资格**, 荣获**2022年启智社区 优秀孵化项目奖**.
 
 **更多项目及详细内容请见[Github主页](https://github.com/thomas-yanxin)**.
 
@@ -154,7 +154,8 @@ redirect_from:
   
 
 # 💬 Invited Talks
-* *2023.05*, 【Datawhale-AIGC主题学习】手把手带你实现：基于Langchain和chatglm-6b构建本地知识库的自动问答应用.  \| [\[视频\]](https://www.bilibili.com/video/BV11N411y7dT/?share_source=copy_web&vd_source=8162f92b2a1a94035ca9e4e0f6e1860a)
+* *2023.06*, 【飞桨PaddlePaddle-大模型应用开发课】全流程构建智能文档查询助手 \| [\[链接\]](https://www.bilibili.com/video/BV18h4y1d77H/?share_source=copy_web&vd_source=8162f92b2a1a94035ca9e4e0f6e1860a)
+* *2023.05*, 【Datawhale-AIGC主题学习】手把手带你实现: 基于Langchain和chatglm-6b构建本地知识库的自动问答应用.  \| [\[视频\]](https://www.bilibili.com/video/BV11N411y7dT/?share_source=copy_web&vd_source=8162f92b2a1a94035ca9e4e0f6e1860a)
 * *2022.04*, 飞桨产业实践范例库&&商品识别产业应用实战.  \| [\[视频\]](https://www.bilibili.com/video/BV1Fu411y7co?spm_id_from=333.999.0.0)
 * *2021.07*, 飞桨领航团AI达人创造营.  \| [\[视频\]](https://www.bilibili.com/video/BV1qq4y1X7uZ?spm_id_from=333.999.0.0&vd_source=02aea3a5719f15c2ff7a32ade6916170)
 * *2021.05*, 飞桨开发者说&&商品识别产业应用实战.  \| [\[视频\]](https://www.bilibili.com/video/BV13p4y1t76K?spm_id_from=333.999.0.0)
