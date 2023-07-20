@@ -154,7 +154,7 @@ redirect_from:
   
 
 # 💬 Invited Talks
-* *2023.06*, 【飞桨PaddlePaddle-大模型应用开发课】全流程构建智能文档查询助手 \| [\[链接\]](https://www.bilibili.com/video/BV18h4y1d77H/?share_source=copy_web&vd_source=8162f92b2a1a94035ca9e4e0f6e1860a)
+* *2023.06*, 【飞桨PaddlePaddle-大模型应用开发课】全流程构建智能文档查询助手 \| [\[视频\]](https://www.bilibili.com/video/BV18h4y1d77H/?share_source=copy_web&vd_source=8162f92b2a1a94035ca9e4e0f6e1860a)
 * *2023.05*, 【Datawhale-AIGC主题学习】手把手带你实现: 基于Langchain和chatglm-6b构建本地知识库的自动问答应用.  \| [\[视频\]](https://www.bilibili.com/video/BV11N411y7dT/?share_source=copy_web&vd_source=8162f92b2a1a94035ca9e4e0f6e1860a)
 * *2022.04*, 飞桨产业实践范例库&&商品识别产业应用实战.  \| [\[视频\]](https://www.bilibili.com/video/BV1Fu411y7co?spm_id_from=333.999.0.0)
 * *2021.07*, 飞桨领航团AI达人创造营.  \| [\[视频\]](https://www.bilibili.com/video/BV1qq4y1X7uZ?spm_id_from=333.999.0.0&vd_source=02aea3a5719f15c2ff7a32ade6916170)
