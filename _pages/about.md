@@ -162,7 +162,7 @@ redirect_from:
   
 
 # 🚀 Dispersions
-* 【魔搭ModelScope社区】基于Qwen-7B的垂域大模型——MindChat(漫谈)心理大模型上线魔搭 \| [\[链接\](https://mp.weixin.qq.com/s/frJwp-kLuF_aT_vt8V6hJQ)
+* 【魔搭ModelScope社区】基于Qwen-7B的垂域大模型——MindChat(漫谈)心理大模型上线魔搭 \| [\[链接\]](https://mp.weixin.qq.com/s/frJwp-kLuF_aT_vt8V6hJQ)
 * 【OpenI启智】强强角逐, 筑梦开源——2022年度启智社区优秀项目及开发者评选结果正式揭晓 \| [\[链接\]](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA)
 * 【OpenI启智】碰撞高校智慧, 凝聚青春力量 \| 因"AI"而"深"-高校开源专场顺利举办! \| [\[链接\]](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag)
 * 【飞桨PaddlePaddle】飞桨助力合肥工业大学普适心理计算团队斩获"互联网+"大赛全国银奖 \| [\[链接\]](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)
