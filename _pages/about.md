@@ -20,7 +20,7 @@ redirect_from:
 <p style="line-height:2.4; ">
 我毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 计算机视觉、自然语言处理、强化学习、推理部署等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>2.6k+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
-截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>4</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 相关工作曾受邀参加百度Wave Summit2021+峰会市集展览, 受到OpenMMLab、OpenI启智、百度飞桨PaddlePaddle、Datawhale等国内外顶级开源社区的报导.
+截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>4</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 相关工作曾受邀参加百度Wave Summit2021+峰会市集展览, 受到OpenMMLab、OpenI启智社区、百度飞桨PaddlePaddle、Datawhale、魔搭ModelScope社区等国内外顶级开源社区的报导.
 </p>
 
 # 🔥 News
@@ -162,6 +162,7 @@ redirect_from:
   
 
 # 🚀 Dispersions
+* 【魔搭ModelScope社区】基于Qwen-7B的垂域大模型——MindChat(漫谈)心理大模型上线魔搭 \| [\[链接\](https://mp.weixin.qq.com/s/frJwp-kLuF_aT_vt8V6hJQ)
 * 【OpenI启智】强强角逐, 筑梦开源——2022年度启智社区优秀项目及开发者评选结果正式揭晓 \| [\[链接\]](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA)
 * 【OpenI启智】碰撞高校智慧, 凝聚青春力量 \| 因"AI"而"深"-高校开源专场顺利举办! \| [\[链接\]](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag)
 * 【飞桨PaddlePaddle】飞桨助力合肥工业大学普适心理计算团队斩获"互联网+"大赛全国银奖 \| [\[链接\]](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)
