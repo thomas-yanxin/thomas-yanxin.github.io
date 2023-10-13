@@ -107,7 +107,7 @@ redirect_from:
 * ColugoMum 打破传统目标检测算法应用于智能零售行业的成本大、训练难等问题, 构建新型智能零售购物识别算法, 为新零售行业中无人零售视觉化智能解决多类别、小样本、高相似和更新频繁的特殊图像识别场景痛难点提供了可参考示范. 本项目荣获**2022年第24届中国机器人及人工智能大赛全国一等奖**等, 并受邀**参加百度Wave Summit 2021+ 开发者峰会市集展览**, 总浏览量**10万+**. 项目正**入选启智社区优秀开源项目孵化器**, 获得**2022年启智社区 优秀孵化项目奖**, 入选**教育部产学合作协同育人项目(百度公司&&华东理工大学)的课程建设成果**.
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">the-eye-knows-the-garbage</div><img src='images/structure3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">健康大模型知识中台</div><img src='images/structure3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[健康大模型知识中台](https://github.com/X-D-Lab)**
