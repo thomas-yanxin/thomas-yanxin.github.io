@@ -107,15 +107,23 @@ redirect_from:
 * ColugoMum 打破传统目标检测算法应用于智能零售行业的成本大、训练难等问题, 构建新型智能零售购物识别算法, 为新零售行业中无人零售视觉化智能解决多类别、小样本、高相似和更新频繁的特殊图像识别场景痛难点提供了可参考示范. 本项目荣获**2022年第24届中国机器人及人工智能大赛全国一等奖**等, 并受邀**参加百度Wave Summit 2021+ 开发者峰会市集展览**, 总浏览量**10万+**. 项目正**入选启智社区优秀开源项目孵化器**, 获得**2022年启智社区 优秀孵化项目奖**, 入选**教育部产学合作协同育人项目(百度公司&&华东理工大学)的课程建设成果**.
 </div>
 </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">the-eye-knows-the-garbage</div><img src='images/structure3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">the-eye-knows-the-garbage</div><img src='images/structure2.png' alt="sym" width="100%"></div></div>
+**[健康大模型知识中台](https://github.com/X-D-Lab)**
+
+* 本项目**构建健康大模型知识中台**, 通过<a href="https://github.com/X-D-Lab/Sunsimiao">医疗大模型孙思邈(Sunsimiao)</a>和<a href="https://github.com/X-D-Lab/MindChat">心理大模型漫谈(MindChat)</a>**双轨运行**, 利用**检索式增加方法**(Retrieval-Augmented Generation, RAG), 基于<a href="https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui">LangChain、向量数据库和大模型</a>实现长时记忆、角色记忆和知识记忆, 规避大模型幻觉. 并利用[欧小鹏](https://github.com/thomas-yanxin/OXiaoPeng)将其部署至微信端, 实现生理与心理**全方位、全时域、全场景**的监控、保护和疏导.
+</div>
+</div>
+
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">the-eye-knows-the-garbage</div><img src='images/structure2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[慧眼识垃圾](https://github.com/thomas-yanxin/the-eye-knows-the-garbage)**
 
 * 本项目试图构建个人、垃圾桶及政府三合一的垃圾分类识别系统, 助力垃圾分类识别政策的落地实现. 目前本项目已收获软件著作权, 竞赛方面本项目获得<strong>2022年第15届中国大学生计算机设计大赛全国三等奖</strong>、<strong>2022年第十四届上海市应用能力设计大赛二等奖</strong>、<strong>2021年中国机器人及人工智能大赛上海赛区人工智能大赛创新类二等奖</strong>. 同时, 本项目在<a href="https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg">飞桨(PaddlePaddle)推文展出</a>, 获<a href="https://mp.weixin.qq.com/s/3t77lWWJXMCFwCWsRAluoA">PaddleWeekly每周项目推荐</a>.
 </div>
-</div>
+</div> -->
 
 **[欧小鹏 OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng)**
 * 连接百度文心ERNIE、鹏程·盘古PanGu、浪潮源Yuan1.0、元语智能ChatYuan、ChatGPT等AI大模型, 以微信、飞书、QQ等为基础平台、欧小鹏为入口, **将用户体验作为大模型的评价标准, 打造AI大模型的试炼场**, 并基于此辅助社区基本运营, 支持包括文生图、对话、基于领域知识库的自动问答等功能, 加速大模型落地应用.
