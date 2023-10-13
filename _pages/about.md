@@ -112,7 +112,7 @@ redirect_from:
 
 **[健康大模型知识中台](https://github.com/X-D-Lab)**
 
-* 本项目**构建健康大模型知识中台**, 通过<a href="https://github.com/X-D-Lab/Sunsimiao">医疗大模型孙思邈(Sunsimiao)</a>和<a href="https://github.com/X-D-Lab/MindChat">心理大模型漫谈(MindChat)</a>**双轨驱动**, 利用**检索式增加方法**(Retrieval-Augmented Generation, RAG), 基于<a href="https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui">LangChain、向量数据库和大模型</a>实现长时记忆、角色记忆和知识记忆, 规避大模型幻觉. 并利用[欧小鹏-OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng)将其部署至微信端, 构建大模型从基础层到应用层的全流程矩阵, 实现对不同用户人群生理与心理**全方位、全时域、全场景**的保护和疏导.
+* 构建健康大模型知识中台利用**百万级医疗数据**和**十万级心理对话数据**, 在开源大预言模型(Qwen、ChatGLM、BaiChuan等)的基础上通过增量预训练、指令微调、人类反馈强化学习等技术进行微调, 实现<a href="https://github.com/X-D-Lab/Sunsimiao">医疗大模型孙思邈(Sunsimiao)</a>和<a href="https://github.com/X-D-Lab/MindChat">心理大模型漫谈(MindChat)</a>**双轨驱动**, 利用**检索式增加方法**(Retrieval-Augmented Generation, RAG), 基于<a href="https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui">LangChain、向量数据库和大模型</a>实现长时记忆、角色记忆和知识记忆, 规避大模型幻觉. 并利用[欧小鹏-OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng)将其部署至微信端, 构建大模型从基础层到应用层的全流程矩阵, 实现对不同用户人群生理与心理**全方位、全时域、全场景**的保护和疏导.
 </div>
 </div>
 
