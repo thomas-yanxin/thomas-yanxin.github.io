@@ -32,7 +32,7 @@ redirect_from:
 
 # 📖 Educations
 
-*2019.09 - 2023.06 (now)*, 自动化专业, 信息科学与工程学院, 华东理工大学.  
+*2019.09 - 2023.06*, 自动化专业, 信息科学与工程学院, 华东理工大学.  
 
 * 华东理工大学校综合课程奖学金三等 \| [\[点击\]](/proof/)
 * 华东理工大学信息科学与工程学院优秀团员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E4%BC%98%E7%A7%80%E5%9B%A2%E5%91%98.jpg)
