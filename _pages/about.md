@@ -20,7 +20,7 @@ redirect_from:
 <p style="line-height:2.4; ">
 我毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 计算机视觉、自然语言处理、强化学习、推理部署等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>3000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
-截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>4</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 相关工作曾受邀参加百度Wave Summit2021+峰会市集展览, 受到机器之心SOTA模型、上海人工智能实验室、OpenI启智社区、百度飞桨PaddlePaddle、阿里云魔搭ModelScope社区、Datawhale等国内外顶级科技媒体及开源社区的报导.
+截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>4</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 相关工作曾受邀参加百度Wave Summit2021+峰会市集展览, 受到机器之心SOTA模型、上海人工智能实验室、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、百度飞桨PaddlePaddle、阿里云魔搭ModelScope社区、Datawhale等国内外顶级科技媒体及开源社区的报导.
 </p>
 
 # 🔥 News
