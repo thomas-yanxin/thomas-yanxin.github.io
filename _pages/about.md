@@ -20,7 +20,7 @@ redirect_from:
 <p style="line-height:2.4; ">
 毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 计算机视觉、自然语言处理、强化学习、推理部署等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>3000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
-截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>5</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 相关工作曾受到北京卫视、百度飞桨、阿里云等的采访, 多日登录GitHub全球趋势榜热门项目, 受邀参加<a href='/proof/阿里云邀请函_颜鑫.pdf'>阿里云通义千问发布会</a>、<a href='启智开发者大会邀请函-颜鑫.pdf'>OpenI/O 启智开发者大会</a>、百度Wave Summit2021+峰会市集展览, 曾被机器之心、新智元、机器之心SOTA模型、上海人工智能实验室、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、百度飞桨PaddlePaddle、阿里云魔搭ModelScope社区、Datawhale等国内外顶级科技媒体及开源社区的报导.
+截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>5</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 相关工作曾受到中国科学报、北京卫视、百度飞桨、阿里云等的采访, 多日登录GitHub全球趋势榜热门项目, 受邀参加<a href='/proof/阿里云邀请函_颜鑫.pdf'>阿里云通义千问发布会</a>、<a href='启智开发者大会邀请函-颜鑫.pdf'>OpenI/O 启智开发者大会</a>、百度Wave Summit2021+峰会市集展览, 曾被机器之心、新智元、机器之心SOTA模型、上海人工智能实验室、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、百度飞桨PaddlePaddle、阿里云魔搭ModelScope社区、Datawhale等国内外顶级科技媒体及开源社区的报导.
 </p>
 
 # 🔥 News
@@ -170,6 +170,7 @@ redirect_from:
   
 
 # 🚀 Dispersions
+* 【科学网】人皆孤独? 他们用通义千问开发了一款心理大模型 \| [\[链接\]](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm?bsh_bid=5975565683)
 * 【机器之心SOTA模型】蚂蚁CodeFuse-13B代码专用大模型开源; 夫子·明察司法大模型、**MindChat 心理大模型**等项目多个新模型版本开源 \| [\[链接\]](https://mp.weixin.qq.com/s/PppVdSHObBG7IRA-vgVLlA)
 * 【机器之心SOTA模型】不妨一试的开源项目! 基座模型, 领域精调, 推理加速及Agent开发开源方案季度盘点 \| [\[链接\]](https://mp.weixin.qq.com/s/ApOMU6qRfYopCW0NkUCQCQ)
 * 【OpenMMLab】EMO了? 来和MindChat聊聊, 可在线体验的AI心理大模型 \| [\[链接\]](https://mp.weixin.qq.com/s/wOQP2A0nm0OGaiwzdJ9wPg)
