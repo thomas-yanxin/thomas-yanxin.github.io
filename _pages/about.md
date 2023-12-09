@@ -18,16 +18,17 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <p style="line-height:2.4; ">
-毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 计算机视觉、自然语言处理、强化学习、推理部署等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>3000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
+毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 大规模语言模型、计算机视觉、自然语言处理、多模态大模型等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>3000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
 截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>5</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 多日登录GitHub全球趋势榜热门项目, 受邀参加<a href='/proof/阿里云邀请函_颜鑫.pdf'>阿里云通义千问发布会</a>、<a href='/proof/启智开发者大会邀请函-颜鑫.pdf'>OpenI/O 启智开发者大会</a>、百度Wave Summit2021+峰会市集展览, 曾被科学网、央广网、机器之心、新智元、量子位、机器之心SOTA模型、上海人工智能实验室、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、百度飞桨PaddlePaddle、阿里云魔搭ModelScope社区、Datawhale等国内外顶级科技媒体及开源社区的报导.
 </p>
 
 # 🔥 News
 * *2023.12*: &nbsp; 🎉🎉 2023年开放原子开源基金会 **活力开源贡献者-技术、生态贡献**
+* *2023.11*: &nbsp; 🎉🎉 2023年第9届中国国际"互联网+"大学生创新创业大赛 **铜奖**
+* *2023.09*: &nbsp; 🎉🎉 2023年第9届安徽省"互联网+"大学生创新创业大赛 **金奖**
 * *2023.02*: &nbsp; 🎉🎉 2022年OpenI启智社区 **社区先锋奖**
 * *2023.01*: &nbsp; 🎉🎉 2022讯飞开放生态AI先锋应用评比 年度最佳应用 **TOP10**
-* *2022.11*: &nbsp; 🎉🎉 2022年第8届中国国际"互联网+"大学生创新创业大赛 **银奖**
   
 
 # 📖 Educations
@@ -50,7 +51,9 @@ redirect_from:
   
 
 # 📘 Awards
-* 【晓声科技】2022年第8届中国国际"互联网+"大学生创新创业大赛 <strong>银奖</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)
+* 【灵心智能】2023年第9届中国国际"互联网+"大学生创新创业大赛 <strong>铜奖<strong> \| [\[点击\]]()
+* 【灵心智能】2023年第9届安徽省"互联网+"大学生创新创业大赛 <strong>金奖<strong> \| [\[点击\]]()
+* 【晓声科技】2022年第8届中国国际"互联网+"大学生创新创业大赛 <strong>银奖<strong> \| [\[点击\]](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)
 * 【晓声科技】2022年"建行杯"第8届安徽省"互联网+"大学生创新创业大赛 <strong>金奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E3%80%90%E6%99%93%E5%A3%B0%E7%A7%91%E6%8A%80%E3%80%91%E5%AE%89%E5%BE%BD%E7%9C%81%E9%87%91%E5%A5%96.pdf)
 * 【镜选未来】2022年"建行杯"第8届江苏省"互联网+"大学生创新创业大赛 <strong>银奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E6%B1%9F%E8%8B%8F%E7%9C%81%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E8%B7%AF%E6%BC%94%E9%A1%B9%E7%9B%AE%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%20.pdf)
 * 【Medbio】2022年"建行杯"第8届上海市"互联网+"大学生创新创业大赛 <strong>银奖</strong> \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/Medbio-%E6%B4%BB%E6%80%A7%E5%B0%8F%E5%88%86%E5%AD%90%E5%8C%96%E5%90%88%E7%89%A9%E7%A7%91%E7%A0%94%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0.pdf)
