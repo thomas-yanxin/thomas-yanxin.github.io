@@ -85,7 +85,7 @@ redirect_from:
 # ✨ Honors 
 * 2022年国家级大学生创新创业项目 <strong>第一主持人</strong> <strong>优秀 结题</strong> \| [\[点击\]](http://gjcxcy.bjtu.edu.cn/NewLXItemListForStudentDetail.aspx?ItemNo=941768&year=2022&type=student&IsLXItem=0)
 * 百度飞桨开发者技术专家 \| [\[点击\]](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
-* OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
+* OpenI启智社区首批核心体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 * Datawhale成员 \| [\[点击\]](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
 * 华为云云享专家 \| [\[点击\]]()
 * 中国人工智能学会会员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/CAAI_Card.png)
