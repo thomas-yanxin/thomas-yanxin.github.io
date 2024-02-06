@@ -174,6 +174,7 @@ redirect_from:
   
 
 # 🚀 Dispersions
+* 【阿里通义千问】通义千问+心理领域=？\| [\[链接\]](https://mp.weixin.qq.com/s/ZcRES0s7zD_yDeWTTr6Gyg)
 * 【科学网】人皆孤独? 他们用通义千问开发了一款心理大模型 \| [\[链接\]](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm?bsh_bid=5975565683)
 * 【机器之心SOTA模型】蚂蚁CodeFuse-13B代码专用大模型开源; 夫子·明察司法大模型、**MindChat 心理大模型**等项目多个新模型版本开源 \| [\[链接\]](https://mp.weixin.qq.com/s/PppVdSHObBG7IRA-vgVLlA)
 * 【机器之心SOTA模型】不妨一试的开源项目! 基座模型, 领域精调, 推理加速及Agent开发开源方案季度盘点 \| [\[链接\]](https://mp.weixin.qq.com/s/ApOMU6qRfYopCW0NkUCQCQ)
