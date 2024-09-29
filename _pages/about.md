@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <p style="line-height:2.4; ">
-毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 大规模语言模型、计算机视觉、自然语言处理、多模态大模型等. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>3000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
+毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 多模态大模型、大规模语言模型、计算机视觉、自然语言处理, 重点关注<strong>情感陪伴</strong>和<strong>具身智能</strong>方向. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>3000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
 截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>5</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 多日登录GitHub全球趋势榜热门项目, 受邀参加<a href='/proof/阿里云邀请函_颜鑫.pdf'>阿里云通义千问发布会</a>、<a href='/proof/启智开发者大会邀请函-颜鑫.pdf'>OpenI/O 启智开发者大会</a>、百度Wave Summit2021+峰会市集展览, 曾被科学网、央广网、机器之心、新智元、量子位、机器之心SOTA模型、上海人工智能实验室、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、百度飞桨PaddlePaddle、阿里云魔搭ModelScope社区、Datawhale等国内外顶级科技媒体及开源社区的报导.
 </p>
@@ -43,6 +43,11 @@ redirect_from:
 * 华东理工大学信息科学与工程学院第六期创新实践育人计划优秀学员 \| [\[点击\]](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E5%88%9B%E6%96%B0%E8%82%B2%E4%BA%BA.jpg)
 * 华东理工大学信息科学与工程学院社会工作奖C等 \| [\[点击\]](/proof/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E4%BD%9C%E5%A5%96.jpg)
   
+
+# 🏠 Company
+* **心言集团**, *2024.03~*, *大模型研究员*
+* 
+
 
 # 📝 Publications
 * **X. Yan**, Q. Hu, X. Huang and C. Shen, "[Intelligent Retail Settlement Platform based on Image Retrieval](https://ieeexplore.ieee.org/document/9851085), " 2022 4th International Conference on Communications, Information System and Computer Engineering (CISCE), 2022, pp. 609-616, doi: 10.1109/CISCE55963.2022.9851085
