@@ -211,6 +211,3 @@ redirect_from:
 * 【安徽工程大学计算机学院团委】院校新闻丨首届AI科创节圆满结束 \| [\[链接\]](https://mp.weixin.qq.com/s/oCVRHA5Hg41PqTQ-yJQgkg)
 * 【飞桨PaddlePaddle】基于飞桨开发垃圾分类小程序, 实现"慧眼识垃圾" \| [\[链接\]](https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg)
 * 【机器学习AI算法工程】垃圾分类: 慧眼识垃圾系统 \| [\[链接\]](https://mp.weixin.qq.com/s/rsJSLKaNxtJ06HnwbWbL-w)
-
-<!-- # 💻 Internships
-* *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
