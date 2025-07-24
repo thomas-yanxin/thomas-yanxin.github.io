@@ -24,13 +24,13 @@ redirect_from:
 </p>
 
 # 🔥 News
+* *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访
+* *2025.05*: &nbsp; 🎉🎉 受邀参加 **阿里云魔搭ModelScope社区** 开发者共创会
 * *2024.08*  &nbsp; 🎉🎉 2024安徽省创新创业大赛 **产业赛道 金奖**
-* *2024.02*: &nbsp; 🎉🎉 入选 MiniMax 「大法师」计划
 * *2023.12*: &nbsp; 🎉🎉 2023年开放原子开源基金会 **活力开源贡献者-技术、生态贡献**
 * *2023.11*: &nbsp; 🎉🎉 2023年第9届中国国际"互联网+"大学生创新创业大赛 **铜奖**
 * *2023.09*: &nbsp; 🎉🎉 2023年第9届安徽省"互联网+"大学生创新创业大赛 **金奖**
 * *2023.02*: &nbsp; 🎉🎉 2022年OpenI启智社区 **社区先锋奖**
-* *2023.01*: &nbsp; 🎉🎉 2022讯飞开放生态AI先锋应用评比 年度最佳应用 **TOP10**
   
 
 # 📖 Educations
@@ -46,7 +46,10 @@ redirect_from:
 
 # 🏠 Company
 * **心言集团**, *2024.03~*, *大模型研究员*
-* 
+* *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访
+* *2025.05*: &nbsp; 🎉🎉 受邀参加 **阿里云魔搭ModelScope社区** 开发者共创会，分享《**开源技术驱动下的泛心理服务与AI普惠实践之路**》
+* *2025.04*: &nbsp; 🎉🎉 发布[Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)，**世界首个泛心理+教育基座模型**
+* *2024.10*: &nbsp; 🎉🎉 发布[Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)，登顶当时[OpenCompass](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) <4B参数 **榜首**
 
 
 # 📝 Publications
