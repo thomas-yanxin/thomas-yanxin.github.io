@@ -189,7 +189,7 @@ redirect_from:
   
 
 # 🚀 Dispersions
-* 【阿里云通义千问】写代码，也写情绪 \| [\[文章\]](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)、[\[视频\]](https://www.bilibili.com/video/BV1GVgNzLEHs/?share_source=copy_web)、[\[音频\]](https://www.xiaoyuzhoufm.com/episodes/6878c7f5a9dec92500c5c93e)
+* 【阿里通义千问】写代码，也写情绪 \| [\[文章\]](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)、[\[视频\]](https://www.bilibili.com/video/BV1GVgNzLEHs/?share_source=copy_web)、[\[音频\]](https://www.xiaoyuzhoufm.com/episodes/6878c7f5a9dec92500c5c93e)
 * 【Founder Park】Qwen 3发布，Founder Park采访心言集团高级算法工程师左右 \| [\[文章\]](https://mp.weixin.qq.com/s/pb8eoQhvAF9O5N3CSO7rIg)
 * 【阿里通义千问】通义千问+心理领域=？\| [\[链接\]](https://mp.weixin.qq.com/s/ZcRES0s7zD_yDeWTTr6Gyg)
 * 【科学网】人皆孤独? 他们用通义千问开发了一款心理大模型 \| [\[链接\]](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm?bsh_bid=5975565683)
