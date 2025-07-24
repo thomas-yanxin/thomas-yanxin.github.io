@@ -25,7 +25,7 @@ redirect_from:
 
 # 🔥 News
 * *2025.07*: &nbsp; 🎉🎉 2024年中国国际大学生创新大赛 **铜奖**
-* *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访
+* *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访 \| [\[文章\]](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)、[\[视频\]](https://www.bilibili.com/video/BV1GVgNzLEHs/?share_source=copy_web)、[\[音频\]](https://www.xiaoyuzhoufm.com/episodes/6878c7f5a9dec92500c5c93e)
 * *2025.05*: &nbsp; 🎉🎉 受邀参加 **阿里云魔搭ModelScope社区** 开发者共创会
 * *2024.08*  &nbsp; 🎉🎉 2024安徽省创新创业大赛 **产业赛道 金奖**
 * *2023.12*: &nbsp; 🎉🎉 2023年开放原子开源基金会 **活力开源贡献者-技术、生态贡献**
