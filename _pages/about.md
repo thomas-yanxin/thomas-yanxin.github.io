@@ -20,7 +20,7 @@ redirect_from:
 <p style="line-height:2.4; ">
 毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 多模态大模型、大规模语言模型、计算机视觉、自然语言处理, 重点关注<strong>情感智能</strong>和<strong>具身智能</strong>方向. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括Xinyuan-LLM: 心元泛心理基座大模型、Xinyuan-VL: 心元多模态大模型、MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>20000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
-截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>5</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 多日登录GitHub全球趋势榜热门项目, 受邀参加<a href='/proof/阿里云邀请函_颜鑫.pdf'>阿里云通义千问发布会</a>、<a href='/proof/启智开发者大会邀请函-颜鑫.pdf'>OpenI/O 启智开发者大会</a>、百度Wave Summit2021+峰会市集展览, 曾被科学网、央广网、机器之心、新智元、量子位、机器之心SOTA模型、上海人工智能实验室、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、百度飞桨PaddlePaddle、阿里云魔搭ModelScope社区、Datawhale、通义大模型等国内外顶级科技媒体及开源社区的报导.
+截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>5</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 多日登录GitHub全球趋势榜热门项目, 受邀参加<a href='/proof/阿里云邀请函_颜鑫.pdf'>阿里云通义千问发布会</a>、<a href='/proof/启智开发者大会邀请函-颜鑫.pdf'>OpenI/O 启智开发者大会</a>、百度Wave Summit2021+峰会市集展览, 曾被科学网、央广网、机器之心、新智元、量子位、机器之心SOTA模型、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、阿里云魔搭ModelScope社区、Datawhale、通义大模型、上海人工智能实验室、百度飞桨PaddlePaddle等国内外顶级科技媒体及开源社区的报导.
 </p>
 
 # 🔥 News
@@ -118,20 +118,21 @@ redirect_from:
 
 # 🚀 Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ColugoMum</div><img src='images/structure1.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**[袋鼯麻麻——智能零售结算平台](https://github.com/thomas-yanxin/Smart_container)**
-
-* ColugoMum 打破传统目标检测算法应用于智能零售行业的成本大、训练难等问题, 构建新型智能零售购物识别算法, 为新零售行业中无人零售视觉化智能解决多类别、小样本、高相似和更新频繁的特殊图像识别场景痛难点提供了可参考示范. 本项目荣获**2022年第24届中国机器人及人工智能大赛全国一等奖**等, 并受邀**参加百度Wave Summit 2021+ 开发者峰会市集展览**, 总浏览量**10万+**. 项目正**入选启智社区优秀开源项目孵化器**, 获得**2022年启智社区 优秀孵化项目奖**, 入选**教育部产学合作协同育人项目(百度公司&&华东理工大学)的课程建设成果**.
-</div>
-</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">健康大模型知识中台</div><img src='images/structure3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[健康大模型知识中台](https://github.com/X-D-Lab)**
 
 * 构建健康大模型知识中台. 运用SimHash、Perplexity等技术对**百万级医疗数据**和**十万级心理对话数据**(总数据量超400万)进行**脱敏**、**去重**和**质量打分**, 在开源大预言模型(Qwen、InternLM等)的基础上通过增量预训练、指令微调、人类反馈强化学习等技术进行微调, 实现<a href="https://github.com/X-D-Lab/Sunsimiao">医疗大模型孙思邈(Sunsimiao)</a>和<a href="https://github.com/X-D-Lab/MindChat">心理大模型漫谈(MindChat)</a>**双轨驱动**, 并利用**RAG**, 基于<a href="https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui">LangChain、向量数据库和大模型</a>实现长时记忆、角色记忆和知识记忆, 规避大模型幻觉. 并利用[欧小鹏-OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng)将其部署至微信端, 构建大模型从基础层到应用层的全流程矩阵, 实现对不同用户人群生理与心理**全方位、全时域、全场景**的保护和疏导.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ColugoMum</div><img src='images/structure1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**[袋鼯麻麻——智能零售结算平台](https://github.com/thomas-yanxin/Smart_container)**
+
+* ColugoMum 打破传统目标检测算法应用于智能零售行业的成本大、训练难等问题, 构建新型智能零售购物识别算法, 为新零售行业中无人零售视觉化智能解决多类别、小样本、高相似和更新频繁的特殊图像识别场景痛难点提供了可参考示范. 本项目荣获**2022年第24届中国机器人及人工智能大赛全国一等奖**等, 并受邀**参加百度Wave Summit 2021+ 开发者峰会市集展览**, 总浏览量**10万+**. 项目正**入选启智社区优秀开源项目孵化器**, 获得**2022年启智社区 优秀孵化项目奖**, 入选**教育部产学合作协同育人项目(百度公司&&华东理工大学)的课程建设成果**.
 </div>
 </div>
 
@@ -150,19 +151,6 @@ redirect_from:
 
 **更多项目及详细内容请见[Github主页](https://github.com/thomas-yanxin)**.
 
-# 👨‍🔬 Activities
-
-**[飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) - 华东区主管 - (2021.9-2022.7)**
-* 集中负责飞桨领航团**华东七省(山东、安徽、江苏、上海、浙江、江西、台湾)**的相关运营工作, 包括高校拓展、团长面试、活动推进、项目安排等. 在任期间华东区域累计增长**50+**所高校, 涵盖浙江大学、东南大学、上海科技大学、南京航空航天大学、苏州大学、华东理工大学、合肥工业大学等一系列国家重点高校, 并且在持续高速增长过程中.  
-  
-**[华东理工大学飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) - 团长 - (2021.4-2022.1)**
-* "从零到一"创建华东理工大学飞桨领航团, 以飞桨推广和应用为核心, 面向未来AI开发者, 通过组织AI趣味游戏、AI知识竞赛、AI主题讲座、实操项目挑战赛、AI项目体验等多种活动形式让开发者了解飞桨、应用飞桨, 从而提高飞桨领航团的活跃成员规模、夯实飞桨领航团人工智能及深度学习背景知识, 助力学校人工智能体系培养建设.
-* 任职期间, 领航团累计举办活动**5+**次, 活跃规模**100+**人次, 孵化**10+**个精品项目, **推动教育部产学合作协同育人项目(百度公司&&华东理工大学)的课程建设落地应用**.  
-  
-**华东理工大学信息学院社团管理部 - 顾问 - (2019.10~2020.6)**
-* 协调各社团之间的工作, 维持社团与院团委的联系, 协助社团举办"社团招新"、"新人培训"等社团活动. 参与院级活动"班歌班标大赛"的组织与筹划工作, 具体负责协助各班级拍摄活动视频并审核视频质量、活动场地的舞美布置、人员协调等.
-* 参与五大学院的社团联合活动"社团交流会"的组织、筹划与主持工作, 具体负责活动前期的材料准备、社团邀请函的制作与派发、活动期间的主持与串场、活动结束后的复盘总结撰写等.  
-  
 
 # 🏃 Social Practices
 * 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
@@ -211,3 +199,16 @@ redirect_from:
 * 【安徽工程大学计算机学院团委】院校新闻丨首届AI科创节圆满结束 \| [\[链接\]](https://mp.weixin.qq.com/s/oCVRHA5Hg41PqTQ-yJQgkg)
 * 【飞桨PaddlePaddle】基于飞桨开发垃圾分类小程序, 实现"慧眼识垃圾" \| [\[链接\]](https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg)
 * 【机器学习AI算法工程】垃圾分类: 慧眼识垃圾系统 \| [\[链接\]](https://mp.weixin.qq.com/s/rsJSLKaNxtJ06HnwbWbL-w)
+
+# 👨‍🔬 Activities
+
+**[飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) - 华东区主管 - (2021.9-2022.7)**
+* 集中负责飞桨领航团**华东七省(山东、安徽、江苏、上海、浙江、江西、台湾)**的相关运营工作, 包括高校拓展、团长面试、活动推进、项目安排等. 在任期间华东区域累计增长**50+**所高校, 涵盖浙江大学、东南大学、上海科技大学、南京航空航天大学、苏州大学、华东理工大学、合肥工业大学等一系列国家重点高校, 并且在持续高速增长过程中.  
+  
+**[华东理工大学飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) - 团长 - (2021.4-2022.1)**
+* "从零到一"创建华东理工大学飞桨领航团, 以飞桨推广和应用为核心, 面向未来AI开发者, 通过组织AI趣味游戏、AI知识竞赛、AI主题讲座、实操项目挑战赛、AI项目体验等多种活动形式让开发者了解飞桨、应用飞桨, 从而提高飞桨领航团的活跃成员规模、夯实飞桨领航团人工智能及深度学习背景知识, 助力学校人工智能体系培养建设.
+* 任职期间, 领航团累计举办活动**5+**次, 活跃规模**100+**人次, 孵化**10+**个精品项目, **推动教育部产学合作协同育人项目(百度公司&&华东理工大学)的课程建设落地应用**.  
+  
+**华东理工大学信息学院社团管理部 - 顾问 - (2019.10~2020.6)**
+* 协调各社团之间的工作, 维持社团与院团委的联系, 协助社团举办"社团招新"、"新人培训"等社团活动. 参与院级活动"班歌班标大赛"的组织与筹划工作, 具体负责协助各班级拍摄活动视频并审核视频质量、活动场地的舞美布置、人员协调等.
+* 参与五大学院的社团联合活动"社团交流会"的组织、筹划与主持工作, 具体负责活动前期的材料准备、社团邀请函的制作与派发、活动期间的主持与串场、活动结束后的复盘总结撰写等.  
