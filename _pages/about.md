@@ -18,12 +18,13 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <p style="line-height:2.4; ">
-毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 多模态大模型、大规模语言模型、计算机视觉、自然语言处理, 重点关注<strong>情感智能</strong>和<strong>具身智能</strong>方向. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括Xinyuan-LLM: 心元泛心理基座大模型、Xinyuan-VL: 心元多模态大模型、MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>20000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
+毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 多模态大模型、大规模语言模型、计算机视觉、自然语言处理, 重点关注<strong>情感智能</strong>、<strong>具身智能</strong>等方向. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 我曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括Xinyuan-LLM: 心元泛心理基座大模型、Xinyuan-VL: 心元多模态大模型、MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>20000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
-截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>7</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 多日登录GitHub全球趋势榜热门项目, 受邀参加<a href='/proof/阿里云邀请函_颜鑫.pdf'>阿里云通义千问发布会</a>、<a href='/proof/启智开发者大会邀请函-颜鑫.pdf'>OpenI/O 启智开发者大会</a>、百度Wave Summit2021+峰会市集展览, 曾被科学网、央广网、机器之心、新智元、量子位、机器之心SOTA模型、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、阿里云魔搭ModelScope社区、Datawhale、通义大模型、上海人工智能实验室、百度飞桨PaddlePaddle等国内外顶级科技媒体及开源社区的报导.
+截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>7</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 多日登录GitHub全球趋势榜热门项目, 受邀参加<a href='/proof/阿里云邀请函_颜鑫.pdf'>阿里云通义千问发布会</a>、<a href='/proof/启智开发者大会邀请函-颜鑫.pdf'>OpenI/O 启智开发者大会</a>、百度Wave Summit2021+峰会市集展览, 曾被科学网、央广网、云栖大会、机器之心、新智元、量子位、机器之心SOTA模型、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、阿里云魔搭ModelScope社区、Datawhale、通义大模型、上海人工智能实验室、百度飞桨PaddlePaddle等国内外顶级科技媒体及开源社区的报导.
 </p>
 
 # 🔥 News
+* *2025.09*: &nbsp; 🎉🎉 2025年云栖大会 「做AI，Z世代不一样！」分论坛 **Speaker**
 * *2025.07*: &nbsp; 🎉🎉 2024年中国国际大学生创新大赛 **铜奖**
 * *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访 \| [\[文章\]](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)、[\[视频\]](https://www.bilibili.com/video/BV1GVgNzLEHs/?share_source=copy_web)、[\[音频\]](https://www.xiaoyuzhoufm.com/episodes/6878c7f5a9dec92500c5c93e)
 * *2025.05*: &nbsp; 🎉🎉 受邀参加 **阿里云魔搭ModelScope社区** 开发者共创会
