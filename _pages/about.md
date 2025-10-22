@@ -18,7 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <p style="line-height:2.4; ">
-毕业于华东理工大学信息科学与工程学院自动化专业. 我的主要研究方向为: 大规模智能网联汽车智慧感知、协同控制与决策, 主要兴趣点为: 多模态大模型、大规模语言模型、计算机视觉、自然语言处理, 重点关注<strong>情感智能</strong>、<strong>具身智能</strong>等方向. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 我曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括Xinyuan-LLM: 心元泛心理基座大模型、Xinyuan-VL: 心元多模态大模型、MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>20000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
+我毕业于**华东理工大学**信息科学与工程学院自动化专业, 目前在**(心言集团)[http://cylingo.com/]**从事高级算法工程师的工作. 
+<br/>
+我的主要研究方向为: 多智能体的协同控制与决策, 主要兴趣点为: 多模态大模型、大规模语言模型、计算机视觉、自然语言处理, 重点关注<strong>情感智能</strong>、<strong>具身智能</strong>等方向. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 我曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括Xinyuan-LLM: 心元泛心理基座大模型、Xinyuan-VL: 心元多模态大模型、MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>20000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
 截止目前, 我共发表论文<strong>1</strong>篇、实用新型专利<strong>1</strong>篇、软件著作权<strong>3</strong>篇, 累计获得国家级奖项<strong>7</strong>项, 省市级奖项<strong>10+</strong>项, 校企相关奖项<strong>若干</strong>. 多日登录GitHub全球趋势榜热门项目, 受邀参加<a href='/proof/阿里云邀请函_颜鑫.pdf'>阿里云通义千问发布会</a>、<a href='/proof/启智开发者大会邀请函-颜鑫.pdf'>OpenI/O 启智开发者大会</a>、百度Wave Summit2021+峰会市集展览, 曾被科学网、央广网、云栖大会、机器之心、新智元、量子位、机器之心SOTA模型、新一代人工智能产业技术创新战略联盟(AITISA)——OpenI启智社区、阿里云魔搭ModelScope社区、Datawhale、通义大模型、上海人工智能实验室、百度飞桨PaddlePaddle等国内外顶级科技媒体及开源社区的报导.
 </p>
@@ -190,8 +192,7 @@ redirect_from:
 * 【GitHubStore】MindChat心理大模型 \| [\[链接\]](https://mp.weixin.qq.com/s/OIHSBq6c-4QAxvDUqmgpFA)
 * 【OpenI启智】强强角逐, 筑梦开源——2022年度启智社区优秀项目及开发者评选结果正式揭晓 \| [\[链接\]](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA)
 * 【OpenI启智】碰撞高校智慧, 凝聚青春力量 \| 因"AI"而"深"-高校开源专场顺利举办! \| [\[链接\]](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag)
-* 【飞桨PaddlePaddle】飞桨助力合肥工业大学普适心理计算团队斩获"互联网+"大赛全国银奖 \| [\[链接\]](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)
-* 【组队学习】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
+* 【飞桨PaddlePaddle】飞桨助力合肥工业大学普适心理计算团队斩获"互联网+"大赛全国银奖 \| [\[链接\]](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)* 【组队学习】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
 * 【OpenI启智】连续4周上榜的这位开发者, 活出了当代大学生该有的样子 \| [\[链接\]](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A)
 * 【Datawhale】我们做了一个智能零售结算平台 \| [\[链接\]](https://mp.weixin.qq.com/s/V8eBkYZvb-mNJtyez7n_Rg)
 * 【OpenI启智】OpenI开源项目推荐-ColugoMum \| 基于国产深度学习框架PaddlePadddle开源的零售行业解决方案 \| [\[链接\]](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw)
