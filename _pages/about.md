@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <p style="line-height:2.4; ">
-我毕业于**华东理工大学**信息科学与工程学院自动化专业, 目前在**(心言集团)[http://cylingo.com/]**从事高级算法工程师的工作. 
+我毕业于<strong>华东理工大学</strong>信息科学与工程学院自动化专业, 目前在<strong><a href='/proof/启智开发者大会邀请函-颜鑫.pdf'>心言集团</a></strong>从事高级算法工程师的工作. 
 <br/>
 我的主要研究方向为: 多智能体的协同控制与决策, 主要兴趣点为: 多模态大模型、大规模语言模型、计算机视觉、自然语言处理, 重点关注<strong>情感智能</strong>、<strong>具身智能</strong>等方向. 我能够熟练地使用Python、Matlab等编程语言, 具备良好的代码编程习惯及文档编写能力, 掌握一定的深度学习技术, 并热衷于开源. 我曾开源多个具有落地性质的项目, 涵盖大模型、智慧零售、社区问答等场景, 主导并亲自训练包括Xinyuan-LLM: 心元泛心理基座大模型、Xinyuan-VL: 心元多模态大模型、MindChat: 漫谈心理大模型、Sunsimiao: 孙思邈中文医疗大模型等多个垂直行业大模型, Github总Stars数<strong>20000+</strong>, 您可以在我的<a href='https://github.com/thomas-yanxin'>Github个人主页</a>看到相关项目.
 <br/>
