@@ -28,7 +28,7 @@ redirect_from:
 # 🔥 News
 * *2025.09*: &nbsp; 🎉🎉 2025年云栖大会 「做AI，Z世代不一样！」分论坛 **Speaker**
 * *2025.07*: &nbsp; 🎉🎉 2024年中国国际大学生创新大赛 **铜奖**
-* *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访 \| [\[文章\]](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)、[\[视频\]](https://www.bilibili.com/video/BV1GVgNzLEHs/?share_source=copy_web)、[\[音频\]](https://www.xiaoyuzhoufm.com/episodes/6878c7f5a9dec92500c5c93e)
+* *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访 
 * *2025.05*: &nbsp; 🎉🎉 受邀参加 **阿里云魔搭ModelScope社区** 开发者共创会
 * *2025.04*: &nbsp; 🎉🎉 发布Xinyuan-LLM-14B，世界首个「泛心理+教育」的基座大模型
   
@@ -46,9 +46,9 @@ redirect_from:
 
 # 🏠 Company
 
- *2024.03 - **高级算法工程师**, **心言集团**.
+ *2024.03 - *, **高级算法工程师**, **心言集团**.
 
-* *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访
+* *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访 \| [\[文章\]](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)、[\[视频\]](https://www.bilibili.com/video/BV1GVgNzLEHs/?share_source=copy_web)、[\[音频\]](https://www.xiaoyuzhoufm.com/episodes/6878c7f5a9dec92500c5c93e)
 * *2025.05*: &nbsp; 🎉🎉 受邀参加 **阿里云魔搭ModelScope社区** 开发者共创会，分享《**开源技术驱动下的泛心理服务与AI普惠实践之路**》
 * *2025.04*: &nbsp; 🎉🎉 发布[Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)，**世界首个泛心理+教育基座模型**
 * *2024.10*: &nbsp; 🎉🎉 发布[Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)，登顶当时[OpenCompass](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) <4B参数 **榜首**
