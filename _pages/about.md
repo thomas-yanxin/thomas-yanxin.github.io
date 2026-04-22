@@ -26,11 +26,10 @@ redirect_from:
 </p>
 
 # 🔥 News
+* *2026.01*：&nbsp; 🎉🎉 2025合成数据大赛 · 灵溪AI for Mental Health主题赛 **一等奖**
 * *2025.09*: &nbsp; 🎉🎉 2025年云栖大会 「做AI，Z世代不一样！」分论坛 **Speaker**
 * *2025.07*: &nbsp; 🎉🎉 2024年中国国际大学生创新大赛 **铜奖**
 * *2025.07*: &nbsp; 🎉🎉 接受 **阿里云通义实验室** & **魔搭ModelScope社区**采访 
-* *2025.05*: &nbsp; 🎉🎉 受邀参加 **阿里云魔搭ModelScope社区** 开发者共创会
-* *2025.04*: &nbsp; 🎉🎉 发布Xinyuan-LLM-14B，世界首个「泛心理+教育」的基座大模型
   
 
 # 📖 Educations
@@ -63,6 +62,7 @@ redirect_from:
   
 
 # 📘 Awards
+* 2025年合成数据大赛 · 灵溪AI for Mental Health主题赛 <strong>一等奖</strong> \| [\[点击\]](https://mp.weixin.qq.com/s/qNfiSLt1TfaqjBpXB9rHKQ)
 * 【人因与功效学专项：人因智能关键技术——非接触集成式驾驶员状态智能检测边缘计算技术】 中国国际大学生创新大赛（2024） <strong>铜奖</strong> \| [\[点击\]]()
 * 【AI赋能下的军民融合应用创新】安徽省大学生创新创业大赛（2024） 产业赛道 <strong>金奖</strong> \| [\[点击\]]()
 * 【灵心智能】2023年第9届中国国际"互联网+"大学生创新创业大赛 <strong>铜奖</strong> \| [\[点击\]]()
