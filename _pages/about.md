@@ -153,6 +153,7 @@ redirect_from:
 
 
 # 🏃 Social Practices
+* Qwen Ambassador
 * 2022年OpenI启智社区首批资深体验官 \| [\[点击\]](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 * 2022年OpenI启智社区&&合肥工业大学情感计算与先进智能机器安徽省重点实验室产学研共建学生负责人 \| [\[点击\]](/proof/OpenI&MAC_LAB.jpg)
 * 2022年百度飞桨智慧零售商品识别产业案例共建者 \| [\[点击\]](https://www.bilibili.com/video/BV1Fu411y7co/)
