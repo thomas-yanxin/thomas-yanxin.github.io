@@ -17,7 +17,7 @@ redirect_from:
 
 # About Me
 
-我毕业于**华东理工大学信息科学与工程学院自动化专业**，目前在*心言集团*担任**高级算法工程师**。我的工作聚焦垂域大模型、多模态大模型与智能体应用，长期关注**情感智能**、**具身智能**、计算机视觉、自然语言处理与多智能体协同决策。
+我毕业于**华东理工大学信息科学与工程学院自动化专业**，目前在*心言集团*担任**高级算法工程师**。我的工作聚焦垂域大模型、多模态大模型与智能体应用，在**情感智能**、**具身智能**方向沉淀了从数据治理、增量预训练、SFT/RLHF 到落地部署的完整链路经验，也持续关注计算机视觉、自然语言处理与多智能体协同决策。
 
 我主导并参与了多个具备落地属性的开源与产业项目，包括 **Xinyuan-LLM**、**Xinyuan-VL**、**MindChat**、**Sunsimiao**、**ColugoMum** 与 **OXiaoPeng** 等，覆盖泛心理、医疗健康、智慧零售与社区问答场景。相关项目在 GitHub 累计获得 **20000+ Stars**，多次进入 GitHub 全球趋势榜，并获得国内外科技媒体、开源社区和产业生态的持续关注。
 
@@ -42,10 +42,10 @@ redirect_from:
 **心言集团 | 高级算法工程师**<br>
 *2024.03 - 至今*
 
-* 主导 **Xinyuan 系列垂域大模型**全链路研发，覆盖 **400万+** 多源数据的脱敏、去重、质量打分、增量预训练、SFT、RLHF 与多维评测，推动系列模型在 **HuggingFace + ModelScope** 双平台累计下载 **2万+**。
+* 主导 **Xinyuan 系列垂域大模型**全链路研发，覆盖 **4500万+** 多源数据的脱敏、去重、质量打分、增量预训练、SFT、RLHF 与多维评测，推动系列模型在 **HuggingFace + ModelScope** 双平台累计下载 **2万+**。
 * 发布 [Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)，围绕多模态理解与低参数规模模型评测完成训练和开源交付，登顶当时 [OpenCompass](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) **&lt;4B 参数榜首**。
 * 发布 [Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)，打造**世界首个泛心理 + 教育领域基座模型**，将心理服务、教育场景与通用大模型能力进行垂域融合。
-* 代表团队对外输出技术影响力，受邀于**阿里云魔搭 ModelScope 开发者共创会**分享《开源技术驱动下的泛心理服务与 AI 普惠实践之路》，并接受[阿里云通义实验室与魔搭 ModelScope 社区联合专访](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)。
+* 主导团队对外技术布道，受邀在**阿里云魔搭 ModelScope 开发者共创会**主讲《开源技术驱动下的泛心理服务与 AI 普惠实践之路》，并完成[阿里云通义实验室 × 魔搭 ModelScope 社区联合专访](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)，扩大泛心理大模型在开发者与产业用户中的认知。
 
 <span class='anchor' id='projects'></span>
 <span class='anchor' id='-projects'></span>
@@ -58,8 +58,8 @@ redirect_from:
 **[健康大模型知识中台](https://github.com/X-D-Lab)**
 
 * 主导构建覆盖基础模型、知识增强与应用部署的健康大模型矩阵，基于 SimHash、Perplexity 等方法治理**百万级医疗数据**与**十万级心理对话数据**，累计处理 **400万+** 多源样本。
-* 在 Qwen、InternLM 等开源模型基础上完成增量预训练、SFT 与 RLHF，孵化 [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao) 医疗大模型与 [MindChat](https://github.com/X-D-Lab/MindChat) 心理大模型，并通过 RAG 与三维记忆体系降低大模型幻觉风险。
-* 将模型能力通过 [OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng) 接入微信生态，把心理与健康支持从模型研发推进到真实用户场景。
+* 在 Qwen、InternLM 等开源模型基础上完成增量预训练、SFT 与 RLHF，孵化 [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao) 医疗大模型（**400+ Stars**）与 [MindChat](https://github.com/X-D-Lab/MindChat) 心理大模型（**700+ Stars**），并通过 RAG 与三维记忆体系降低大模型幻觉风险。
+* 通过 [OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng) 将模型能力接入微信生态，沉淀 **2000+ 直接用户、2万+ 间接覆盖用户**，让心理与健康支持从模型研发跑通到真实社区运营反馈闭环。
 </div>
 </div>
 
@@ -68,8 +68,8 @@ redirect_from:
 
 **[袋鼯麻麻 ColugoMum：智能零售结算平台](https://github.com/thomas-yanxin/Smart_container)**
 
-* 主导研发智能零售结算平台，针对无人零售中的**多类别、小样本、高相似度、高频更新**问题，自研新型零售商品识别算法，降低传统目标检测方案在真实零售场景中的训练与维护成本。
-* 项目获得 **2022 年第 24 届中国机器人及人工智能大赛全国一等奖**，受邀亮相**百度 Wave Summit 2021+ 开发者峰会市集展览**，累计浏览 **10万+**。
+* 主导研发智能零售结算平台，针对无人零售中的**多类别、小样本、高相似度、高频更新**问题，自研基于图像检索的零售商品识别算法，相比传统目标检测方案**免除新品上架重训练**，显著降低真实零售场景的维护成本。
+* 项目获得 **2022 年第 24 届中国机器人及人工智能大赛全国一等奖**，受邀亮相**百度 Wave Summit 2021+ 开发者峰会市集展览**，累计浏览 **10万+**，GitHub 累计 **200+ Stars**。
 * 入选启智社区优秀开源项目孵化器并获**2022 年启智社区优秀孵化项目奖**，同步落地**教育部产学合作协同育人项目（百度 & 华东理工大学）课程建设成果**。
 </div>
 </div>
@@ -78,7 +78,7 @@ redirect_from:
 
 **[欧小鹏 OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng)**
 
-* 构建多模型聚合应用，统一接入百度文心 ERNIE、鹏程·盘古 PanGu、浪潮源 Yuan1.0、元语智能 ChatYuan、ChatGPT 等主流模型，并以微信、飞书、QQ 为前端载体提供对话、文生图与领域知识库问答能力。
+* 在大模型应用尚未普及的早期，率先构建多模型聚合应用，统一封装**百度文心 ERNIE、鹏程·盘古 PanGu、浪潮源 Yuan1.0、元语智能 ChatYuan、ChatGPT 等 5 类主流大模型**，并以**微信、飞书、QQ 三类前端载体**提供对话、文生图与领域知识库问答能力，为后续社区评测与用户反馈采集提供统一接入层。
 * 将真实社区运营反馈纳入大模型体验评估，沉淀**直接用户 2000+、间接覆盖用户 2万+**，服务 OpenI 启智社区、鹏程·盘古、元语智能、飞桨领航团等多个 AI 社区。
 * 项目入围 **2023 年奇绩春季创业营（S23）面试**，并获得 **2022 年启智社区优秀孵化项目奖**。
 
@@ -217,7 +217,7 @@ redirect_from:
 **[飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) | 华东区主管**<br>
 *2021.09 - 2022.07*
 
-* 统筹飞桨领航团**华东七省**运营，主导高校拓展、团长选拔、活动策划与项目落地，任期内新增覆盖高校 **50+** 所，涵盖浙江大学、东南大学、上海科技大学、南京航空航天大学、苏州大学、华东理工大学、合肥工业大学等高校。
+* 统筹飞桨领航团**华东七省**运营，主导高校拓展、团长选拔、活动策划与项目落地，任期内新增覆盖高校 **50+** 所，涵盖浙江大学、东南大学、上海科技大学、南京航空航天大学、苏州大学、华东理工大学、合肥工业大学等 **985 / 211 / 双一流**院校。
 
 **[华东理工大学飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) | 团长**<br>
 *2021.04 - 2022.01*
