@@ -107,3 +107,48 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.highlight-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1.25rem 0 1.75rem;
+
+    @include breakpoint($medium) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.highlight-card {
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid #00369f;
+    border-radius: 6px;
+    padding: 1rem 1.1rem;
+    background: #fafafa;
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.project-entry {
+    border-bottom: 1px #efefef solid;
+    padding: 1.5em 0;
+}
+
+.archive-details {
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    margin: 1.25rem 0;
+    padding: .85rem 1rem;
+    background: #fbfbfb;
+
+    summary {
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    ul {
+        margin-top: .75rem;
+    }
+}

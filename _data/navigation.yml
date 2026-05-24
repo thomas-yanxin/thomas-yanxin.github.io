@@ -3,32 +3,29 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
+  - title: "Highlights"
+    url: "/#highlights"
+
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Publications"
-    url: "/#-publications"
-
-  - title: "Awards"
-    url: "/#-awards"
-
-  - title: "Honors"
-    url: "/#-honors"
+  - title: "Experience"
+    url: "/#experience"
 
   - title: "Projects"
-    url: "/#-projects"
+    url: "/#projects"
 
-  - title: "Activities"
-    url: "/#-activities"
+  - title: "Publications & IP"
+    url: "/#publications-ip"
 
-  - title: "Social Practices"
-    url: "/#-social-practices"
-    
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  - title: "Awards & Honors"
+    url: "/#awards-honors"
 
-  - title: "Dispersions"
-    url: "/#-dispersions"
+  - title: "Talks & Media"
+    url: "/#talks-media"
+
+  - title: "Community"
+    url: "/#community-activities"
+
+  - title: "Education"
+    url: "/#education"
