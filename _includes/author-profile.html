@@ -119,6 +119,9 @@
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
     </ul>
+      <a href="{{ '/proof/yanxin.pdf' | relative_url }}" class="btn btn--block author__cv-btn" download>
+        <i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download CV
+      </a>
       <div class="author__urls_sm">
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
