@@ -26,6 +26,7 @@ redirect_from:
 </p>
 
 # 🔥 News
+* *2026.05*：&nbsp; 🎉🎉 出版 《LangChain 大模型应用开发 从入门到实践》, 清华大学出版社, 周涛 薛栋 **颜鑫** 编著
 * *2026.01*：&nbsp; 🎉🎉 2025合成数据大赛 · 灵溪AI for Mental Health主题赛 **一等奖**
 * *2025.09*: &nbsp; 🎉🎉 2025年云栖大会 「做AI，Z世代不一样！」分论坛 **Speaker**
 * *2025.07*: &nbsp; 🎉🎉 2024年中国国际大学生创新大赛 **铜奖**
@@ -54,6 +55,7 @@ redirect_from:
 
 
 # 📝 Publications
+* 周涛, 薛栋, **颜鑫**. LangChain大模型应用开发：从入门到实践[M]. 北京: 清华大学出版社, 2024.
 * **X. Yan**, Q. Hu, X. Huang and C. Shen, "[Intelligent Retail Settlement Platform based on Image Retrieval](https://ieeexplore.ieee.org/document/9851085), " 2022 4th International Conference on Communications, Information System and Computer Engineering (CISCE), 2022, pp. 609-616, doi: 10.1109/CISCE55963.2022.9851085
 * 【[实用新型专利](/proof/%E4%B8%93%E5%88%A9-2022208288888%E6%99%BA%E8%83%BD%E9%9B%B6%E5%94%AE%E7%BB%93%E7%AE%97%E5%B9%B3%E5%8F%B0.pdf)】: 智能零售结算平台; 发明人:**颜鑫**、沈晨、杜旭东; 专利号: ZL 2022 2 0828888.8; 授权公告号: CN 216979871 U
 * 【[软件著作权](/proof/%E8%BD%AF%E4%BB%B6%E8%91%97%E4%BD%9C%E6%9D%83-%E8%A2%8B%E9%BC%AF%E9%BA%BB%E9%BA%BB.jpg)】: 袋鼯麻麻——智能零售结算系统V1.0; 著作权人:**颜鑫**; 胡庆春; 沈晨; 杜旭东; 黄小悦; 申佳川; 登记号:2022SRE010935
