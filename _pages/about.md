@@ -92,7 +92,7 @@ redirect_from:
 
 </details> -->
 
-<span class='anchor' id='publications-ip'></span>
+<span class='anchor' id='publications'></span>
 <span class='anchor' id='-publications'></span>
 
 # Publications
