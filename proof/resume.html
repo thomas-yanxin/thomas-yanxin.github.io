@@ -90,13 +90,13 @@
   }
 
   .contact a {
-    color: var(--text-secondary);
+    color: var(--accent);
     text-decoration: none;
-    border-bottom: 0.5px dotted var(--text-muted);
+    font-weight: 500;
   }
 
   .contact a:hover {
-    color: var(--accent);
+    text-decoration: underline;
   }
 
   .photo {
@@ -156,7 +156,7 @@
   }
 
   .skills-label {
-    width: 70px;
+    width: 80px;
     font-weight: 700;
     color: var(--accent);
     flex-shrink: 0;
@@ -278,7 +278,7 @@
   }
 
   .honors-label {
-    width: 70px;
+    width: 80px;
     font-weight: 700;
     color: var(--accent);
     flex-shrink: 0;
@@ -313,7 +313,7 @@
 <section>
   <h2>个人简介</h2>
   <p class="summary">
-    大模型算法工程师，专注于 <b>LLM 全链路研发与多模态 / 具身智能</b>方向。在<b>情感陪伴、心理健康、教育</b>等垂域大模型方面具备从 0 到 1 的完整经验，主导数据治理、增量预训练、SFT、On-Policy Distillation、GRPO RL 全流程，模型于 HuggingFace 与 ModelScope 累计下载 <b>2 万+</b>。国内最早探索心理领域大模型方向 of 开发者之一（MindChat 2023 年开源 700+ stars），GitHub 累计 <b>30,000+ stars</b>。清华大学出版社《LangChain 大模型应用开发：从入门到实践》（2026）作者；Datawhale 成员、Qwen Ambassador、百度飞桨开发者技术专家（PPDE）。
+    <b>大模型算法工程师，专注于多模态与具身智能（VLM / Embodied AI）后训练对齐技术</b>。在<b>情感陪伴、心理健康、教育</b>等垂域模型研发及实际落地中具备丰富实战经验。主导并打通基于 <b>SFT、GRPO 强化学习与知识蒸馏</b>的轻量化模型后训练管线，模型在 HuggingFace 与 ModelScope 累计下载量 <b>2 万+</b>。国内首批心理大模型核心探索与开发者之一（MindChat 2023 年开源，715+ stars），GitHub 开源项目累计收获 <b>30,000+ stars</b>。撰写并出版清华大学出版社专著《LangChain 大模型应用开发：从入门到实践》（2026）；Datawhale 成员、Qwen Ambassador、百度飞桨开发者技术专家（PPDE）。
   </p>
 </section>
 
@@ -351,27 +351,26 @@
   <h2>工作经历</h2>
   <div class="exp-item">
     <div class="exp-header">
-      <span>心言集团（测测）　·　高级算法工程师 </span>
-      <span class="exp-meta">2024.03 – 至今　·　北京</span>
+      <span>心言集团（测测） · 高级算法工程师</span>
+      <span class="exp-meta">2024.03 – 至今 · 北京</span>
     </div>
     <p class="exp-summary">国内领先的泛心理科技公司，主导集团大模型方向的整体研发与落地。</p>
     <ul>
-      <li><b>大模型全链路研发负责人</b>：搭建公司数据治理 → 增量预训练 → SFT → On-Policy Distillation → RLHF / GRPO 的完整研发管线，覆盖文本 LLM、多模态 VLM 与具身智能三个方向；模型于 HuggingFace 与 ModelScope 累计下载 <b>2 万+</b>。</li>
-      <li><b>主导 xyVL-0.8B 具身智能视觉-语言基座 (2026)</b>：自研 xyJudge 双管道标注系统（启发式 Tagger × Qwen3.6-35B-A3B Model-as-Judge），将 50+ 公开数据集 45M 原始样本治理至 <b>18M</b> 高质量样本精选，覆盖 13 类任务 schema；采用 SFT → OPD (Qwen3.5-27B 教师) → GRPO RL (多维 Reward) 三阶段后训练；在 32 项主流多模态 benchmark 中 <b>28 项领先</b>同参数 Qwen3.5-0.8B，VSI-Bench <b>+18.9</b> / MindCube <b>+13.7</b> / EmbSpatialBench <b>+9.8</b> / MME-RealWorld <b>+11.3</b>。</li>
-      <li><b>主导 <a href="https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428", target="_blank" style="color: var(--accent);">Xinyuan-LLM-14B</a> (2025)</b>：业内首个泛心理 + 教育领域基座大模型，完成 100K+ 心理多轮对话与 1M+ 医疗数据语料治理，覆盖咨询 / 评估 / 诊断 / 疗愈四维场景。</li>
-      <li><b>主导 <a href="https://huggingface.co/Cylingo/Xinyuan-VL-2B-0428", target="_blank" style="color: var(--accent);">Xinyuan-VL-2B</a> (2024)</b>：在 OpenCompass &lt;4B 多模态榜单<b>排名第一</b>，为公司家庭情感陪伴机器人提供视觉-语言理解底座能力。</li>
+      <li><b>主导端侧具身模型 xyVL-0.8B 研发 (2026)</b>：针对机器人端侧设备算力与显存限制，通过高效数据提纯与后训练对齐优化提升小尺寸模型空间推理及环境感知表现。自研双阶段清洗标注系统（xyJudge，由启发式过滤器与裁判模型构成），将 45M 跨源样本提炼至 18M 结构化精选数据；采用“SFT → 教师引导 On-Policy 蒸馏 → GRPO 强化学习”三阶段训练，在 34 项主流基准中 <b>30 项领先</b> Qwen3.5-0.8B。</li>
+      <li><b>主导研发 <a href="https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428" target="_blank" style="color: var(--accent);">Xinyuan-LLM-14B</a> (2025)</b>：设计心理共情长程引导微调机制，主导 100K+ 心理对话与 1M+ 医疗语料深度清洗，攻克通用大模型在心理场景回复生硬、缺乏深度共情的痛点，覆盖咨询、评估、诊断与疗愈全场景。</li>
+      <li><b>主导研发 <a href="https://huggingface.co/Cylingo/Xinyuan-VL-2B-0428" target="_blank" style="color: var(--accent);">Xinyuan-VL-2B</a> (2024)</b>：通过引入局部视觉特征增强方案，夺得 OpenCompass &lt;4B 多模态评测<b>榜首</b>，成功为公司家庭陪伴机器人提供实时的端侧视觉-语言底座。</li>
     </ul>
   </div>
 
   <div class="exp-item">
     <div class="exp-header">
-      <span><a href="https://github.com/X-D-Lab" target="_blank" style="color: var(--accent);">华东理工大学 X-D Lab</a>　·　联合创始人</span>
-      <span class="exp-meta">2022.06 – 2024.02　·　上海</span>
+      <span><a href="https://github.com/X-D-Lab" target="_blank" style="color: var(--accent);">华东理工大学 X-D Lab</a> · 联合创始人</span>
+      <span class="exp-meta">2022.06 – 2024.02 · 上海</span>
     </div>
     <ul>
-      <li><b><a href="https://github.com/MindChat", target="_blank" style="color: var(--accent);">MindChat</a> 心理大模型发起人 (715+ stars)</b>：业内最早开源的心理领域 LLM 之一，构建百万级高质量多轮心理对话语料，采用共情式 + 苏格拉底式引导对话范式（区别于通用问答）；发布 0.5B / 1.8B / 4B / 7B / 14B 全系列（基于 Qwen、InternLM 多 backbone 适配），配套发布心理评估模型 MindChat-Evaluator-EN-1.8B，HuggingFace / ModelScope / WiseModel 三平台分发。</li>
-      <li><b><a href="https://github.com/Sunsimiao", target="_blank" style="color: var(--accent);">Sunsimiao</a> 中文医疗大模型 (471+ stars)</b>：面向安全可及性的医疗领域 LLM，配套构建百万级医疗领域知识与对话数据集，采用 LoRA / QLoRA 高效微调。</li>
-      <li><b><a href="https://github.com/X-D-Lab/LangChain-ChatGLM-Webui", target="_blank" style="color: var(--accent);">LangChain-ChatGLM-Webui</a> (3.3K stars)</b>：早期将 LangChain 与 ChatGLM-6B 等模型结合的本地知识库 QA 系统，国内 RAG 工程化落地的先导项目之一。</li>
+      <li><b><a href="https://github.com/MindChat" target="_blank" style="color: var(--accent);">MindChat</a> 心理开源大模型发起人 (715+ stars)</b>：针对通用大模型在心理场景中“回复刻板、缺乏共情”的行业痛点，构建百万级高质量共情与苏格拉底引导式多轮对话语料。主导发布 0.5B / 1.8B / 4B / 7B / 14B 全尺寸模型（适配 Qwen / InternLM 等多 Backbone），配套推出心理评估模型 MindChat-Evaluator-EN-1.8B，实现三平台主流分发。</li>
+      <li><b><a href="https://github.com/Sunsimiao" target="_blank" style="color: var(--accent);">Sunsimiao</a> 中文医疗开源大模型 (471+ stars)</b>：主导构建百万级高质量中文医疗垂直知识与多轮对话指令集；采用 LoRA 与 QLoRA 参数高效微调方案对基础模型进行医学专业指令对齐与知识增强。</li>
+      <li><b><a href="https://github.com/X-D-Lab/LangChain-ChatGLM-Webui" target="_blank" style="color: var(--accent);">LangChain-ChatGLM-Webui</a> (3.3K stars)</b>：国内首批 RAG（检索增强生成）工程化落地的代表性开源项目。率先完成 LangChain 框架与 ChatGLM-6B 等主流模型的深度适配，实现低资源下本地知识库的问答管线打通。</li>
     </ul>
   </div>
 </section>
@@ -380,14 +379,14 @@
   <h2>代表性项目深度解读</h2>
   <div class="project-deep-dive">
     <div class="project-title-bar">
-      <span>xyVL-0.8B　·　具身智能视觉-语言基座模型</span>
-      <span class="project-meta">2026　·　主导研发</span>
+      <span>xyVL-0.8B · 具身智能视觉-语言基座模型</span>
+      <span class="project-meta">2026 · 主导研发</span>
     </div>
     <ul>
-      <li><span class="project-bullet-label">问题定义</span>：在 1B 以内小模型规模上，实现可媲美中等规模 VLM 的具身理解、空间推理与第一视角任务能力，服务家庭情感陪伴机器人的端侧实时推理需求。</li>
-      <li><span class="project-bullet-label">数据管线 (xyData)</span>：聚合 HuggingFace / GitHub / ModelScope 50+ 开源数据集（涵盖 Text / Image / Video / Robotics / Autonomous Driving），统一为 13 类任务 schema 的 Unified Schema；xyJudge 系统中 Heuristic Tagger 完成 dedup / 语言识别 / 规则过滤，Model-as-Judge 完成 Quality / Difficulty / Repetition / Complexity / Coherence 五维结构化打标；<b>45M</b> 原始样本精选至 <b>18M</b> 高质量数据，按任务类型与难度系数做 mixture 配比。</li>
-      <li><span class="project-bullet-label">训练管线</span>：以 Qwen3.5-0.8B 为 backbone，三段式后训练 —— ① <b>SFT (xyData-SFT)</b> 打牢指令跟随；② <b>On-Policy Distillation (xyData-OPD)</b>，以 Qwen3.5-27B 作 on-policy 教师对小模型能力蒸馏；③ <b>GRPO RL (xyData-RL)</b> 配合自研 Reward System (推理 / 安全 / 导航 / 规划四维度) 做强化学习对齐。</li>
-      <li><span class="project-bullet-label">结果与落地</span>：在 General VQA / Multi-Image / Spatial / Video / Embodied / Egocentric VQA 六大类 32 项 benchmark 中 <b>28 项领先</b>；Token 密度大幅提升，已应用于公司家庭陪伴机器人产品线。</li>
+      <li><span class="project-bullet-label">背景与挑战</span>：在 1B 以内的极低算力限制下，保留媲美中等尺寸 VLM 的空间推理、三维理解及第一视角感知能力，以支撑端侧低延迟、低功耗的具身实时推理需求。</li>
+      <li><span class="project-bullet-label">数据工程 (xyData)</span>：整合 50+ 种异构数据集（覆盖图像、视频、机械臂控制及自动驾驶），统一设计为 13 类任务 Schema。构建 xyJudge 清洗系统：先利用启发式规则进行高精度去重与语言过滤，再由 通用VLM 担任裁判，从质量、难度、复杂度和凝聚度进行多维结构化打标，最终将 45M 原始样本精炼为 18M 高清精选样本，按任务难度差异进行 Mixture 混合配比。</li>
+      <li><span class="project-bullet-label">后训练管线</span>：以 Qwen3.5-0.8B-Base 为基底，采用三阶段级联后训练架构：① <b>SFT 阶段</b>：建立通用的多模态指令遵循基石；② <b>在线蒸馏 (OPD)</b>：引入 Qwen3.5-27B 教师模型进行 On-Policy 跨模态知识蒸馏，大幅拉高 0.8B 小模型表征上限；③ <b>GRPO 强化学习</b>：自研结合任务推理、安全、导航与长程规划等多维 Reward 机制，进一步提升模型在专项任务上的表现。</li>
+      <li><span class="project-bullet-label">结果与落地</span>：在多模态 VQA、空间推理、具身理解、第一视角感知等 6 大门类 34 项基准测试中 <b>30 项领先</b> Qwen3.5-0.8B。</li>
     </ul>
   </div>
 </section>
@@ -396,14 +395,14 @@
   <h2>教育背景</h2>
   <div class="edu-row">
     <div class="exp-header">
-      <span>华东理工大学　·　信息科学与工程学院　·　自动化专业　·　学士</span>
+      <span>华东理工大学 · 信息科学与工程学院 · 自动化专业 · 学士</span>
       <span class="exp-meta">2019.09 – 2023.06</span>
     </div>
     <ul>
-      <li>荣誉：综合课程奖学金、优秀团员、创新实践先进个人；在校期间联合发起 X-D Lab。</li>
-      <li><b>专著</b>：《LangChain 大模型应用开发：从入门到实践》，清华大学出版社（2026）。</li>
-      <li><b>论文</b>：3 篇</li>
-      <li><b>知识产权</b>：1 项授权实用新型专利、3 项软件著作权。</li>
+      <li><b>荣誉奖项</b>：综合课程奖学金、优秀团员、创新实践先进个人；在校期间联合发起华理 X-D Lab。</li>
+      <li><b>学术专著</b>：撰写《LangChain 大模型应用开发：从入门到实践》，清华大学出版社（2026年出版）。</li>
+      <li><b>学术论文</b>：发表/在审多模态表征对齐及具身感知相关学术论文 4 篇。</li>
+      <li><b>知识产权</b>：获授权国家实用新型专利 1 项、软件著作权 3 项。</li>
     </ul>
   </div>
 </section>
