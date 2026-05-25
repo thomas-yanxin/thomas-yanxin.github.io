@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>颜鑫 - 简历</title>
+<style>
+  :root {
+    --accent: #0b3d63;       /* 核心主题色：深海蓝 */
+    --text-primary: #1e293b;  /* 主文字色：深灰蓝 */
+    --text-secondary: #475569;/* 次要文字色：中灰蓝 */
+    --text-muted: #64748b;     /* 辅助文字色：浅灰蓝 */
+    --border-color: #e2e8f0;   /* 细分割线颜色 */
+    --font-size-body: 8.1pt;  /* 精准微调字号：极大提高单页容纳率 */
+    --line-height-body: 1.33;  /* 紧凑而易读的行高 */
+  }
+
+  @page {
+    size: A4;
+    margin: 5mm 10mm 4mm 10mm; /* 极致优化的 A4 打印边距 */
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: var(--text-primary);
+    background: #fff;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ===== Header with Photo ===== */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1px;
+  }
+
+  .header-left {
+    flex: 1;
+  }
+
+  .name-row {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin-bottom: 2px;
+  }
+
+  .name-cn {
+    font-size: 16.5pt;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: var(--text-primary);
+  }
+
+  .name-en {
+    font-size: 9.5pt;
+    color: var(--text-secondary);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+
+  .subtitle {
+    font-size: 9.2pt;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 2px;
+    font-size: 7.8pt;
+    color: var(--text-secondary);
+  }
+
+  .contact span {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .contact a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    border-bottom: 0.5px dotted var(--text-muted);
+  }
+
+  .contact a:hover {
+    color: var(--accent);
+  }
+
+  .photo {
+    width: 20mm;
+    height: 25mm;
+    object-fit: cover;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    margin-left: 12px;
+  }
+
+  .header-rule {
+    border: 0;
+    border-top: 1.5px solid var(--accent);
+    margin: 3px 0 5px 0;
+  }
+
+  /* ===== Sections ===== */
+  section {
+    margin-top: 4px;
+    page-break-inside: avoid;
+  }
+
+  h2 {
+    font-size: 9.2pt;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0 0 3px 0;
+    padding: 0.5px 0 1px 5px;
+    border-left: 3px solid var(--accent);
+    border-bottom: 1px solid var(--border-color);
+    letter-spacing: 0.5px;
+  }
+
+  /* ===== Summary ===== */
+  .summary {
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: var(--font-size-body);
+    color: var(--text-primary);
+    line-height: 1.35;
+  }
+
+  /* ===== Technical Skills ===== */
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .skills-row {
+    display: flex;
+    align-items: flex-start;
+    font-size: 7.8pt;
+    line-height: 1.32;
+  }
+
+  .skills-label {
+    width: 70px;
+    font-weight: 700;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .skills-content {
+    flex: 1;
+    color: var(--text-primary);
+  }
+
+  /* ===== Experience ===== */
+  .exp-item {
+    margin-bottom: 3px;
+  }
+  
+  .exp-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 700;
+    font-size: 8.8pt;
+    color: var(--text-primary);
+    margin-bottom: 1px;
+  }
+
+  .exp-meta {
+    font-size: 7.8pt;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .exp-summary {
+    font-size: 7.8pt;
+    color: var(--text-secondary);
+    margin: 0 0 2px 0;
+    font-weight: 500;
+  }
+
+  /* ===== Bullets ===== */
+  ul {
+    margin: 0;
+    padding-left: 8px;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    padding-left: 1px;
+    margin-bottom: 1.5px;
+    font-size: 7.8pt;
+    line-height: 1.32;
+    text-align: justify;
+  }
+
+  li::before {
+    content: "•";
+    position: absolute;
+    left: -7px;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  b {
+    font-weight: 600;
+    color: #000;
+  }
+
+  /* ===== Representative Project Deep Dive ===== */
+  .project-deep-dive {
+    margin-bottom: 1px;
+  }
+
+  .project-title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 700;
+    font-size: 8.8pt;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+  }
+
+  .project-meta {
+    font-size: 7.8pt;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .project-bullet-label {
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  /* ===== Combined Education & Achievements ===== */
+  .edu-row {
+    margin-bottom: 2px;
+  }
+
+  /* ===== Honors & Influence ===== */
+  .honors-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .honors-row {
+    display: flex;
+    align-items: flex-start;
+    font-size: 7.8pt;
+    line-height: 1.32;
+  }
+
+  .honors-label {
+    width: 70px;
+    font-weight: 700;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .honors-content {
+    flex: 1;
+    color: var(--text-primary);
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <div class="name-row">
+      <span class="name-cn">颜 鑫</span>
+      <span class="name-en">Yan Xin</span>
+    </div>
+    <div class="subtitle">心言集团（测测） · 高级算法工程师</div>
+    <div class="contact">
+      <span>yx20001210@163.com</span>
+      <span>北京</span>
+      <span><a href="https://thomas-yanxin.github.io" target="_blank">thomas-yanxin.github.io</a></span>
+      <span><a href="https://github.com/thomas-yanxin" target="_blank">github.com/thomas-yanxin</a></span>
+    </div>
+  </div>
+  <img class="photo" src="../images/zhengjianzhao.JPEG" alt="证件照">
+</header>
+<hr class="header-rule">
+
+<section>
+  <h2>个人简介</h2>
+  <p class="summary">
+    大模型算法工程师，专注于 <b>LLM 全链路研发与多模态 / 具身智能</b>方向。在<b>情感陪伴、心理健康、教育</b>等垂域大模型方面具备从 0 到 1 的完整经验，主导数据治理、增量预训练、SFT、On-Policy Distillation、GRPO RL 全流程，模型于 HuggingFace 与 ModelScope 累计下载 <b>2 万+</b>。国内最早探索心理领域大模型方向 of 开发者之一（MindChat 2023 年开源 700+ stars），GitHub 累计 <b>30,000+ stars</b>。清华大学出版社《LangChain 大模型应用开发：从入门到实践》（2026）作者；Datawhale 成员、Qwen Ambassador、百度飞桨开发者技术专家（PPDE）。
+  </p>
+</section>
+
+<section>
+  <h2>技术专长</h2>
+  <div class="skills-container">
+    <div class="skills-row">
+      <div class="skills-label">大模型训练</div>
+      <div class="skills-content">增量预训练 · SFT · DPO · RLHF · GRPO · On-Policy Distillation · LoRA / QLoRA · 多机多卡分布式训练</div>
+    </div>
+    <div class="skills-row">
+      <div class="skills-label">多模态/具身</div>
+      <div class="skills-content">LLM/VLM 训练与对齐 · Vision Encoder · Spatial / Embodied / Egocentric Reasoning · Video Understanding</div>
+    </div>
+    <div class="skills-row">
+      <div class="skills-label">数据工程</div>
+      <div class="skills-content">大规模数据治理 · Heuristic Tagging · Model-as-Judge · 难度分级 · 合成数据 · 数据配比</div>
+    </div>
+    <div class="skills-row">
+      <div class="skills-label">框架与推理</div>
+      <div class="skills-content">PyTorch · Transformers · DeepSpeed · Megatron · vLLM · SGLang · LangChain · RAG</div>
+    </div>
+    <div class="skills-row">
+      <div class="skills-label">基础模型</div>
+      <div class="skills-content">Qwen 系列 · InternLM · ChatGLM · LLaMA · 飞桨 PaddleNLP (50+ 主流模型实战)</div>
+    </div>
+    <div class="skills-row">
+      <div class="skills-label">语言与平台</div>
+      <div class="skills-content">Python · Bash · Linux · Docker · NVIDIA GPU / 昇腾 NPU · HuggingFace / ModelScope</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>工作经历</h2>
+  <div class="exp-item">
+    <div class="exp-header">
+      <span>心言集团（测测）　·　高级算法工程师 </span>
+      <span class="exp-meta">2024.03 – 至今　·　北京</span>
+    </div>
+    <p class="exp-summary">国内领先的泛心理科技公司，主导集团大模型方向的整体研发与落地。</p>
+    <ul>
+      <li><b>大模型全链路研发负责人</b>：搭建公司数据治理 → 增量预训练 → SFT → On-Policy Distillation → RLHF / GRPO 的完整研发管线，覆盖文本 LLM、多模态 VLM 与具身智能三个方向；模型于 HuggingFace 与 ModelScope 累计下载 <b>2 万+</b>。</li>
+      <li><b>主导 xyVL-0.8B 具身智能视觉-语言基座 (2026)</b>：自研 xyJudge 双管道标注系统（启发式 Tagger × Qwen3.6-35B-A3B Model-as-Judge），将 50+ 公开数据集 45M 原始样本治理至 <b>18M</b> 高质量样本精选，覆盖 13 类任务 schema；采用 SFT → OPD (Qwen3.5-27B 教师) → GRPO RL (多维 Reward) 三阶段后训练；在 32 项主流多模态 benchmark 中 <b>28 项领先</b>同参数 Qwen3.5-0.8B，VSI-Bench <b>+18.9</b> / MindCube <b>+13.7</b> / EmbSpatialBench <b>+9.8</b> / MME-RealWorld <b>+11.3</b>。</li>
+      <li><b>主导 <a href="https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428", target="_blank" style="color: var(--accent);">Xinyuan-LLM-14B</a> (2025)</b>：业内首个泛心理 + 教育领域基座大模型，完成 100K+ 心理多轮对话与 1M+ 医疗数据语料治理，覆盖咨询 / 评估 / 诊断 / 疗愈四维场景。</li>
+      <li><b>主导 <a href="https://huggingface.co/Cylingo/Xinyuan-VL-2B-0428", target="_blank" style="color: var(--accent);">Xinyuan-VL-2B</a> (2024)</b>：在 OpenCompass &lt;4B 多模态榜单<b>排名第一</b>，为公司家庭情感陪伴机器人提供视觉-语言理解底座能力。</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <span><a href="https://github.com/X-D-Lab" target="_blank" style="color: var(--accent);">华东理工大学 X-D Lab</a>　·　联合创始人</span>
+      <span class="exp-meta">2022.06 – 2024.02　·　上海</span>
+    </div>
+    <ul>
+      <li><b><a href="https://github.com/MindChat", target="_blank" style="color: var(--accent);">MindChat</a> 心理大模型发起人 (715+ stars)</b>：业内最早开源的心理领域 LLM 之一，构建百万级高质量多轮心理对话语料，采用共情式 + 苏格拉底式引导对话范式（区别于通用问答）；发布 0.5B / 1.8B / 4B / 7B / 14B 全系列（基于 Qwen、InternLM 多 backbone 适配），配套发布心理评估模型 MindChat-Evaluator-EN-1.8B，HuggingFace / ModelScope / WiseModel 三平台分发。</li>
+      <li><b><a href="https://github.com/Sunsimiao", target="_blank" style="color: var(--accent);">Sunsimiao</a> 中文医疗大模型 (471+ stars)</b>：面向安全可及性的医疗领域 LLM，配套构建百万级医疗领域知识与对话数据集，采用 LoRA / QLoRA 高效微调。</li>
+      <li><b><a href="https://github.com/X-D-Lab/LangChain-ChatGLM-Webui", target="_blank" style="color: var(--accent);">LangChain-ChatGLM-Webui</a> (3.3K stars)</b>：早期将 LangChain 与 ChatGLM-6B 等模型结合的本地知识库 QA 系统，国内 RAG 工程化落地的先导项目之一。</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>代表性项目深度解读</h2>
+  <div class="project-deep-dive">
+    <div class="project-title-bar">
+      <span>xyVL-0.8B　·　具身智能视觉-语言基座模型</span>
+      <span class="project-meta">2026　·　主导研发</span>
+    </div>
+    <ul>
+      <li><span class="project-bullet-label">问题定义</span>：在 1B 以内小模型规模上，实现可媲美中等规模 VLM 的具身理解、空间推理与第一视角任务能力，服务家庭情感陪伴机器人的端侧实时推理需求。</li>
+      <li><span class="project-bullet-label">数据管线 (xyData)</span>：聚合 HuggingFace / GitHub / ModelScope 50+ 开源数据集（涵盖 Text / Image / Video / Robotics / Autonomous Driving），统一为 13 类任务 schema 的 Unified Schema；xyJudge 系统中 Heuristic Tagger 完成 dedup / 语言识别 / 规则过滤，Model-as-Judge 完成 Quality / Difficulty / Repetition / Complexity / Coherence 五维结构化打标；<b>45M</b> 原始样本精选至 <b>18M</b> 高质量数据，按任务类型与难度系数做 mixture 配比。</li>
+      <li><span class="project-bullet-label">训练管线</span>：以 Qwen3.5-0.8B 为 backbone，三段式后训练 —— ① <b>SFT (xyData-SFT)</b> 打牢指令跟随；② <b>On-Policy Distillation (xyData-OPD)</b>，以 Qwen3.5-27B 作 on-policy 教师对小模型能力蒸馏；③ <b>GRPO RL (xyData-RL)</b> 配合自研 Reward System (推理 / 安全 / 导航 / 规划四维度) 做强化学习对齐。</li>
+      <li><span class="project-bullet-label">结果与落地</span>：在 General VQA / Multi-Image / Spatial / Video / Embodied / Egocentric VQA 六大类 32 项 benchmark 中 <b>28 项领先</b>；Token 密度大幅提升，已应用于公司家庭陪伴机器人产品线。</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>教育背景</h2>
+  <div class="edu-row">
+    <div class="exp-header">
+      <span>华东理工大学　·　信息科学与工程学院　·　自动化专业　·　学士</span>
+      <span class="exp-meta">2019.09 – 2023.06</span>
+    </div>
+    <ul>
+      <li>荣誉：综合课程奖学金、优秀团员、创新实践先进个人；在校期间联合发起 X-D Lab。</li>
+      <li><b>专著</b>：《LangChain 大模型应用开发：从入门到实践》，清华大学出版社（2026）。</li>
+      <li><b>论文</b>：3 篇</li>
+      <li><b>知识产权</b>：1 项授权实用新型专利、3 项软件著作权。</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>荣誉与社区影响力</h2>
+  <div class="honors-container">
+    <div class="honors-row">
+      <div class="honors-label">主要奖项</div>
+      <div class="honors-content">2025 灵犀 AI for Mental Health 主题合成数据赛 <b>一等奖</b> · 2024 中国国际大学生创新大赛 <b>铜奖</b> · 2023 第九届 "互联网+" 全国大学生创新大赛 <b>全国铜奖 / 省级金奖</b> · 2022 第八届 "互联网+" <b>全国银奖</b> / 第 24 届中国机器人及人工智能大赛 <b>全国一等奖</b></div>
+    </div>
+    <div class="honors-row">
+      <div class="honors-label">社区认证</div>
+      <div class="honors-content">Qwen Ambassador · 百度飞桨开发者技术专家 (PPDE) · 开放原子开源基金会活跃贡献者 · PaddlePaddle AIStudio 2022 年度风云人物 TOP10 · OpenI 启智社区核心体验官 · Datawhale 成员</div>
+    </div>
+    <div class="honors-row">
+      <div class="honors-label">开源影响力</div>
+      <div class="honors-content">GitHub 累计 <b>30,000+ stars</b>（LangChain-ChatGLM-Webui 3.3K / MindChat 715+ / Sunsimiao 471+ / ColugoMum 288+ 等）</div>
+    </div>
+    <div class="honors-row">
+      <div class="honors-label">团队领导</div>
+      <div class="honors-content">飞桨领航团华东赛区<b>区域负责人</b>（2021-2022，覆盖 7 省 50+ 高校） · 华东理工大学飞桨团队 <b>创始负责人</b></div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
