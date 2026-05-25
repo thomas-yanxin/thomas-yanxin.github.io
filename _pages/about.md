@@ -95,7 +95,7 @@ redirect_from:
 <span class='anchor' id='publications-ip'></span>
 <span class='anchor' id='-publications'></span>
 
-# Publications & IP
+# Publications
 
 * 周涛、薛栋、**颜鑫**. 《LangChain 大模型应用开发：从入门到实践》[M]. 清华大学出版社.
 * D. Xue, J. Tu, M. Wang, **X. Yan**, F. Liu and J. Hu, "[Towards Privacy-Preserving Mental Health Support with Large Language Models](https://arxiv.org/abs/2601.01993)," *arXiv preprint* arXiv:2601.01993, 2026.
