@@ -5,6 +5,8 @@ excerpt: ""
 author_profile: true
 ---
 
+<span class='anchor' id='about-en'></span>
+
 # About
 
 I believe the real value of large language models lies not in answering everything, but in being **trustworthy and useful in specific contexts**.
@@ -15,7 +17,7 @@ I led projects including **Xinyuan-LLM, Xinyuan-VL, MindChat, Sunsimiao, ColugoM
 
 The question I keep asking: **How can we make AI more usable, safer, and more sustainable in real human scenarios?**
 
-<span class='anchor' id='-news-en'></span>
+<span class='anchor' id='news-en'></span>
 
 # News
 
@@ -25,7 +27,7 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 * *2025.07*: Bronze Award in the 2024 China International College Students' Innovation Competition.
 * *2025.07*: Joint interview by Alibaba Cloud Tongyi Lab and ModelScope community.
 
-<span class='anchor' id='-experience-en'></span>
+<span class='anchor' id='experience-en'></span>
 
 # Experience
 
@@ -41,7 +43,7 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 * Released [Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428), a domain foundation model for mental health and education.
 * Led external technical evangelism, including a keynote at the Alibaba Cloud ModelScope developer event and a joint interview with Alibaba Cloud Tongyi Lab and ModelScope.
 
-<span class='anchor' id='-projects-en'></span>
+<span class='anchor' id='projects-en'></span>
 
 # Selected Projects
 
@@ -69,7 +71,7 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 
 **Results**: Served as a unified access layer for community evaluation and feedback, reaching **2,000+ direct users** and **20,000+ indirect users**. The project was shortlisted for the **2023 MiraclePlus Spring Camp (S23) interview**.
 
-<span class='anchor' id='-publications-en'></span>
+<span class='anchor' id='publications-ip-en'></span>
 
 # Publications & IP
 
@@ -81,7 +83,7 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 * Utility Model Patent: Smart Retail Settlement Platform.
 * Software Copyrights: ColugoMum, Intelligent Waste Sorting System, Domain-Knowledge-Based Q&A System.
 
-<span class='anchor' id='-awards-en'></span>
+<span class='anchor' id='awards-honors-en'></span>
 
 # Awards & Honors
 
@@ -102,7 +104,7 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 * Datawhale Member
 * Qwen Ambassador
 
-<span class='anchor' id='-talks-en'></span>
+<span class='anchor' id='talks-media-en'></span>
 
 # Talks & Media
 
@@ -122,7 +124,7 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 * ScienceNet: "They Developed a Mental Health LLM with Tongyi Qwen"
 * Synced SOTA Models: Multiple new releases of MindChat and related projects
 
-<span class='anchor' id='-community-en'></span>
+<span class='anchor' id='community-activities-en'></span>
 
 # Community & Activities
 
@@ -137,14 +139,14 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 * Built the university-level navigator group from scratch, organizing lectures, competitions, and hands-on projects, reaching **100+ participants** and incubating **10+ high-quality projects**.
 * Drove the implementation of the Baidu-ECUST industry-education collaboration course.
 
-<span class='anchor' id='-education-en'></span>
+<span class='anchor' id='education-en'></span>
 
 # Education
 
 **East China University of Science and Technology | School of Information Science and Engineering | Automation**<br>
 *2019.09 - 2023.06*
 
-<span class='anchor' id='-contact-en'></span>
+<span class='anchor' id='contact-en'></span>
 
 # Contact
 

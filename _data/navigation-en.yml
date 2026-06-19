@@ -1,0 +1,31 @@
+# English navigation
+main:
+  - title: "News"
+    url: "/en/#news-en"
+
+  - title: "Experience"
+    url: "/en/#experience-en"
+
+  - title: "Projects"
+    url: "/en/#projects-en"
+
+  - title: "Publications & IP"
+    url: "/en/#publications-ip-en"
+
+  - title: "Awards & Honors"
+    url: "/en/#awards-honors-en"
+
+  - title: "Talks & Media"
+    url: "/en/#talks-media-en"
+
+  - title: "Community"
+    url: "/en/#community-activities-en"
+
+  - title: "Education"
+    url: "/en/#education-en"
+
+  - title: "Contact"
+    url: "/en/#contact-en"
+
+  - title: "中文"
+    url: "/"
