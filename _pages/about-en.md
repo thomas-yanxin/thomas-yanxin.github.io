@@ -9,17 +9,27 @@ author_profile: true
 
 I believe the real value of large language models lies not in answering everything, but in being **trustworthy and useful in specific contexts**.
 
-I graduated from **East China University of Science and Technology**, majoring in Automation, and currently work as a **Senior Algorithm Engineer at Xinyuan Group (Celingo)**. Over the past few years, I have focused on **affective intelligence and domain-specific large model deployment**, building full-cycle pipelines from data curation and continual pre-training to SFT, RLHF, model deployment, and community operations across scenarios including mental health, healthcare, retail, and community applications.
+I graduated from **East China University of Science and Technology**, majoring in Automation, and currently work as a **Senior Algorithm Engineer at Cylingo (Xinyuan Group)**. Over the past few years, I have focused on **affective intelligence and domain-specific large model deployment**, building full-cycle pipelines from data curation and continual pre-training to SFT, RLHF, model deployment, and community operations across scenarios including mental health, healthcare, retail, and community applications.
 
 I led projects including **Xinyuan-LLM, Xinyuan-VL, MindChat, Sunsimiao, ColugoMum, and OXiaoPeng**, which have collectively earned **20,000+ GitHub Stars** and appeared multiple times on GitHub Trending. I have also published **1 book** on LLM application development, **4 papers**, and hold **1 utility model patent and 3 software copyrights**. My work has received **7 national-level awards** and over **10 provincial/municipal awards**.
 
 The question I keep asking: **How can we make AI more usable, safer, and more sustainable in real human scenarios?**
 
+<span class='anchor' id='-news-en'></span>
+
+# News
+
+* *2026.05*: Co-authored *LangChain Large Model Application Development: From Beginner to Practice*, Tsinghua University Press.
+* *2026.01*: First Prize in the 2025 Synthetic Data Competition · Lingxi AI for Mental Health track.
+* *2025.09*: Speaker at the 2025 Apsara Conference session "Doing AI, the Gen-Z Way".
+* *2025.07*: Bronze Award in the 2024 China International College Students' Innovation Competition.
+* *2025.07*: Joint interview by Alibaba Cloud Tongyi Lab and ModelScope community.
+
 <span class='anchor' id='-experience-en'></span>
 
 # Experience
 
-**Xinyuan Group (Celingo) | Senior Algorithm Engineer**<br>
+**Cylingo (Xinyuan Group) | Senior Algorithm Engineer**<br>
 *March 2024 - Present*
 
 **Problem**: General-purpose LLMs tend to give generic responses in mental health and education scenarios. They lack domain knowledge and struggle with safety and empathy boundaries.
@@ -70,6 +80,69 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 * **X. Yan**, Q. Hu, X. Huang and C. Shen, "[Intelligent Retail Settlement Platform based on Image Retrieval](https://ieeexplore.ieee.org/document/9851085)," CISCE, 2022.
 * Utility Model Patent: Smart Retail Settlement Platform.
 * Software Copyrights: ColugoMum, Intelligent Waste Sorting System, Domain-Knowledge-Based Q&A System.
+
+<span class='anchor' id='-awards-en'></span>
+
+# Awards & Honors
+
+## Featured Awards
+
+* First Prize, 2025 Synthetic Data Competition · Lingxi AI for Mental Health
+* Bronze Award, 2024 China International College Students' Innovation Competition
+* Bronze Award, 2023 9th China International "Internet+" Innovation Competition (Lingxin Intelligence)
+* Silver Award, 2022 8th China International "Internet+" Innovation Competition (Xiaosheng Technology)
+* National First Prize, 2022 24th China Robot and Artificial Intelligence Competition
+
+## Selected Honors
+
+* Baidu PaddlePaddle Developer Expert (PPDE)
+* OpenAtom Foundation Active Open Source Contributor
+* Baidu AIStudio 2022 Top 10 Influential Figures
+* OpenI Community Core Early Experience Officer
+* Datawhale Member
+* Qwen Ambassador
+
+<span class='anchor' id='-talks-en'></span>
+
+# Talks & Media
+
+## Invited Talks
+
+* *2025.09*: Speaker, Apsara Conference "Doing AI, the Gen-Z Way"
+* *2025.05*: Alibaba Cloud ModelScope Developer Co-Creation Event, "Open Source Technology Driving Pan-Psychological Services and AI Inclusion"
+* *2023.06*: PaddlePaddle LLM Application Development Course, "Building an Intelligent Document Query Assistant"
+* *2023.05*: Datawhale AIGC Learning Program, "Building a Local Knowledge Base QA Application with LangChain and ChatGLM-6B"
+* *2022.04*: PaddlePaddle Industry Practice Library, "Product Recognition Industry Application"
+
+## Media Coverage
+
+* Alibaba Cloud Tongyi Qwen: "Writing Code, Writing Emotions"
+* Founder Park: Interview on Qwen 3 and Xinyuan Group
+* Alibaba Cloud Tongyi Qwen: "Tongyi Qwen + Mental Health = ?"
+* ScienceNet: "They Developed a Mental Health LLM with Tongyi Qwen"
+* Synced SOTA Models: Multiple new releases of MindChat and related projects
+
+<span class='anchor' id='-community-en'></span>
+
+# Community & Activities
+
+**[PaddlePaddle Navigator Group](https://www.paddlepaddle.org.cn/ppdenavigate) | East China Regional Lead**<br>
+*2021.09 - 2022.07*
+
+* Oversaw operations across **7 provinces** in East China, expanding coverage to **50+ universities** including Zhejiang University, Southeast University, ShanghaiTech, Nanjing University of Aeronautics and Astronautics, Soochow University, ECUST, and Hefei University of Technology.
+
+**[ECUST PaddlePaddle Navigator Group](https://www.paddlepaddle.org.cn/ppdenavigate) | Lead**<br>
+*2021.04 - 2022.01*
+
+* Built the university-level navigator group from scratch, organizing lectures, competitions, and hands-on projects, reaching **100+ participants** and incubating **10+ high-quality projects**.
+* Drove the implementation of the Baidu-ECUST industry-education collaboration course.
+
+<span class='anchor' id='-education-en'></span>
+
+# Education
+
+**East China University of Science and Technology | School of Information Science and Engineering | Automation**<br>
+*2019.09 - 2023.06*
 
 <span class='anchor' id='-contact-en'></span>
 
