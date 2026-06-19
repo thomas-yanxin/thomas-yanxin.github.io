@@ -9,7 +9,7 @@ author_profile: true
 
 I believe the real value of large language models lies not in answering everything, but in being **trustworthy and useful in specific contexts**.
 
-I graduated from **East China University of Science and Technology**, majoring in Automation, and currently work as a **Senior Algorithm Engineer at Cylingo (Xinyuan Group)**. Over the past few years, I have focused on **affective intelligence and domain-specific large model deployment**, building full-cycle pipelines from data curation and continual pre-training to SFT, RLHF, model deployment, and community operations across scenarios including mental health, healthcare, retail, and community applications.
+I graduated from **East China University of Science and Technology**, majoring in Automation, and currently work as a **Senior Algorithm Engineer at Cylingo Group**. I lead the R&D of the **Xinyuan** series of domain-specific large language models. Over the past few years, I have focused on **affective intelligence and domain-specific large model deployment**, building full-cycle pipelines from data curation and continual pre-training to SFT, RLHF, model deployment, and community operations across scenarios including mental health, healthcare, retail, and community applications.
 
 I led projects including **Xinyuan-LLM, Xinyuan-VL, MindChat, Sunsimiao, ColugoMum, and OXiaoPeng**, which have collectively earned **20,000+ GitHub Stars** and appeared multiple times on GitHub Trending. I have also published **1 book** on LLM application development, **4 papers**, and hold **1 utility model patent and 3 software copyrights**. My work has received **7 national-level awards** and over **10 provincial/municipal awards**.
 
@@ -29,7 +29,7 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 
 # Experience
 
-**Cylingo (Xinyuan Group) | Senior Algorithm Engineer**<br>
+**Cylingo Group | Senior Algorithm Engineer**<br>
 *March 2024 - Present*
 
 **Problem**: General-purpose LLMs tend to give generic responses in mental health and education scenarios. They lack domain knowledge and struggle with safety and empathy boundaries.
@@ -117,7 +117,7 @@ The question I keep asking: **How can we make AI more usable, safer, and more su
 ## Media Coverage
 
 * Alibaba Cloud Tongyi Qwen: "Writing Code, Writing Emotions"
-* Founder Park: Interview on Qwen 3 and Xinyuan Group
+* Founder Park: Interview on Qwen 3 and Cylingo Group
 * Alibaba Cloud Tongyi Qwen: "Tongyi Qwen + Mental Health = ?"
 * ScienceNet: "They Developed a Mental Health LLM with Tongyi Qwen"
 * Synced SOTA Models: Multiple new releases of MindChat and related projects
