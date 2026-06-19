@@ -27,5 +27,8 @@ main:
   - title: "Education"
     url: "/#-educations"
 
+  - title: "EN"
+    url: "/en/"
+
   - title: "Now & Next"
     url: "/#now-next"
