@@ -17,12 +17,13 @@ redirect_from:
 
 # About Me
 
-我毕业于**华东理工大学信息科学与工程学院自动化专业**，目前在**心言集团（测测）**担任**高级算法工程师**。我的工作聚焦垂域大模型、多模态大模型与智能体应用，在**情感智能**、**具身智能**方向沉淀了从数据治理、增量预训练、SFT/RLHF 到落地部署的完整链路经验，也持续关注计算机视觉、自然语言处理与多智能体协同决策。
+我相信，大模型真正产生价值的地方，不是“什么都能答”，而是**在特定场景中让人愿意信任、持续使用**。
 
-我主导并参与了多个具备落地属性的开源与产业项目，包括 **Xinyuan-LLM**、**Xinyuan-VL**、**MindChat**、**Sunsimiao**、**ColugoMum** 与 **OXiaoPeng** 等，覆盖泛心理、医疗健康、智慧零售与社区问答场景。相关项目在 GitHub 累计获得 **20000+ Stars**，多次进入 GitHub 全球趋势榜，并获得国内外科技媒体、开源社区和产业生态的持续关注。
+我毕业于**华东理工大学信息科学与工程学院自动化专业**，目前在**心言集团（测测）**担任**高级算法工程师**。过去几年，我围绕**情感智能与垂直大模型落地**，在心理、健康、零售与社区运营等场景中，完成了从数据治理、增量预训练、SFT/RLHF 到产品部署与社区运营的完整闭环。
 
-截至目前，我已出版大模型应用开发图书 **1** 本，发表论文 **4** 篇，获授权实用新型专利 **1** 项、软件著作权 **3** 项；累计获得国家级奖项 **7** 项、省市级奖项 **10+** 项，并受邀参加阿里云通义千问发布会、OpenI/O 启智开发者大会、百度 Wave Summit 2021+ 峰会市集展览等活动。
+我主导了 **Xinyuan-LLM、Xinyuan-VL、MindChat、Sunsimiao、ColugoMum** 与 **OXiaoPeng** 等项目，相关项目在 GitHub 累计获得 **20000+ Stars**，多次进入 GitHub Trending；出版大模型应用图书 **1** 本，发表论文 **4** 篇，获授权专利与软件著作权共 **4** 项；获国家级奖项 **7** 项、省市级奖项 **10 余项**。
 
+我关心的问题是：**如何让 AI 在真实人际场景中更可用、更安全、也更可持续。**
 
 <span class='anchor' id='-news'></span>
 
@@ -42,10 +43,14 @@ redirect_from:
 **心言集团 | 高级算法工程师**<br>
 *2024.03 - 至今*
 
-* 主导 **Xinyuan 系列垂域大模型**全链路研发，覆盖 **4500万+** 多源数据的脱敏、去重、质量打分、增量预训练、SFT、RLHF 与多维评测，推动系列模型在 **HuggingFace + ModelScope** 双平台累计下载 **2万+**。
+**问题**：通用大模型在心理、教育等垂直场景中容易“泛泛而谈”，既缺乏领域知识，也难以控制安全与共情边界。
+
+**解法**：主导 **Xinyuan 系列垂域大模型**全链路研发，覆盖 **4500万+** 多源数据的脱敏、去重、质量打分、增量预训练、SFT、RLHF 与多维评测。同时协调 **5-20 人**的算法与工程团队，推动系列模型在 **HuggingFace、ModelScope** 等开源平台累计下载 **2万+**。
+
+**结果**：
 * 发布 [Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)，围绕多模态理解与低参数规模模型评测完成训练和开源交付，登顶当时 [OpenCompass](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard) **&lt;4B 参数榜首**。
-* 发布 [Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)，打造**世界首个泛心理 + 教育领域基座模型**，将心理服务、教育场景与通用大模型能力进行垂域融合。
-* 主导团队对外技术布道，受邀在**阿里云魔搭 ModelScope 开发者共创会**主讲《开源技术驱动下的泛心理服务与 AI 普惠实践之路》，并完成[阿里云通义实验室 × 魔搭 ModelScope 社区联合专访](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)，扩大泛心理大模型在开发者与产业用户中的认知。
+* 发布 [Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)，打造**面向泛心理 + 教育领域的垂域基座模型**，将心理服务、教育场景与通用大模型能力进行深度融合。
+* 主导团队对外技术布道，受邀在**阿里云魔搭 ModelScope 开发者共创会**主讲《开源技术驱动下的泛心理服务与 AI 普惠实践之路》，并完成[阿里云通义实验室 × 魔搭 ModelScope 社区联合专访](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)。
 
 <span class='anchor' id='projects'></span>
 <span class='anchor' id='-projects'></span>
@@ -57,9 +62,12 @@ redirect_from:
 
 **[健康大模型知识中台](https://github.com/X-D-Lab)**
 
-* 主导构建覆盖基础模型、知识增强与应用部署的健康大模型矩阵，基于 SimHash、Perplexity 等方法治理**百万级医疗数据**与**十万级心理对话数据**，累计处理 **400万+** 多源样本。
-* 在 Qwen、InternLM 等开源模型基础上完成增量预训练、SFT 与 RLHF，孵化 [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao) 医疗大模型（**400+ Stars**）与 [MindChat](https://github.com/X-D-Lab/MindChat) 心理大模型（**700+ Stars**），并通过 RAG 与三维记忆体系降低大模型幻觉风险。
-* 通过 [OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng) 将模型能力接入微信生态，沉淀 **2000+ 直接用户、2万+ 间接覆盖用户**，让心理与健康支持从模型研发跑通到真实社区运营反馈闭环。
+**问题**：心理健康与医疗咨询对模型的安全性、专业性和共情能力要求极高，通用模型直接部署风险大、幻觉多。
+
+**解法**：主导构建覆盖基础模型、知识增强与应用部署的健康大模型矩阵，基于 SimHash、Perplexity 等方法治理**百万级医疗数据**与**十万级心理对话数据**，累计处理 **400万+** 多源样本；在 Qwen、InternLM 等开源模型基础上完成增量预训练、SFT 与 RLHF，并通过 RAG 与三维记忆体系降低大模型幻觉风险。
+
+**结果**：孵化 [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao) 医疗大模型（**400+ Stars**）与 [MindChat](https://github.com/X-D-Lab/MindChat) 心理大模型（**700+ Stars**）；通过 [OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng) 将模型能力接入微信生态，沉淀 **2000+ 直接用户、2万+ 间接覆盖用户**，让心理与健康支持从模型研发跑通到真实社区运营反馈闭环。
+
 </div>
 </div>
 
@@ -68,9 +76,12 @@ redirect_from:
 
 **[袋鼯麻麻 ColugoMum：智能零售结算平台](https://github.com/thomas-yanxin/Smart_container)**
 
-* 主导研发智能零售结算平台，针对无人零售中的**多类别、小样本、高相似度、高频更新**问题，自研基于图像检索的零售商品识别算法，相比传统目标检测方案**免除新品上架重训练**，显著降低真实零售场景的维护成本。
-* 项目获得 **2022 年第 24 届中国机器人及人工智能大赛全国一等奖**，受邀亮相**百度 Wave Summit 2021+ 开发者峰会市集展览**，累计浏览 **10万+**，GitHub 累计 **200+ Stars**。
-* 入选启智社区优秀开源项目孵化器并获**2022 年启智社区优秀孵化项目奖**，同步落地**教育部产学合作协同育人项目（百度 & 华东理工大学）课程建设成果**。
+**问题**：无人零售场景中，商品多类别、小样本、高相似度且高频更新，传统目标检测方案每次新品上架都需要重新训练，维护成本高昂。
+
+**解法**：自研基于图像检索的零售商品识别算法，相比传统目标检测方案**免除新品上架重训练**，显著降低真实零售场景的维护成本。
+
+**结果**：项目获得 **2022 年第 24 届中国机器人及人工智能大赛全国一等奖**，受邀亮相**百度 Wave Summit 2021+ 开发者峰会市集展览**，累计浏览 **10万+**，GitHub 累计 **200+ Stars**；入选启智社区优秀开源项目孵化器并获**2022 年启智社区优秀孵化项目奖**，同步落地**教育部产学合作协同育人项目（百度 & 华东理工大学）课程建设成果**。
+
 </div>
 </div>
 
@@ -78,9 +89,11 @@ redirect_from:
 
 **[欧小鹏 OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng)**
 
-* 在大模型应用尚未普及的早期，率先构建多模型聚合应用，统一封装**百度文心 ERNIE、鹏程·盘古 PanGu、浪潮源 Yuan1.0、元语智能 ChatYuan、ChatGPT 等 5 类主流大模型**，并以**微信、飞书、QQ 三类前端载体**提供对话、文生图与领域知识库问答能力，为后续社区评测与用户反馈采集提供统一接入层。
-* 将真实社区运营反馈纳入大模型体验评估，沉淀**直接用户 2000+、间接覆盖用户 2万+**，服务 OpenI 启智社区、鹏程·盘古、元语智能、飞桨领航团等多个 AI 社区。
-* 项目入围 **2023 年奇绩春季创业营（S23）面试**，并获得 **2022 年启智社区优秀孵化项目奖**。
+**问题**：多个主流大模型能力分散、接入成本高，普通用户和小社区难以低门槛地体验并利用大模型能力。
+
+**解法**：构建多模型聚合应用，统一封装**百度文心 ERNIE、鹏程·盘古 PanGu、浪潮源 Yuan1.0、元语智能 ChatYuan、ChatGPT 等 5 类主流大模型**，并以**微信、飞书、QQ 三类前端载体**提供对话、文生图与领域知识库问答能力。
+
+**结果**：为后续社区评测与用户反馈采集提供统一接入层，将真实社区运营反馈纳入大模型体验评估，沉淀**直接用户 2000+、间接覆盖用户 2万+**，服务 OpenI 启智社区、鹏程·盘古、元语智能、飞桨领航团等多个 AI 社区；项目入围 **2023 年奇绩春季创业营（S23）面试**，并获得 **2022 年启智社区优秀孵化项目奖**。
 
 </div>
 
@@ -92,10 +105,9 @@ redirect_from:
 
 </details> -->
 
-<span class='anchor' id='publications'></span>
-<span class='anchor' id='-publications'></span>
+<span class='anchor' id='publications-ip'></span>
 
-# Publications
+# Publications & IP
 
 * 周涛、薛栋、**颜鑫**. 《LangChain 大模型应用开发：从入门到实践》[M]. 清华大学出版社.
 * D. Xue, J. Tu, M. Wang, **X. Yan**, F. Liu and J. Hu, "[Towards Privacy-Preserving Mental Health Support with Large Language Models](https://arxiv.org/abs/2601.01993)," *arXiv preprint* arXiv:2601.01993, 2026.
@@ -108,18 +120,14 @@ redirect_from:
 * 【[软件著作权](/proof/%E8%BD%AF%E4%BB%B6%E8%91%97%E4%BD%9C%E6%9D%83-%E8%87%AA%E5%8A%A8%E9%97%AE%E7%AD%94.pdf)】基于领域知识库的智能问答系统 V1.0；著作权人：黄小悦、韩响尘、王鑫、**颜鑫**、林宏聪、任竞展、周天奕；登记号：2022SRE025369。
 
 <span class='anchor' id='awards-honors'></span>
-<span class='anchor' id='-awards'></span>
-<span class='anchor' id='-honors'></span>
 
 # Awards & Honors
 
 ## Featured Awards
 
 * 2025 合成数据大赛 · 灵溪 AI for Mental Health 主题赛**一等奖** - [证明](https://mp.weixin.qq.com/s/qNfiSLt1TfaqjBpXB9rHKQ)
-* 2024 中国国际大学生创新大赛「人因与功效学专项：人因智能关键技术——非接触集成式驾驶员状态智能检测边缘计算技术」**铜奖**
-* 2024 安徽省大学生创新创业大赛「AI 赋能下的军民融合应用创新」产业赛道**金奖**
+* 2024 中国国际大学生创新大赛「人因智能关键技术——非接触集成式驾驶员状态智能检测边缘计算技术」**铜奖**
 * 2023 第 9 届中国国际“互联网+”大学生创新创业大赛「灵心智能」**铜奖**
-* 2023 第 9 届安徽省“互联网+”大学生创新创业大赛「灵心智能」**金奖**
 * 2022 第 8 届中国国际“互联网+”大学生创新创业大赛「晓声科技」**银奖** - [证明](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)
 * 2022 第 24 届中国机器人及人工智能大赛全国**一等奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf)
 
@@ -130,10 +138,13 @@ redirect_from:
 * 百度飞桨 AIStudio 2022 年度影响力人物 **TOP10** - [证明](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)
 * OpenI 启智社区首批核心体验官 - [证明](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 * Datawhale 成员 - [证明](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
+* Qwen Ambassador
 
 <details class="archive-details" markdown="1">
 <summary>更多竞赛与荣誉</summary>
 
+* 2024 安徽省大学生创新创业大赛「AI 赋能下的军民融合应用创新」产业赛道**金奖**
+* 2023 第 9 届安徽省“互联网+”大学生创新创业大赛「灵心智能」**金奖**
 * 2022 “建行杯”第 8 届安徽省“互联网+”大学生创新创业大赛「晓声科技」**金奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E3%80%90%E6%99%93%E5%A3%B0%E7%A7%91%E6%8A%80%E3%80%91%E5%AE%89%E5%BE%BD%E7%9C%81%E9%87%91%E5%A5%96.pdf)
 * 2022 “建行杯”第 8 届江苏省“互联网+”大学生创新创业大赛「镜选未来」**银奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E6%B1%9F%E8%8B%8F%E7%9C%81%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E8%B7%AF%E6%BC%94%E9%A1%B9%E7%9B%AE%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%20.pdf)
 * 2022 “建行杯”第 8 届上海市“互联网+”大学生创新创业大赛「Medbio」**银奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/Medbio-%E6%B4%BB%E6%80%A7%E5%B0%8F%E5%88%86%E5%AD%90%E5%8C%96%E5%90%88%E7%89%A9%E7%A7%91%E7%A0%94%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0.pdf)
@@ -213,7 +224,6 @@ redirect_from:
 
 <span class='anchor' id='community-activities'></span>
 <span class='anchor' id='-activities'></span>
-<span class='anchor' id='-social-practices'></span>
 
 # Community & Activities
 
@@ -228,16 +238,9 @@ redirect_from:
 * 从零搭建校级飞桨领航团，围绕飞桨推广与 AI 实战组织主题讲座、知识竞赛、实操挑战赛与项目体验，累计举办 **5+** 场活动、覆盖 **100+** 人次、孵化 **10+** 个精品项目。
 * 推动“教育部产学合作协同育人项目（百度公司 & 华东理工大学）”课程建设落地，把社区活动沉淀为面向校内 AI 人才培养的课程与实践资源。
 
-**华东理工大学信息学院社团管理部 | 顾问**<br>
-*2019.10 - 2020.06*
-
-* 协调学院 **10+** 学生社团运作，搭建社团与院团委常态化沟通机制，组织“社团招新”“新人培训”“班歌班标大赛”等院级活动。
-* 主持五大学院联合“社团交流会”全流程组织，负责邀请函制作、主持串场、现场协调与复盘总结。
-
 <details class="archive-details" markdown="1">
 <summary>更多社区与社会实践</summary>
 
-* Qwen Ambassador。
 * 2022 OpenI 启智社区首批资深体验官 - [证明](https://openi.org.cn/index.php?m=content&c=index&a=show&catid=221&id=53)
 * 2022 OpenI 启智社区 & 合肥工业大学情感计算与先进智能机器安徽省重点实验室产学研共建学生负责人 - [证明](/proof/OpenI&MAC_LAB.jpg)
 * 2022 百度飞桨智慧零售商品识别产业案例共建者 - [视频](https://www.bilibili.com/video/BV1Fu411y7co/)
@@ -246,11 +249,6 @@ redirect_from:
 * 2022 百度飞桨领航团 AI 达人创造营第二期讲师 - [证明](https://mp.weixin.qq.com/s/JfHYZZE701Qt7vJJa1K11w)
 * 2021 百度飞桨领航团 AI 达人创造营第一期讲师 - [证明](https://mp.weixin.qq.com/s/MD-ni4z5EITpdrAZd2FGyg)
 * 2021 百度上海飞桨领航团 & 五角场创新创业学院 meetup 活动 - [证明](https://mp.weixin.qq.com/s/NMJVAttPUHiZEaIIz1zQoA)
-* 2020 及 2021 华东理工大学新生迎新活动志愿者 - [证明](/proof/迎新志愿者.jpg)
-* 2021 上海市无偿献血活动参与者。
-* 2020 华东理工大学 95 公益周“爱加餐项目”志愿者。
-* 2019 华东理工大学寒假招生宣传、自主宣讲活动优秀团队奖 - [证明](/proof/招生宣传.jpg)
-* 2019 华东理工大学青年马克思主义者培养工程结业 - [证明](/proof/青马班.jpg)
 
 </details>
 
@@ -261,8 +259,18 @@ redirect_from:
 **华东理工大学 | 信息科学与工程学院 | 自动化专业**<br>
 *2019.09 - 2023.06*
 
-* 华东理工大学校综合课程奖学金三等。
-* 华东理工大学信息科学与工程学院优秀团员 - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E4%BC%98%E7%A7%80%E5%9B%A2%E5%91%98.jpg)
-* 华东理工大学青春战“疫”优秀志愿者 - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E6%8A%97%E7%96%AB%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85.jpg)
-* 华东理工大学信息科学与工程学院第六期创新实践育人计划优秀学员 - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E5%88%9B%E6%96%B0%E8%82%B2%E4%BA%BA.jpg)
-* 华东理工大学信息科学与工程学院社会工作奖 C 等 - [证明](/proof/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E4%BD%9C%E5%A5%96.jpg)
+<span class='anchor' id='now-next'></span>
+
+# Now & Next
+
+**我现在在做什么**
+
+目前我在心言集团继续推进 Xinyuan 系列模型的迭代与落地，同时关注**多智能体协同、具身智能中的情感交互，以及垂直大模型的可持续商业模式**。
+
+**我想合作的方向**
+
+* 垂域大模型在心理、健康、教育、社区服务等场景的技术合作与联合落地
+* 情感智能与多模态交互相关的产品共创
+* 开源社区建设、技术布道与生态运营
+
+如果你对这些方向感兴趣，欢迎通过邮件 [yx20001210@163.com](mailto:yx20001210@163.com) 或 [GitHub](https://github.com/thomas-yanxin) 联系我。

@@ -3,9 +3,6 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "Highlights"
-    url: "/#highlights"
-
   - title: "News"
     url: "/#news"
 
@@ -28,4 +25,7 @@ main:
     url: "/#community-activities"
 
   - title: "Education"
-    url: "/#education"
+    url: "/#-educations"
+
+  - title: "Now & Next"
+    url: "/#now-next"
