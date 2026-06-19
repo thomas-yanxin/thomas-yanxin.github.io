@@ -13,7 +13,7 @@ I believe the real value of large language models lies not in answering everythi
 
 I graduated from **East China University of Science and Technology**, majoring in Automation, and currently work as a **Senior Algorithm Engineer at Cylingo Group**. I lead the R&D of the **Xinyuan** series of domain-specific large language models. Over the past few years, I have focused on **affective intelligence and domain-specific large model deployment**, building full-cycle pipelines from data curation and continual pre-training to SFT, RLHF, model deployment, and community operations across scenarios including mental health, healthcare, retail, and community applications.
 
-I led projects including **Xinyuan-LLM, Xinyuan-VL, MindChat, Sunsimiao, ColugoMum, and OXiaoPeng**, which have collectively earned **20,000+ GitHub Stars** and appeared multiple times on GitHub Trending. I have also published **1 book** on LLM application development, **4 papers**, and hold **1 utility model patent and 3 software copyrights**. My work has received **7 national-level awards** and over **10 provincial/municipal awards**.
+I led projects including **Xinyuan-LLM, Xinyuan-VL, MindChat, Sunsimiao, ColugoMum, and OXiaoPeng**. Across the open-source projects I have led and contributed to, my work has collectively earned **20,000+ GitHub Stars** and appeared multiple times on GitHub Trending. I have also published **1 book** on LLM application development, **4 papers**, and hold **1 utility model patent and 3 software copyrights**. My work has received **7 national-level awards** and over **10 provincial/municipal awards**.
 
 The question I keep asking: **How can we make AI more usable, safer, and more sustainable in real human scenarios?**
 
