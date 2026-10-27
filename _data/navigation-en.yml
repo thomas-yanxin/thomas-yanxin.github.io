@@ -1,5 +1,8 @@
 # English navigation
 main:
+  - title: "About Me"
+    url: "/en/#about-en"
+
   - title: "News"
     url: "/en/#news-en"
 
@@ -12,14 +15,14 @@ main:
   - title: "Publications & IP"
     url: "/en/#publications-ip-en"
 
-  - title: "Awards & Honors"
-    url: "/en/#awards-honors-en"
-
   - title: "Talks & Media"
     url: "/en/#talks-media-en"
 
   - title: "Community"
     url: "/en/#community-activities-en"
+
+  - title: "Awards & Honors"
+    url: "/en/#awards-honors-en"
 
   - title: "Education"
     url: "/en/#education-en"

@@ -15,20 +15,20 @@ main:
   - title: "Publications & IP"
     url: "/#publications-ip"
 
-  - title: "Awards & Honors"
-    url: "/#awards-honors"
-
   - title: "Talks & Media"
     url: "/#talks-media"
 
   - title: "Community"
     url: "/#community-activities"
 
+  - title: "Awards & Honors"
+    url: "/#awards-honors"
+
   - title: "Education"
     url: "/#-educations"
 
+  - title: "Contact"
+    url: "/#contact"
+
   - title: "EN"
     url: "/en/"
-
-  - title: "Now & Next"
-    url: "/#now-next"
