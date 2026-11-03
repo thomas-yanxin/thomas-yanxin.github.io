@@ -1,7 +1,7 @@
 ---
 permalink: /en/
 title: "Xin Yan · Multimodal AI & Agent Systems"
-excerpt: "Xin Yan, Senior Algorithm Engineer at Cylingo Group. Working on multimodal AI, agent memory, domain tools and products including MindBridge, FateBridge and QianYe."
+excerpt: "Xin Yan, Senior Algorithm Engineer at Cylingo Group. Working on on-device embodied models, multimodal data, agent memory and products including xyVL, MindBridge, FateBridge and QianYe."
 lang: en
 author_profile: true
 ---
@@ -10,11 +10,13 @@ author_profile: true
 
 # About
 
-I am **Xin Yan (颜鑫)**, a **Senior Algorithm Engineer at Cylingo Group (测测)**, where I lead development of the **Xinyuan** series of domain-specific models. I graduated from **East China University of Science and Technology**, majoring in Automation. My work runs from data curation, training and evaluation through deployment and feedback from applications.
+I am **Xin Yan (颜鑫)**, a **Senior Algorithm Engineer at Cylingo Group (测测)**, responsible for **algorithm architecture for the group's robotics initiative**. I previously led development of the **Xinyuan series of domain-specific models**. I graduated from **East China University of Science and Technology**, majoring in Automation. My work focuses on multimodal models, agents and robotics.
 
-I am particularly interested in **how AI interacts with people over time**. A speaker's tone, an experience the system has forgotten, or a circumstance that has changed can all shape the next exchange. This has drawn me toward memory, tools and product design: deciding what to retain, which judgments need computational evidence, and how a system should respond to what it does not know.
+I work on models and the systems around them. Data curation, training, evaluation and feedback from use need to inform one another. Compute, latency, cost and maintenance determine how far a design can go. I want those constraints to shape the technical choices from the start.
 
-My current projects, **MindBridge, FateBridge and QianYe**, explore these questions through memory, domain computation and family storytelling. Literature is an important part of how I understand human experience. Open source, teaching and writing give me ways to put ideas and software into other people's hands, where they can be used, questioned and improved. The projects and [public interviews](#talks-media-en) below trace that work.
+I am particularly interested in **how AI interacts with people over time**. A speaker's tone, a shared experience or a change in circumstances can affect the next conversation. What should a system remember? What supports its judgments, and when should it revise them? These questions have drawn my work toward memory, harnesses and product design.
+
+I am building **MindBridge, FateBridge and QianYe**, working on agentic memory, domain computation and family storytelling. Literature keeps me attentive to experiences that resist simple categories. Open source, teaching and writing let other people use, question and improve the work. The projects and [public interviews](#talks-media-en) below show how I have pursued these questions.
 
 <span class='anchor' id='news-en'></span>
 
@@ -31,11 +33,33 @@ My current projects, **MindBridge, FateBridge and QianYe**, explore these questi
 # Experience
 
 **Cylingo Group (测测) | Senior Algorithm Engineer**<br>
-*March 2024 - Present*
+*March 2026 - Present*
 
-I lead development of the **Xinyuan series**, covering multi-source data curation, continual pre-training, SFT, RLHF and multi-dimensional evaluation. I coordinate algorithm and engineering teams of **5–20 people** through training, deployment and open-source releases. The series has accumulated **20,000+ downloads** across HuggingFace and ModelScope.
+<div class="paper-box">
+<div class="paper-box-image"><div><div class="badge">xyVL-0.8B</div><a href="/images/xinyan-robot-xyvl-pipeline.png"><img src="/images/xinyan-robot-xyvl-pipeline.png" alt="Robotics algorithm pipeline: multi-source data is normalized, annotated and filtered by xyJudge into xyData, then used for SFT, on-policy distillation and GRPO training of xyVL-0.8B. Click to view the full-size image." width="100%" loading="lazy"></a></div></div>
+<div class="paper-box-text" markdown="1">
 
-In psychological support, education and companionship, I care about whether a model understands the question, follows the conversation and stays within its capabilities. Tone, knowledge grounding, domain performance and general abilities need separate attention; failures and feedback should inform the next round of data and training. Choosing a base model and size also means considering latency, ecosystem maintenance and costs the team can sustain. These considerations shape both evaluation and what is worth changing in the next training run.
+**[Cylingo Robotics: xyVL-0.8B Embodied Vision-Language Model](/images/xinyan-robot-xyvl-pipeline.png)**
+
+I am responsible for algorithm architecture for the group's **心言机器人** robotics initiative and lead development of **xyVL-0.8B** for on-device deployment. A small model has limited capacity. Data coverage, sample difficulty and training objectives need to work together. This work runs from data curation through model post-training.
+
+**xyData makes heterogeneous data usable for training.** I aggregated **50+ open-source datasets with approximately 45 million raw samples** from HuggingFace, GitHub and ModelScope, covering text, images, video, robotics and autonomous driving. A unified schema, filtering and grading produce **18 million curated samples**. Task type, difficulty and model suitability guide mixture weights, with separate datasets for SFT, distillation and reinforcement learning.
+
+**xyJudge turns selection criteria into annotation at scale.** Heuristics check length, language, duplication and schema validity. **Qwen3.6-35B-A3B** serves as the model judge, producing structured labels for quality, difficulty, repetition, complexity and coherence. Asynchronous concurrency and resumable processing support annotation across tens of millions of samples.
+
+**Post-training follows SFT → On-Policy Distillation (OPD) → GRPO.** Starting from **Qwen3.5-0.8B-Base**, I apply multimodal instruction tuning, on-policy distillation with **Qwen3.5-27B** as the teacher, then GRPO with rewards addressing reasoning, safety, navigation and planning. The training targets environmental understanding and embodied-task capabilities within a small model.
+
+</div>
+</div>
+
+**Cylingo Group (测测) | Senior Algorithm Engineer**<br>
+*March 2024 - March 2026*
+
+I led development of the **Xinyuan series**, covering multi-source multimodal data curation, continual pre-training, SFT, RLHF and multi-dimensional evaluation. I coordinated algorithm and engineering teams of **5–20 people** through training, deployment, evaluation and selected open-source releases. The series has accumulated **20,000+ downloads** across HuggingFace and ModelScope.
+
+In psychological support, education and companionship, a model needs to understand the question, follow the conversation and stay within its capabilities. Tone, knowledge grounding, domain performance and general abilities require separate evaluation. Failures and feedback should point to specific changes in the next round of data and training.
+
+Base-model and size choices also depend on deployment conditions. Latency, ecosystem maintenance and costs the team can sustain affect whether the work can keep improving. These constraints shape how I design evaluation and plan training.
 
 Some of the work I can share publicly:
 
@@ -47,19 +71,17 @@ Some of the work I can share publicly:
 
 # Selected Projects
 
-These projects begin with different problems. Some concern models and systems; others work directly with the people using them. Across them, I keep returning to sustained interaction, feedback from use and the work of maintaining a system over time.
-
 <div class="project-entry" markdown="1">
 
 **[MindBridge: Agentic Multimodal Memory](https://github.com/EventHorizon-Lab/MindBridge)**
 
-Companionship over time depends on continuity: a previous conversation, something seen together, or a change in circumstances should inform the next exchange. I use emotional companion robots as the starting context for MindBridge, exploring how an agent can retain who experienced what, when and where, and return to the original audio, images and event evidence.
+I believe an agent's capabilities increasingly depend on how it uses **context**. Sustained interaction brings text, audio and images, along with time, location and relationships between people. I designed MindBridge to organize those experiences into multimodal memory that can be maintained over time and used to support judgment and action.
 
-New experiences can require a system to revise earlier judgments. The words "I am fine" and a speaker's tone may offer different cues; one emotional response is insufficient grounds for a lasting personality judgment. Similar experiences need to remain associated with the right person, and states need a period of validity.
+Memory needs to accommodate changing understanding. The words "I am fine" and a speaker's tone may offer different cues. One emotional response cannot establish a lasting personality trait. Similar experiences need to remain associated with the right person. Source observations, user statements and model inferences need distinct provenance, and a state needs a period of validity.
 
-I lead the kernel's design and implementation: ordered source observations are stored first, an optional model proposes events, facts and states, and the kernel validates provenance while maintaining evidence and versions. Recall combines semantic and lexical retrieval with time and location constraints; answers return the evidence actually cited.
+I lead the kernel's design and implementation. It retains ordered source observations; optional models propose events, claims and states; the kernel validates evidence references, maintains validity periods and versions, and records auditable, reversible memory operations. Recall combines semantic and lexical retrieval with time and location constraints. For a given task, the system organizes memories and evidence within a context budget, presents conflicts and returns the evidence cited in an answer.
 
-I regard correcting old judgments, retracting unsupported inferences and abstaining when evidence is insufficient as parts of memory quality. A local-first embedded architecture with replaceable models gives authoritative records and rebuildable indexes distinct responsibilities. It also lets memory quality, interaction latency and operating cost be evaluated separately in a concrete application.
+Compute, latency, cost and privacy requirements vary by application. MindBridge therefore uses a stable kernel with optional capabilities for embedding, generation, audio, vision and memory reasoning. Local and remote models can be exchanged while the kernel maintains memory semantics, evidence relationships and persistence rules. I want deployment choices to remain flexible and existing memories to retain a clear basis.
 
 </div>
 
@@ -67,13 +89,11 @@ I regard correcting old judgments, retracting unsupported inferences and abstain
 
 **[FateBridge: A Traditional Metaphysics and Astrology Engine for Agents](https://github.com/thomas-yanxin/FateBridge)**
 
-I want people to begin with their own questions about self-understanding, relationships or spatial layouts, without first learning charting methods or tool parameters. FateBridge supplies domain computation for consultations drawing on these cultural traditions. My concern is whether a natural-language answer can explain which method and inputs it used, and which conditions remain unknown.
+People often begin with a question about themselves, a relationship or a living space. Exploring it through traditional metaphysics and astrology also involves choosing methods, preparing inputs and understanding calculations. I initiated FateBridge to organize that work so people can begin with their own questions.
 
-Calendar conventions, solar-term boundaries, time zones and true solar time can all affect a chart; different schools also have distinct rules. A shared interface needs to preserve those differences.
+FateBridge is a domain computation engine designed for **agentic harnesses**. It brings together **92 tools**, including BaZi, Zi Wei Dou Shu and Western astrology, through MCP, CLI and REST API. The accompanying **Onda skills** work with agents such as Codex and Claude Code, helping select methods, check inputs and organize explanations around the question.
 
-I initiated and developed a local engine that organizes BaZi, Zi Wei Dou Shu, Western astrology, divination and Feng Shui in one tool catalog, accessible through MCP, REST API and CLI. Onda skills guide agents in selecting methods, checking missing inputs and organizing interpretations around the question.
-
-Domain code performs the calculations, while models handle conversation. Structured results and execution receipts retain time conventions, version and precision information. Computed facts, traditional interpretations and practical suggestions each depend on different conditions and should be examined separately. Reproducible calculations, together with a clear account of uncertainty and disagreement, are the foundation I want these tools to provide.
+The foundation is a clear account of calculation conditions. Calendar conventions, solar-term boundaries, time zones and true solar time can affect a chart; different schools have distinct rules. Domain code performs the calculations, with structured results retaining conventions, versions and precision information. Computed facts, traditional interpretations and practical suggestions need separate explanations. I want the tools to offer multiple perspectives whose basis can be checked, including the conditions that remain unknown.
 
 </div>
 
@@ -81,41 +101,39 @@ Domain code performs the calculations, while models handle conversation. Structu
 
 **QianYe (亲百问): Family Memory and Shared Storytelling**
 
-An old photograph preserves a scene, but the experiences of the people in it may never have been recorded. Even when we want to know more about older relatives, finding a place to begin can be difficult. Through QianYe, a public-interest digital product, I work on product design and WeChat mini program development to make it easier for families to begin and continue telling their stories, gradually assembling a journal they can revisit together.
+An old photograph preserves a scene. The experiences of the people in it may never have been recorded. Even when we want to know more about older relatives, finding a place to begin can be difficult. QianYe starts with photographs and familiar objects, helping families tell their stories and assemble a journal they can revisit together. I work on product design and WeChat mini program development for this public-interest project.
 
-I start with photographs and familiar objects, designing a flow from storytelling through review to a journal page. Relatives can answer asynchronously, contribute perspectives on the same experience and browse stories by person. The effort required of older adults, and interruptions during recording, need careful attention. Segmented saving, draft recovery, larger text, clear states and generous touch targets are all part of that product work.
+I design the flow around storytelling, review and inclusion in the journal. Relatives can answer asynchronously, add perspectives on the same experience and browse by person. The effort required of older adults, and the ability to resume an interrupted recording, affect whether a story is captured at all. Segmented saving, draft recovery, larger text, clear states and generous touch targets are part of that work.
 
-I value a speaker's own voice, including details they are unsure about. Original audio, images and transcripts therefore remain available; transcripts can be used directly, while AI editing is an explicit choice subject to user review. Family spaces and invitation scope define what relatives may contribute and access. I want editing to help people express themselves while leaving decisions about the content with the storyteller and family.
+Editing needs to preserve the storyteller's voice. Original audio, images and transcripts remain available, and transcripts can enter the journal directly. AI editing is an explicit choice followed by user review. Family spaces and invitations define who can contribute and who can read. I want the tools to help people express themselves while keeping decisions about the content with the storyteller and family.
 
 </div>
 
 **[Health LLM Knowledge Platform: MindChat & Sunsimiao](https://github.com/X-D-Lab)**
 
-MindChat began with a conversation between my teacher and me about loneliness and the limits of companionship within families. I hoped models could offer a more accessible place for people who wanted to talk. That starting point has kept me interested in how psychological and health-related applications respond to a particular person, and how they work within the limits of their knowledge and capabilities.
+MindChat began with a conversation between my teacher and me about loneliness and companionship within families. I hoped models could offer a more accessible place for people who wanted to talk. That starting point has stayed with me as I work on affective intelligence and sustained interaction.
 
-I was responsible for model training, collaborating on data construction, testing and application integration. The work covered cleaning medical and psychological dialogue data, domain training and instruction tuning, as well as exploring retrieval, memory and context mechanisms. It drew my attention toward continuity in conversation: what was said earlier and how it is expressed now both affect whether a response fits the situation. Those qualities need evaluation and continued revision through feedback.
+I was responsible for model training, collaborating on data construction, testing and application integration. The work covered cleaning medical and psychological dialogue data, domain training, instruction tuning, and exploration of retrieval, memory and context mechanisms. It drew my attention to continuity: what was said earlier and how it is expressed now should inform the next response. Those qualities need evaluation, alongside careful attention to the limits of the model's knowledge and capabilities.
 
-The team released [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao), including models, examples and deployment materials. Choosing model sizes and deployment methods also meant accounting for compute, privacy requirements and maintenance. These constraints continue to inform how I approach memory systems and products.
-
+The team released [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao), including models, examples and deployment materials. Model size, compute, privacy and maintenance all shape deployment choices. These practical constraints continue to inform my work on memory systems and products.
 
 **[ColugoMum: Smart Retail Settlement Platform](https://github.com/thomas-yanxin/ColugoMum)**
 
-Retail recognition poses a practical challenge: products keep changing, packaging can be very similar, and the system needs to keep up. Alongside recognition quality, I cared about how much work the next product addition would create for its maintainers.
+Product recognition needs to keep up with the shelf. New items arrive, packaging can look similar, and maintainers need to update the system. I cared about recognition quality and the amount of work the next product addition would require.
 
-I handled project management, algorithm adaptation and the on-device frontend. Using **PaddleClas / PP-ShiTu**, I worked on data construction, lightweight model tuning and cloud–edge–frontend integration. Image retrieval allows new categories to be added through the gallery, reducing the need for repeated training. Similar packaging, limited samples and on-device latency still need separate attention; recognition quality and update costs have to be considered under the same engineering conditions.
+I handled project management, algorithm adaptation and the on-device frontend. Using **PaddleClas / PP-ShiTu**, I worked on data construction, lightweight model tuning and cloud–edge–frontend integration. Image retrieval lets new categories enter through additions to the gallery, reducing repeated training. Similar packaging, limited samples and on-device latency still need attention under the actual engineering conditions.
 
-The project received the **National First Prize at the 2022 China Robot and Artificial Intelligence Competition**, appeared at **Baidu Wave Summit 2021+**, and led to a [paper](https://ieeexplore.ieee.org/document/9851085), open-source code and teaching materials. Methods and experiments are described in the [technical article](https://developer.cloud.tencent.com/article/2146677). For systems like this, I also consider how others will continue using and maintaining them after delivery.
-
+The project received the **National First Prize at the 2022 China Robot and Artificial Intelligence Competition**, appeared at **Baidu Wave Summit 2021+**, and led to a [paper](https://ieeexplore.ieee.org/document/9851085), open-source code and teaching materials. Methods and experiments are described in the [technical article](https://developer.cloud.tencent.com/article/2146677). I also care about whether others can continue using and maintaining a system after delivery.
 
 <div class="project-entry" markdown="1">
 
 **[OXiaoPeng: A Model Application Built from Community Needs](https://github.com/thomas-yanxin/OXiaoPeng)**
 
-OXiaoPeng grew from small needs in community groups: managing advertisements, welcoming members and answering recurring questions. I first built an assistant for WeChat groups, then connected models including ERNIE, PanGu, Yuan, ChatYuan and ChatGPT so people could try conversation and text-to-image generation in a familiar setting. The community helped choose its name.
+OXiaoPeng began with a few specific needs in WeChat groups: managing advertisements, welcoming members and answering recurring questions. I first built a group assistant, then connected ERNIE, PanGu, Yuan, ChatYuan and ChatGPT so people could try conversation and text-to-image generation in a familiar setting. The community helped choose its name.
 
-Users told me directly what was awkward to use, and an upstream service change once interrupted image generation. These experiences made the relationship between feedback, external dependencies and product continuity concrete for me. Helping people use a model, and responding when something breaks, are parts of development too.
+Users told me directly what was awkward to use. An upstream service change also interrupted image generation. Development had to continue after model integration: collecting feedback, recovering from dependency changes and keeping the service usable. Those experiences made the responsibilities of maintaining a model application concrete for me.
 
-Early deployments served **2,000+ direct users**, with an **indirect reach of 20,000+ people**, across several AI open-source communities. The project received an **OpenI project incubation award in 2022** and was shortlisted for an **interview for the 2023 MiraclePlus Spring Camp (S23)**. I wrote about its development and the community's role in ["2022, My Year with OpenI"](https://www.cnblogs.com/thomas-yanxin/p/17067454.html).
+Early deployments served **2,000+ direct users**, with an **indirect reach of 20,000+ people**, across several AI open-source communities. The project received an **OpenI project incubation award in 2022** and was shortlisted for an **interview for the 2023 MiraclePlus Spring Camp (S23)**. I recorded its development and the community's role in ["2022, My Year with OpenI"](https://www.cnblogs.com/thomas-yanxin/p/17067454.html).
 
 </div>
 
@@ -135,7 +153,7 @@ Early deployments served **2,000+ direct users**, with an **indirect reach of 20
 
 # Talks & Media
 
-Model selection, evaluation and product decisions recur in my public talks and interviews. These records capture my thinking at different stages and how the questions have developed with the work.
+Model selection, evaluation and product decisions recur in my public talks. These interviews and courses preserve my thinking at different stages and show how those judgments became more concrete through practice.
 
 ## Invited Talks
 
@@ -184,7 +202,7 @@ Model selection, evaluation and product decisions recur in my public talks and i
 
 # Community & Activities
 
-Open-source communities are where I have learned and met many collaborators. I enjoy explaining a project well enough for someone else to try it, and value the questions and disagreements that users bring. Teaching, organizing activities and maintaining projects let me take part in that shared work.
+Open-source communities have introduced me to collaborators and kept projects in contact with the questions people encounter while using them. I enjoy explaining a method until someone else can try it. Teaching, events and maintenance give that exchange a way to continue.
 
 **[PaddlePaddle Navigator Group](https://www.paddlepaddle.org.cn/ppdenavigategroup) | East China Regional Lead**<br>
 *September 2021 - July 2022*
@@ -280,6 +298,6 @@ Open-source communities are where I have learned and met many collaborators. I e
 
 # Contact
 
-If something here connects with a question you are working on, I would be glad to hear from you at [yx20001210@gmail.com](mailto:yx20001210@gmail.com). A technical problem, feedback from use, or a product idea still taking shape is a good place to start. More code and recent work are on [GitHub](https://github.com/thomas-yanxin).
+If you work on multimodal models, agents or memory systems, or have a specific idea about a project here, you are welcome to write to [yx20001210@gmail.com](mailto:yx20001210@gmail.com). A technical question or feedback from use is a good place to start. More code and recent work are on [GitHub](https://github.com/thomas-yanxin).
 
 [← 中文](/)
