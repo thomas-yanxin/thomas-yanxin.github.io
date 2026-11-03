@@ -179,7 +179,7 @@ MindChat 起于我和老师一次关于家人孤独与陪伴不足的讨论。�
 ## Media Coverage
 
 * **通义实验室 × 魔搭社区｜写代码，也写情绪** - [文章](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg) / [短视频](https://www.bilibili.com/video/BV1GVgNzLEHs/) / [完整播客 · 47:52](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)<br>
-  我谈到为什么关心情感智能，文学怎样影响我理解人的经验，以及评估如何帮助决定模型该往哪里改。可从 **20:21** 了解文学相关探索，从 **29:28** 了解情感智能与评估，从 **36:26** 了解基座模型选择。
+  我谈到为什么关心情感智能，文学怎样影响我理解人的经验，以及评估如何帮助决定模型该往哪里改。
 * **Founder Park｜Qwen 3 与垂域模型实践** - [原文](https://mp.weixin.qq.com/s/pb8eoQhvAF9O5N3CSO7rIg) / [采访实录转载](https://news.sina.com.cn/sx/2025-04-30/detail-ineuxrwv4808216.shtml)<br>
   从语音转文字会丢失哪些情感线索谈起，进一步讨论后训练如何兼顾领域与通用能力，以及成本、生态和产品流程怎样影响技术选择。
 * **科学网 / 中国科学报｜人皆孤独？他们用通义千问开发了一款心理大模型** - [原文](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm)<br>
@@ -190,7 +190,6 @@ MindChat 起于我和老师一次关于家人孤独与陪伴不足的讨论。�
 
 * 【阿里通义千问】通义千问 + 心理领域 = ? - [链接](https://mp.weixin.qq.com/s/ZcRES0s7zD_yDeWTTr6Gyg)
 * 【机器之心 SOTA 模型】MindChat 心理大模型等项目多个新模型版本开源 - [链接](https://mp.weixin.qq.com/s/PppVdSHObBG7IRA-vgVLlA)
-
 * 【机器之心 SOTA 模型】不妨一试的开源项目：基座模型、领域精调、推理加速及 Agent 开发开源方案季度盘点 - [链接](https://mp.weixin.qq.com/s/ApOMU6qRfYopCW0NkUCQCQ)
 * 【OpenMMLab】EMO 了？来和 MindChat 聊聊，可在线体验的 AI 心理大模型 - [链接](https://mp.weixin.qq.com/s/wOQP2A0nm0OGaiwzdJ9wPg)
 * 【魔搭 ModelScope 社区】基于 Qwen-7B 的垂域大模型 MindChat 心理大模型上线魔搭 - [链接](https://mp.weixin.qq.com/s/frJwp-kLuF_aT_vt8V6hJQ)
