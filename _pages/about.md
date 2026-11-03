@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "颜鑫 Xin Yan"
-excerpt: "颜鑫（Xin Yan），心言集团高级算法工程师。实践涵盖端侧具身模型、多模态数据、Agentic 记忆与产品开发，包括 xyVL、MindBridge、FateBridge 和 QianYe。"
+excerpt: "颜鑫（Xin Yan），心言集团高级算法工程师。涵盖端侧具身模型、多模态数据、Agentic 记忆与产品开发，包括 xyVL、MindBridge、FateBridge等。"
 lang: zh-CN
 author_profile: true
 redirect_from: 
@@ -99,7 +99,9 @@ redirect_from:
 
 **[FateBridge：面向 Agent 的传统术数与占星计算引擎](https://github.com/thomas-yanxin/FateBridge)**
 
-用户带来的往往是关于自己、关系或居住空间的问题。要借助传统术数与占星的方法展开讨论，还需要选择工具、准备输入、理解计算。我发起 FateBridge，希望把这部分工作组织起来，让用户能从自己的问题开始。
+用户带来的往往是关于自己、关系或居住空间的问题。要借助传统术数与占星的方法展开讨论，还需要选择工具、准备输入、理解计算。
+
+故而，我发起 FateBridge 项目，希望把这部分工作组织起来，让用户能直接从自己的问题出发。
 
 FateBridge 是面向 **Agentic Harness** 设计的泛心理情感计算引擎，整合八字、紫微、星盘等 **92 种工具**，支持 MCP、CLI 与 REST API 接入。配套的 **Onda Skill** 可用于 Codex、Claude Code 等 Agent 工具，帮助围绕问题选择方法、核对输入并组织解释。
 
