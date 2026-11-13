@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "颜鑫 Xin Yan"
-excerpt: "颜鑫（Xin Yan），心言集团高级算法工程师，负责心言机器人算法架构。关注多模态模型、Agent 记忆与产品开发，项目包括 xyVL、SenseMem、FateBridge 与 QianYe。"
+excerpt: "颜鑫（Xin Yan），心言集团高级算法工程师，负责心言机器人算法架构，主导 xyVL 多模态模型研发。专注多模态 AI、Agent 系统与具身智能，发起 SenseMem 与 FateBridge，参与 QianYe 产品研发。"
 lang: zh-CN
 author_profile: true
 redirect_from: 
@@ -18,13 +18,13 @@ redirect_from:
 
 # About Me
 
-我是**颜鑫（Xin Yan）**，现任**心言集团（测测）高级算法工程师**，负责**心言机器人算法架构**，此前主导 **Xinyuan 系列垂域大模型**研发。我毕业于**华东理工大学自动化专业**，主要从事多模态模型、Agent 与机器人相关工作。
+我是**颜鑫（Xin Yan）**，专注于**多模态模型、Agent 系统与具身智能**。现任**心言集团（测测）高级算法工程师**，负责**心言机器人算法架构**，主导 **xyVL 具身视觉语言模型系列**研发，此前主导 **Xinyuan 系列垂域大模型**研发。我毕业于**华东理工大学自动化专业**。
 
-我的工作覆盖数据治理、模型训练、评估与部署。我关心一个模型如何在具体场景中持续发挥作用：训练要回应使用中的问题，评估要能指导下一轮改进，技术选择也要经得起算力、延迟与维护成本的检验。
+我擅长贯通**模型研发、系统架构与产品开发**，从数据治理、模型训练和评估，到产品设计、开发与部署，推动技术进入实际应用。我以场景需求组织研发，以评估和使用反馈驱动迭代，在模型能力、算力投入、推理延迟与长期维护成本之间作出技术判断。
 
-我尤其关注 **AI 与人的长期交互**：如何理解一句话背后的语境，记住共同经历，并在新的信息出现时修正判断。目前，我正在构建 **SenseMem、FateBridge 和 QianYe**，探索 Agent 记忆、传统术数与占星计算，以及家庭记忆的整理与讲述。
+我的长期方向是 **AI 与人的持续交互**：让系统理解语境、记住共同经历，并随新信息更新判断。目前，我正在构建 **SenseMem、FateBridge 和 QianYe**，分别推进 Agentic Multimodal Memory、传统术数与占星计算，以及家庭记忆与共同叙事。
 
-文学让我留意人的经验中难以归类的部分；开源、课程与写作，让我的工作有机会被更多人使用、讨论和改进。下面的项目与[公开访谈](#talks-media)，记录了这些思考如何进入实践。
+文学塑造了我理解人的方式，也影响着我对情感智能和产品体验的判断。我通过**开源项目、课程、写作与[公开分享](#talks-media)**交流技术方法，让模型与系统研发中的经验成为更多人可以使用和延伸的成果。
 
 <span class='anchor' id='-news'></span>
 
@@ -42,36 +42,36 @@ redirect_from:
 # Professional Experience
 
 **心言集团（测测） | 高级算法工程师**<br>
-*2026.03 - 至今*
+*2026.01 - 至今*
 
 <div class="paper-box">
 <div class="paper-box-image"><div><div class="badge">xyVL</div><a href="/images/xinyan-robot-xyvl-pipeline.png"><img src="/images/xinyan-robot-xyvl-pipeline.png" alt="心言机器人算法流程：多源数据汇聚与格式统一，经 xyJudge 标注筛选形成 xyData，再通过 SFT、On-Policy 蒸馏与 GRPO 训练 xyVL。点击查看原图。" width="100%" loading="lazy"></a></div></div>
 <div class="paper-box-text" markdown="1">
 
-**[心言机器人：xyVL 具身视觉语言系列模型](/images/xinyan-robot-xyvl-pipeline.png)**
+**[心言机器人：xyVL Embodied Vision-Language Models](/images/xinyan-robot-xyvl-pipeline.png)**
 
-我负责**心言机器人**算法架构，主导 **xyVL 具身视觉语言系列模型**研发，工作贯穿数据构建、自动标注与模型后训练。
+我负责**心言机器人**算法架构，主导 **xyVL 具身视觉语言模型（VLM）系列**研发，构建贯穿 **Multimodal Data Curation、自动化质量评估与 Post-training** 的研发流程。
 
-**xyData：多源训练数据构建。** 汇聚 Hugging Face、GitHub 与 ModelScope 等平台的 **50+ 个开源数据集、约 4500 万条原始样本**，覆盖文本、图像、视频、机器人与自动驾驶。通过格式统一、筛选与分级，形成 **1800 万条精选样本**，并按任务、难度和模型适配性调整配比，为 SFT、蒸馏与强化学习分别构建数据集。
+**xyData：Multimodal Data Curation。** 整合 Hugging Face、GitHub 与 ModelScope 等平台的 **50+ 个开源数据集、约 4500 万条原始样本**，覆盖文本、图像、视频、机器人与自动驾驶。通过 Schema 统一、质量筛选与难度分级，构建 **1800 万条精选样本**；按任务分布、难度和模型适配性设计 Data Mixture，为 SFT、Distillation 与 Reinforcement Learning 分别组织训练数据。
 
-**xyJudge：规模化质量评估与标注。** 结合启发式规则与模型裁判，先检查样本长度、语言、重复与格式，再由 **Qwen3.6-35B-A3B** 对质量、难度、重复度、复杂度与连贯性等维度输出结构化标签。流程支持异步并发与中断恢复，用于千万级样本处理。
+**xyJudge：Model-as-a-Judge 质量评估与自动标注。** 将启发式规则与模型裁判结合，先检查样本长度、语言、重复与 Schema 合规性，再由 **Qwen3.6-35B-A3B** 输出质量、难度、重复度、复杂度与连贯性等结构化标签。通过异步并发与断点恢复，支撑千万级样本的评估与标注。
 
-**后训练：SFT → On-Policy 蒸馏（OPD）→ GRPO。** 以 **Qwen3.5** 为基座开展多模态指令微调，由 **Qwen3.5-27B** 提供 On-Policy 蒸馏信号，再结合推理、安全、导航与规划的奖励设计进行 GRPO 训练，优化模型的环境理解与具身任务能力。
+**Multimodal Post-training：SFT → On-Policy Distillation（OPD）→ GRPO。** 以 **Qwen3.5** 为基座构建多模态后训练流程：先进行指令微调，再以 **Qwen3.5-27B** 为教师模型开展 On-Policy Distillation，最后围绕推理、安全、导航与规划设计奖励并进行 GRPO 训练，优化环境理解与具身任务能力。
 
 </div>
 </div>
 
 **心言集团（测测） | 高级算法工程师**<br>
-*2024.03 - 2026.03*
+*2024.03 - 2026.01*
 
-我主导 **Xinyuan 系列垂域大模型**研发，覆盖多源多模态数据治理、增量预训练、SFT、RLHF 与多维评估；协调 **5–20 人**的算法与工程团队，推进训练、部署及部分模型开源。系列模型在 Hugging Face、ModelScope 等平台累计下载 **2 万+**。
+我主导 **Xinyuan 系列垂域大模型**的全流程研发，覆盖多源多模态数据治理、增量预训练、SFT、RLHF 与多维评估；统筹 **5–20 人**的算法与工程团队，推进模型训练与部署，并组织部分模型开源。系列模型在 Hugging Face、ModelScope 等平台累计下载 **2 万+**。
 
-围绕心理、教育与陪伴场景，我关注模型的对话连贯性、语气、知识依据，以及领域训练对通用能力的影响。评估既要发现问题，也要帮助定位数据与训练的改进方向；基座和模型尺寸的选择，则要兼顾推理延迟、生态支持与长期维护成本。
+面向心理、教育与陪伴场景，我将**对话连续性、情感表达、知识依据与领域适配**作为训练和评估重点，通过失败样本与用户反馈定位改进方向。在基座选型、模型规模与部署方案上，兼顾领域表现、通用能力、推理延迟、生态支持与维护成本，推动模型研发与产品需求衔接。
 
 代表性工作：
 
-* [Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)：基于 Qwen2-VL-2B-Instruct，使用 **500 万+ 多模态样本**训练，2024 年 9 月在 OpenCompass & Hugging Face Open VLM Leaderboard 的 **<4B 参数组排名第一**。
 * [Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)：基于 Qwen3-14B-Base，面向心理支持与教育等领域训练，公开模型权重与部署说明。
+* [Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)：基于 Qwen2-VL-2B-Instruct，使用 **500 万+ 多模态样本**训练，2024 年 9 月在 OpenCompass & Hugging Face Open VLM Leaderboard 的 **<4B 参数组排名第一**。相关成果见[魔搭开发者共创会记录](https://developer.aliyun.com/article/1664742)。
 * 在**魔搭 ModelScope 开发者共创会**分享《开源技术驱动下的泛心理服务与 AI 普惠实践之路》，并参与[通义实验室 × 魔搭社区专访](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)，讨论模型选型、评估、个性化与端侧部署的取舍。
 
 <span class='anchor' id='projects'></span>
@@ -79,29 +79,42 @@ redirect_from:
 
 # Selected Projects
 
-<div class="project-entry" markdown="1">
+<div class="paper-box paper-box--sensemem">
+<div class="paper-box-image"><div>
+<figure class="project-figure">
+  <a href="/images/sensemem-contextos-overview.png" title="点击查看原图"><img src="/images/sensemem-contextos-overview.png" alt="SenseMem ContextOS 设计概览：Omni-modal 输入经过 Source-first Capture、模型能力与记忆管理、Context Compilation，为 Host Agent 提供任务上下文；底层由 SQLite、原始媒体与可重建的 Zvec 索引支撑。" width="1663" height="880" loading="lazy" decoding="async"></a>
+  <figcaption><span>ContextOS Overview</span><a href="https://github.com/SenseMem/SenseMem/blob/master/docs/context-os.md" aria-label="SenseMem 技术报告，Figure 1">Fig. 1 ↗</a></figcaption>
+</figure>
+<figure class="project-figure">
+  <a href="/images/sensemem-memory-lifecycle.png" title="点击查看原图"><img src="/images/sensemem-memory-lifecycle.png" alt="SenseMem Memory Lifecycle：保留文本、图像、音频与视频原始观察，将耳机位置从桌面修正为柜内，并通过 Hybrid Retrieval 与证据闭包生成任务上下文或有据回答。" width="1663" height="862" loading="lazy" decoding="async"></a>
+  <figcaption><span>Memory Lifecycle</span><a href="https://github.com/SenseMem/SenseMem/blob/master/README.md" aria-label="SenseMem 技术报告，Figure 2">Fig. 2 ↗</a></figcaption>
+</figure>
+</div></div>
+<div class="paper-box-text" markdown="1">
 
 **[SenseMem：Agentic Multimodal Memory](https://github.com/SenseMem/SenseMem)**
 
-Agent 在持续交互中接触到文字、语音与画面，也积累了时间、地点和人物关系。如何把这些经历组织成可维护、可追溯的记忆，是我发起 SenseMem 的出发点。我主导记忆内核的设计与实现，让这些信息能够为后续判断与行动提供依据。
+我发起并主导 SenseMem 的 **Memory Kernel** 设计与实现，为 **Agentic Harness** 与具身交互构建统一的 **Multimodal Memory & Context Layer**。系统以 **Omni-modal** 内容契约组织文本、图像、音频、视频及其有序组合，将原始观察转化为可更新的知识与任务上下文。
 
-同一句“我没事”，文字和语气可能传达不同线索；一次情绪反应，也不足以说明长期性格。SenseMem 的设计强调区分原始观察、用户陈述与模型推断，保留来源、所属人物和有效时间，让记忆能够随着新证据修正。
+**Memory Formation & Agentic Control Plane。** 内核保留原始观察，并按需接入模型提取事件、事实主张与状态，统一管理证据引用、身份归属、有效时间与版本。Consolidation、Correction、Reinforcement 与可逆 Forgetting 均记录操作日志，支持审计与回滚，让长期记忆随新证据持续更新。
 
-系统保留有序的多模态观察，由可选模型提取事件、事实主张与状态，再由内核校验证据引用、维护有效期和版本，并记录可审计、可回滚的操作。召回结合语义、关键词与时空约束，在上下文预算内组织相关记忆、证据及冲突，回答时附上引用依据。
+**Hybrid Retrieval & Context Compilation。** 融合 Embedding 驱动的 Dense Retrieval、Lexical Search 与时空、人物约束，按需接入 Semantic Reranking。Context Compiler 在条目、字符与媒体预算内编排事实、经历和支撑证据，同时标记信息冲突与缺口；Grounded Answering 为回答附上证据引用。
 
-架构上，内核统一维护记忆语义、证据关系与持久化规则，嵌入、生成、语音、视觉与记忆推理按需接入。本地与远程模型可以替换，以适应不同场景的算力、延迟、成本与隐私要求。
+**Embedded Kernel & Pluggable Backends。** 以 SQLite 与原始媒体作为权威存储，Zvec 提供可重建的检索索引；通过能力契约为 Embedding、Generation、Speech、Vision、Formation 与 Consolidation 接入本地或远程模型。SDK、REST、MCP 与 CLI 共享同一 Memory Kernel，衔接 Host Harness 的目标管理、任务调度与行动执行。
 
+**评测表现。** 公开评测配置在 **MOSAIC** 的 **70 组人物历史、784 道可回答问题**上取得 **77.76% 平均 Judge Score**，在 **ATM-Bench Main 全部 1,013 道问题**上取得 **79.63% 平均官方 Question Score**。评测框架同时接入 **Mem-Gallery、LoComo-Refined**，覆盖多模态历史、个人媒体与多轮对话记忆。详见[评测结果与配置](https://github.com/SenseMem/SenseMem/blob/master/docs/benchmarks/results.md)及[基准任务说明](https://github.com/SenseMem/SenseMem/blob/master/docs/benchmarks/tasks.md)。
+</div>
 </div>
 
 <div class="project-entry" markdown="1">
 
-**[FateBridge：面向 Agent 的传统术数与占星计算引擎](https://github.com/thomas-yanxin/FateBridge)**
+**[FateBridge：面向 Agentic Harness 的传统术数与占星计算引擎](https://github.com/thomas-yanxin/FateBridge)**
 
-FateBridge 源于一个具体需求：让 AI 助手能够围绕用户的问题调用传统术数与占星计算，并清楚说明输入条件和结果依据。我发起这个项目，将领域计算与对话解释衔接起来。
+我发起并开发 FateBridge，为 **Agentic Harness** 构建本地 **Domain Computation Engine**，将传统术数与占星规则转化为可调用、可核对的领域工具，支持 Agent 从问题理解、计算调用到结果解释的完整流程。
 
-项目提供八字、紫微、星盘等 **92 个 MCP 工具**，同时支持 CLI 与 REST API 接入。计算在本地完成，返回结构化结果与时间口径，供 Agent 读取和组织解释。
+项目集成八字、紫微、星盘等 **92 个 MCP 工具**，并提供 CLI 与 REST API。通过统一 Tool Catalog、Schema 校验与共享执行层，复用领域 Service 和计算内核，以结构化结果、时间口径与 Run Metadata 支撑结果溯源和按预算交付。
 
-我关注历法约定、节气边界、时区与真太阳时等计算条件，也保留不同流派的规则与分歧。计算结果、传统解释和现实建议分别说明，尚未确认的条件与验证范围也应清楚呈现。
+我将**历法与节气边界、时区与真太阳时、规则来源及流派差异**纳入核心工程设计，通过算法回归、独立参考与跨接口校验检查计算实现。系统记录输入条件与验证范围，区分计算输出、传统解释和现实建议，为 Agent 提供有来源、可追溯的解释依据。
 
 </div>
 
@@ -109,11 +122,11 @@ FateBridge 源于一个具体需求：让 AI 助手能够围绕用户的问题�
 
 **QianYe（亲百问）：家庭记忆与共同叙事**
 
-老照片留下了画面，画面背后的经历却未必有人讲述。亲百问从照片与老物件切入，帮助家人打开话题，把零散的故事整理成可以共同翻阅的记忆手帐。我参与这个公益数字产品的设计与微信小程序开发。
+我主导了亲百问的**产品设计与微信小程序研发**，围绕 **Family Memory & Collaborative Storytelling** 打造公益数字产品。以照片、物件与声音打开话题，将家庭成员的异步讲述组织为可共同核对和阅读的记忆手帐。
 
-产品围绕“讲述—核对—入册”展开，支持家人异步回答、补充不同视角，并按人物回看。我把长辈的使用体验放在设计重点：分段保存与草稿恢复方便继续讲述，大字、清晰的状态和较大的触控区域减少操作负担。
+采用原生微信小程序、CloudBase 云函数与共享业务模块，围绕“讲述、核对、入册”串联录音、ASR 转写与可选 LLM 润色。异步任务衔接转写和内容整理，分段保存与草稿恢复支持随时继续讲述，大字与清晰的操作状态方便长辈使用。
 
-整理过程中保留原声、原图与原始转写，原文可直接入册；AI 润色由用户主动选择，并经本人核对。家庭空间与邀请范围明确内容的可见和参与权限，让讲述者与家人保有对故事的决定权。
+产品以讲述者为中心，保留原声、原图与原始转写，支持原文直接入册或由本人选择、核对 AI 润色。家庭空间与邀请机制管理阅读和参与权限，让故事的表达方式与分享范围由讲述者和家人共同决定。
 
 </div>
 
@@ -122,11 +135,11 @@ FateBridge 源于一个具体需求：让 AI 助手能够围绕用户的问题�
 
 **[健康大模型知识中台：MindChat 与 Sunsimiao](https://github.com/X-D-Lab)**
 
-MindChat 起于我和老师关于家人孤独与陪伴的一次讨论。我希望借助模型，为愿意倾诉的人提供一个更容易接近的交流入口，也由此开始持续关注情感智能与长期交互。
+MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为面向心理对话与医疗知识的 **Domain-specific LLM** 项目。我负责**模型训练**，并与团队协作完成数据构建、模型评估和应用集成。
 
-我负责模型训练，与团队协作完成数据构建、测试和应用集成，围绕医疗语料与心理对话开展清洗、领域训练和指令微调，并探索检索、记忆与上下文机制。其中，我尤其关注对话的连续性：模型能否结合先前的交流和当下的表达作出回应，以及如何评估这种能力。
+围绕领域语料清洗、Domain Adaptation 与 Instruction Tuning 开展模型研发，并探索 Retrieval、Memory 与 Context Management 在多轮对话中的应用。我将对话连续性、知识依据和能力边界纳入评估，连接领域训练与真实对话需求。
 
-团队开源了 [MindChat](https://github.com/X-D-Lab/MindChat) 与 [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao) 的模型、示例和部署材料。这段经历让我更重视模型的知识依据与能力边界，也影响了我后来对记忆系统的设计。
+团队开源了 [MindChat](https://github.com/X-D-Lab/MindChat) 与 [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao) 的模型、推理示例和部署材料。这段实践积累了领域训练、对话评估与应用集成经验，也为我后续设计 Agentic Memory 系统奠定了基础。
 
 </div>
 </div>
@@ -136,9 +149,9 @@ MindChat 起于我和老师关于家人孤独与陪伴的一次讨论。我希�
 
 **[袋鼯麻麻 ColugoMum：智能零售结算平台](https://github.com/thomas-yanxin/ColugoMum)**
 
-新商品不断上架，相似包装又给识别带来困难。在 ColugoMum 中，我同时关注识别效果和商品库的更新成本，希望让系统更容易适应货架变化。
+我负责 ColugoMum 的**项目管理、算法适配与端侧前端开发**，基于 **Image Retrieval** 构建智能零售结算平台，解决商品识别、相似包装区分与商品库持续更新中的工程问题。
 
-我负责项目管理、算法适配与端侧前端，基于 **PaddleClas / PP-ShiTu** 完成数据构建、轻量模型调优和云边端集成。项目采用图像检索路线，通过补充检索库接入新类别，减少重复训练的需求；同时处理相似包装、小样本与端侧延迟等工程问题。
+基于 **PaddleClas / PP-ShiTu** 完成数据构建、轻量化模型调优与云边端集成，通过检索库增量更新接入新类别，减少重复训练需求，并针对小样本、相似包装与端侧推理延迟优化应用方案。
 
 项目获得 **2022 年第 24 届中国机器人及人工智能大赛全国一等奖**，亮相 **Baidu Wave Summit 2021+**，并形成[论文](https://ieeexplore.ieee.org/document/9851085)、开源代码与教学实践。相关方法与实验见[技术文章](https://developer.cloud.tencent.com/article/2146677)。
 
@@ -149,9 +162,9 @@ MindChat 起于我和老师关于家人孤独与陪伴的一次讨论。我希�
 
 **[欧小鹏 OXiaoPeng：从社群需求出发的模型应用](https://github.com/thomas-yanxin/OXiaoPeng)**
 
-欧小鹏从微信群里的几个需求开始：处理广告、欢迎新成员、回答常见问题。我先写了一个群助手，随后逐步接入 ERNIE、PanGu、Yuan、ChatYuan 与 ChatGPT，让群友在熟悉的环境里体验对话和文生图。连名字也是大家一起想的。
+欧小鹏是面向微信社群的 **Conversational AI Application**，从广告处理、新成员欢迎与常见问题问答起步，逐步接入 ERNIE、PanGu、Yuan、ChatYuan 与 ChatGPT，将对话与 Text-to-Image 服务带入日常社群。项目需求与名称均来自社群共创。
 
-群友的直接反馈推动了迭代，上游接口的变化也曾让文生图服务中断。收集问题、应对依赖变化、恢复服务，这些具体经历让我理解了模型应用的长期维护责任。
+我负责**模型 API 集成、功能迭代与服务维护**，将用户反馈转化为产品改进。针对上游接口变更引起的文生图服务中断，处理依赖适配与服务恢复，积累了面向真实用户持续运营 AI 应用的经验。
 
 项目早期服务多个 AI 开源社群，累计直接用户 **2000+**、间接覆盖 **2 万+**，获得 **2022 年启智社区优秀孵化项目奖**，并入围 **2023 年奇绩春季创业营（S23）面试**。[《2022，我与启智》](https://www.cnblogs.com/thomas-yanxin/p/17067454.html)记录了项目的成长与社区的参与。
 
@@ -177,7 +190,7 @@ MindChat 起于我和老师关于家人孤独与陪伴的一次讨论。我希�
 
 # Talks & Media
 
-我的公开分享主要围绕模型选型、评估与应用开发展开。以下访谈与课程记录了不同阶段的实践，以及文学、情感智能与产品设计之间的联系。
+我受邀在技术大会、开发者社区与课程中分享**模型选型、评估与应用开发**经验，并通过公开访谈讨论文学、情感智能与产品设计如何影响技术实践。
 
 ## Invited Talks
 
@@ -227,7 +240,7 @@ MindChat 起于我和老师关于家人孤独与陪伴的一次讨论。我希�
 
 # Community & Activities
 
-我在开源社区结识合作者，也从使用者的反馈中改进项目。我喜欢把方法讲清楚，让别人能够动手实践，并通过课程、活动和项目维护延续交流。
+我持续参与**开源项目、技术教学与开发者社区建设**，将研发经验转化为可实践的课程和项目。通过高校活动、社区协作与长期维护，连接开发者、使用者和新的合作机会。
 
 **[飞桨领航团](https://www.paddlepaddle.org.cn/ppdenavigategroup) | 华东区主管**<br>
 *2021.09 - 2022.07*
@@ -322,4 +335,4 @@ MindChat 起于我和老师关于家人孤独与陪伴的一次讨论。我希�
 
 # Contact
 
-欢迎交流多模态模型、Agent、记忆系统，以及这里的项目。技术问题、使用反馈或合作想法，都可以写信至 [yx20001210@gmail.com](mailto:yx20001210@gmail.com)。更多代码与近期工作见 [GitHub](https://github.com/thomas-yanxin)。
+欢迎围绕**多模态模型、Agent 系统、记忆架构与具身智能**开展技术交流与合作。项目合作、公开分享或使用反馈，请联系 [yx20001210@gmail.com](mailto:yx20001210@gmail.com)。更多开源代码与近期工作见 [GitHub](https://github.com/thomas-yanxin)。

@@ -136,6 +136,85 @@ h1:before, .anchor:before {
     padding: 1.5em 0;
 }
 
+.paper-box--sensemem {
+    align-items: flex-start;
+    row-gap: 1em;
+    padding: 1.25em 0;
+
+    .paper-box-image > div {
+        width: 100%;
+    }
+
+    .paper-box-image img {
+        max-width: 100%;
+        box-shadow: 0 1px 6px rgba(15, 23, 42, .08);
+    }
+
+    .paper-box-text p {
+        margin-bottom: .65em;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    @include breakpoint($medium) {
+        .paper-box-image {
+            min-width: 0;
+            max-width: 38%;
+        }
+
+        .paper-box-text {
+            max-width: 62%;
+            padding-left: 1.4em;
+        }
+    }
+}
+
+.project-figure {
+    display: block;
+    margin: 0;
+
+    & + .project-figure {
+        margin-top: .75em;
+    }
+
+    > a {
+        width: 100%;
+        cursor: zoom-in;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border: 1px solid #e5e7eb;
+        border-radius: 4px;
+        background: #fff;
+    }
+
+    figcaption {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: .5em;
+        margin: .35em 0 0;
+        color: #64748b;
+        font-family: inherit;
+        font-size: .75em;
+        line-height: 1.4;
+
+        a {
+            flex-shrink: 0;
+            color: inherit;
+            white-space: nowrap;
+            border-bottom: 0;
+            text-decoration: none;
+        }
+    }
+}
+
 .archive-details {
     border: 1px solid #e5e7eb;
     border-radius: 6px;
