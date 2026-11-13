@@ -94,9 +94,9 @@ redirect_from:
 
 **[SenseMem：Agentic Multimodal Memory](https://github.com/SenseMem/SenseMem)**
 
-**设计目标与追求。** 我发起 SenseMem，为 **Agentic Harness、个人助手与具身交互**构建统一的 **Omni-modal Memory & Context Layer**，让 Agent 理解持续交互中的语境、积累共同经历，并将长期记忆转化为当前任务所需的上下文。项目以 **3S** 为设计追求：**Smarter**，通过记忆形成、修正与召回提供更有用的上下文；**Swifter**，让能力组合、模型选择与系统接入更敏捷；**Stronger**，适配多样部署环境，追求跨模态、跨任务的领先表现。
+我发起 SenseMem，为 **Personal Agent 、Agentic Harness 和具身交互**构建统一的 **Agentic Omni-modal ContextOS**，让 Agent 理解持续交互中的语境、积累共同经历，并将长期记忆转化为当前任务所需的上下文。项目以 **3S** 为设计追求：**Smarter**，通过记忆形成、修正与召回提供更有用的上下文；**Swifter**，让能力组合、模型选择与系统接入更敏捷；**Stronger**，适配多样部署环境，追求跨模态、跨任务的领先表现。
 
-我主导 **Memory Kernel** 的设计与实现，将文本、图像、音频、视频及其有序组合纳入统一内容契约，贯通原始观察、知识更新与任务上下文。内核统一管理证据、身份、时空与版本，按需接入模型完成 Memory Formation，并以可审计、可回滚的操作支持 Consolidation、Correction、Reinforcement 与可逆 Forgetting。**Hybrid Retrieval** 融合 Dense Retrieval、Lexical Search、时空与人物约束及可选 Semantic Reranking，**Context Compiler** 按条目、字符与媒体预算编排记忆和支撑证据，呈现冲突与信息缺口，并为 Grounded Answering 提供引用依据。底层以 SQLite 与原始媒体保存权威状态、Zvec 提供可重建索引，通过能力契约接入本地或远程的 Embedding、Generation、Speech、Vision 与记忆处理模型，SDK、REST、MCP 与 CLI 共享同一内核，衔接 Host Harness 的目标管理、调度与行动执行。
+我主导 **Memory Kernel** 的架构设计与实现，将文本、图像、音频、视频及其有序组合纳入统一内容契约，贯通原始观察、知识更新与任务上下文。内核统一管理证据、身份、时空与版本，按需接入模型完成 Memory Formation，并以可审计、可回滚的操作支持 Consolidation、Correction、Reinforcement 与可逆 Forgetting。**Hybrid Retrieval** 融合 Dense Retrieval、Lexical Search、时空与人物约束及可选 Semantic Reranking，**Context Compiler** 按条目、字符与媒体预算编排记忆和支撑证据，呈现冲突与信息缺口，并为 Grounded Answering 提供引用依据。
 
 SenseMem 在 **MOSAIC、Mem-Gallery、ATM-Bench、LoCoMo-Refined** 等记忆 Benchmarks 上取得 **SOTA**：**MOSAIC** 面向文本、图像、音频与视频的全模态记忆，**Mem-Gallery** 面向视觉个性化记忆与图像关联对话，**ATM-Bench** 面向邮件、图像与视频等异构个人档案的检索与推理，**LoCoMo-Refined** 面向多会话长期对话记忆。这些成绩共同展现了 SenseMem 从全模态交互、个人媒体到长期对话的**跨场景通用性与领先表现**。
 </div>
