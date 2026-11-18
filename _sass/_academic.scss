@@ -37,7 +37,7 @@ body {
 }
 
 .section-emoji {
-  margin-inline-start: .3em;
+  margin-inline-end: .3em;
   font-size: .8em;
   vertical-align: .05em;
 }
@@ -146,7 +146,7 @@ summary:focus-visible {
     font-size: 1.625rem;
   }
 
-  > h2 {
+  > h1, > h2 {
     font-style: italic;
     font-weight: 400;
   }

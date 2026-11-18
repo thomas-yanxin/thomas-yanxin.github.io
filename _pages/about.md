@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "颜鑫 Xin Yan · Creator · Builder · Researcher"
-excerpt: "颜鑫（Xin Yan），创作者、开发者与研究者，关注多模态 AI、Agent 系统与具身智能，构建 SenseMem、FateBridge 与 QianYe。现任心言机器人高级算法工程师。"
+excerpt: "颜鑫（Xin Yan），创业者、创作者、开发者与研究者，关注多模态 AI、Agent 系统与具身智能，构建 SenseMem、FateBridge 与 QianYe。现任心言机器人高级算法工程师。"
 lang: zh-CN
 author_profile: true
 redirect_from: 
@@ -16,20 +16,22 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-# About Me <span class="section-emoji" aria-hidden="true">👋</span> {#about-me}
+# <span class="section-emoji" aria-hidden="true">👋</span> About Me {#about-me}
 
-我是**颜鑫（Xin Yan）**，一名创作者、开发者与研究者。
+我是**颜鑫（Xin Yan）**，一名创作者、开发者与研究者，本质上是一名**创业者**。我从真实需求出发，把想法做成产品，统筹模型、工程与评估，持续交付和迭代。
 {: .intro-lead}
 
 现任**心言机器人高级算法工程师**，负责**机器人算法架构**，主导 **xyVL 具身基座模型系列**与 **SenseMem** 研发；此前在**心言集团（测测）**主导 **Xinyuan 系列垂域大模型**研发。我毕业于**华东理工大学自动化专业**。
 
 我的长期关注方向是 **AI 与人的持续交互**：让系统理解语境、记住共同经历，并随新信息更新判断。目前，我正在构建 **SenseMem、FateBridge 和 QianYe**，分别推进 Agentic Multimodal Memory、传统术数与占星计算，以及家庭记忆与共同叙事。
 
-文学塑造了我理解人的方式，也影响着我对情感智能和产品体验的判断。我通过**开源项目、课程、写作与[公开分享](#talks-media)**，交流从产品构想到系统实现、评估与迭代的实践，让这些经验成为更多人可以使用和延伸的成果。
+我的 MBTI 是 **INTJ**。文学塑造了我理解人的方式，也影响着我对情感智能和产品体验的判断。
+
+作为 **[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)**，我参与开源共建与技术教育。我发起和参与的开源项目累计获得 **30000+ GitHub Stars**。通过**开源项目、课程、写作与[公开分享](#talks-media)**，我分享从产品构想到系统实现、评估与迭代的实践。
 
 <div class="anchor" id="-news"></div>
 
-## News <span class="section-emoji" aria-hidden="true">📰</span> {#news}
+## <span class="section-emoji" aria-hidden="true">📰</span> News {#news}
 
 * *2026.11* 接受**浙江卫视**专访 - [视频](http://wap.cztv.com/tv/35/2991249.html)。
 * *2026.08* 获面壁智能 & OpenBMB社区「**火种说**」专题报道，分享 **YRobot 全双工桌面陪伴机器人**的开发实践 - [文章](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q)。
@@ -43,7 +45,7 @@ redirect_from:
 <div class="anchor" id="experience"></div>
 <div class="anchor" id="-company"></div>
 
-## Professional Experience <span class="section-emoji" aria-hidden="true">💼</span> {#professional-experience}
+## <span class="section-emoji" aria-hidden="true">💼</span> Professional Experience {#professional-experience}
 
 **心言机器人 | 高级算法工程师**<br>
 *2026.01 - 至今*
@@ -150,7 +152,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 <div class="anchor" id="projects"></div>
 <div class="anchor" id="-projects"></div>
 
-## Selected Projects <span class="section-emoji" aria-hidden="true">🛠️</span> {#selected-projects}
+## <span class="section-emoji" aria-hidden="true">🛠️</span> Selected Projects {#selected-projects}
 
 <div class="project-entry" markdown="1">
 
@@ -211,7 +213,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 <div class="anchor" id="publications-ip"></div>
 
-## Publications & IP <span class="section-emoji" aria-hidden="true">📚</span> {#publications--ip}
+## <span class="section-emoji" aria-hidden="true">📚</span> Publications & IP {#publications--ip}
 
 完整论文记录见 [Google Scholar](https://scholar.google.com/citations?user=WYuXNL0AAAAJ&hl=zh-CN)。
 
@@ -242,7 +244,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 <div class="anchor" id="-invited-talks"></div>
 <div class="anchor" id="-dispersions"></div>
 
-## Talks & Media <span class="section-emoji" aria-hidden="true">🎙️</span> {#talks--media}
+## <span class="section-emoji" aria-hidden="true">🎙️</span> Talks & Media {#talks--media}
 
 我受邀在技术大会、开发者社区与课程中分享**模型选型、评估与应用开发**经验，并通过公开访谈讨论文学、情感智能与产品设计如何影响技术实践。
 
@@ -295,7 +297,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 <div class="anchor" id="community-activities"></div>
 <div class="anchor" id="-activities"></div>
 
-## Community & Activities <span class="section-emoji" aria-hidden="true">🌱</span> {#community--activities}
+## <span class="section-emoji" aria-hidden="true">🌱</span> Community & Activities {#community--activities}
 
 我持续参与**开源项目、技术教学与开发者社区建设**，将研发经验转化为可实践的课程和项目。通过高校活动、社区协作与长期维护，连接开发者、使用者和新的合作机会。
 
@@ -328,7 +330,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 <div class="anchor" id="awards-honors"></div>
 
-## Awards & Honors <span class="section-emoji" aria-hidden="true">🏅</span> {#awards--honors}
+## <span class="section-emoji" aria-hidden="true">🏅</span> Awards & Honors {#awards--honors}
 
 ### Featured Awards
 
@@ -385,7 +387,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 <div class="anchor" id="-educations"></div>
 
-## Education <span class="section-emoji" aria-hidden="true">🎓</span> {#education}
+## <span class="section-emoji" aria-hidden="true">🎓</span> Education {#education}
 
 **华东理工大学 | 信息科学与工程学院 | 自动化专业**<br>
 *2019.09 - 2023.06*
@@ -393,6 +395,6 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 <div class="anchor" id="now-next"></div>
 
-## Contact <span class="section-emoji" aria-hidden="true">💬</span> {#contact}
+## <span class="section-emoji" aria-hidden="true">💬</span> Contact {#contact}
 
 欢迎围绕**多模态模型、Agent 系统、记忆架构与具身智能**开展技术交流与合作。项目合作、公开分享或使用反馈，请联系 [yx20001210@gmail.com](mailto:yx20001210@gmail.com)。更多开源代码与近期工作见 [GitHub](https://github.com/thomas-yanxin)。

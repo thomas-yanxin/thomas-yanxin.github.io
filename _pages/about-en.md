@@ -1,27 +1,29 @@
 ---
 permalink: /en/
 title: "Xin Yan · Creator · Builder · Researcher"
-excerpt: "Xin Yan is a creator, builder and researcher working on multimodal AI, agent systems and embodied intelligence. He builds SenseMem, FateBridge and QianYe and is a Senior Algorithm Engineer at Cylingo Robotics."
+excerpt: "Xin Yan is an entrepreneur, creator, builder and researcher working on multimodal AI, agent systems and embodied intelligence. He builds SenseMem, FateBridge and QianYe and is a Senior Algorithm Engineer at XYRobot."
 lang: en
 author_profile: true
 ---
 
 <div class="anchor" id="about-en"></div>
 
-# About <span class="section-emoji" aria-hidden="true">👋</span> {#about}
+# <span class="section-emoji" aria-hidden="true">👋</span> About {#about}
 
-I am **Xin Yan (颜鑫)**, a creator, builder and researcher.
+I am **Xin Yan (颜鑫)**, a creator, builder and researcher, and an **entrepreneur at heart**. I start with real needs, turn ideas into products, and bring models, engineering and evaluation together to deliver and iterate.
 {: .intro-lead}
 
-As a **Senior Algorithm Engineer at Cylingo Robotics (心言机器人)**, I lead **robotics algorithm architecture**, development of the **xyVL embodied foundation model series**, and the design and implementation of **SenseMem**. Previously, I led the **Xinyuan series of domain-specific models** at **Cylingo Group (测测)**. I graduated in Automation from **East China University of Science and Technology**.
+As a **Senior Algorithm Engineer at XYRobot (心言机器人)**, I lead **robotics algorithm architecture**, development of the **xyVL embodied foundation model series**, and the design and implementation of **SenseMem**. Previously, I led the **Xinyuan series of domain-specific models** at **Cylingo Group (测测)**. I graduated in Automation from **East China University of Science and Technology**.
 
 My long-term focus is **AI that interacts with people over time**: systems that understand context, remember shared experiences and update their judgments as new information arrives. My current projects put that direction into practice: **SenseMem** for agentic multimodal memory, **FateBridge** for traditional metaphysics and astrology computation, and **QianYe** for family memory and shared storytelling.
 
-Literature shapes how I understand people and informs my approach to affective intelligence and product experience. Through **open-source projects, teaching, writing and [public talks](#talks-media-en)**, I share practical experience across product design, system implementation, evaluation and iteration that others can use and build on.
+My MBTI type is **INTJ**. Literature shapes how I understand people and informs my approach to affective intelligence and product experience.
+
+As a **[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)**, I contribute to open-source projects and technical education. Projects I have started or contributed to have earned **30000+ GitHub Stars** in total. Through **open-source projects, teaching, writing and [public talks](#talks-media-en)**, I share practical experience across product design, system implementation, evaluation and iteration.
 
 <div class="anchor" id="news-en"></div>
 
-## News <span class="section-emoji" aria-hidden="true">📰</span> {#news}
+## <span class="section-emoji" aria-hidden="true">📰</span> News {#news}
 
 * *2026.11* Interviewed by **Zhejiang TV** · [video](http://wap.cztv.com/tv/35/2991249.html).
 * *2026.08* Featured in **Huozhong Shuo (火种说)** by **ModelBest and the OpenBMB community**, sharing my work on **YRobot**, a full-duplex desktop companion robot · [article](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q).
@@ -34,9 +36,9 @@ Literature shapes how I understand people and informs my approach to affective i
 
 <div class="anchor" id="experience-en"></div>
 
-## Experience <span class="section-emoji" aria-hidden="true">💼</span> {#experience}
+## <span class="section-emoji" aria-hidden="true">💼</span> Experience {#experience}
 
-**Cylingo Robotics (心言机器人) | Senior Algorithm Engineer**<br>
+**XYRobot (心言机器人) | Senior Algorithm Engineer**<br>
 *January 2026 - Present*
 {: .role-heading}
 
@@ -48,7 +50,7 @@ Literature shapes how I understand people and informs my approach to affective i
 </figure>
 <div class="paper-box-text" markdown="1">
 
-I lead algorithm architecture for **Cylingo Robotics (心言机器人)** and development of the **xyVL embodied foundation model series**, building a development pipeline across **multimodal data curation, automated quality assessment and post-training**.
+I lead algorithm architecture for **XYRobot (心言机器人)** and development of the **xyVL embodied foundation model series**, building a development pipeline across **multimodal data curation, automated quality assessment and post-training**.
 
 **xyData: Multimodal Data Curation.** I brought together **50+ open-source datasets with approximately 45 million raw samples** from Hugging Face, GitHub and ModelScope, covering text, images, video, robotics and autonomous driving. Schema normalization, quality filtering and difficulty grading produced **18 million curated samples**. I designed data mixtures around task distribution, difficulty and model suitability for SFT, distillation and reinforcement learning.
 
@@ -136,7 +138,7 @@ The team released [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsimiao
 
 <div class="anchor" id="projects-en"></div>
 
-## Selected Projects <span class="section-emoji" aria-hidden="true">🛠️</span> {#selected-projects}
+## <span class="section-emoji" aria-hidden="true">🛠️</span> Selected Projects {#selected-projects}
 
 <div class="project-entry" markdown="1">
 
@@ -188,7 +190,7 @@ Early deployments served **2,000+ direct users**, with an **indirect reach of 20
 
 <div class="anchor" id="publications-ip-en"></div>
 
-## Publications & IP <span class="section-emoji" aria-hidden="true">📚</span> {#publications--ip}
+## <span class="section-emoji" aria-hidden="true">📚</span> Publications & IP {#publications--ip}
 
 See [Google Scholar](https://scholar.google.com/citations?user=WYuXNL0AAAAJ&hl=en) for the full publication record.
 
@@ -215,7 +217,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=WYuXNL0AAAAJ&hl=e
 
 <div class="anchor" id="talks-media-en"></div>
 
-## Talks & Media <span class="section-emoji" aria-hidden="true">🎙️</span> {#talks--media}
+## <span class="section-emoji" aria-hidden="true">🎙️</span> Talks & Media {#talks--media}
 
 I speak at technical conferences, developer events and courses on **model selection, evaluation and application development**. In public interviews, I also discuss how literature, affective intelligence and product design inform my technical work.
 
@@ -267,7 +269,7 @@ I speak at technical conferences, developer events and courses on **model select
 
 <div class="anchor" id="community-activities-en"></div>
 
-## Community & Activities <span class="section-emoji" aria-hidden="true">🌱</span> {#community--activities}
+## <span class="section-emoji" aria-hidden="true">🌱</span> Community & Activities {#community--activities}
 
 I contribute to **open-source projects, technical education and developer communities**, turning engineering experience into practical courses and projects. University programs, community collaboration and ongoing maintenance connect that work with developers, users and new collaborators.
 
@@ -300,7 +302,7 @@ I contribute to **open-source projects, technical education and developer commun
 
 <div class="anchor" id="awards-honors-en"></div>
 
-## Awards & Honors <span class="section-emoji" aria-hidden="true">🏅</span> {#awards--honors}
+## <span class="section-emoji" aria-hidden="true">🏅</span> Awards & Honors {#awards--honors}
 
 ### Featured Awards
 
@@ -357,7 +359,7 @@ I contribute to **open-source projects, technical education and developer commun
 
 <div class="anchor" id="education-en"></div>
 
-## Education <span class="section-emoji" aria-hidden="true">🎓</span> {#education}
+## <span class="section-emoji" aria-hidden="true">🎓</span> Education {#education}
 
 **East China University of Science and Technology | School of Information Science and Engineering | Automation**<br>
 *September 2019 - June 2023*
@@ -366,7 +368,7 @@ I contribute to **open-source projects, technical education and developer commun
 <div class="anchor" id="now-next-en"></div>
 <div class="anchor" id="contact-en"></div>
 
-## Contact <span class="section-emoji" aria-hidden="true">💬</span> {#contact}
+## <span class="section-emoji" aria-hidden="true">💬</span> Contact {#contact}
 
 For technical collaboration, project partnerships, speaking invitations or feedback on **multimodal models, agent systems, memory architectures and embodied intelligence**, contact [yx20001210@gmail.com](mailto:yx20001210@gmail.com). Find my open-source code and recent work on [GitHub](https://github.com/thomas-yanxin).
 
