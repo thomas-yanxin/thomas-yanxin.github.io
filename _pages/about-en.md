@@ -19,31 +19,31 @@ My long-term focus is **AI that interacts with people over time**: systems that 
 
 My MBTI type is **INTJ**. Literature shapes how I understand people and informs my approach to affective intelligence and product experience.
 
-As a **[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)**, I contribute to open-source projects and technical education. Projects I have started or contributed to have earned **30000+ GitHub Stars** in total. Through **open-source projects, teaching, writing and [public talks](#talks-media-en)**, I share practical experience across product design, system implementation, evaluation and iteration.
+As a **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)</span>**, I contribute to open-source projects and technical education. Projects I have started or contributed to have earned **30000+ GitHub Stars** in total. Through **open-source projects, teaching, writing and [public talks](#talks-media-en)**, I share practical experience across product design, system implementation, evaluation and iteration.
 
 <div class="anchor" id="news-en"></div>
 
 ## <span class="section-emoji" aria-hidden="true">📰</span> News {#news}
 
-* *2026.11* Interviewed by **Zhejiang TV** · [video](http://wap.cztv.com/tv/35/2991249.html).
-* *2026.08* Featured in **Huozhong Shuo (火种说)** by **ModelBest and the OpenBMB community**, sharing my work on **YRobot**, a full-duplex desktop companion robot · [article](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q).
+* *2026.11* <span class="news-emoji" aria-hidden="true">📺</span> Interviewed by **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/zhejiang-tv.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Zhejiang TV</span>** · [video](http://wap.cztv.com/tv/35/2991249.html).
+* *2026.08* <span class="news-emoji" aria-hidden="true">🔥</span> Featured in **Huozhong Shuo (火种说)** by **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelbest.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelBest</span> and the <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openbmb.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenBMB</span> community**, sharing my work on **YRobot**, a full-duplex desktop companion robot · [article](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q).
 * *2026.05* <span class="news-emoji" aria-hidden="true">📖</span> Co-authored *LangChain Large Model Application Development: From Beginner to Practice*, published by Tsinghua University Press.
 * *2026.01* <span class="news-emoji" aria-hidden="true">🏆</span> First Prize in the 2025 Synthetic Data Competition · Lingxi AI for Mental Health track, with the MindChat team · [report](https://www.shobserver.com/wx/detail.do?id=1047568).
-* *2025.09* Speaker at the 2025 Apsara Conference session "Doing AI, the Gen-Z Way".
-* *2025.07* Bronze Award in the 2024 China International College Students' Innovation Competition.
-* *2025.07* Joint interview by Alibaba Cloud Tongyi Lab and ModelScope · [podcast](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e).
+* *2025.09* <span class="news-emoji" aria-hidden="true">🎤</span> Speaker at the 2025 <span class="brand-token"><img class="brand-logo brand-logo--wordmark" src="/images/logos/apsara-wordmark.png" alt="" aria-hidden="true" width="386" height="38" loading="lazy" decoding="async"><span class="visually-hidden">Apsara Conference</span></span> session "Doing AI, the Gen-Z Way".
+* *2025.07* <span class="news-emoji" aria-hidden="true">🥉</span> Bronze Award in the 2024 China International College Students' Innovation Competition.
+* *2025.07* <span class="news-emoji" aria-hidden="true">🎧</span> Joint interview by <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Tongyi Lab</span> and <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span> · [podcast](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e).
 {: .news-list role="list"}
 
 <div class="anchor" id="experience-en"></div>
 
 ## <span class="section-emoji" aria-hidden="true">💼</span> Experience {#experience}
 
-**XYRobot (心言机器人) | Senior Algorithm Engineer**<br>
+<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo brand-logo--wide" src="/images/logos/xyrobot.png" alt="" aria-hidden="true" width="32" height="22" loading="lazy" decoding="async"></span><span>XYRobot (心言机器人) | Senior Algorithm Engineer</span></strong><br>
 *January 2026 - Present*
 {: .role-heading}
 
 <div class="paper-box">
-<h3 class="project-title"><a href="/images/xinyan-robot-xyvl-pipeline.png">xyVL: Embodied Foundation Model Series</a></h3>
+<h3 class="project-title"><span class="brand-mark"><span class="project-emoji" aria-hidden="true">🤖</span></span> <a href="/images/xinyan-robot-xyvl-pipeline.png">xyVL: Embodied Foundation Model Series</a></h3>
 <div class="project-row">
 <figure class="project-figure project-figure--portrait">
   <a href="/images/xinyan-robot-xyvl-pipeline.png"><img src="/images/xinyan-robot-xyvl-pipeline.png" alt="Robotics algorithm pipeline: multi-source data is normalized, annotated and filtered by xyJudge into xyData, then used for SFT, on-policy distillation and GRPO training of xyVL. Click to view the full-size image." loading="lazy" width="1276" height="1291" decoding="async"></a>
@@ -52,7 +52,7 @@ As a **[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)**, 
 
 I lead algorithm architecture for **XYRobot (心言机器人)** and development of the **xyVL embodied foundation model series**, building a development pipeline across **multimodal data curation, automated quality assessment and post-training**.
 
-**xyData: Multimodal Data Curation.** I brought together **50+ open-source datasets with approximately 45 million raw samples** from Hugging Face, GitHub and ModelScope, covering text, images, video, robotics and autonomous driving. Schema normalization, quality filtering and difficulty grading produced **18 million curated samples**. I designed data mixtures around task distribution, difficulty and model suitability for SFT, distillation and reinforcement learning.
+**xyData: Multimodal Data Curation.** I brought together **50+ open-source datasets with approximately 45 million raw samples** from <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span>, <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/github.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">GitHub</span> and <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span>, covering text, images, video, robotics and autonomous driving. Schema normalization, quality filtering and difficulty grading produced **18 million curated samples**. I designed data mixtures around task distribution, difficulty and model suitability for SFT, distillation and reinforcement learning.
 
 </div>
 </div>
@@ -66,7 +66,7 @@ I lead algorithm architecture for **XYRobot (心言机器人)** and development 
 </div>
 
 <div class="paper-box paper-box--sensemem">
-<h3 class="project-title"><a href="https://github.com/SenseMem/SenseMem">SenseMem: Agentic Multimodal Memory</a></h3>
+<h3 class="project-title"><span class="brand-mark"><img class="brand-logo brand-logo--project brand-logo--sensemem" src="/images/logos/sensemem.png" alt="" aria-hidden="true" width="30" height="30" loading="lazy" decoding="async"></span> <a href="https://github.com/SenseMem/SenseMem">SenseMem: Agentic Multimodal Memory</a></h3>
 <div class="paper-box-text" markdown="1">
 
 **Vision & Design.** I created SenseMem as a unified **Omni-modal Memory & Context Layer** for **agentic harnesses, personal assistants and embodied interaction**. It connects the context and shared experiences accumulated over time with the task an agent faces now. Its design follows the **3S** principles: **Smarter** organizes task context through memory formation, revision and recall. **Swifter** supports flexible capability composition, model selection and system integration. **Stronger** optimizes performance across modalities, tasks and deployment environments.
@@ -106,27 +106,27 @@ SenseMem achieves **state-of-the-art results** on memory benchmarks including **
 </div>
 </div>
 
-**Cylingo Group (测测) | Senior Algorithm Engineer**<br>
+<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/cylingo.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>Cylingo Group (测测) | Senior Algorithm Engineer</span></strong><br>
 *March 2024 - January 2026*
 {: .role-heading}
 
-I led the **Xinyuan series of domain-specific models** from data curation through training, evaluation and deployment. The work covered multi-source multimodal data, continual pre-training, SFT, RLHF and multidimensional evaluation. I coordinated algorithm and engineering teams of **5–20 people** and delivered selected open-source releases. The series has accumulated **20,000+ downloads** across Hugging Face and ModelScope.
+I led the **Xinyuan series of domain-specific models** from data curation through training, evaluation and deployment. The work covered multi-source multimodal data, continual pre-training, SFT, RLHF and multidimensional evaluation. I coordinated algorithm and engineering teams of **5–20 people** and delivered selected open-source releases. The series has accumulated **20,000+ downloads** across <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span> and <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span>.
 
 For psychological support, education and companionship, I made **conversational continuity, affective expression, knowledge grounding and domain adaptation** priorities for training and evaluation. Failure analysis and user feedback guided improvements. I aligned model and deployment choices with product needs, balancing domain performance, general capabilities, inference latency, ecosystem support and maintenance costs.
 
 Selected work:
 
-* [Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428): Domain training on Qwen3-14B-Base for psychological support and education, with model weights and deployment instructions.
-* [Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B): Based on Qwen2-VL-2B-Instruct and trained on **5M+ multimodal samples**, with gains over the base model on multiple visual-understanding benchmarks. Ranked **first in the <4B parameter category** on the OpenCompass & Hugging Face Open VLM Leaderboard in **September 2024**. See the model card for training and evaluation details and the [ModelScope event report](https://developer.aliyun.com/article/1664742) for coverage of the result.
-* Presented "Open Source Technology Driving Pan-Psychological Services and AI Inclusion" at the **ModelScope Developer Co-Creation Event** and joined a [Tongyi Lab × ModelScope interview](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg) on model selection, evaluation, personalization and on-device deployment.
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/xinyuan.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)</span>: Domain training on Qwen3-14B-Base for psychological support and education, with model weights and deployment instructions.
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/xinyuan.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)</span>: Based on Qwen2-VL-2B-Instruct and trained on **5M+ multimodal samples**, with gains over the base model on multiple visual-understanding benchmarks. Ranked **first in the <4B parameter category** on the OpenCompass & Hugging Face Open VLM Leaderboard in **September 2024**. See the model card for training and evaluation details and the [ModelScope event report](https://developer.aliyun.com/article/1664742) for coverage of the result.
+* Presented "Open Source Technology Driving Pan-Psychological Services and AI Inclusion" at the **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span> Developer Co-Creation Event** and joined a [<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Tongyi Lab</span> × ModelScope interview](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg) on model selection, evaluation, personalization and on-device deployment.
 
-**X-D Lab | Co-founder**<br>
+<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/xd-lab.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>X-D Lab | Co-founder</span></strong><br>
 *June 2023 - March 2024*
 {: .role-heading}
 
 <div class="project-entry" markdown="1">
 
-### [Health LLM Knowledge Platform: MindChat & Sunsimiao](https://github.com/X-D-Lab)
+### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">🐳</span></span> [Health LLM Knowledge Platform: MindChat & Sunsimiao](https://github.com/X-D-Lab) {#health-llm-knowledge-platform-mindchat--sunsimiao}
 
 MindChat grew from a conversation with my teacher about family companionship into a **domain-specific LLM** project for psychological dialogue and medical knowledge. As a **co-founder of X-D Lab**, I was responsible for **model training** and collaborated with the team on data construction, model evaluation and application integration.
 
@@ -142,7 +142,7 @@ The team released [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsimiao
 
 <div class="project-entry" markdown="1">
 
-### [FateBridge: A Traditional Metaphysics and Astrology Engine for Agentic Harnesses](https://github.com/thomas-yanxin/FateBridge)
+### <span class="brand-mark"><img class="brand-logo brand-logo--project" src="/images/logos/fatebridge.png" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span> [FateBridge: A Traditional Metaphysics and Astrology Engine for Agentic Harnesses](https://github.com/thomas-yanxin/FateBridge) {#fatebridge-a-traditional-metaphysics-and-astrology-engine-for-agentic-harnesses}
 
 I created FateBridge, a local **domain computation engine** for **agentic harnesses**. It turns traditional metaphysics and astrology rules into structured domain tools, connecting the host agent's workflow from understanding a question to invoking calculations and explaining the results.
 
@@ -154,7 +154,7 @@ I design the calculation kernels around **calendar and solar-term boundaries, ti
 
 <div class="project-entry" markdown="1">
 
-### QianYe (亲百问): Family Memory and Shared Storytelling
+### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">📖</span></span> <span class="project-label">QianYe (亲百问): Family Memory and Shared Storytelling</span> {#qianye--family-memory-and-shared-storytelling}
 
 I led **product design and WeChat mini program development** for QianYe, a public-interest product for **family memory and collaborative storytelling**. Photographs, familiar objects and voices prompt relatives to share stories asynchronously, creating a memory journal they can review and read together.
 
@@ -166,11 +166,11 @@ The product centers the storyteller: original audio, images and transcripts rema
 
 <div class="project-entry" markdown="1">
 
-### [ColugoMum: Smart Retail Settlement Platform](https://github.com/thomas-yanxin/ColugoMum)
+### <span class="brand-mark"><img class="brand-logo brand-logo--project" src="/images/logos/colugomum.png" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span> [ColugoMum: Smart Retail Settlement Platform](https://github.com/thomas-yanxin/ColugoMum) {#colugomum-smart-retail-settlement-platform}
 
 I was responsible for **project management, algorithm adaptation and on-device frontend development** for ColugoMum, an **image-retrieval-based** smart retail checkout platform. The work addressed product recognition, similar packaging and a continuously changing catalog.
 
-Using **PaddleClas / PP-ShiTu**, I built datasets, tuned lightweight models and integrated cloud, edge and frontend components. Incremental retrieval-gallery updates introduced new categories with less repeated training. I adapted the application for limited samples, similar packaging and on-device inference latency.
+Using **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddleClas</span> / PP-ShiTu**, I built datasets, tuned lightweight models and integrated cloud, edge and frontend components. Incremental retrieval-gallery updates introduced new categories with less repeated training. I adapted the application for limited samples, similar packaging and on-device inference latency.
 
 The project received the **National First Prize at the 2022 China Robot and Artificial Intelligence Competition**, appeared at **Baidu Wave Summit 2021+**, and led to a [paper](https://ieeexplore.ieee.org/document/9851085), open-source code and teaching materials. Methods and experiments are described in the [technical article](https://developer.cloud.tencent.com/article/2146677).
 
@@ -178,13 +178,13 @@ The project received the **National First Prize at the 2022 China Robot and Arti
 
 <div class="project-entry" markdown="1">
 
-### [OXiaoPeng: A Model Application Built from Community Needs](https://github.com/thomas-yanxin/OXiaoPeng)
+### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">💬</span></span> [OXiaoPeng: A Model Application Built from Community Needs](https://github.com/thomas-yanxin/OXiaoPeng) {#oxiaopeng-a-model-application-built-from-community-needs}
 
 OXiaoPeng is a **conversational AI application** for WeChat communities. It began with advertisement moderation, member welcomes and common-question answering. I then integrated ERNIE, PanGu, Yuan, ChatYuan and ChatGPT, bringing conversation and text-to-image services into everyday community use. Both its requirements and its name came from the community.
 
 I handled **model API integration, feature development and service maintenance**, turning user feedback into product improvements. I adapted upstream APIs and dependencies, maintained text-to-image services and restored them after disruptions, supporting the application's ongoing use in its communities.
 
-Early deployments served **2,000+ direct users**, with an **indirect reach of 20,000+ people**, across several AI open-source communities. The project received an **OpenI project incubation award in 2022** and was shortlisted for an **interview for the 2023 MiraclePlus Spring Camp (S23)**. ["2022, My Year with OpenI"](https://www.cnblogs.com/thomas-yanxin/p/17067454.html) records the project's growth and the community's role.
+Early deployments served **2,000+ direct users**, with an **indirect reach of 20,000+ people**, across several AI open-source communities. The project received an **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span> project incubation award in 2022** and was shortlisted for an **interview for the 2023 MiraclePlus Spring Camp (S23)**. ["2022, My Year with OpenI"](https://www.cnblogs.com/thomas-yanxin/p/17067454.html) records the project's growth and the community's role.
 
 </div>
 
@@ -223,47 +223,47 @@ I speak at technical conferences, developer events and courses on **model select
 
 ### Invited Talks
 
-* *2025.09*: Speaker, Apsara Conference, "Doing AI, the Gen-Z Way".
-* *2025.05*: ModelScope Developer Co-Creation Event, "Open Source Technology Driving Pan-Psychological Services and AI Inclusion".
-* *2023.06*: PaddlePaddle LLM Application Development Course, "Building an Intelligent Document Query Assistant" · [video](https://www.bilibili.com/video/BV18h4y1d77H/).
-* *2023.05*: Datawhale AIGC Learning Program, "Building a Local Knowledge Base QA Application with LangChain and ChatGLM-6B" · [video](https://www.bilibili.com/video/BV11N411y7dT/).
-* *2022.04*: PaddlePaddle Industry Practice Library, "Product Recognition in Practice" · [video](https://www.bilibili.com/video/BV1Fu411y7co/).
+* *2025.09*: Speaker, <span class="brand-token"><img class="brand-logo brand-logo--wordmark" src="/images/logos/apsara-wordmark.png" alt="" aria-hidden="true" width="386" height="38" loading="lazy" decoding="async"><span class="visually-hidden">Apsara Conference</span></span>, "Doing AI, the Gen-Z Way".
+* *2025.05*: <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span> Developer Co-Creation Event, "Open Source Technology Driving Pan-Psychological Services and AI Inclusion".
+* *2023.06*: <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> LLM Application Development Course, "Building an Intelligent Document Query Assistant" · [video](https://www.bilibili.com/video/BV18h4y1d77H/).
+* *2023.05*: <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span> AIGC Learning Program, "Building a Local Knowledge Base QA Application with LangChain and ChatGLM-6B" · [video](https://www.bilibili.com/video/BV11N411y7dT/).
+* *2022.04*: <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> Industry Practice Library, "Product Recognition in Practice" · [video](https://www.bilibili.com/video/BV1Fu411y7co/).
 
 ### Media Coverage
 
 * **Huozhong Shuo (火种说): From Seeing and Hearing to Empathetic Responses** · [article](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q).<br>
   A profile of my work on YRobot, a desktop companion robot built with locally deployed MiniCPM-o 4.5, covering synchronized audiovisual interaction, real-time interruptions, echo handling and coordinated motion.
-* **Alibaba Cloud Tongyi Lab × ModelScope: "Writing Code, Writing Emotions"** (2025) · [article](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg), [short video](https://www.bilibili.com/video/BV1GVgNzLEHs/), [full podcast · 47:52](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e).<br>
+* **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Tongyi Lab</span> × <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span>: "Writing Code, Writing Emotions"** (2025) · [article](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg), [short video](https://www.bilibili.com/video/BV1GVgNzLEHs/), [full podcast · 47:52](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e).<br>
   On my interest in affective intelligence, literature's influence on how I understand people, and evaluation as a guide to model improvement. Listening guide: **20:21** literature-related exploration, **29:28** affective intelligence and evaluation, **36:26** base-model selection.
 * **Founder Park: Model Selection and Product Development** (2025) · [original article](https://mp.weixin.qq.com/s/pb8eoQhvAF9O5N3CSO7rIg), [interview transcript reprint](https://news.sina.com.cn/sx/2025-04-30/detail-ineuxrwv4808216.shtml).<br>
   A discussion of emotional cues lost in speech transcription, the balance between domain and general abilities during post-training, and how cost, ecosystems and product workflows shape technical choices.
-* **ScienceNet / China Science Daily: The Origins of MindChat** (2023) · [article](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm).<br>
+* **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/sciencenet.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ScienceNet</span> / China Science Daily: The Origins of MindChat** (2023) · [article](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm).<br>
   An early account of how a discussion about family companionship led to MindChat, with reflections on continued model development, ecosystems and fit with the intended use.
 {: .media-list}
 
 <details class="archive-details" markdown="1">
 <summary>More coverage and earlier public work</summary>
 
-* Tongyi Qwen, "Qwen + Mental Health = ?" · [record](https://mp.weixin.qq.com/s/ZcRES0s7zD_yDeWTTr6Gyg).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Tongyi Qwen</span>, "Qwen + Mental Health = ?" · [record](https://mp.weixin.qq.com/s/ZcRES0s7zD_yDeWTTr6Gyg).
 * Synced SOTA Models, new releases of MindChat and related models · [record](https://mp.weixin.qq.com/s/PppVdSHObBG7IRA-vgVLlA).
 * Synced SOTA Models, quarterly review of open-source foundation models, domain tuning, inference acceleration and agents · [record](https://mp.weixin.qq.com/s/ApOMU6qRfYopCW0NkUCQCQ).
-* OpenMMLab, "Feeling Low? Try the MindChat Psychological Model" · [record](https://mp.weixin.qq.com/s/wOQP2A0nm0OGaiwzdJ9wPg).
-* ModelScope, release of MindChat based on Qwen-7B · [record](https://mp.weixin.qq.com/s/frJwp-kLuF_aT_vt8V6hJQ).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openmmlab.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenMMLab</span>, "Feeling Low? Try the MindChat Psychological Model" · [record](https://mp.weixin.qq.com/s/wOQP2A0nm0OGaiwzdJ9wPg).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span>, release of MindChat based on Qwen-7B · [record](https://mp.weixin.qq.com/s/frJwp-kLuF_aT_vt8V6hJQ).
 * GitHubStore, introduction to MindChat · [record](https://mp.weixin.qq.com/s/OIHSBq6c-4QAxvDUqmgpFA).
-* OpenI, results of the 2022 outstanding project and developer selection · [record](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA).
-* OpenI, university open-source event · [record](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag).
-* PaddlePaddle, supporting Hefei University of Technology's affective computing team in the national "Internet+" Silver Award · [record](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span>, results of the 2022 outstanding project and developer selection · [record](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span>, university open-source event · [record](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span>, supporting Hefei University of Technology's affective computing team in the national "Internet+" Silver Award · [record](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA).
 * Group Learning, "We Built a Smart Retail Settlement Platform" · [record](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q).
-* OpenI, profile of a developer featured for four consecutive weeks · [record](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A).
-* Datawhale, "We Built a Smart Retail Settlement Platform" · [record](https://mp.weixin.qq.com/s/V8eBkYZvb-mNJtyez7n_Rg).
-* OpenI, recommended open-source project: ColugoMum · [record](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw).
-* PaddlePaddle, welcoming 17 developers to the PPDE program · [record](https://mp.weixin.qq.com/s/PAeREjahNTSJmwn1QtI3Zg).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span>, profile of a developer featured for four consecutive weeks · [record](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span>, "We Built a Smart Retail Settlement Platform" · [record](https://mp.weixin.qq.com/s/V8eBkYZvb-mNJtyez7n_Rg).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span>, recommended open-source project: ColugoMum · [record](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span>, welcoming 17 developers to the PPDE program · [record](https://mp.weixin.qq.com/s/PAeREjahNTSJmwn1QtI3Zg).
 * Taiyuan University of Technology Internet PLUS Platform, PaddlePaddle Campus Fest · [record](https://mp.weixin.qq.com/s/-VoCDzr1MjeGm4UQuRxORw).
 * Anhui Polytechnic University, first AI Innovation Festival · [record](https://mp.weixin.qq.com/s/oCVRHA5Hg41PqTQ-yJQgkg).
-* PaddlePaddle, developing the Intelligent Waste Sorting mini program · [record](https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span>, developing the Intelligent Waste Sorting mini program · [record](https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg).
 * Machine Learning and AI Algorithms, Intelligent Waste Sorting system · [record](https://mp.weixin.qq.com/s/rsJSLKaNxtJ06HnwbWbL-w).
-* *2021.07*: PaddlePaddle AI Creator Camp (course-series collection) · [record](https://www.bilibili.com/video/BV1qq4y1X7uZ/).
-* *2021.05*: PaddlePaddle Developer Talks, "Intelligent Waste Sorting" · [record](https://www.bilibili.com/video/BV13p4y1t76K/).
+* *2021.07*: <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> AI Creator Camp (course-series collection) · [record](https://www.bilibili.com/video/BV1qq4y1X7uZ/).
+* *2021.05*: <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> Developer Talks, "Intelligent Waste Sorting" · [record](https://www.bilibili.com/video/BV13p4y1t76K/).
 
 </details>
 
@@ -273,13 +273,17 @@ I speak at technical conferences, developer events and courses on **model select
 
 I contribute to **open-source projects, technical education and developer communities**, turning engineering experience into practical courses and projects. University programs, community collaboration and ongoing maintenance connect that work with developers, users and new collaborators.
 
-**[PaddlePaddle Navigator Group](https://www.paddlepaddle.org.cn/ppdenavigategroup) | East China Regional Lead**<br>
+<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/pku.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>School of Electronics Engineering and Computer Science, Peking University | Industry Mentor, Xin Class (信班) Undergraduate Experimental Program</span></strong><br>
+*February 2025 - August 2025*
+{: .role-heading}
+
+<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>[PaddlePaddle Navigator Group](https://www.paddlepaddle.org.cn/ppdenavigategroup) | East China Regional Lead</span></strong><br>
 *September 2021 - July 2022*
 {: .role-heading}
 
 * Coordinated operations across **seven provinces** in East China, including university outreach, local lead recruitment, events and project activities. Expanded coverage to **50+ universities**, including Zhejiang University, Southeast University, ShanghaiTech and ECUST.
 
-**[ECUST PaddlePaddle Navigator Group](https://www.paddlepaddle.org.cn/ppdenavigategroup) | Lead**<br>
+<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>[ECUST PaddlePaddle Navigator Group](https://www.paddlepaddle.org.cn/ppdenavigategroup) | Lead</span></strong><br>
 *April 2021 - January 2022*
 {: .role-heading}
 
@@ -289,14 +293,14 @@ I contribute to **open-source projects, technical education and developer commun
 <details class="archive-details" markdown="1">
 <summary>More community and education activities</summary>
 
-* 2022: Member of OpenI's first cohort of senior community experience officers.
-* 2022: Student coordinator for collaboration between OpenI and Hefei University of Technology's affective computing laboratory · [record](/proof/OpenI&MAC_LAB.jpg).
-* 2022: Co-developed PaddlePaddle's retail recognition industry case · [record](https://www.bilibili.com/video/BV1Fu411y7co/).
+* 2022: Member of <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span>'s first cohort of senior community experience officers.
+* 2022: Student coordinator for collaboration between <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span> and Hefei University of Technology's affective computing laboratory · [record](/proof/OpenI&MAC_LAB.jpg).
+* 2022: Co-developed <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span>'s retail recognition industry case · [record](https://www.bilibili.com/video/BV1Fu411y7co/).
 * 2022: Guest speaker at ECUST's Tonghai Tea Talk, No. 130 · [record](https://mp.weixin.qq.com/s/yyOjg0qnRo8TggylMhyqgA).
-* 2022: Learning facilitator for Datawhale's 34th group-learning program · [record](https://mp.weixin.qq.com/s/8NAmTy5n7TXxVH85WAR-gA).
-* 2022: Instructor, second PaddlePaddle AI Creator Camp · [record](https://mp.weixin.qq.com/s/JfHYZZE701Qt7vJJa1K11w).
-* 2021: Instructor, first PaddlePaddle AI Creator Camp · [record](https://mp.weixin.qq.com/s/MD-ni4z5EITpdrAZd2FGyg).
-* 2021: Shanghai PaddlePaddle Navigator Group × Wujiaochang Innovation and Entrepreneurship Academy meetup · [record](https://mp.weixin.qq.com/s/NMJVAttPUHiZEaIIz1zQoA).
+* 2022: Learning facilitator for <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span>'s 34th group-learning program · [record](https://mp.weixin.qq.com/s/8NAmTy5n7TXxVH85WAR-gA).
+* 2022: Instructor, second <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> AI Creator Camp · [record](https://mp.weixin.qq.com/s/JfHYZZE701Qt7vJJa1K11w).
+* 2021: Instructor, first <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> AI Creator Camp · [record](https://mp.weixin.qq.com/s/MD-ni4z5EITpdrAZd2FGyg).
+* 2021: Shanghai <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> Navigator Group × Wujiaochang Innovation and Entrepreneurship Academy meetup · [record](https://mp.weixin.qq.com/s/NMJVAttPUHiZEaIIz1zQoA).
 
 </details>
 
@@ -314,12 +318,12 @@ I contribute to **open-source projects, technical education and developer commun
 
 ### Selected Honors
 
-* Baidu PaddlePaddle Developer Expert (PPDE) · [record](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB).
-* OpenAtom Foundation Active Open Source Contributor.
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Baidu PaddlePaddle</span> Developer Expert (PPDE) · [record](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openatom.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenAtom Foundation</span> Active Open Source Contributor.
 * Baidu AIStudio **2022 Top 10 Influential Figures** · [record](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q).
-* OpenI Community Core Early Experience Officer.
-* Datawhale member · [record](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg).
-* Qwen Ambassador.
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span> Community Core Early Experience Officer.
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale member</span> · [record](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg).
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Qwen Ambassador</span>.
 
 <details class="archive-details" markdown="1">
 <summary>More awards and recognition</summary>
@@ -341,19 +345,21 @@ I contribute to **open-source projects, technical education and developer commun
 * 2022: **Second Prize**, 5th China Collegiate Computing Competition, AI creativity, East China regional event.
 * 2022: **Second Prize**, 14th Shanghai Computer Application Design Competition, software development.
 * 2022: **Second Prize**, 14th Shanghai Computer Application Design Competition, Internet of Things.
-* 2022: OpenI **Community Pioneer Award** and **Outstanding Project Incubation Award** · [record](https://mp.weixin.qq.com/s/rEXoEY1UbEgwolYE-OJPjw).
-* 2022: **First Place**, OpenI outstanding open-source project selection, ColugoMum · [record](/proof/%E8%A2%8B%E9%BC%AF%E9%BA%BB%E9%BA%BB.png).
-* 2022: **Second Place**, OpenI outstanding open-source project selection, OXiaoPeng · [record](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png).
+* 2022: <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span> **Community Pioneer Award** and **Outstanding Project Incubation Award** · [record](https://mp.weixin.qq.com/s/rEXoEY1UbEgwolYE-OJPjw).
+* 2022: **First Place**, <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span> outstanding open-source project selection, ColugoMum · [record](/proof/%E8%A2%8B%E9%BC%AF%E9%BA%BB%E9%BA%BB.png).
+* 2022: **Second Place**, <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span> outstanding open-source project selection, OXiaoPeng · [record](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png).
 * 2022: **Annual Top 10 Applications**, iFlytek Open Ecosystem AI Pioneer Application Awards · [record](https://mp.weixin.qq.com/s/P6VaXjlXWLT0JGvBFRDIvQ).
 * 2022: **Winning Team**, second Diankuan Cup National University Fintech Hackathon · [record](https://mp.weixin.qq.com/s/0nwc8CRLXZZaJnAg6JJjVA).
 * 2021: **Second Prize**, 23rd China Robot and Artificial Intelligence Competition, Shanghai regional AI innovation event.
 * 2021: PPSIG **Outstanding Open Source Project Award** · [record](/proof/PPSIG%E5%A5%96%E6%9D%AF.jpg).
-* 2021: PaddlePaddle Hackathon **Outstanding Open Source Project Award** · [record](/proof/%E9%A3%9E%E6%A1%A8%E9%BB%91%E5%AE%A2%E6%9D%BE.jpg).
+* 2021: <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> Hackathon **Outstanding Open Source Project Award** · [record](/proof/%E9%A3%9E%E6%A1%A8%E9%BB%91%E5%AE%A2%E6%9D%BE.jpg).
 * 2021: Wave Summit 2021+ **Outstanding Open Source Project** · [record](/proof/WS%E4%BC%98%E7%A7%80%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.jpg).
 * 2022: Principal student investigator, National College Students' Innovation and Entrepreneurship Training Program, **Excellent** assessment · [record](https://cxcy.ecust.edu.cn/2023/1206/c14247a163409/page.htm).
-* Intel Innovation Ambassador; Huawei Cloud Expert; member of CAAI and the Chinese Society of Astronautics; provisional member of the Chinese Association of Automation.
-* 2022: Active contributor in the Jina community; expert blogger in Alibaba Cloud's developer community; active OpenI contributor and developer.
-* PaddlePaddle Wave Summit 2021 / 2021+ Outstanding Open Source Developer.
+* <span class="brand-token"><img class="brand-logo brand-logo--inline brand-logo--intel" src="/images/logos/intel.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Intel</span> Innovation Ambassador.
+* 2022: Active contributor in the <span class="brand-token"><img class="brand-logo brand-logo--inline brand-logo--jina" src="/images/logos/jina.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Jina</span> community.
+* 2022: Active contributor to the <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span> community.
+* 2022: Active developer in the <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span> community.
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> Wave Summit 2021 / 2021+ Outstanding Open Source Developer.
 
 </details>
 
@@ -361,7 +367,7 @@ I contribute to **open-source projects, technical education and developer commun
 
 ## <span class="section-emoji" aria-hidden="true">🎓</span> Education {#education}
 
-**East China University of Science and Technology | School of Information Science and Engineering | Automation**<br>
+<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/ecust.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>East China University of Science and Technology | School of Information Science and Engineering | Automation</span></strong><br>
 *September 2019 - June 2023*
 {: .role-heading}
 
@@ -370,6 +376,6 @@ I contribute to **open-source projects, technical education and developer commun
 
 ## <span class="section-emoji" aria-hidden="true">💬</span> Contact {#contact}
 
-For technical collaboration, project partnerships, speaking invitations or feedback on **multimodal models, agent systems, memory architectures and embodied intelligence**, contact [yx20001210@gmail.com](mailto:yx20001210@gmail.com). Find my open-source code and recent work on [GitHub](https://github.com/thomas-yanxin).
+For technical collaboration, project partnerships, speaking invitations or feedback on **multimodal models, agent systems, memory architectures and embodied intelligence**, contact [yx20001210@gmail.com](mailto:yx20001210@gmail.com). Find my open-source code and recent work on <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/github.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[GitHub](https://github.com/thomas-yanxin)</span>.
 
 [← 中文](/)

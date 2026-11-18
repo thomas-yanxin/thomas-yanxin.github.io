@@ -28,7 +28,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.section-emoji, .news-emoji {
+.section-emoji, .news-emoji, .project-emoji {
   display: inline-block;
   font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
   font-style: normal;
@@ -45,6 +45,91 @@ body {
 .news-emoji {
   margin-inline-end: .25em;
   font-size: .9em;
+}
+
+.project-emoji {
+  margin-inline-end: .3em;
+  font-size: .95em;
+}
+
+.page__content .brand-logo {
+  display: inline-block;
+  width: 1.375rem;
+  height: 1.375rem;
+  max-width: none;
+  margin: 0;
+  object-fit: contain;
+  border: 0;
+}
+
+.page__content .brand-logo--project {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.page__content .brand-logo--wide {
+  width: 1.75rem;
+}
+
+.page__content .brand-logo--inline {
+  width: 1.05em;
+  height: 1.05em;
+  margin-inline-end: .25em;
+  vertical-align: -.15em;
+}
+
+.page__content .brand-logo--alibabacloud {
+  width: 1.4em;
+  object-fit: cover;
+}
+
+.page__content .brand-logo--intel,
+.page__content .brand-logo--jina {
+  width: 2.25em;
+  object-fit: cover;
+}
+
+.page__content .brand-logo--jina {
+  object-position: 50% 42%;
+}
+
+.page__content .brand-logo--wordmark {
+  width: 9em;
+  height: auto;
+  margin-inline: .15em;
+  vertical-align: -.1em;
+}
+
+.brand-token {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5em;
+  line-height: 1;
+
+  .project-emoji { margin: 0; }
+}
+
+.page__content .brand-logo--sensemem {
+  width: 1.875rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+}
+
+.brand-heading {
+  display: inline-grid;
+  grid-template-columns: 1.5rem minmax(0, 1fr);
+  align-items: start;
+  column-gap: .45em;
+  max-width: 100%;
+
+  > :last-child { align-self: baseline; }
 }
 
 ::selection {
