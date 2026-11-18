@@ -10,11 +10,12 @@ layout: compress
   </head>
 
   <body>
+    <a class="skip-link" href="#main">{% if page.lang == 'zh-CN' %}跳转到正文{% else %}Skip to content{% endif %}</a>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
+    <div id="main" role="main" tabindex="-1">
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">

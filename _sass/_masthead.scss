@@ -1,64 +1,121 @@
-/* ==========================================================================
-   MASTHEAD
-   ========================================================================== */
-
 .masthead {
   position: sticky;
   top: 0;
-  background-color: white;
-  border-bottom: 1px solid $border-color;
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
   z-index: 20;
-
-  &__inner-wrap {
-    @include container;
-    @include clearfix;
-    padding: .5em;
-    font-family: $sans-serif-narrow;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
-
-    nav {
-      z-index: 10;
-    }
-
-    a {
-      text-decoration: none;
-    }
-  }
+  background: $background-color;
+  border-bottom: 1px solid $academic-rule;
 }
 
-.masthead__menu {
+.masthead__inner-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  max-width: $academic-width;
+  min-height: 60px;
+  margin: 0 auto;
+  padding: 0 $academic-gutter;
 
-  ul {
-    margin: 0;
-    padding: 0;
-    clear: both;
-    list-style-type: none;
-  }
+  a { text-decoration: none; }
 }
 
-.masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
-  }
-  display: none !important;
-}
-
-.masthead__menu-item {
-  display: block;
-  list-style-type: none;
+.site-name {
+  flex-shrink: 0;
+  color: $academic-ink;
+  font-family: $academic-display;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -.01em;
   white-space: nowrap;
 
-  &--lg {
-    padding-right: 2em;
-    font-weight: 700;
+  span {
+    margin-left: .65rem;
+    color: $academic-muted;
+    font-family: $sans-serif;
+    font-size: .75rem;
+    letter-spacing: normal;
   }
 }
 
+.site-menu {
+  margin-left: auto;
 
+  summary {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    min-height: 44px;
+    padding: 0 .5rem;
+    color: $academic-ink;
+    font-size: .875rem;
+    list-style: none;
+    cursor: pointer;
+
+    &::-webkit-details-marker { display: none; }
+  }
+
+  &[open] summary svg { transform: rotate(180deg); }
+}
+
+.site-links {
+  display: flex;
+  align-items: center;
+  gap: .875rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li { margin: 0; }
+
+  a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    color: $academic-muted;
+    font-size: .8125rem;
+    white-space: nowrap;
+
+    &:hover { color: $academic-accent; }
+  }
+}
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 44px;
+  min-height: 44px;
+  padding-left: .75rem;
+  border-left: 1px solid $academic-rule;
+  color: $academic-accent;
+  font-size: .8rem;
+}
+
+@media (max-width: ($academic-desktop - 1px)) {
+  .masthead__inner-wrap { gap: 1rem; min-height: 56px; }
+  .site-menu summary { display: flex; }
+
+  .site-links {
+    position: absolute;
+    top: 100%;
+    left: $academic-gutter;
+    right: $academic-gutter;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .2rem 1rem;
+    padding: .75rem 1rem;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+    background: $background-color;
+    border: 1px solid $academic-rule;
+
+    a { font-size: .875rem; white-space: normal; }
+  }
+}
+
+@media (max-width: 599px) {
+  .masthead__inner-wrap { padding: 0 20px; gap: .65rem; }
+  .site-links { left: 20px; right: 20px; }
+}

@@ -1,0 +1,100 @@
+/* Research figures and project entries share one quiet, open layout. */
+.paper-box {
+  display: grid;
+  grid-template-columns: minmax(0, 30%) minmax(0, 1fr);
+  align-items: start;
+  column-gap: 1.5rem;
+  row-gap: .625rem;
+  padding: $academic-entry-gap 0;
+  border-bottom: 1px solid $academic-rule;
+
+  .paper-box-image {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    min-width: 0;
+
+    > div { width: 100%; }
+    a { display: block; }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid $academic-rule;
+      border-radius: 2px;
+    }
+  }
+
+  .paper-box-text {
+    grid-column: 2;
+    grid-row: 2;
+    min-width: 0;
+    font-size: 1rem;
+
+    > h3:first-child { margin-top: 0; }
+    > :last-child { margin-bottom: 0; }
+  }
+
+  .project-title {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+}
+
+.badge {
+  display: inline-block;
+  margin-bottom: .5rem;
+  color: $academic-muted;
+  font-size: .75rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.project-entry {
+  padding: $academic-entry-gap 0;
+  border-bottom: 1px solid $academic-rule;
+
+  > h3:first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+}
+
+.project-figure {
+  display: block;
+  margin: 0;
+
+  & + .project-figure { margin-top: .85rem; }
+  > a { cursor: zoom-in; }
+
+  img { margin: 0; }
+
+  figcaption {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .5rem;
+    margin: .375rem 0 0;
+    color: $academic-muted;
+    font-family: $sans-serif;
+    font-size: .75rem;
+    line-height: 1.5;
+
+    a {
+      flex-shrink: 0;
+      color: $academic-accent;
+      border: 0;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 599px) {
+  .paper-box {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+
+    .project-title { grid-column: 1; grid-row: 1; }
+    .paper-box-image { grid-column: 1; grid-row: 2; max-width: 420px; }
+    .paper-box-text { grid-column: 1; grid-row: 3; font-size: 1rem; }
+  }
+}

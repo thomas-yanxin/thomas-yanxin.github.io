@@ -1,47 +1,50 @@
 ---
 permalink: /en/
-title: "Xin Yan · Multimodal AI & Agent Systems"
-excerpt: "Xin Yan, Senior Algorithm Engineer at Cylingo Group, leading robotics algorithm architecture and xyVL model development. Specializing in multimodal AI, agent systems and embodied intelligence; creator of SenseMem and FateBridge, and contributor to QianYe."
+title: "Xin Yan · Product-led AI Engineering"
+excerpt: "Xin Yan starts with product goals and user experience, bringing models, harnesses, development and evaluation into one workflow from problem definition and design through delivery and iteration. Senior Algorithm Engineer at Cylingo Robotics, working on multimodal AI, agent systems and embodied intelligence."
 lang: en
 author_profile: true
 ---
 
-<span class='anchor' id='about-en'></span>
+<div class="anchor" id="about-en"></div>
 
 # About
 
-I am **Xin Yan (颜鑫)**, an engineer specializing in **multimodal models, agent systems and embodied intelligence**. As a **Senior Algorithm Engineer at Cylingo Group (测测)**, I lead **robotics algorithm architecture** and development of the **xyVL embodied vision-language model series**. Previously, I led the **Xinyuan series of domain-specific models**. I graduated in Automation from **East China University of Science and Technology**.
+I am **Xin Yan (颜鑫)**.
 
-I connect **model development, system architecture and product engineering**, taking work from data curation, training and evaluation through product design and deployment. I translate application needs into technical decisions and use evaluation and user feedback to guide iteration. Those decisions balance model capability, compute, inference latency and long-term maintenance.
+As a **Senior Algorithm Engineer at Cylingo Robotics (心言机器人)**, I lead **robotics algorithm architecture**, development of the **xyVL embodied foundation model series**, and the design and implementation of **SenseMem**. Previously, I led the **Xinyuan series of domain-specific models** at **Cylingo Group (测测)**. I graduated in Automation from **East China University of Science and Technology**.
 
 My long-term focus is **AI that interacts with people over time**: systems that understand context, remember shared experiences and update their judgments as new information arrives. My current projects put that direction into practice: **SenseMem** for agentic multimodal memory, **FateBridge** for traditional metaphysics and astrology computation, and **QianYe** for family memory and shared storytelling.
 
-Literature shapes how I understand people and informs my approach to affective intelligence and product experience. Through **open-source projects, teaching, writing and [public talks](#talks-media-en)**, I share methods and engineering experience that others can use and build on.
+Literature shapes how I understand people and informs my approach to affective intelligence and product experience. Through **open-source projects, teaching, writing and [public talks](#talks-media-en)**, I share practical experience across product design, system implementation, evaluation and iteration that others can use and build on.
 
-<span class='anchor' id='news-en'></span>
+<div class="anchor" id="news-en"></div>
 
-# News
+## News
 
-* *2026.05*: Co-authored *LangChain Large Model Application Development: From Beginner to Practice*, published by Tsinghua University Press.
-* *2026.01*: First Prize in the 2025 Synthetic Data Competition · Lingxi AI for Mental Health track, with the MindChat team · [report](https://www.shobserver.com/wx/detail.do?id=1047568).
-* *2025.09*: Speaker at the 2025 Apsara Conference session "Doing AI, the Gen-Z Way".
-* *2025.07*: Bronze Award in the 2024 China International College Students' Innovation Competition.
-* *2025.07*: Joint interview by Alibaba Cloud Tongyi Lab and ModelScope · [podcast](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e).
+* *2026.11* Interviewed by **Zhejiang TV** · [video](http://wap.cztv.com/tv/35/2991249.html).
+* *2026.08* Featured in **Huozhong Shuo (火种说)** by **ModelBest and the OpenBMB community**, sharing my work on **YRobot**, a full-duplex desktop companion robot · [article](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q).
+* *2026.05* Co-authored *LangChain Large Model Application Development: From Beginner to Practice*, published by Tsinghua University Press.
+* *2026.01* First Prize in the 2025 Synthetic Data Competition · Lingxi AI for Mental Health track, with the MindChat team · [report](https://www.shobserver.com/wx/detail.do?id=1047568).
+* *2025.09* Speaker at the 2025 Apsara Conference session "Doing AI, the Gen-Z Way".
+* *2025.07* Bronze Award in the 2024 China International College Students' Innovation Competition.
+* *2025.07* Joint interview by Alibaba Cloud Tongyi Lab and ModelScope · [podcast](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e).
+{: .news-list role="list"}
 
-<span class='anchor' id='experience-en'></span>
+<div class="anchor" id="experience-en"></div>
 
-# Experience
+## Experience
 
-**Cylingo Group (测测) | Senior Algorithm Engineer**<br>
+**Cylingo Robotics (心言机器人) | Senior Algorithm Engineer**<br>
 *January 2026 - Present*
+{: .role-heading}
 
 <div class="paper-box">
-<div class="paper-box-image"><div><div class="badge">xyVL</div><a href="/images/xinyan-robot-xyvl-pipeline.png"><img src="/images/xinyan-robot-xyvl-pipeline.png" alt="Robotics algorithm pipeline: multi-source data is normalized, annotated and filtered by xyJudge into xyData, then used for SFT, on-policy distillation and GRPO training of xyVL. Click to view the full-size image." width="100%" loading="lazy"></a></div></div>
+<h3 class="project-title"><a href="/images/xinyan-robot-xyvl-pipeline.png">xyVL: Embodied Foundation Model Series</a></h3>
+<div class="paper-box-image"><div><div class="badge">xyVL</div><a href="/images/xinyan-robot-xyvl-pipeline.png"><img src="/images/xinyan-robot-xyvl-pipeline.png" alt="Robotics algorithm pipeline: multi-source data is normalized, annotated and filtered by xyJudge into xyData, then used for SFT, on-policy distillation and GRPO training of xyVL. Click to view the full-size image." loading="lazy" width="1276" height="1291" decoding="async"></a></div></div>
 <div class="paper-box-text" markdown="1">
 
-**[Cylingo Robotics: xyVL Embodied Vision-Language Model Series](/images/xinyan-robot-xyvl-pipeline.png)**
-
-I lead algorithm architecture for **Cylingo Robotics (心言机器人)** and development of the **xyVL embodied vision-language model (VLM) series**, building a development pipeline across **multimodal data curation, automated quality assessment and post-training**.
+I lead algorithm architecture for **Cylingo Robotics (心言机器人)** and development of the **xyVL embodied foundation model series**, building a development pipeline across **multimodal data curation, automated quality assessment and post-training**.
 
 **xyData: Multimodal Data Curation.** I brought together **50+ open-source datasets with approximately 45 million raw samples** from Hugging Face, GitHub and ModelScope, covering text, images, video, robotics and autonomous driving. Schema normalization, quality filtering and difficulty grading produced **18 million curated samples**. I designed data mixtures around task distribution, difficulty and model suitability for SFT, distillation and reinforcement learning.
 
@@ -52,24 +55,8 @@ I lead algorithm architecture for **Cylingo Robotics (心言机器人)** and dev
 </div>
 </div>
 
-**Cylingo Group (测测) | Senior Algorithm Engineer**<br>
-*March 2024 - January 2026*
-
-I led the **Xinyuan series of domain-specific models** from data curation through training, evaluation and deployment. The work covered multi-source multimodal data, continual pre-training, SFT, RLHF and multidimensional evaluation. I coordinated algorithm and engineering teams of **5–20 people** and delivered selected open-source releases. The series has accumulated **20,000+ downloads** across Hugging Face and ModelScope.
-
-For psychological support, education and companionship, I made **conversational continuity, affective expression, knowledge grounding and domain adaptation** priorities for training and evaluation. Failure analysis and user feedback guided improvements. I aligned model and deployment choices with product needs, balancing domain performance, general capabilities, inference latency, ecosystem support and maintenance costs.
-
-Selected work:
-
-* [Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428): Domain training on Qwen3-14B-Base for psychological support and education, with model weights and deployment instructions.
-* [Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B): Based on Qwen2-VL-2B-Instruct and trained on **5M+ multimodal samples**, with gains over the base model on multiple visual-understanding benchmarks. Ranked **first in the <4B parameter category** on the OpenCompass & Hugging Face Open VLM Leaderboard in **September 2024**. See the model card for training and evaluation details and the [ModelScope event report](https://developer.aliyun.com/article/1664742) for coverage of the result.
-* Presented "Open Source Technology Driving Pan-Psychological Services and AI Inclusion" at the **ModelScope Developer Co-Creation Event** and joined a [Tongyi Lab × ModelScope interview](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg) on model selection, evaluation, personalization and on-device deployment.
-
-<span class='anchor' id='projects-en'></span>
-
-# Selected Projects
-
 <div class="paper-box paper-box--sensemem">
+<h3 class="project-title"><a href="https://github.com/SenseMem/SenseMem">SenseMem: Agentic Multimodal Memory</a></h3>
 <div class="paper-box-image"><div>
 <figure class="project-figure">
   <a href="/images/sensemem-contextos-overview.png" title="Click to enlarge"><img src="/images/sensemem-contextos-overview.png" alt="SenseMem ContextOS design overview: omni-modal input flows through source-first capture, model capabilities and memory management, and context compilation to a host agent, backed by SQLite, native media and a rebuildable Zvec index." width="1663" height="880" loading="lazy" decoding="async"></a>
@@ -82,8 +69,6 @@ Selected work:
 </div></div>
 <div class="paper-box-text" markdown="1">
 
-**[SenseMem: Agentic Multimodal Memory](https://github.com/SenseMem/SenseMem)**
-
 **Vision & Design.** I created SenseMem as a unified **Omni-modal Memory & Context Layer** for **agentic harnesses, personal assistants and embodied interaction**. It connects the context and shared experiences accumulated over time with the task an agent faces now. Its design follows the **3S** principles: **Smarter** pursues more useful context through memory formation, revision and recall. **Swifter** makes capabilities easier to compose, models easier to select and integrations easier to extend. **Stronger** targets broader deployment environments and leading quality across modalities and tasks.
 
 I lead the design and implementation of the **Memory Kernel**, unifying text, images, audio, video and their ordered combinations in one content contract. The kernel connects source observations, evolving knowledge and task context while managing evidence, identity, time, space and versions. Optional models support memory formation; auditable, reversible operations handle consolidation, correction, reinforcement and cognitive forgetting. **Hybrid Retrieval** combines dense and lexical search with temporal, spatial and identity constraints and optional semantic reranking. The **Context Compiler** assembles memory and supporting evidence within item, character and media budgets, reports conflicts and information gaps, and supplies citations for grounded answering. SQLite and original media preserve authoritative state, while Zvec provides a rebuildable index. Typed contracts connect local or remote embedding, generation, speech, vision and memory-processing models. SDK, REST, MCP and CLI interfaces share the kernel and integrate with the host harness's goals, scheduling and actions.
@@ -93,9 +78,43 @@ SenseMem achieves **state-of-the-art results** on memory benchmarks including **
 </div>
 </div>
 
+**Cylingo Group (测测) | Senior Algorithm Engineer**<br>
+*March 2024 - January 2026*
+{: .role-heading}
+
+I led the **Xinyuan series of domain-specific models** from data curation through training, evaluation and deployment. The work covered multi-source multimodal data, continual pre-training, SFT, RLHF and multidimensional evaluation. I coordinated algorithm and engineering teams of **5–20 people** and delivered selected open-source releases. The series has accumulated **20,000+ downloads** across Hugging Face and ModelScope.
+
+For psychological support, education and companionship, I made **conversational continuity, affective expression, knowledge grounding and domain adaptation** priorities for training and evaluation. Failure analysis and user feedback guided improvements. I aligned model and deployment choices with product needs, balancing domain performance, general capabilities, inference latency, ecosystem support and maintenance costs.
+
+Selected work:
+
+* [Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428): Domain training on Qwen3-14B-Base for psychological support and education, with model weights and deployment instructions.
+* [Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B): Based on Qwen2-VL-2B-Instruct and trained on **5M+ multimodal samples**, with gains over the base model on multiple visual-understanding benchmarks. Ranked **first in the <4B parameter category** on the OpenCompass & Hugging Face Open VLM Leaderboard in **September 2024**. See the model card for training and evaluation details and the [ModelScope event report](https://developer.aliyun.com/article/1664742) for coverage of the result.
+* Presented "Open Source Technology Driving Pan-Psychological Services and AI Inclusion" at the **ModelScope Developer Co-Creation Event** and joined a [Tongyi Lab × ModelScope interview](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg) on model selection, evaluation, personalization and on-device deployment.
+
+**X-D Lab | Co-founder**<br>
+*June 2023 - March 2024*
+{: .role-heading}
+
 <div class="project-entry" markdown="1">
 
-**[FateBridge: A Traditional Metaphysics and Astrology Engine for Agentic Harnesses](https://github.com/thomas-yanxin/FateBridge)**
+### [Health LLM Knowledge Platform: MindChat & Sunsimiao](https://github.com/X-D-Lab)
+
+MindChat grew from a conversation with my teacher about family companionship into a **domain-specific LLM** project for psychological dialogue and medical knowledge. As a **co-founder of X-D Lab**, I was responsible for **model training** and collaborated with the team on data construction, model evaluation and application integration.
+
+My work covered domain data cleaning, domain adaptation and instruction tuning, alongside exploration of retrieval, memory and context management in multi-turn dialogue. I evaluated conversational continuity, knowledge grounding and capability boundaries to connect domain training with practical dialogue needs.
+
+The team released [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao), including models, inference examples and deployment materials. This work built experience in domain training, dialogue evaluation and application integration that later informed my design of agentic memory systems.
+
+</div>
+
+<div class="anchor" id="projects-en"></div>
+
+## Selected Projects
+
+<div class="project-entry" markdown="1">
+
+### [FateBridge: A Traditional Metaphysics and Astrology Engine for Agentic Harnesses](https://github.com/thomas-yanxin/FateBridge)
 
 I created FateBridge, a local **domain computation engine** for **agentic harnesses**. It turns traditional metaphysics and astrology rules into callable, inspectable tools. The engine supports the host agent's workflow from understanding a question to invoking calculations and explaining the results.
 
@@ -107,7 +126,7 @@ I make **calendar and solar-term boundaries, time zones, true solar time and dif
 
 <div class="project-entry" markdown="1">
 
-**QianYe (亲百问): Family Memory and Shared Storytelling**
+### QianYe (亲百问): Family Memory and Shared Storytelling
 
 I contribute to **product design and WeChat mini program development** for QianYe, a public-interest product for **family memory and collaborative storytelling**. Photographs, familiar objects and voices prompt relatives to share stories asynchronously, creating a memory journal they can review and read together.
 
@@ -117,15 +136,9 @@ The product centers the storyteller: original audio, images and transcripts rema
 
 </div>
 
-**[Health LLM Knowledge Platform: MindChat & Sunsimiao](https://github.com/X-D-Lab)**
+<div class="project-entry" markdown="1">
 
-MindChat grew from a conversation with my teacher about family companionship into a **domain-specific LLM** project for psychological dialogue and medical knowledge. I was responsible for **model training** and collaborated with the team on data construction, model evaluation and application integration.
-
-My work covered domain data cleaning, domain adaptation and instruction tuning, alongside exploration of retrieval, memory and context management in multi-turn dialogue. I evaluated conversational continuity, knowledge grounding and capability boundaries to connect domain training with practical dialogue needs.
-
-The team released [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao), including models, inference examples and deployment materials. This work built experience in domain training, dialogue evaluation and application integration that later informed my design of agentic memory systems.
-
-**[ColugoMum: Smart Retail Settlement Platform](https://github.com/thomas-yanxin/ColugoMum)**
+### [ColugoMum: Smart Retail Settlement Platform](https://github.com/thomas-yanxin/ColugoMum)
 
 I was responsible for **project management, algorithm adaptation and on-device frontend development** for ColugoMum, an **image-retrieval-based** smart retail checkout platform. The work addressed product recognition, similar packaging and a continuously changing catalog.
 
@@ -133,9 +146,11 @@ Using **PaddleClas / PP-ShiTu**, I built datasets, tuned lightweight models and 
 
 The project received the **National First Prize at the 2022 China Robot and Artificial Intelligence Competition**, appeared at **Baidu Wave Summit 2021+**, and led to a [paper](https://ieeexplore.ieee.org/document/9851085), open-source code and teaching materials. Methods and experiments are described in the [technical article](https://developer.cloud.tencent.com/article/2146677).
 
+</div>
+
 <div class="project-entry" markdown="1">
 
-**[OXiaoPeng: A Model Application Built from Community Needs](https://github.com/thomas-yanxin/OXiaoPeng)**
+### [OXiaoPeng: A Model Application Built from Community Needs](https://github.com/thomas-yanxin/OXiaoPeng)
 
 OXiaoPeng is a **conversational AI application** for WeChat communities. It began with advertisement moderation, member welcomes and common-question answering. I then integrated ERNIE, PanGu, Yuan, ChatYuan and ChatGPT, bringing conversation and text-to-image services into everyday community use. Both its requirements and its name came from the community.
 
@@ -145,25 +160,29 @@ Early deployments served **2,000+ direct users**, with an **indirect reach of 20
 
 </div>
 
-<span class='anchor' id='publications-ip-en'></span>
+<div class="anchor" id="publications-ip-en"></div>
 
-# Publications & IP
+## Publications & IP
+
+See [Google Scholar](https://scholar.google.com/citations?user=WYuXNL0AAAAJ&hl=en) for the full publication record.
 
 * Tao Zhou, Dong Xue, **Xin Yan**. *LangChain Large Model Application Development: From Beginner to Practice*. Tsinghua University Press, 2026.
+* F.-Q. Cui, A. Tong, J. Huang, J. Zhang, M. Li, **X. Yan**, L. Huang, D. Guo and M. Wang, "[Toward Trustworthy Dynamic Facial Expression Recognition via Information Bottleneck Modeling](https://ieeexplore.ieee.org/document/11612833/)," *IEEE Transactions on Information Forensics and Security*, vol. 21, pp. 6985–6999, 2026. doi: [10.1109/TIFS.2026.3714276](https://doi.org/10.1109/TIFS.2026.3714276).
+* F.-Q. Cui, J. Huang, S. Zhao, X. Li, **X. Yan**, Z. Jia and X. Zhou, "[Robust Low-Rank Sparse Framework for Video-Based Affective Computing](https://ieeexplore.ieee.org/document/11538256/)," *IEEE Transactions on Consumer Electronics*, vol. 72, no. 4, pp. 10635–10647, 2026. doi: [10.1109/TCE.2026.3697969](https://doi.org/10.1109/TCE.2026.3697969) · [arXiv](https://arxiv.org/abs/2511.11406).<br>
+  Earlier preprint (2025): [Disentangling Emotional Bases and Transient Fluctuations: A Low-Rank Sparse Decomposition Approach for Video Affective Analysis](https://arxiv.org/abs/2511.11406v1).
 * D. Xue, J. Tu, M. Wang, **X. Yan**, F. Liu and J. Hu, "[Towards Privacy-Preserving Mental Health Support with Large Language Models](https://arxiv.org/abs/2601.01993)," *arXiv preprint* arXiv:2601.01993, 2026.
-* F.-Q. Cui, J. Huang, S. Zhao, J.-M. Guo, Q. Cai, **X. Yan** and Z. Liu, "[ReMA: A Training-Free Plug-and-Play Mixing Augmentation for Video Behavior Recognition](https://arxiv.org/abs/2601.00311)," *arXiv preprint* arXiv:2601.00311, 2026.
-* F.-Q. Cui, J. Huang, S. Zhao, X. Li, **X. Yan**, Z. Jia and X. Zhou, "[Robust Low-Rank Sparse Framework for Video-Based Affective Computing](https://arxiv.org/abs/2511.11406)," *arXiv preprint* arXiv:2511.11406, 2025; revised 2026.
+* F.-Q. Cui, J. Huang, S. Zhao, J. Guo, Q. Cai, **X. Yan** and Z. Liu, "[ReMA: A Training-Free Plug-and-Play Mixing Augmentation for Video Behavior Recognition](https://arxiv.org/abs/2601.00311)," *arXiv preprint* arXiv:2601.00311, 2026.
 * **X. Yan**, Q. Hu, X. Huang and C. Shen, "[Intelligent Retail Settlement Platform based on Image Retrieval](https://ieeexplore.ieee.org/document/9851085)," CISCE, 2022, pp. 609–616. doi: 10.1109/CISCE55963.2022.9851085 · [PDF](/proof/Intelligent_Retail_Settlement_Platform_based_on_Image_Retrieval.pdf).
 * Utility Model Patent: **Smart Retail Settlement Platform**, ZL 2022 2 0828888.8; CN 216979871 U · [certificate](/proof/专利-2022208288888智能零售结算平台.pdf).
 * Software Copyrights: **ColugoMum**, 2022SRE010935 · [certificate](/proof/软件著作权-袋鼯麻麻.jpg); **Intelligent Waste Sorting System**, 2021SR0986633 · [certificate](/proof/软件著作权-慧眼识垃圾.jpg); **Domain-Knowledge-Based Q&A System**, 2022SRE025369 · [certificate](/proof/软件著作权-自动问答.pdf).
 
-<span class='anchor' id='talks-media-en'></span>
+<div class="anchor" id="talks-media-en"></div>
 
-# Talks & Media
+## Talks & Media
 
 I speak at technical conferences, developer events and courses on **model selection, evaluation and application development**. In public interviews, I also discuss how literature, affective intelligence and product design inform my technical work.
 
-## Invited Talks
+### Invited Talks
 
 * *2025.09*: Speaker, Apsara Conference, "Doing AI, the Gen-Z Way".
 * *2025.05*: ModelScope Developer Co-Creation Event, "Open Source Technology Driving Pan-Psychological Services and AI Inclusion".
@@ -171,8 +190,10 @@ I speak at technical conferences, developer events and courses on **model select
 * *2023.05*: Datawhale AIGC Learning Program, "Building a Local Knowledge Base QA Application with LangChain and ChatGLM-6B" · [video](https://www.bilibili.com/video/BV11N411y7dT/).
 * *2022.04*: PaddlePaddle Industry Practice Library, "Product Recognition in Practice" · [video](https://www.bilibili.com/video/BV1Fu411y7co/).
 
-## Media Coverage
+### Media Coverage
 
+* **Huozhong Shuo (火种说): From Seeing and Hearing to Empathetic Responses** · [article](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q).<br>
+  A profile of my work on YRobot, a desktop companion robot built with locally deployed MiniCPM-o 4.5, covering synchronized audiovisual interaction, real-time interruptions, echo handling and coordinated motion.
 * **Alibaba Cloud Tongyi Lab × ModelScope: "Writing Code, Writing Emotions"** (2025) · [article](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg), [short video](https://www.bilibili.com/video/BV1GVgNzLEHs/), [full podcast · 47:52](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e).<br>
   On my interest in affective intelligence, literature's influence on how I understand people, and evaluation as a guide to model improvement. Listening guide: **20:21** literature-related exploration, **29:28** affective intelligence and evaluation, **36:26** base-model selection.
 * **Founder Park: Model Selection and Product Development** (2025) · [original article](https://mp.weixin.qq.com/s/pb8eoQhvAF9O5N3CSO7rIg), [interview transcript reprint](https://news.sina.com.cn/sx/2025-04-30/detail-ineuxrwv4808216.shtml).<br>
@@ -206,19 +227,21 @@ I speak at technical conferences, developer events and courses on **model select
 
 </details>
 
-<span class='anchor' id='community-activities-en'></span>
+<div class="anchor" id="community-activities-en"></div>
 
-# Community & Activities
+## Community & Activities
 
 I contribute to **open-source projects, technical education and developer communities**, turning engineering experience into practical courses and projects. University programs, community collaboration and ongoing maintenance connect that work with developers, users and new collaborators.
 
 **[PaddlePaddle Navigator Group](https://www.paddlepaddle.org.cn/ppdenavigategroup) | East China Regional Lead**<br>
 *September 2021 - July 2022*
+{: .role-heading}
 
 * Coordinated operations across **seven provinces** in East China, including university outreach, local lead recruitment, events and project activities. Expanded coverage to **50+ universities**, including Zhejiang University, Southeast University, ShanghaiTech and ECUST.
 
 **[ECUST PaddlePaddle Navigator Group](https://www.paddlepaddle.org.cn/ppdenavigategroup) | Lead**<br>
 *April 2021 - January 2022*
+{: .role-heading}
 
 * Built the university group from scratch, organizing **5+ activities** with **100+ total attendances** and supporting **10+ projects** through lectures, competitions and practical sessions.
 * Helped turn community practice into course resources through the Baidu–ECUST industry-education collaboration project.
@@ -237,11 +260,11 @@ I contribute to **open-source projects, technical education and developer commun
 
 </details>
 
-<span class='anchor' id='awards-honors-en'></span>
+<div class="anchor" id="awards-honors-en"></div>
 
-# Awards & Honors
+## Awards & Honors
 
-## Featured Awards
+### Featured Awards
 
 * **First Prize**, 2025 Synthetic Data Competition · Lingxi AI for Mental Health, with the MindChat team · [report](https://www.shobserver.com/wx/detail.do?id=1047568).
 * **Bronze Award**, 2024 China International College Students' Innovation Competition, driver-state monitoring and edge computing project.
@@ -249,7 +272,7 @@ I contribute to **open-source projects, technical education and developer commun
 * **Silver Award**, 2022 China International "Internet+" Innovation Competition, Xiaosheng Technology · [record](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw).
 * **National First Prize**, 2022 China Robot and Artificial Intelligence Competition · [certificate](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf).
 
-## Selected Honors
+### Selected Honors
 
 * Baidu PaddlePaddle Developer Expert (PPDE) · [record](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB).
 * OpenAtom Foundation Active Open Source Contributor.
@@ -294,17 +317,18 @@ I contribute to **open-source projects, technical education and developer commun
 
 </details>
 
-<span class='anchor' id='education-en'></span>
+<div class="anchor" id="education-en"></div>
 
-# Education
+## Education
 
 **East China University of Science and Technology | School of Information Science and Engineering | Automation**<br>
 *September 2019 - June 2023*
+{: .role-heading}
 
-<span class='anchor' id='now-next-en'></span>
-<span class='anchor' id='contact-en'></span>
+<div class="anchor" id="now-next-en"></div>
+<div class="anchor" id="contact-en"></div>
 
-# Contact
+## Contact
 
 For technical collaboration, project partnerships, speaking invitations or feedback on **multimodal models, agent systems, memory architectures and embodied intelligence**, contact [yx20001210@gmail.com](mailto:yx20001210@gmail.com). Find my open-source code and recent work on [GitHub](https://github.com/thomas-yanxin).
 
