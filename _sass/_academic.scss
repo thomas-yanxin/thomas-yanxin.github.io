@@ -192,12 +192,10 @@ summary:focus-visible {
 }
 
 .page__content {
+  // The page grid owns the shared reading edge for prose, lists, and projects.
   overflow-wrap: break-word;
   font-size: $academic-prose-size;
   line-height: 1.7;
-
-  > p, > ul, > ol, .paper-box-text p, .project-entry p,
-  .archive-details > ul { max-width: $academic-reading-width; }
 
   .intro-lead {
     margin-bottom: .75rem;
@@ -264,6 +262,8 @@ summary:focus-visible {
     }
   }
 
+  .media-link { white-space: nowrap; }
+
   ul, ol {
     margin: .5rem 0 .75rem;
     padding-left: 1.25rem;
@@ -284,7 +284,6 @@ summary:focus-visible {
     align-items: baseline;
     justify-content: space-between;
     gap: .375rem 1.25rem;
-    max-width: none;
     margin: $academic-role-gap 0 .75rem;
     font-family: $sans-serif;
     line-height: 1.5;
@@ -307,8 +306,6 @@ summary:focus-visible {
   .news-list {
     list-style: none;
     padding: 0;
-    max-width: none;
-
     margin-top: 0;
     li {
       position: relative;
@@ -330,7 +327,6 @@ summary:focus-visible {
     li:first-child > em:first-child { color: $academic-secondary; font-weight: 500; }
   }
 
-  .publication-list { max-width: none; }
   .publication-list a[href*="doi.org/"] {
     font-family: $monospace;
     font-size: .8125rem;
@@ -345,9 +341,6 @@ html[lang="en"] {
   .page__content {
     font-size: $academic-dense-size;
     line-height: 1.65;
-    > p:not(.role-heading), > ul, > ol, .paper-box-text p,
-    .project-entry p, .archive-details > ul { max-width: 74ch; }
-    > .news-list, > .publication-list { max-width: none; }
   }
 }
 

@@ -33,13 +33,13 @@ redirect_from:
 
 ## <span class="section-emoji" aria-hidden="true">📰</span> News {#news}
 
-* *2026.11* <span class="news-emoji" aria-hidden="true">📺</span> 接受**<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/zhejiang-tv.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">浙江卫视</span>**专访 - [视频](http://wap.cztv.com/tv/35/2991249.html)。
-* *2026.08* <span class="news-emoji" aria-hidden="true">🔥</span> 获 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelbest.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">面壁智能</span> & <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openbmb.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenBMB</span>社区「**火种说**」专题报道，分享 **YRobot 全双工桌面陪伴机器人**的开发实践 - [文章](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q)。
+* *2026.11* <span class="news-emoji" aria-hidden="true">📺</span> 接受**<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/zhejiang-tv.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">浙江卫视</span>**专访 <span class="media-link">\| 🎬 [视频](http://wap.cztv.com/tv/35/2991249.html)</span>。
+* *2026.08* <span class="news-emoji" aria-hidden="true">🔥</span> 获 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelbest.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">面壁智能</span> & <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openbmb.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenBMB</span>社区「**火种说**」专题报道，分享 **YRobot 全双工桌面陪伴机器人**的开发实践 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q)</span>。
 * *2026.05* <span class="news-emoji" aria-hidden="true">📖</span> 合著出版《LangChain 大模型应用开发：从入门到实践》，清华大学出版社，周涛、薛栋、**颜鑫** 编著。
-* *2026.01* <span class="news-emoji" aria-hidden="true">🏆</span> MindChat 团队获得 2025 合成数据大赛 · 灵溪 AI for Mental Health 主题赛**一等奖** - [报道](https://www.shobserver.com/wx/detail.do?id=1047568)。
-* *2025.09* <span class="news-emoji" aria-hidden="true">🎤</span> 受邀 2025 年<span class="brand-token"><img class="brand-logo brand-logo--wordmark" src="/images/logos/apsara-wordmark.png" alt="" aria-hidden="true" width="386" height="38" loading="lazy" decoding="async"><span class="visually-hidden">云栖大会</span></span>「做 AI，Z 世代不一样！」分论坛 **Speaker**。
+* *2026.01* <span class="news-emoji" aria-hidden="true">🏆</span> MindChat 团队获得 2025 合成数据大赛 · 灵溪 AI for Mental Health 主题赛**一等奖** <span class="media-link">\| 📄 [文章](https://www.shobserver.com/wx/detail.do?id=1047568)</span>。
+* *2025.09* <span class="news-emoji" aria-hidden="true">🎤</span> 受邀 2025 年<span class="brand-token"><img class="brand-logo brand-logo--wordmark" src="/images/logos/apsara-wordmark.png" alt="" aria-hidden="true" width="386" height="38" loading="lazy" decoding="async"><span class="visually-hidden">云栖大会</span></span>「做 AI，Z 世代不一样！」分论坛 **Speaker** <span class="media-link">\| 🎬 [视频](https://yunqi.aliyun.com/2025/session?agendaId=6012)</span>。
 * *2025.07* <span class="news-emoji" aria-hidden="true">🥉</span> 获得 2024 年中国国际大学生创新大赛**铜奖**。
-* *2025.07* <span class="news-emoji" aria-hidden="true">🎧</span> 接受 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span>与<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 社区联合采访，分享情感智能、模型评估与文学对技术实践的影响 - [播客](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)。
+* *2025.07* <span class="news-emoji" aria-hidden="true">🎧</span> 接受 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span>与<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 社区联合采访，分享情感智能、模型评估与文学对技术实践的影响 <span class="media-link">\| 🎧 [播客](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)</span>。
 {: .news-list role="list"}
 
 <div class="anchor" id="experience"></div>
@@ -83,7 +83,7 @@ redirect_from:
 </div>
 <div class="project-row">
 <figure class="project-figure">
-  <a href="/images/sensemem-contextos-overview.png" title="点击查看原图"><img src="/images/sensemem-contextos-overview.png" alt="SenseMem ContextOS 设计概览：Omni-modal 输入经过 Source-first Capture、模型能力与记忆管理、Context Compilation，为 Host Agent 提供任务上下文；底层由 SQLite、原始媒体与可重建的 Zvec 索引支撑。" width="1663" height="880" loading="lazy" decoding="async"></a>
+  <a href="/images/sensemem-contextos-overview.gif" title="点击查看原图"><img src="/images/sensemem-contextos-overview.gif" alt="SenseMem ContextOS 设计概览：Omni-modal 输入经过 Source-first Capture、模型能力与记忆管理、Context Compilation，为 Host Agent 提供任务上下文；底层由 SQLite、原始媒体与可重建的 Zvec 索引支撑。" width="1663" height="880" loading="lazy" decoding="async"></a>
   <figcaption><span>ContextOS Overview</span><a href="https://github.com/SenseMem/SenseMem/blob/master/docs/context-os.md" aria-label="SenseMem 技术报告，Figure 1">Fig. 1 ↗</a></figcaption>
 </figure>
 <div class="paper-box-text" markdown="1">
@@ -94,7 +94,7 @@ redirect_from:
 </div>
 <div class="project-row">
 <figure class="project-figure">
-  <a href="/images/sensemem-memory-lifecycle.png" title="点击查看原图"><img src="/images/sensemem-memory-lifecycle.png" alt="SenseMem Memory Lifecycle：保留文本、图像、音频与视频原始观察，将耳机位置从桌面修正为柜内，并通过 Hybrid Retrieval 与证据闭包生成任务上下文或有据回答。" width="1663" height="862" loading="lazy" decoding="async"></a>
+  <a href="/images/sensemem-memory-lifecycle.gif" title="点击查看原图"><img src="/images/sensemem-memory-lifecycle.gif" alt="SenseMem Memory Lifecycle：保留文本、图像、音频与视频原始观察，将耳机位置从桌面修正为柜内，并通过 Hybrid Retrieval 与证据闭包生成任务上下文或有据回答。" width="1663" height="862" loading="lazy" decoding="async"></a>
   <figcaption><span>Memory Lifecycle</span><a href="https://github.com/SenseMem/SenseMem/blob/master/README.md" aria-label="SenseMem 技术报告，Figure 2">Fig. 2 ↗</a></figcaption>
 </figure>
 <div class="paper-box-text" markdown="1">
@@ -225,7 +225,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 ### Papers
 
 * F.-Q. Cui, A. Tong, J. Huang, J. Zhang, M. Li, **X. Yan**, L. Huang, D. Guo and M. Wang, "[Toward Trustworthy Dynamic Facial Expression Recognition via Information Bottleneck Modeling](https://ieeexplore.ieee.org/document/11612833/)," *IEEE Transactions on Information Forensics and Security*, vol. 21, pp. 6985–6999, 2026. doi: [10.1109/TIFS.2026.3714276](https://doi.org/10.1109/TIFS.2026.3714276).
-* F.-Q. Cui, J. Huang, S. Zhao, X. Li, **X. Yan**, Z. Jia and X. Zhou, "[Robust Low-Rank Sparse Framework for Video-Based Affective Computing](https://ieeexplore.ieee.org/document/11538256/)," *IEEE Transactions on Consumer Electronics*, vol. 72, no. 4, pp. 10635–10647, 2026. doi: [10.1109/TCE.2026.3697969](https://doi.org/10.1109/TCE.2026.3697969) · [arXiv](https://arxiv.org/abs/2511.11406)。<br>
+* F.-Q. Cui, J. Huang, S. Zhao, X. Li, **X. Yan**, Z. Jia and X. Zhou, "[Robust Low-Rank Sparse Framework for Video-Based Affective Computing](https://ieeexplore.ieee.org/document/11538256/)," *IEEE Transactions on Consumer Electronics*, vol. 72, no. 4, pp. 10635–10647, 2026. doi: [10.1109/TCE.2026.3697969](https://doi.org/10.1109/TCE.2026.3697969) \| [arXiv](https://arxiv.org/abs/2511.11406)。<br>
   初版预印本（2025）：[Disentangling Emotional Bases and Transient Fluctuations: A Low-Rank Sparse Decomposition Approach for Video Affective Analysis](https://arxiv.org/abs/2511.11406v1)。
 * D. Xue, J. Tu, M. Wang, **X. Yan**, F. Liu and J. Hu, "[Towards Privacy-Preserving Mental Health Support with Large Language Models](https://arxiv.org/abs/2601.01993)," *arXiv preprint* arXiv:2601.01993, 2026.
 * F.-Q. Cui, J. Huang, S. Zhao, J. Guo, Q. Cai, **X. Yan** and Z. Liu, "[ReMA: A Training-Free Plug-and-Play Mixing Augmentation for Video Behavior Recognition](https://arxiv.org/abs/2601.00311)," *arXiv preprint* arXiv:2601.00311, 2026.
@@ -250,47 +250,47 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ### Invited Talks
 
-* *2025.09*：2025 年<span class="brand-token"><img class="brand-logo brand-logo--wordmark" src="/images/logos/apsara-wordmark.png" alt="" aria-hidden="true" width="386" height="38" loading="lazy" decoding="async"><span class="visually-hidden">云栖大会</span></span>「做 AI，Z 世代不一样！」分论坛，Speaker。
+* *2025.09*：2025 年<span class="brand-token"><img class="brand-logo brand-logo--wordmark" src="/images/logos/apsara-wordmark.png" alt="" aria-hidden="true" width="386" height="38" loading="lazy" decoding="async"><span class="visually-hidden">云栖大会</span></span>「做 AI，Z 世代不一样！」分论坛，Speaker <span class="media-link">\| 🎬 [视频](https://yunqi.aliyun.com/2025/session?agendaId=6012)</span>。
 * *2025.05*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 开发者共创会，《开源技术驱动下的泛心理服务与 AI 普惠实践之路》。
-* *2023.06*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨 PaddlePaddle</span> 大模型应用开发课，《全流程构建智能文档查询助手》 - [视频](https://www.bilibili.com/video/BV18h4y1d77H/)
-* *2023.05*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span> AIGC 主题学习，《基于 LangChain 和 ChatGLM-6B 构建本地知识库自动问答应用》 - [视频](https://www.bilibili.com/video/BV11N411y7dT/)
-* *2022.04*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>产业实践范例库，商品识别产业应用实战 - [视频](https://www.bilibili.com/video/BV1Fu411y7co/)
+* *2023.06*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨 PaddlePaddle</span> 大模型应用开发课，《全流程构建智能文档查询助手》 <span class="media-link">\| 🎬 [视频](https://www.bilibili.com/video/BV18h4y1d77H/)</span>
+* *2023.05*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span> AIGC 主题学习，《基于 LangChain 和 ChatGLM-6B 构建本地知识库自动问答应用》 <span class="media-link">\| 🎬 [视频](https://www.bilibili.com/video/BV11N411y7dT/)</span>
+* *2022.04*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>产业实践范例库，商品识别产业应用实战 <span class="media-link">\| 🎬 [视频](https://www.bilibili.com/video/BV1Fu411y7co/)</span>
 
 ### Media Coverage
 
-* **火种说｜从“能听能看”到“共情响应”：一个算法工程师的全双工机器人探索** - [原文](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q)<br>
+* **火种说｜从“能听能看”到“共情响应”：一个算法工程师的全双工机器人探索** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q)</span><br>
   分享 YRobot 桌面陪伴机器人的开发实践，围绕本地部署的 MiniCPM-o 4.5，讨论视听同步、实时打断、回声处理与动作协同如何支持自然交互。
-* **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span> × <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭社区</span>｜写代码，也写情绪** - [文章](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg) / [短视频](https://www.bilibili.com/video/BV1GVgNzLEHs/) / [完整播客 · 47:52](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)<br>
+* **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span> × <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭社区</span>｜写代码，也写情绪** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)</span> <span class="media-link">\| 🎬 [视频](https://www.bilibili.com/video/BV1GVgNzLEHs/)</span> <span class="media-link">\| 🎧 [播客](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)</span>（47:52）<br>
   谈情感智能的研究动机、文学对理解人的影响，以及评估如何指导模型改进。
-* **Founder Park｜<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Qwen 3</span> 与垂域模型实践** - [原文](https://mp.weixin.qq.com/s/pb8eoQhvAF9O5N3CSO7rIg) / [采访实录转载](https://news.sina.com.cn/sx/2025-04-30/detail-ineuxrwv4808216.shtml)<br>
+* **Founder Park｜<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Qwen 3</span> 与垂域模型实践** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/pb8eoQhvAF9O5N3CSO7rIg)</span> <span class="media-link">\| 📄 [文章](https://news.sina.com.cn/sx/2025-04-30/detail-ineuxrwv4808216.shtml)</span>（转载）<br>
   从语音转写丢失的情感线索谈起，讨论后训练中领域与通用能力的平衡，以及成本、生态和产品流程对技术选择的影响。
-* **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/sciencenet.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">科学网</span> / 中国科学报｜人皆孤独？他们用通义千问开发了一款心理大模型** - [原文](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm)<br>
+* **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/sciencenet.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">科学网</span> / 中国科学报｜人皆孤独？他们用通义千问开发了一款心理大模型** <span class="media-link">\| 📄 [文章](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm)</span><br>
   回顾 MindChat 从家人陪伴的讨论走向模型实践的过程，以及早期对模型持续迭代、生态与场景适配的考虑。
 {: .media-list}
 
 <details class="archive-details" markdown="1">
 <summary>更多报道与公开内容</summary>
 
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">阿里通义千问</span>】通义千问 + 心理领域 = ? - [链接](https://mp.weixin.qq.com/s/ZcRES0s7zD_yDeWTTr6Gyg)
-* 【机器之心 SOTA 模型】MindChat 心理大模型等项目多个新模型版本开源 - [链接](https://mp.weixin.qq.com/s/PppVdSHObBG7IRA-vgVLlA)
-* 【机器之心 SOTA 模型】不妨一试的开源项目：基座模型、领域精调、推理加速及 Agent 开发开源方案季度盘点 - [链接](https://mp.weixin.qq.com/s/ApOMU6qRfYopCW0NkUCQCQ)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openmmlab.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenMMLab</span>】EMO 了？来和 MindChat 聊聊，可在线体验的 AI 心理大模型 - [链接](https://mp.weixin.qq.com/s/wOQP2A0nm0OGaiwzdJ9wPg)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 社区】基于 Qwen-7B 的垂域大模型 MindChat 心理大模型上线魔搭 - [链接](https://mp.weixin.qq.com/s/frJwp-kLuF_aT_vt8V6hJQ)
-* 【GitHubStore】MindChat 心理大模型 - [链接](https://mp.weixin.qq.com/s/OIHSBq6c-4QAxvDUqmgpFA)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智</span>】2022 年度启智社区优秀项目及开发者评选结果正式揭晓 - [链接](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智</span>】高校开源专场顺利举办 - [链接](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨 PaddlePaddle</span>】飞桨助力合肥工业大学普适心理计算团队斩获“互联网+”大赛全国银奖 - [链接](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)
-* 【组队学习】我们做了一个智能零售结算平台 - [链接](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智</span>】连续 4 周上榜的这位开发者 - [链接](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span>】我们做了一个智能零售结算平台 - [链接](https://mp.weixin.qq.com/s/V8eBkYZvb-mNJtyez7n_Rg)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智</span>】OpenI 开源项目推荐 ColugoMum - [链接](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨 PaddlePaddle</span>】欢迎 17 名 AI 开发者加入飞桨开发者技术专家计划 - [链接](https://mp.weixin.qq.com/s/PAeREjahNTSJmwn1QtI3Zg)
-* 【太原理工大学互联网 PLUS 提升平台】百度飞桨校园 Fest 圆满结束 - [链接](https://mp.weixin.qq.com/s/-VoCDzr1MjeGm4UQuRxORw)
-* 【安徽工程大学计算机学院团委】首届 AI 科创节圆满结束 - [链接](https://mp.weixin.qq.com/s/oCVRHA5Hg41PqTQ-yJQgkg)
-* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨 PaddlePaddle</span>】基于飞桨开发垃圾分类小程序，实现“慧眼识垃圾” - [链接](https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg)
-* 【机器学习 AI 算法工程】垃圾分类：慧眼识垃圾系统 - [链接](https://mp.weixin.qq.com/s/rsJSLKaNxtJ06HnwbWbL-w)
-* *2021.07*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>领航团 AI 达人创造营（课程系列合集） - [视频](https://www.bilibili.com/video/BV1qq4y1X7uZ/)
-* *2021.05*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>开发者说，《慧眼识垃圾》 - [视频](https://www.bilibili.com/video/BV13p4y1t76K/)
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">阿里通义千问</span>】通义千问 + 心理领域 = ? <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/ZcRES0s7zD_yDeWTTr6Gyg)</span>
+* 【机器之心 SOTA 模型】MindChat 心理大模型等项目多个新模型版本开源 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/PppVdSHObBG7IRA-vgVLlA)</span>
+* 【机器之心 SOTA 模型】不妨一试的开源项目：基座模型、领域精调、推理加速及 Agent 开发开源方案季度盘点 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/ApOMU6qRfYopCW0NkUCQCQ)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openmmlab.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenMMLab</span>】EMO 了？来和 MindChat 聊聊，可在线体验的 AI 心理大模型 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/wOQP2A0nm0OGaiwzdJ9wPg)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 社区】基于 Qwen-7B 的垂域大模型 MindChat 心理大模型上线魔搭 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/frJwp-kLuF_aT_vt8V6hJQ)</span>
+* 【GitHubStore】MindChat 心理大模型 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/OIHSBq6c-4QAxvDUqmgpFA)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智</span>】2022 年度启智社区优秀项目及开发者评选结果正式揭晓 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/PpbwEdP0-8wG9dsvRvRDaA)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智</span>】高校开源专场顺利举办 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/phDFWZ8YOYEJMoYNrsOrag)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨 PaddlePaddle</span>】飞桨助力合肥工业大学普适心理计算团队斩获“互联网+”大赛全国银奖 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/SgK9qSmYQ9ihIfvb1sHEwA)</span>
+* 【组队学习】我们做了一个智能零售结算平台 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/Ons9jLOekpbTPfcjW87Q3Q)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智</span>】连续 4 周上榜的这位开发者 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/vgsMagmEVbcsXBVqil9_5A)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span>】我们做了一个智能零售结算平台 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/V8eBkYZvb-mNJtyez7n_Rg)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智</span>】OpenI 开源项目推荐 ColugoMum <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/mgNcoWAICBAqkPCqqBN8Iw)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨 PaddlePaddle</span>】欢迎 17 名 AI 开发者加入飞桨开发者技术专家计划 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/PAeREjahNTSJmwn1QtI3Zg)</span>
+* 【太原理工大学互联网 PLUS 提升平台】百度飞桨校园 Fest 圆满结束 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/-VoCDzr1MjeGm4UQuRxORw)</span>
+* 【安徽工程大学计算机学院团委】首届 AI 科创节圆满结束 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/oCVRHA5Hg41PqTQ-yJQgkg)</span>
+* 【<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨 PaddlePaddle</span>】基于飞桨开发垃圾分类小程序，实现“慧眼识垃圾” <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/6xt4ReF-n4qyJ859yvCbcg)</span>
+* 【机器学习 AI 算法工程】垃圾分类：慧眼识垃圾系统 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/rsJSLKaNxtJ06HnwbWbL-w)</span>
+* *2021.07*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>领航团 AI 达人创造营（课程系列合集） <span class="media-link">\| 🎬 [视频](https://www.bilibili.com/video/BV1qq4y1X7uZ/)</span>
+* *2021.05*：<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>开发者说，《慧眼识垃圾》 <span class="media-link">\| 🎬 [视频](https://www.bilibili.com/video/BV13p4y1t76K/)</span>
 
 </details>
 
@@ -322,13 +322,13 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 <summary>更多社区与社会实践</summary>
 
 * 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>首批资深体验官
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span> & 合肥工业大学情感计算与先进智能机器安徽省重点实验室产学研共建学生负责人 - [证明](/proof/OpenI&MAC_LAB.jpg)
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>智慧零售商品识别产业案例共建者 - [视频](https://www.bilibili.com/video/BV1Fu411y7co/)
-* 2022 华东理工大学通海茶叙第 130 期讲座嘉宾 - [证明](https://mp.weixin.qq.com/s/yyOjg0qnRo8TggylMhyqgA)
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span> 组队学习第 34 期航海士 - [证明](https://mp.weixin.qq.com/s/8NAmTy5n7TXxVH85WAR-gA)
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>领航团 AI 达人创造营第二期讲师 - [证明](https://mp.weixin.qq.com/s/JfHYZZE701Qt7vJJa1K11w)
-* 2021 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>领航团 AI 达人创造营第一期讲师 - [证明](https://mp.weixin.qq.com/s/MD-ni4z5EITpdrAZd2FGyg)
-* 2021 百度上海<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>领航团 & 五角场创新创业学院 meetup 活动 - [证明](https://mp.weixin.qq.com/s/NMJVAttPUHiZEaIIz1zQoA)
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span> & 合肥工业大学情感计算与先进智能机器安徽省重点实验室产学研共建学生负责人 \| [证明](/proof/OpenI&MAC_LAB.jpg)
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>智慧零售商品识别产业案例共建者 <span class="media-link">\| 🎬 [视频](https://www.bilibili.com/video/BV1Fu411y7co/)</span>
+* 2022 华东理工大学通海茶叙第 130 期讲座嘉宾 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/yyOjg0qnRo8TggylMhyqgA)</span>
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span> 组队学习第 34 期航海士 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/8NAmTy5n7TXxVH85WAR-gA)</span>
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>领航团 AI 达人创造营第二期讲师 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/JfHYZZE701Qt7vJJa1K11w)</span>
+* 2021 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>领航团 AI 达人创造营第一期讲师 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/MD-ni4z5EITpdrAZd2FGyg)</span>
+* 2021 百度上海<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>领航团 & 五角场创新创业学院 meetup 活动 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/NMJVAttPUHiZEaIIz1zQoA)</span>
 
 </details>
 
@@ -338,19 +338,19 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ### Featured Awards
 
-* 2025 合成数据大赛 · 灵溪 AI for Mental Health 主题赛**一等奖（MindChat 团队）** - [报道](https://www.shobserver.com/wx/detail.do?id=1047568)
+* 2025 合成数据大赛 · 灵溪 AI for Mental Health 主题赛**一等奖（MindChat 团队）** <span class="media-link">\| 📄 [文章](https://www.shobserver.com/wx/detail.do?id=1047568)</span>
 * 2024 中国国际大学生创新大赛「人因智能关键技术——非接触集成式驾驶员状态智能检测边缘计算技术」**铜奖**
 * 2023 第 9 届中国国际“互联网+”大学生创新创业大赛「灵心智能」**铜奖**
-* 2022 第 8 届中国国际“互联网+”大学生创新创业大赛「晓声科技」**银奖** - [证明](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)
-* 2022 第 24 届中国机器人及人工智能大赛全国**一等奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf)
+* 2022 第 8 届中国国际“互联网+”大学生创新创业大赛「晓声科技」**银奖** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)</span>
+* 2022 第 24 届中国机器人及人工智能大赛全国**一等奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf)
 
 ### Selected Honors
 
-* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>开发者技术专家 - [证明](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>开发者技术专家 \| [证明](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
 * <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openatom.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">开放原子开源基金会</span>**活力开源贡献者（技术、生态贡献）**
-* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span> AIStudio 2022 年度影响力人物 **TOP10** - [证明](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span> AIStudio 2022 年度影响力人物 **TOP10** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)</span>
 * <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>首批核心体验官
-* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale 成员</span> - [证明](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale 成员</span> <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)</span>
 * <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Qwen Ambassador</span>
 
 <details class="archive-details" markdown="1">
@@ -358,31 +358,31 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 * 2024 安徽省大学生创新创业大赛「AI 赋能下的军民融合应用创新」产业赛道**金奖**
 * 2023 第 9 届安徽省“互联网+”大学生创新创业大赛「灵心智能」**金奖**
-* 2022 “建行杯”第 8 届安徽省“互联网+”大学生创新创业大赛「晓声科技」**金奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E3%80%90%E6%99%93%E5%A3%B0%E7%A7%91%E6%8A%80%E3%80%91%E5%AE%89%E5%BE%BD%E7%9C%81%E9%87%91%E5%A5%96.pdf)
-* 2022 “建行杯”第 8 届江苏省“互联网+”大学生创新创业大赛「镜选未来」**银奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E6%B1%9F%E8%8B%8F%E7%9C%81%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E8%B7%AF%E6%BC%94%E9%A1%B9%E7%9B%AE%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%20.pdf)
-* 2022 “建行杯”第 8 届上海市“互联网+”大学生创新创业大赛「Medbio」**银奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/Medbio-%E6%B4%BB%E6%80%A7%E5%B0%8F%E5%88%86%E5%AD%90%E5%8C%96%E5%90%88%E7%89%A9%E7%A7%91%E7%A0%94%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0.pdf)
-* 2022 第 7 届“创客中国”百度赛道创客组「镜选未来」**优胜奖（Top10）** - [证明](https://mp.weixin.qq.com/s/kAp6jfZpvG2eolcWSANHSQ)
-* 2022 第 13 届“挑战杯”大学生创业计划竞赛上海市「袋鼯麻麻」**铜奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E6%8C%91%E6%88%98%E6%9D%AF%E5%B8%82%E7%BA%A7%E5%A4%8D%E8%B5%9B%E7%BB%93%E6%9E%9C-%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6.pdf)
-* 2022 第 10 届华东理工大学“奋进杯”大学生创业计划竞赛「袋鼯麻麻」**金奖** - [证明](https://mp.weixin.qq.com/s/WgE9zxD4Nv4H-f_2sXr5pw)
+* 2022 “建行杯”第 8 届安徽省“互联网+”大学生创新创业大赛「晓声科技」**金奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E3%80%90%E6%99%93%E5%A3%B0%E7%A7%91%E6%8A%80%E3%80%91%E5%AE%89%E5%BE%BD%E7%9C%81%E9%87%91%E5%A5%96.pdf)
+* 2022 “建行杯”第 8 届江苏省“互联网+”大学生创新创业大赛「镜选未来」**银奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E6%B1%9F%E8%8B%8F%E7%9C%81%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E8%B7%AF%E6%BC%94%E9%A1%B9%E7%9B%AE%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%20.pdf)
+* 2022 “建行杯”第 8 届上海市“互联网+”大学生创新创业大赛「Medbio」**银奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/Medbio-%E6%B4%BB%E6%80%A7%E5%B0%8F%E5%88%86%E5%AD%90%E5%8C%96%E5%90%88%E7%89%A9%E7%A7%91%E7%A0%94%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0.pdf)
+* 2022 第 7 届“创客中国”百度赛道创客组「镜选未来」**优胜奖（Top10）** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/kAp6jfZpvG2eolcWSANHSQ)</span>
+* 2022 第 13 届“挑战杯”大学生创业计划竞赛上海市「袋鼯麻麻」**铜奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E6%8C%91%E6%88%98%E6%9D%AF%E5%B8%82%E7%BA%A7%E5%A4%8D%E8%B5%9B%E7%BB%93%E6%9E%9C-%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6.pdf)
+* 2022 第 10 届华东理工大学“奋进杯”大学生创业计划竞赛「袋鼯麻麻」**金奖** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/WgE9zxD4Nv4H-f_2sXr5pw)</span>
 * 2022 第 8 届南京财经大学“互联网+”大学生创业计划大赛「数聚凤巢」**一等奖**
 * 2022 第 8 届华东理工大学“互联网+”大学生创业计划大赛「袋鼯麻麻」**一等奖**
-* 2022 第 1 届合肥工业大学“智能杯”创新创业大赛「晓声科技」**二等奖** - [证明](/proof/首届合肥工业大学”智能杯“创新创业大赛大创组二等奖.jpg)
-* 2022 第 15 届中国大学生计算机设计大赛（程序设计组）全国**三等奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%EF%BC%88%E7%AC%AC15%E5%B1%8A%EF%BC%89%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%E4%B8%89%E7%AD%89%E5%A5%96.pdf)
-* 2022 第 15 届中国大学生计算机设计大赛（物联网组）全国**三等奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC15%E5%B1%8A%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%EF%BC%88%E7%89%A9%E8%81%94%E7%BD%91%E7%BB%84%EF%BC%89%E5%85%A8%E5%9B%BD%E4%B8%89%E7%AD%89%E5%A5%96.jpg)
-* 2022 第 24 届中国机器人及人工智能大赛（上海赛区）人工智能创新赛**一等奖** - [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%9B%96%E7%AB%A0%E5%85%AC%E7%A4%BA-%E4%B8%8A%E6%B5%B7%E8%B5%9B%E5%8C%BA%E6%8B%9F%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA%E7%9A%84%E9%80%9A%E7%9F%A5.pdf)
+* 2022 第 1 届合肥工业大学“智能杯”创新创业大赛「晓声科技」**二等奖** \| [证明](/proof/首届合肥工业大学”智能杯“创新创业大赛大创组二等奖.jpg)
+* 2022 第 15 届中国大学生计算机设计大赛（程序设计组）全国**三等奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%EF%BC%88%E7%AC%AC15%E5%B1%8A%EF%BC%89%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%E4%B8%89%E7%AD%89%E5%A5%96.pdf)
+* 2022 第 15 届中国大学生计算机设计大赛（物联网组）全国**三等奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC15%E5%B1%8A%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%EF%BC%88%E7%89%A9%E8%81%94%E7%BD%91%E7%BB%84%EF%BC%89%E5%85%A8%E5%9B%BD%E4%B8%89%E7%AD%89%E5%A5%96.jpg)
+* 2022 第 24 届中国机器人及人工智能大赛（上海赛区）人工智能创新赛**一等奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%9B%96%E7%AB%A0%E5%85%AC%E7%A4%BA-%E4%B8%8A%E6%B5%B7%E8%B5%9B%E5%8C%BA%E6%8B%9F%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA%E7%9A%84%E9%80%9A%E7%9F%A5.pdf)
 * 2022 第 5 届中国高校计算机大赛（人工智能创意赛）区域赛（华东赛区）**二等奖**
 * 2022 第 14 届上海市计算机应用能力设计大赛（程序设计组）**二等奖**
 * 2022 第 14 届上海市计算机应用能力设计大赛（物联网组）**二等奖**
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>**社区先锋奖**、**优秀孵化项目奖** - [证明](https://mp.weixin.qq.com/s/rEXoEY1UbEgwolYE-OJPjw)
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>“优秀开源项目征集”**第一名** - [证明](/proof/%E8%A2%8B%E9%BC%AF%E9%BA%BB%E9%BA%BB.png)
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>“优秀开源项目征集”**第二名** - [证明](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png)
-* 2022 讯飞开放生态 AI 先锋应用评比**年度最佳应用 TOP10** - [证明](https://mp.weixin.qq.com/s/P6VaXjlXWLT0JGvBFRDIvQ)
-* 2022 第 2 届“点宽杯”全国高校金融科技黑客松大赛**优胜队伍** - [证明](https://mp.weixin.qq.com/s/0nwc8CRLXZZaJnAg6JJjVA)
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>**社区先锋奖**、**优秀孵化项目奖** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/rEXoEY1UbEgwolYE-OJPjw)</span>
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>“优秀开源项目征集”**第一名** \| [证明](/proof/%E8%A2%8B%E9%BC%AF%E9%BA%BB%E9%BA%BB.png)
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>“优秀开源项目征集”**第二名** \| [证明](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png)
+* 2022 讯飞开放生态 AI 先锋应用评比**年度最佳应用 TOP10** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/P6VaXjlXWLT0JGvBFRDIvQ)</span>
+* 2022 第 2 届“点宽杯”全国高校金融科技黑客松大赛**优胜队伍** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/0nwc8CRLXZZaJnAg6JJjVA)</span>
 * 2021 第 23 届中国机器人及人工智能大赛（上海赛区）人工智能创新赛**二等奖**
-* 2021 PPSIG **优秀开源项目奖** - [证明](/proof/PPSIG%E5%A5%96%E6%9D%AF.jpg)
-* 2021 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>黑客马拉松**优秀开源项目奖** - [证明](/proof/%E9%A3%9E%E6%A1%A8%E9%BB%91%E5%AE%A2%E6%9D%BE.jpg)
-* 2021 WAVE SUMMIT 2021+ **优秀开源项目** - [证明](/proof/WS%E4%BC%98%E7%A7%80%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.jpg)
-* 2022 国家级大学生创新创业项目**第一主持人**，**优秀结题** - [证明](https://cxcy.ecust.edu.cn/2023/1206/c14247a163409/page.htm)
+* 2021 PPSIG **优秀开源项目奖** \| [证明](/proof/PPSIG%E5%A5%96%E6%9D%AF.jpg)
+* 2021 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>黑客马拉松**优秀开源项目奖** \| [证明](/proof/%E9%A3%9E%E6%A1%A8%E9%BB%91%E5%AE%A2%E6%9D%BE.jpg)
+* 2021 WAVE SUMMIT 2021+ **优秀开源项目** \| [证明](/proof/WS%E4%BC%98%E7%A7%80%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.jpg)
+* 2022 国家级大学生创新创业项目**第一主持人**，**优秀结题** \| [证明](https://cxcy.ecust.edu.cn/2023/1206/c14247a163409/page.htm)
 * <span class="brand-token"><img class="brand-logo brand-logo--inline brand-logo--intel" src="/images/logos/intel.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">英特尔</span>创新大使。
 * 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline brand-logo--jina" src="/images/logos/jina.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Jina</span> 社区活跃贡献者。
 * 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>积极贡献者。
