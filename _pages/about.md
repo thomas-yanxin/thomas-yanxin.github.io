@@ -322,7 +322,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 <summary>更多社区与社会实践</summary>
 
 * 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>首批资深体验官
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span> & 合肥工业大学情感计算与先进智能机器安徽省重点实验室产学研共建学生负责人 \| [证明](/proof/OpenI&MAC_LAB.jpg)
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span> & 合肥工业大学情感计算与先进智能机器安徽省重点实验室产学研共建学生负责人 <span class="media-link">\| 🔏 [证明](/proof/OpenI&MAC_LAB.jpg)</span>
 * 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>智慧零售商品识别产业案例共建者 <span class="media-link">\| 🎬 [视频](https://www.bilibili.com/video/BV1Fu411y7co/)</span>
 * 2022 华东理工大学通海茶叙第 130 期讲座嘉宾 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/yyOjg0qnRo8TggylMhyqgA)</span>
 * 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Datawhale</span> 组队学习第 34 期航海士 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/8NAmTy5n7TXxVH85WAR-gA)</span>
@@ -342,11 +342,11 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 * 2024 中国国际大学生创新大赛「人因智能关键技术——非接触集成式驾驶员状态智能检测边缘计算技术」**铜奖**
 * 2023 第 9 届中国国际“互联网+”大学生创新创业大赛「灵心智能」**铜奖**
 * 2022 第 8 届中国国际“互联网+”大学生创新创业大赛「晓声科技」**银奖** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)</span>
-* 2022 第 24 届中国机器人及人工智能大赛全国**一等奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf)
+* 2022 第 24 届中国机器人及人工智能大赛全国**一等奖** <span class="media-link">\| 🔏 [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC24%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8F%8A%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E8%B5%9B%E5%85%A8%E5%9B%BD%E4%B8%80%E7%AD%89%E5%A5%96.pdf)</span>
 
 ### Selected Honors
 
-* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>开发者技术专家 \| [证明](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span>开发者技术专家 <span class="media-link">\| 🔏 [证明](https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E9%A2%9C%E9%91%AB)</span>
 * <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openatom.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">开放原子开源基金会</span>**活力开源贡献者（技术、生态贡献）**
 * <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">百度飞桨</span> AIStudio 2022 年度影响力人物 **TOP10** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/jKTEAP1euh4yBoatod9E0Q)</span>
 * <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>首批核心体验官
@@ -358,31 +358,31 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 * 2024 安徽省大学生创新创业大赛「AI 赋能下的军民融合应用创新」产业赛道**金奖**
 * 2023 第 9 届安徽省“互联网+”大学生创新创业大赛「灵心智能」**金奖**
-* 2022 “建行杯”第 8 届安徽省“互联网+”大学生创新创业大赛「晓声科技」**金奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E3%80%90%E6%99%93%E5%A3%B0%E7%A7%91%E6%8A%80%E3%80%91%E5%AE%89%E5%BE%BD%E7%9C%81%E9%87%91%E5%A5%96.pdf)
-* 2022 “建行杯”第 8 届江苏省“互联网+”大学生创新创业大赛「镜选未来」**银奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E6%B1%9F%E8%8B%8F%E7%9C%81%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E8%B7%AF%E6%BC%94%E9%A1%B9%E7%9B%AE%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%20.pdf)
-* 2022 “建行杯”第 8 届上海市“互联网+”大学生创新创业大赛「Medbio」**银奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/Medbio-%E6%B4%BB%E6%80%A7%E5%B0%8F%E5%88%86%E5%AD%90%E5%8C%96%E5%90%88%E7%89%A9%E7%A7%91%E7%A0%94%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0.pdf)
+* 2022 “建行杯”第 8 届安徽省“互联网+”大学生创新创业大赛「晓声科技」**金奖** <span class="media-link">\| 🔏 [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E3%80%90%E6%99%93%E5%A3%B0%E7%A7%91%E6%8A%80%E3%80%91%E5%AE%89%E5%BE%BD%E7%9C%81%E9%87%91%E5%A5%96.pdf)</span>
+* 2022 “建行杯”第 8 届江苏省“互联网+”大学生创新创业大赛「镜选未来」**银奖** <span class="media-link">\| 🔏 [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%AC%AC%E5%85%AB%E5%B1%8A%E6%B1%9F%E8%8B%8F%E7%9C%81%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B_%E8%B7%AF%E6%BC%94%E9%A1%B9%E7%9B%AE%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%20.pdf)</span>
+* 2022 “建行杯”第 8 届上海市“互联网+”大学生创新创业大赛「Medbio」**银奖** <span class="media-link">\| 🔏 [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/Medbio-%E6%B4%BB%E6%80%A7%E5%B0%8F%E5%88%86%E5%AD%90%E5%8C%96%E5%90%88%E7%89%A9%E7%A7%91%E7%A0%94%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0.pdf)</span>
 * 2022 第 7 届“创客中国”百度赛道创客组「镜选未来」**优胜奖（Top10）** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/kAp6jfZpvG2eolcWSANHSQ)</span>
-* 2022 第 13 届“挑战杯”大学生创业计划竞赛上海市「袋鼯麻麻」**铜奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E6%8C%91%E6%88%98%E6%9D%AF%E5%B8%82%E7%BA%A7%E5%A4%8D%E8%B5%9B%E7%BB%93%E6%9E%9C-%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6.pdf)
+* 2022 第 13 届“挑战杯”大学生创业计划竞赛上海市「袋鼯麻麻」**铜奖** <span class="media-link">\| 🔏 [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E6%8C%91%E6%88%98%E6%9D%AF%E5%B8%82%E7%BA%A7%E5%A4%8D%E8%B5%9B%E7%BB%93%E6%9E%9C-%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6.pdf)</span>
 * 2022 第 10 届华东理工大学“奋进杯”大学生创业计划竞赛「袋鼯麻麻」**金奖** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/WgE9zxD4Nv4H-f_2sXr5pw)</span>
 * 2022 第 8 届南京财经大学“互联网+”大学生创业计划大赛「数聚凤巢」**一等奖**
 * 2022 第 8 届华东理工大学“互联网+”大学生创业计划大赛「袋鼯麻麻」**一等奖**
-* 2022 第 1 届合肥工业大学“智能杯”创新创业大赛「晓声科技」**二等奖** \| [证明](/proof/首届合肥工业大学”智能杯“创新创业大赛大创组二等奖.jpg)
-* 2022 第 15 届中国大学生计算机设计大赛（程序设计组）全国**三等奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%EF%BC%88%E7%AC%AC15%E5%B1%8A%EF%BC%89%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%E4%B8%89%E7%AD%89%E5%A5%96.pdf)
-* 2022 第 15 届中国大学生计算机设计大赛（物联网组）全国**三等奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC15%E5%B1%8A%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%EF%BC%88%E7%89%A9%E8%81%94%E7%BD%91%E7%BB%84%EF%BC%89%E5%85%A8%E5%9B%BD%E4%B8%89%E7%AD%89%E5%A5%96.jpg)
-* 2022 第 24 届中国机器人及人工智能大赛（上海赛区）人工智能创新赛**一等奖** \| [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%9B%96%E7%AB%A0%E5%85%AC%E7%A4%BA-%E4%B8%8A%E6%B5%B7%E8%B5%9B%E5%8C%BA%E6%8B%9F%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA%E7%9A%84%E9%80%9A%E7%9F%A5.pdf)
+* 2022 第 1 届合肥工业大学“智能杯”创新创业大赛「晓声科技」**二等奖** <span class="media-link">\| 🔏 [证明](/proof/首届合肥工业大学”智能杯“创新创业大赛大创组二等奖.jpg)</span>
+* 2022 第 15 届中国大学生计算机设计大赛（程序设计组）全国**三等奖** <span class="media-link">\| 🔏 [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%EF%BC%88%E7%AC%AC15%E5%B1%8A%EF%BC%89%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%E4%B8%89%E7%AD%89%E5%A5%96.pdf)</span>
+* 2022 第 15 届中国大学生计算机设计大赛（物联网组）全国**三等奖** <span class="media-link">\| 🔏 [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/2022%E5%B9%B4%E7%AC%AC15%E5%B1%8A%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BE%E8%AE%A1%E5%A4%A7%E8%B5%9B%EF%BC%88%E7%89%A9%E8%81%94%E7%BD%91%E7%BB%84%EF%BC%89%E5%85%A8%E5%9B%BD%E4%B8%89%E7%AD%89%E5%A5%96.jpg)</span>
+* 2022 第 24 届中国机器人及人工智能大赛（上海赛区）人工智能创新赛**一等奖** <span class="media-link">\| 🔏 [证明](https://github.com/thomas-yanxin/thomas-yanxin.github.io/blob/master/proof/%E7%9B%96%E7%AB%A0%E5%85%AC%E7%A4%BA-%E4%B8%8A%E6%B5%B7%E8%B5%9B%E5%8C%BA%E6%8B%9F%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA%E7%9A%84%E9%80%9A%E7%9F%A5.pdf)</span>
 * 2022 第 5 届中国高校计算机大赛（人工智能创意赛）区域赛（华东赛区）**二等奖**
 * 2022 第 14 届上海市计算机应用能力设计大赛（程序设计组）**二等奖**
 * 2022 第 14 届上海市计算机应用能力设计大赛（物联网组）**二等奖**
 * 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>**社区先锋奖**、**优秀孵化项目奖** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/rEXoEY1UbEgwolYE-OJPjw)</span>
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>“优秀开源项目征集”**第一名** \| [证明](/proof/%E8%A2%8B%E9%BC%AF%E9%BA%BB%E9%BA%BB.png)
-* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>“优秀开源项目征集”**第二名** \| [证明](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png)
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>“优秀开源项目征集”**第一名** <span class="media-link">\| 🔏 [证明](/proof/%E8%A2%8B%E9%BC%AF%E9%BA%BB%E9%BA%BB.png)</span>
+* 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>“优秀开源项目征集”**第二名** <span class="media-link">\| 🔏 [证明](/proof/%E6%AC%A7%E5%B0%8F%E9%B9%8F.png)</span>
 * 2022 讯飞开放生态 AI 先锋应用评比**年度最佳应用 TOP10** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/P6VaXjlXWLT0JGvBFRDIvQ)</span>
 * 2022 第 2 届“点宽杯”全国高校金融科技黑客松大赛**优胜队伍** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/0nwc8CRLXZZaJnAg6JJjVA)</span>
 * 2021 第 23 届中国机器人及人工智能大赛（上海赛区）人工智能创新赛**二等奖**
-* 2021 PPSIG **优秀开源项目奖** \| [证明](/proof/PPSIG%E5%A5%96%E6%9D%AF.jpg)
-* 2021 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>黑客马拉松**优秀开源项目奖** \| [证明](/proof/%E9%A3%9E%E6%A1%A8%E9%BB%91%E5%AE%A2%E6%9D%BE.jpg)
-* 2021 WAVE SUMMIT 2021+ **优秀开源项目** \| [证明](/proof/WS%E4%BC%98%E7%A7%80%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.jpg)
-* 2022 国家级大学生创新创业项目**第一主持人**，**优秀结题** \| [证明](https://cxcy.ecust.edu.cn/2023/1206/c14247a163409/page.htm)
+* 2021 PPSIG **优秀开源项目奖** <span class="media-link">\| 🔏 [证明](/proof/PPSIG%E5%A5%96%E6%9D%AF.jpg)</span>
+* 2021 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">飞桨</span>黑客马拉松**优秀开源项目奖** <span class="media-link">\| 🔏 [证明](/proof/%E9%A3%9E%E6%A1%A8%E9%BB%91%E5%AE%A2%E6%9D%BE.jpg)</span>
+* 2021 WAVE SUMMIT 2021+ **优秀开源项目** <span class="media-link">\| 🔏 [证明](/proof/WS%E4%BC%98%E7%A7%80%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.jpg)</span>
+* 2022 国家级大学生创新创业项目**第一主持人**，**优秀结题** <span class="media-link">\| 🔏 [证明](https://cxcy.ecust.edu.cn/2023/1206/c14247a163409/page.htm)</span>
 * <span class="brand-token"><img class="brand-logo brand-logo--inline brand-logo--intel" src="/images/logos/intel.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">英特尔</span>创新大使。
 * 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline brand-logo--jina" src="/images/logos/jina.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Jina</span> 社区活跃贡献者。
 * 2022 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI 启智社区</span>积极贡献者。
