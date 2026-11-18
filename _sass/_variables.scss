@@ -12,13 +12,11 @@ $doc-font-size              : 14;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
-/* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-// $sans-serif                 : Georgia, serif, sans-serif;
-
-// $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+/* Reading, interface, and numeric roles use complementary font families. */
+$site-font-family           : "Sentient", "LXGW WenKai", Georgia, "Times New Roman", serif;
+$serif                      : $site-font-family;
+$sans-serif                 : "Inter Variable", "LXGW WenKai", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$monospace                  : "Geist Mono Variable", "LXGW WenKai", ui-monospace, SFMono-Regular, Consolas, monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -31,9 +29,9 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family         : $serif;
+$header-font-family         : $serif;
+$caption-font-family        : $sans-serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -56,8 +54,8 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
+$body-color                 : #fdfdfb;
+$background-color           : #fdfdfb;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : #343b43;
@@ -68,11 +66,18 @@ $academic-ink               : #232d38;
 $academic-muted             : #626c77;
 $academic-rule              : $border-color;
 $academic-accent            : #284f73;
-$academic-display           : $sans-serif;
-$academic-paragraph-gap     : .75rem;
-$academic-section-gap       : 2rem;
-$academic-entry-gap         : 1.25rem;
-$academic-width             : 1160px;
+$academic-secondary         : #3b756d;
+$academic-display           : $site-font-family;
+$academic-prose-size        : 1.0625rem;
+$academic-dense-size        : 1rem;
+$academic-heading-weight    : 500;
+$academic-emphasis-weight   : 550;
+$academic-paragraph-gap     : .625rem;
+$academic-section-gap       : 2.75rem;
+$academic-project-gap       : 1.75rem;
+$academic-role-gap          : 2rem;
+$academic-reading-width     : 48rem;
+$academic-width             : 1280px;
 $academic-gutter            : 40px;
 $academic-desktop           : 1200px;
 

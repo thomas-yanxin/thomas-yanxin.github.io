@@ -1,100 +1,99 @@
-/* Research figures and project entries share one quiet, open layout. */
+/* Pair each figure with a bounded explanation; longer details continue below. */
 .paper-box {
-  display: grid;
-  grid-template-columns: minmax(0, 30%) minmax(0, 1fr);
-  align-items: start;
-  column-gap: 1.5rem;
-  row-gap: .625rem;
-  padding: $academic-entry-gap 0;
-  border-bottom: 1px solid $academic-rule;
-
-  .paper-box-image {
-    grid-column: 1;
-    grid-row: 1 / span 2;
-    min-width: 0;
-
-    > div { width: 100%; }
-    a { display: block; }
-
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-      border: 1px solid $academic-rule;
-      border-radius: 2px;
-    }
-  }
+  container: project / inline-size;
+  padding: 0;
 
   .paper-box-text {
-    grid-column: 2;
-    grid-row: 2;
     min-width: 0;
-    font-size: 1rem;
+    font-size: inherit;
 
-    > h3:first-child { margin-top: 0; }
     > :last-child { margin-bottom: 0; }
   }
 
   .project-title {
-    grid-column: 2;
-    grid-row: 1;
-    margin: 0;
+    margin: 0 0 .75rem;
+    font-weight: 600;
+
+    a { color: $academic-ink; }
+    a:hover { color: $academic-secondary; }
   }
 }
 
-.badge {
-  display: inline-block;
-  margin-bottom: .5rem;
-  color: $academic-muted;
-  font-size: .75rem;
-  font-weight: 500;
-  line-height: 1.5;
+.project-row {
+  display: grid;
+  grid-template-columns: minmax(0, 38fr) minmax(0, 62fr);
+  align-items: start;
+  gap: 1.5rem;
+  margin: 1rem 0 1.25rem;
+
+  > .project-figure { margin: 0; }
+  > .paper-box-text > :last-child { margin-bottom: 0; }
+}
+
+.paper-box > .project-row:first-of-type { margin-top: 0; }
+.paper-box > .paper-box-text + .paper-box-text { margin-top: $academic-paragraph-gap; }
+
+.paper-box + .paper-box, .project-entry + .project-entry,
+.paper-box + .project-entry, .project-entry + .paper-box {
+  margin-top: $academic-project-gap;
 }
 
 .project-entry {
-  padding: $academic-entry-gap 0;
-  border-bottom: 1px solid $academic-rule;
+  padding: 0;
 
   > h3:first-child { margin-top: 0; }
   > :last-child { margin-bottom: 0; }
+  > h3 { font-weight: 600; }
+  > h3 a { color: $academic-ink; }
+  > h3 a:hover { color: $academic-secondary; }
 }
 
 .project-figure {
   display: block;
-  margin: 0;
+  margin: 1.25rem 0 1.5rem;
 
-  & + .project-figure { margin-top: .85rem; }
-  > a { cursor: zoom-in; }
+  > a { display: block; cursor: zoom-in; }
 
-  img { margin: 0; }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 1px solid $academic-rule;
+    border-radius: 3px;
+  }
 
   figcaption {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
     gap: .5rem;
-    margin: .375rem 0 0;
+    margin: .25rem 0 0;
     color: $academic-muted;
     font-family: $sans-serif;
-    font-size: .75rem;
+    font-size: .875rem;
     line-height: 1.5;
 
     a {
       flex-shrink: 0;
       color: $academic-accent;
+      font-size: .8125rem;
       border: 0;
       text-decoration: none;
     }
   }
 }
 
-@media (max-width: 599px) {
-  .paper-box {
+@container project (max-width: 44rem) {
+  .project-row {
     grid-template-columns: minmax(0, 1fr);
-    gap: 1rem;
+    gap: .875rem;
+  }
 
-    .project-title { grid-column: 1; grid-row: 1; }
-    .paper-box-image { grid-column: 1; grid-row: 2; max-width: 420px; }
-    .paper-box-text { grid-column: 1; grid-row: 3; font-size: 1rem; }
+  .project-figure--portrait {
+    width: 100%;
+    max-width: 24rem;
+    margin-inline: auto;
   }
 }
