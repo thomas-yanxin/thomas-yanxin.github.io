@@ -24,14 +24,14 @@
   --secondary: #343a42;
   --muted: #555b63;
   --accent: #24496b;
-  --rule: #c8d1d9;
   --paper: #fff;
   --body-size: 9.2pt;
   --meta-size: 8.3pt;
-  --leading: 1.43;
-  --section-gap: 2.8mm;
-  --role-gap: 2.7mm;
-  --item-gap: 1mm;
+  --leading: 1.44;
+  --section-gap: 5.5mm;
+  --role-gap: 4.5mm;
+  --item-gap: 1.5mm;
+  --content-indent: 2.2mm;
 }
 * { box-sizing: border-box; }
 html { background: var(--paper); scrollbar-color: var(--accent) var(--paper); }
@@ -61,11 +61,11 @@ strong.achievement { white-space: nowrap; }
 }
 .identity {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 17mm;
+  grid-template-columns: minmax(0, 1fr) 16mm;
   column-gap: 5mm;
-  row-gap: 1.7mm;
+  row-gap: 1.4mm;
   align-items: start;
-  padding-bottom: 2.4mm;
+  padding-bottom: 2mm;
   border-bottom: 0.8pt solid var(--accent);
 }
 .identity-copy { min-width: 0; align-self: center; }
@@ -88,51 +88,48 @@ h1 {
   font-style: normal;
 }
 .summary { grid-column: 1 / -1; color: var(--secondary); font-size: 9.1pt; line-height: 1.5; }
-.summary-scope, .summary-impact { display: block; }
+.summary p + p { margin-top: 0.55mm; }
 .summary strong { white-space: nowrap; }
-.portrait { grid-column: 2; grid-row: 1; width: 17mm; height: 22mm; object-fit: cover; }
+.portrait { grid-column: 2; grid-row: 1; width: 16mm; height: 20.7mm; object-fit: cover; }
 section { margin-top: var(--section-gap); }
 h2 {
-  display: flex;
-  align-items: center;
-  gap: 3mm;
-  margin-bottom: 1.5mm;
+  margin-bottom: 1.35mm;
   color: var(--accent);
-  font-size: 11.2pt;
+  font-size: 11.6pt;
   line-height: 1.25;
   letter-spacing: 0.04em;
   break-after: avoid;
 }
-h2::after { content: ""; flex: 1; border-top: 0.5pt solid var(--rule); }
+.entry, section > .bullet-list { margin-inline-start: var(--content-indent); }
 .entry + .entry { margin-top: var(--role-gap); }
 .entry-heading {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
-  gap: 3mm;
-  margin-bottom: 0.9mm;
+  gap: 0.4mm 3mm;
+  margin-bottom: 1mm;
   break-after: avoid;
 }
 h3 { font-size: 10.7pt; line-height: 1.35; }
-.role { margin-left: 2.2mm; padding-left: 2.2mm; border-left: 0.6pt solid var(--rule); font-size: 10.2pt; font-weight: 700; white-space: nowrap; }
+.role { display: inline-block; margin-inline-start: 3mm; font-size: 10.2pt; white-space: nowrap; }
 .meta { display: inline-flex; gap: 2mm; color: var(--muted); font-size: var(--meta-size); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.entry-intro { margin-bottom: 0.7mm; color: var(--secondary); }
-.project-list { padding-left: 3.5mm; list-style: disc; }
-.project { padding-left: 0.3mm; break-inside: avoid; }
-.project::marker { color: var(--muted); font-size: 0.65em; }
-.project + .project { margin-top: var(--item-gap); }
+.entry-intro { margin: 0 0 0.9mm var(--content-indent); color: var(--secondary); }
+.bullet-list { padding-inline-start: calc(var(--content-indent) - 0.3mm); list-style: disc; }
+.bullet-list > li { padding-inline-start: 0.3mm; break-inside: avoid; }
+.bullet-list > li::marker { color: var(--muted); font-size: calc(var(--body-size) * 0.65); }
+.bullet-list > li + li { margin-top: var(--item-gap); }
 .project-title { display: inline; font-size: inherit; line-height: inherit; }
-.project-detail { margin-top: 0.65mm; color: var(--secondary); }
+.project-detail { margin-top: 0.55mm; color: var(--secondary); }
 .result-line { color: var(--ink); }
-.definition-list { display: grid; grid-template-columns: 18mm minmax(0, 1fr); gap: 0.7mm 2mm; }
-.definition-list dt { font-weight: 700; }
-.definition-list dd { min-width: 0; color: var(--secondary); }
-.skills, .honors { font-size: 8.8pt; line-height: 1.43; }
-.skills { grid-template-columns: 21mm minmax(0, 1fr); }
-.education-heading h3 { font-size: 10.2pt; }
-.education-detail { color: var(--secondary); }
-.education-detail + .education-detail { margin-top: 0.7mm; }
-.degree { margin-left: 2mm; color: var(--secondary); font-size: 9pt; font-weight: 400; }
+.credentials { --item-gap: 0.75mm; font-size: 8.8pt; }
+.credentials .bullet-list { color: var(--secondary); }
+:is(#skills-heading, #honors-heading) + .bullet-list > li > strong:first-child {
+  margin-inline-end: 0.4em;
+}
+.bullet-list .education-heading { margin-bottom: 0; }
+.education-heading h3 { color: var(--ink); font-size: 10.2pt; }
+.degree { margin-left: 2mm; color: var(--secondary); font-size: 9pt; font-weight: 400; white-space: nowrap; }
 .mentor-term { color: var(--muted); font-size: var(--meta-size); font-weight: 400; font-variant-numeric: tabular-nums; }
 .term { white-space: nowrap; }
 .cv-logo {
@@ -148,12 +145,13 @@ h3 { font-size: 10.7pt; line-height: 1.35; }
 @media print {
   body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .sheet { margin: 0; }
+  #skills-heading + .bullet-list { letter-spacing: -0.006em; }
 }
 @media screen and (max-width: 820px) {
   .sheet { width: 100%; min-height: 0; margin: 0; padding: 5.5vw; }
 }
 @media screen and (max-width: 520px) {
-  :root { --body-size: 11pt; --meta-size: 9.4pt; --section-gap: 6mm; --role-gap: 5mm; --item-gap: 2mm; }
+  :root { --body-size: 11pt; --meta-size: 9.4pt; --leading: 1.55; --section-gap: 7mm; --role-gap: 5.5mm; --item-gap: 3mm; --content-indent: 3.4mm; }
   h1 { font-size: 27pt; gap: 2.5mm; }
   .name-en { font-size: 16pt; }
   .identity { grid-template-columns: minmax(0, 1fr) 15mm; column-gap: 3mm; row-gap: 3mm; }
@@ -163,52 +161,52 @@ h3 { font-size: 10.7pt; line-height: 1.35; }
   h2 { font-size: 12pt; margin-bottom: 2.5mm; }
   .entry-heading { flex-direction: column; align-items: flex-start; gap: 0.7mm; margin-bottom: 1.2mm; }
   h3, .education-heading h3 { font-size: 12pt; }
-  .role, .degree { font-size: 10.5pt; white-space: normal; }
-  .degree { display: inline-block; max-width: 100%; }
-  .entry-intro, .project-detail, .education-detail { line-height: 1.55; }
-  .definition-list { grid-template-columns: 1fr; row-gap: 1mm; }
-  .definition-list dd + dt { margin-top: 1.7mm; }
-  .skills, .honors { font-size: 10.5pt; line-height: 1.5; }
+  .role, .degree { font-size: 10.5pt; }
+  .degree { display: inline-block; }
+  .credentials { --item-gap: 1.8mm; font-size: 10.5pt; }
   .term { white-space: normal; }
 }
 </style></head><body><main class="sheet" aria-label="颜鑫的个人简历"><div class="page-body">
-<header class="identity"><div class="identity-copy"><h1><span class="name-cn">颜鑫</span> <span class="name-en" lang="en">Xin Yan</span></h1><address class="contact"><span><a href="mailto:yx20001210@gmail.com">yx20001210@gmail.com</a></span><span>北京</span><span><a href="https://thomas-yanxin.github.io">个人主页</a></span><span><a href="https://github.com/thomas-yanxin">GitHub</a></span></address></div><img class="portrait" src="../images/zhengjianzhao.JPEG" width="170" height="220" alt="颜鑫的证件照"><p class="summary"><span class="summary-scope">主导具身多模态模型与 Agent 长期记忆研发，负责评测标准、训练方案与工程交付。具备 <strong>10 人算法与工程团队</strong>管理经验。</span><span class="summary-impact">发起和参与的开源项目累计 <strong>30,000+ GitHub Stars</strong>。</span></p></header>
+<header class="identity"><div class="identity-copy"><h1><span class="name-cn">颜鑫</span> <span class="name-en" lang="en">Xin Yan</span></h1><address class="contact"><span><a href="mailto:yx20001210@gmail.com">yx20001210@gmail.com</a></span><span>北京</span><span><a href="https://thomas-yanxin.github.io">个人主页</a></span><span><a href="https://github.com/thomas-yanxin">GitHub</a></span></address></div><img class="portrait" src="../images/zhengjianzhao.JPEG" width="170" height="220" alt="颜鑫的证件照">
+<div class="summary">
+<p>将产品需求转化为训练与评测目标，主导具身多模态模型研发，搭建 <span class="term">Agentic Harness</span>，用评测结果和用户反馈迭代模型与系统。</p>
+<p>曾带领 <strong>10 人算法与工程团队</strong>交付多个多模态大模型并推动开源。发起和参与的开源项目累计获 <strong>30,000+ GitHub Stars</strong>。</p>
+</div>
+</header>
 <section aria-labelledby="experience-heading">
 <h2 id="experience-heading">工作经历</h2>
 <div class="entry">
 <div class="entry-heading"><h3>心言机器人<img class="cv-logo cv-logo--heading cv-logo--wide" src="../images/logos/xyrobot.png" width="24" height="17" alt="" aria-hidden="true"><span class="role">高级算法工程师</span></h3><span class="meta"><span>2026.01 - 至今</span><span>北京</span></span></div>
-<p class="entry-intro">负责机器人算法架构，主导 xyVL 与 SenseMem ContextOS 研发。</p>
-<ul class="project-list" role="list">
-<li class="project">
-<div class="project-lead"><h4 class="project-title">xyVL：</h4> 主导具身模型训练路线，构建 <strong>xyJudge</strong>，用规则校验 Schema 和语言、检测重复样本，由模型裁判标注质量和难度。通过 <strong>xyData</strong> 将 50+ 数据集的约 4500 万条原始样本治理为 <strong class="achievement">1800 万条精选训练样本</strong>，按任务、难度与训练阶段设计 Data Mixture。搭建 SFT → <span class="term">On-Policy Distillation</span> → GRPO 训练流程，为环境理解、导航与规划设计奖励，最终产出 <strong>xyVL</strong> 具身原生多模态基座模型。</div>
+<ul class="bullet-list" role="list">
+<li>
+<div class="project-lead"><h4 class="project-title">xyVL：</h4> 主导具身模型训练路线，构建 <strong>xyJudge</strong>，用规则校验 Schema 和语言、检测重复样本，由模型裁判标注质量和难度。通过 <strong>xyData</strong> 将 50+ 数据集的约 4500 万条原始样本治理为 <strong class="achievement">1800 万条精选训练样本</strong>，按任务、难度与训练阶段设计 Data Mixture。搭建 SFT → <span class="term">On-Policy Distillation</span> → GRPO 训练流程，为环境理解、导航与规划设计奖励，产出 <strong>xyVL</strong> 具身原生多模态基座模型。</div>
 </li>
-<li class="project">
+<li>
 <div class="project-lead"><h4 class="project-title"><a href="https://github.com/SenseMem/SenseMem">SenseMem</a>：</h4> 发起 <strong>Agentic Omni-modal ContextOS</strong>，主导产品定义与 <strong>Memory Kernel</strong> 架构及实现，为 Personal Agent、<span class="term">Agentic Harness</span> 和具身交互提供长期记忆与任务上下文。</div>
-<p class="project-detail">统一文本、图像、音频与视频契约，分层管理原始观察与派生知识。以身份、时空、证据与版本约束更新，支持审计和回滚。</p>
-<p class="project-detail"><span class="term">Hybrid Retrieval</span> 结合语义、关键词与人物时空约束。<span class="term">Context Compiler</span> 按任务与预算编排记忆、媒体与证据，标示冲突和缺口。</p>
-<p class="project-detail result-line">截至 2026 年 11 月 12 日，在权威 Memory Benchmarks 上取得 <strong class="achievement">SOTA</strong>，覆盖 MOSAIC、ATM-Bench、Mem-Gallery 和 <span class="term">LoCoMo-Refined。</span></p>
+<p class="project-detail">统一文本、图像、音频与视频契约，分层管理原始观察与派生知识。以身份、时空、证据与版本约束更新，支持审计和回滚。<span class="term">Hybrid Retrieval</span> 结合语义、关键词与人物时空约束。<span class="term">Context Compiler</span> 按任务与预算编排记忆、媒体与证据，标示冲突和缺口。</p>
+<p class="project-detail result-line">截至 2026.11.12，在权威 Memory Benchmarks 上取得 <strong class="achievement">SOTA</strong>，覆盖 MOSAIC、ATM-Bench、Mem-Gallery、<span class="term">LoCoMo-Refined。</span></p>
 </li>
 </ul>
 </div>
 <div class="entry">
 <div class="entry-heading"><h3>心言集团<img class="cv-logo cv-logo--heading" src="../images/logos/cylingo.png" width="17" height="17" alt="" aria-hidden="true"><span class="role">高级算法工程师</span></h3><span class="meta"><span>2024.03 - 2026.01</span><span>北京</span></span></div>
 <p class="entry-intro">统筹 <strong>10 人团队</strong>交付 Xinyuan 系列，主导数据治理、<strong>Mid-Training 与 Post-Training</strong>、偏好对齐与评测部署。累计下载 <strong class="achievement">2 万+</strong>。</p>
-<ul class="project-list" role="list">
-<li class="project">
+<ul class="bullet-list" role="list">
+<li>
 <div class="project-lead"><h4 class="project-title"><a href="https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428">Xinyuan-LLM-14B</a>：</h4> 面向心理支持对话，将多轮连贯性、共情表达与知识依据纳入行为评测。基于 <span class="term">Qwen3-14B-Base</span>，组织 100K+ 心理对话和 1M+ 医疗语料开展领域适配与 Post-Training，依据失败样本和用户反馈迭代。</div>
 </li>
-<li class="project">
+<li>
 <div class="project-lead"><h4 class="project-title"><a href="https://huggingface.co/Cylingo/Xinyuan-VL-2B">Xinyuan-VL-2B</a>：</h4> 2024 年 9 月在 OpenCompass &amp; Hugging Face Open VLM Leaderboard 的 <strong class="achievement">&lt;4B 参数组排名第一</strong>。面向端侧视觉理解，选用 <span class="term">Qwen2-VL-2B-Instruct</span>，以 <strong>500 万+ 多模态样本</strong>开展 Vision-Language Post-Training。</div>
 </li>
 </ul>
 </div>
 <div class="entry">
 <div class="entry-heading"><h3><a href="https://github.com/X-D-Lab">X-D Lab</a><img class="cv-logo cv-logo--heading cv-logo--xd-lab" src="../images/logos/xd-lab-symbol.png" width="25" height="25" alt="" aria-hidden="true"><span class="role">联合创始人</span></h3><span class="meta"><span>2023.06 - 2024.03</span><span>上海</span></span></div>
-<ul class="project-list" role="list">
-<li class="project">
+<ul class="bullet-list" role="list">
+<li>
 <div class="project-lead"><h4 class="project-title"><a href="https://github.com/X-D-Lab/MindChat">MindChat</a>：</h4> 联合发起并负责心理对话模型 Post-Training，以百万级多轮语料训练共情回应与苏格拉底式问询，协同数据、评测与应用集成。开源可私有部署的 MindChat-LLM 系列与英文评测模型 MindChat-Evaluator，获 700+ GitHub Stars。</div>
 </li>
-<li class="project">
+<li>
 <div class="project-lead"><h4 class="project-title"><a href="https://github.com/X-D-Lab/Sunsimiao">Sunsimiao</a>：</h4> 构建百万级医学指令集，以 <span class="term">LoRA、QLoRA</span> 微调，以医学问答与考试评估模型，开源模型与部署材料。</div>
 </li>
 </ul>
@@ -216,35 +214,39 @@ h3 { font-size: 10.7pt; line-height: 1.35; }
 </section>
 <section aria-labelledby="projects-heading">
 <h2 id="projects-heading">其他项目</h2>
-<ul class="project-list" role="list">
-<li class="project">
-<div class="project-lead"><h3 class="project-title"><a href="https://github.com/thomas-yanxin/FateBridge">FateBridge</a>：</h3> 发起并开发面向 <span class="term">Agentic Harness</span> 的 <strong>Domain Computation Engine</strong>，通过共享 Tool Catalog 与执行层交付术数与占星领域的 <strong class="achievement">92 个 CLI 工具</strong>及 MCP 与 REST API。对历法边界和时区计算开展回归校验，将计算结果关联至规则来源。</div>
+<ul class="bullet-list" role="list">
+<li>
+<div class="project-lead"><h3 class="project-title"><a href="https://github.com/thomas-yanxin/FateBridge">FateBridge</a>：</h3> 发起并开发面向 <span class="term">Agentic Harness</span> 的<strong>情感计算引擎</strong>，通过共享 Tool Catalog 与执行层交付术数与占星领域的 <strong class="achievement">92 个 CLI 工具</strong>及 MCP 与 REST API。对历法边界和时区计算开展回归校验，将计算结果关联至规则来源。</div>
 </li>
-<li class="project">
+<li>
 <div class="project-lead"><h3 class="project-title"><a href="https://thomas-yanxin.github.io/#qianye">亲百问</a>：</h3> 主导公益家庭记忆产品定义与微信小程序研发，以 CloudBase、录音和 ASR 支撑“讲述、核对、入册”。通过异步转写和草稿恢复支持中断后继续，保留原始记录，由讲述者核对可选的 AI 润色版本，按家庭权限分享。</div>
 </li>
 </ul>
 </section>
+<div class="credentials">
 <section aria-labelledby="skills-heading">
 <h2 id="skills-heading">技术技能</h2>
-<dl class="definition-list skills">
-<dt>产品与工程</dt><dd>需求分析、技术选型、架构设计、Web 与 App 全栈开发、<span class="term">Agentic Harness</span> 集成；Python、Bash、Linux、Docker</dd>
-<dt>模型与数据</dt><dd>Mid-Training、Post-Training；SFT, DPO, OPD, GRPO；LoRA、QLoRA；PyTorch, Transformers, DeepSpeed, Megatron</dd>
-<dt>Agentic 系统</dt><dd>Context Engineering、Omni Memory、混合检索、RAG、LangChain、MCP；vLLM、SGLang、NVIDIA GPU、昇腾 NPU</dd>
-</dl>
+<ul class="bullet-list" role="list">
+<li><strong>产品与工程</strong> 需求分析、技术选型、架构设计、Web 与 App 全栈开发、<span class="term">Agentic Harness</span> 集成；Python、Bash、Linux、Docker</li>
+<li><strong>模型与数据</strong> Mid-Training、Post-Training；SFT, DPO, OPD, GRPO；LoRA、QLoRA；PyTorch, Transformers, DeepSpeed, Megatron</li>
+<li><strong>Agentic 系统</strong> Context Engineering、Omni Memory、混合检索、RAG、LangChain、MCP；vLLM、SGLang、NVIDIA GPU</li>
+</ul>
 </section>
 <section aria-labelledby="education-heading">
 <h2 id="education-heading">教育与学术成果</h2>
-<div class="entry-heading education-heading"><h3>华东理工大学<img class="cv-logo cv-logo--heading" src="../images/logos/ecust.png" width="17" height="17" alt="" aria-hidden="true"><span class="degree">信息科学与工程学院</span><span class="degree">自动化学士</span></h3><span class="meta">2019.09 - 2023.06</span></div>
-<p class="education-detail"><strong>合著：</strong>《LangChain 大模型应用开发：从入门到实践》，清华大学出版社，2026 年。</p>
-<p class="education-detail"><strong>论文与知识产权：</strong> 论文发表于 <a href="https://scholar.google.com/citations?user=WYuXNL0AAAAJ&amp;hl=zh-CN">IEEE TIFS、TCE、CISCE 等</a>；授权实用新型专利 1 项、软件著作权 3 项。</p>
+<ul class="bullet-list" role="list">
+<li><div class="entry-heading education-heading"><h3>华东理工大学<img class="cv-logo cv-logo--heading" src="../images/logos/ecust.png" width="17" height="17" alt="" aria-hidden="true"><span class="degree">信息科学与工程学院</span><span class="degree">自动化学士</span></h3><span class="meta">2019.09 - 2023.06</span></div></li>
+<li><strong>合著：</strong>《LangChain 大模型应用开发：从入门到实践》，清华大学出版社，2026 年。</li>
+<li><strong>论文与知识产权：</strong> 论文发表于 <a href="https://scholar.google.com/citations?user=WYuXNL0AAAAJ&amp;hl=zh-CN">IEEE TIFS、TCE、CISCE 等</a>；授权实用新型专利 1 项、软件著作权 3 项。</li>
+</ul>
 </section>
-<section class="honors" aria-labelledby="honors-heading">
+<section aria-labelledby="honors-heading">
 <h2 id="honors-heading">荣誉与社区</h2>
-<dl class="definition-list">
-<dt class="mentor-label">企业导师</dt><dd class="mentor-detail">北京大学信息科学技术学院<img class="cv-logo" src="../images/logos/pku.png" width="13" height="13" alt="" aria-hidden="true"> 本科实验班“信班”，<span class="term mentor-term">2025.02 - 2025.08</span></dd>
-<dt>主要奖项</dt><dd>MindChat 团队获 2025 合成数据大赛灵溪 AI for Mental Health 主题赛<strong>一等奖</strong>；2024 中国国际大学生创新大赛铜奖；2023“互联网+”全国铜奖、省级金奖；2022“互联网+”全国银奖、第 24 届中国机器人及人工智能大赛全国一等奖</dd>
-<dt>社区经历</dt><dd>Datawhale 成员、Qwen Ambassador、百度飞桨开发者技术专家；<span class="term">2021-2022</span> 年任飞桨领航团华东地区负责人，覆盖 7 省 50+ 高校；华东理工大学飞桨团队创始负责人</dd>
-</dl>
+<ul class="bullet-list" role="list">
+<li><strong>企业导师</strong> 北京大学信息科学技术学院<img class="cv-logo" src="../images/logos/pku.png" width="13" height="13" alt="" aria-hidden="true"> 本科实验班“信班”，<span class="term mentor-term">2025.02 - 2025.08</span></li>
+<li><strong>主要奖项</strong> MindChat 团队获 2025 合成数据大赛灵溪 AI for Mental Health 主题赛<strong>一等奖</strong>；2024 中国国际大学生创新大赛铜奖；2023“互联网+”全国铜奖、省级金奖；2022“互联网+”全国银奖、第 24 届中国机器人及人工智能大赛全国一等奖</li>
+<li><strong>社区经历</strong> Datawhale 成员、Qwen Ambassador、百度飞桨开发者技术专家；<span class="term">2021-2022</span> 年任飞桨领航团华东地区负责人，覆盖 7 省 50+ 高校；华东理工大学飞桨团队创始负责人</li>
+</ul>
 </section>
+</div>
 </div></main></body></html>

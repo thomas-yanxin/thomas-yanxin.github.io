@@ -2,24 +2,20 @@
 
 yx20001210@gmail.com 北京 [个人主页](https://thomas-yanxin.github.io) [GitHub](https://github.com/thomas-yanxin)
 
-主导具身多模态模型与 Agent 长期记忆研发，负责评测标准、训练方案与工程交付。具备 **10 人算法与工程团队**管理经验。
+将产品需求转化为训练与评测目标，主导具身多模态模型研发，搭建 Agentic Harness，用评测结果和用户反馈迭代模型与系统。
 
-发起和参与的开源项目累计 **30,000+ GitHub Stars**。
+曾带领 **10 人算法与工程团队**交付多个多模态大模型并推动开源。发起和参与的开源项目累计获 **30,000+ GitHub Stars**。
 
 ## 工作经历
 
 ### 心言机器人 高级算法工程师 ｜ 2026.01 - 至今 北京
 
-负责机器人算法架构，主导 xyVL 与 SenseMem ContextOS 研发。
-
-- **xyVL：** 主导具身模型训练路线，构建 **xyJudge**，用规则校验 Schema 和语言、检测重复样本，由模型裁判标注质量和难度。通过 **xyData** 将 50+ 数据集的约 4500 万条原始样本治理为 **1800 万条精选训练样本**，按任务、难度与训练阶段设计 Data Mixture。搭建 SFT → On-Policy Distillation → GRPO 训练流程，为环境理解、导航与规划设计奖励，最终产出 **xyVL** 具身原生多模态基座模型。
+- **xyVL：** 主导具身模型训练路线，构建 **xyJudge**，用规则校验 Schema 和语言、检测重复样本，由模型裁判标注质量和难度。通过 **xyData** 将 50+ 数据集的约 4500 万条原始样本治理为 **1800 万条精选训练样本**，按任务、难度与训练阶段设计 Data Mixture。搭建 SFT → On-Policy Distillation → GRPO 训练流程，为环境理解、导航与规划设计奖励，产出 **xyVL** 具身原生多模态基座模型。
 - **[SenseMem](https://github.com/SenseMem/SenseMem)：** 发起 **Agentic Omni-modal ContextOS**，主导产品定义与 **Memory Kernel** 架构及实现，为 Personal Agent、Agentic Harness 和具身交互提供长期记忆与任务上下文。
 
-  统一文本、图像、音频与视频契约，分层管理原始观察与派生知识。以身份、时空、证据与版本约束更新，支持审计和回滚。
+  统一文本、图像、音频与视频契约，分层管理原始观察与派生知识。以身份、时空、证据与版本约束更新，支持审计和回滚。Hybrid Retrieval 结合语义、关键词与人物时空约束。Context Compiler 按任务与预算编排记忆、媒体与证据，标示冲突和缺口。
 
-  Hybrid Retrieval 结合语义、关键词与人物时空约束。Context Compiler 按任务与预算编排记忆、媒体与证据，标示冲突和缺口。
-
-  截至 2026 年 11 月 12 日，在权威 Memory Benchmarks 上取得 **SOTA**，覆盖 MOSAIC、ATM-Bench、Mem-Gallery 和 LoCoMo-Refined。
+  截至 2026.11.12，在权威 Memory Benchmarks 上取得 **SOTA**，覆盖 MOSAIC、ATM-Bench、Mem-Gallery、LoCoMo-Refined。
 
 ### 心言集团 高级算法工程师 ｜ 2024.03 - 2026.01 北京
 
@@ -34,19 +30,18 @@ yx20001210@gmail.com 北京 [个人主页](https://thomas-yanxin.github.io) [Git
 
 ## 其他项目
 
-- **[FateBridge](https://github.com/thomas-yanxin/FateBridge)：** 发起并开发面向 Agentic Harness 的 **Domain Computation Engine**，通过共享 Tool Catalog 与执行层交付术数与占星领域的 **92 个 CLI 工具**及 MCP 与 REST API。对历法边界和时区计算开展回归校验，将计算结果关联至规则来源。
+- **[FateBridge](https://github.com/thomas-yanxin/FateBridge)：** 发起并开发面向 Agentic Harness 的**情感计算引擎**，通过共享 Tool Catalog 与执行层交付术数与占星领域的 **92 个 CLI 工具**及 MCP 与 REST API。对历法边界和时区计算开展回归校验，将计算结果关联至规则来源。
 - **[亲百问](https://thomas-yanxin.github.io/#qianye)：** 主导公益家庭记忆产品定义与微信小程序研发，以 CloudBase、录音和 ASR 支撑“讲述、核对、入册”。通过异步转写和草稿恢复支持中断后继续，保留原始记录，由讲述者核对可选的 AI 润色版本，按家庭权限分享。
 
 ## 技术技能
 
 - **产品与工程：** 需求分析、技术选型、架构设计、Web 与 App 全栈开发、Agentic Harness 集成；Python、Bash、Linux、Docker
 - **模型与数据：** Mid-Training、Post-Training；SFT, DPO, OPD, GRPO；LoRA、QLoRA；PyTorch, Transformers, DeepSpeed, Megatron
-- **Agentic 系统：** Context Engineering、Omni Memory、混合检索、RAG、LangChain、MCP；vLLM、SGLang、NVIDIA GPU、昇腾 NPU
+- **Agentic 系统：** Context Engineering、Omni Memory、混合检索、RAG、LangChain、MCP；vLLM、SGLang、NVIDIA GPU
 
 ## 教育与学术成果
 
-**华东理工大学 信息科学与工程学院 自动化学士** ｜ 2019.09 - 2023.06
-
+- **华东理工大学 信息科学与工程学院 自动化学士** ｜ 2019.09 - 2023.06
 - **合著：**《LangChain 大模型应用开发：从入门到实践》，清华大学出版社，2026 年。
 - **论文与知识产权：** 论文发表于 [IEEE TIFS、TCE、CISCE 等](https://scholar.google.com/citations?user=WYuXNL0AAAAJ&hl=zh-CN)；授权实用新型专利 1 项、软件著作权 3 项。
 
