@@ -17,7 +17,7 @@ I am **Xin Yan (颜鑫)**, a creator, builder and researcher, and an **entrepren
 
 As a **Senior Algorithm Engineer at XYRobot (心言机器人)**, I lead **robotics algorithm architecture**, the **xyVL embodied native multimodal foundation models** and their data and evaluation systems, and **SenseMem**. Previously, I led the **Xinyuan series of domain-specific models** at **Cylingo Group (测测)**. I graduated in Automation from **East China University of Science and Technology**.
 
-My long-term focus is **AI that interacts with people over time**: how multimodal models understand environments, how agents revise memories and assemble task context, and how these capabilities support sustained human–AI collaboration. My current projects explore **omni-modal memory and context** through **SenseMem**, source-traceable domain computation through **FateBridge**, and family memory and collaborative storytelling through **QianYe**.
+My long-term focus is **AI that interacts with people over time**: how multimodal models understand environments, how agents revise memories and assemble task context, and how these capabilities support sustained human–AI collaboration. My current projects explore **omni-modal memory and context** through **SenseMem**, traditional metaphysics and astrology computation through **FateBridge**, and family memory and collaborative storytelling through **QianYe**.
 
 My MBTI type is **INTJ**. Literature shapes how I understand people and informs my approach to affective intelligence and product experience.
 
@@ -92,7 +92,7 @@ I initiated SenseMem as an **Agentic Omni-modal ContextOS** for long-term intera
 </figure>
 <div class="paper-box-text" markdown="1">
 
-I lead the design and implementation of the **Memory Kernel**, connecting **source observations, knowledge revision and task context** through a unified content contract. It covers text, images, audio, video and their ordered combinations. Evidence, identity, time, space and versions organize memory, with models integrated as needed for memory formation. Auditable, reversible operations support consolidation, correction, reinforcement and reversible forgetting as new observations arrive.
+I lead the design and implementation of the **Memory Kernel**, connecting **source observations, knowledge revision and task context** through a unified content contract. It covers text, images, audio, video and their ordered combinations. Identity, time, space and versions organize memory, with models integrated as needed for memory formation. Consolidation, correction, reinforcement and reversible forgetting update memory as new observations arrive.
 
 </div>
 </div>
@@ -103,7 +103,7 @@ I lead the design and implementation of the **Memory Kernel**, connecting **sour
 </figure>
 <div class="paper-box-text" markdown="1">
 
-**Hybrid Retrieval** combines dense and lexical search with temporal, spatial and identity constraints and optional semantic reranking to retrieve task-relevant memories and evidence. The **Context Compiler** assembles them within item, character and media budgets. It preserves supporting evidence, surfaces conflicts and information gaps, and supplies citations for grounded answering.
+**Hybrid Retrieval** combines dense and lexical search with temporal, spatial and identity constraints and optional semantic reranking to retrieve task-relevant memories. The **Context Compiler** assembles them within item, character and media budgets, providing the information agents need for tasks and answers.
 
 </div>
 </div>
@@ -173,11 +173,11 @@ The team released [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsimiao
 
 ### <span class="brand-mark"><img class="brand-logo brand-logo--project" src="/images/logos/fatebridge.png" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span> [FateBridge: A Traditional Metaphysics and Astrology Engine for Agentic Harnesses](https://github.com/thomas-yanxin/FateBridge) {#fatebridge-a-traditional-metaphysics-and-astrology-engine-for-agentic-harnesses}
 
-I initiated and developed FateBridge as a **source-traceable local domain computation engine** for **agentic harnesses**. It encodes traditional metaphysics and astrology rules as tools with explicit input and output contracts, providing a shared computational basis for question understanding, tool invocation and result interpretation.
+I initiated and developed FateBridge as a **local domain computation engine** for **agentic harnesses**. It encodes traditional metaphysics and astrology rules as tools with explicit input and output contracts, enabling agents to call domain computations and explain the results.
 
-The project integrates **92 MCP tools**, including BaZi, Zi Wei Dou Shu and Western astrology, alongside CLI and REST API access. A unified tool catalog, schema validation and shared execution layer reuse domain services and calculation kernels. Structured results, time conventions and run metadata record calculation conditions and execution, supporting provenance tracking and delivery within response budgets.
+The project integrates **92 MCP tools**, including BaZi, Zi Wei Dou Shu and Western astrology, alongside CLI and REST API access. A unified tool catalog, schema validation and shared execution layer reuse domain services and calculation kernels, providing structured results within response budgets.
 
-I design the calculation kernels around **calendar and solar-term boundaries, time zones, true solar time and differences between rule traditions**. Algorithm regressions, independent references and cross-interface checks examine computational consistency. The system links input conditions, results and rule sources, giving the agent verifiable domain context and an explicit basis for explaining different rule conventions.
+I design the calculation kernels around **calendar and solar-term boundaries, time zones, true solar time and differences between rule traditions**. Algorithm regressions, independent references and cross-interface checks examine computational consistency. Agents can explain results using the input conditions and selected rules.
 
 </div>
 
@@ -185,7 +185,7 @@ I design the calculation kernels around **calendar and solar-term boundaries, ti
 
 ### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">📖</span></span> <span class="project-label">QianYe (亲百问): Family Memory and Shared Storytelling</span> {#qianye--family-memory-and-shared-storytelling}
 
-I led **product design and WeChat mini program development** for QianYe, a public-interest product for **AI-assisted family memory and collaborative storytelling**. Photographs, familiar objects and voices prompt asynchronous narration, creating a memory journal that relatives can review and read together.
+I led **product design and WeChat mini program development** for QianYe, a public-interest product for **AI-assisted family memory and collaborative storytelling**. Photographs, familiar objects and voices prompt asynchronous narration, creating a memory journal that relatives can read together.
 
 A native WeChat mini program, CloudBase functions and shared business modules connect recording, ASR transcription and optional LLM editing within a storytelling, review and journal workflow. Asynchronous jobs coordinate transcription and content processing. Segmented saving and draft recovery support interrupted sessions; larger text and clear interaction states support older adults.
 

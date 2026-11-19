@@ -25,7 +25,7 @@ redirect_from:
 
 现任**心言机器人高级算法工程师**，负责**机器人算法架构**，主导 **xyVL 具身原生多模态基座模型**及其数据与评价体系，以及 **SenseMem** 研发；此前在**心言集团（测测）**主导 **Xinyuan 系列垂域大模型**研发。我毕业于**华东理工大学自动化专业**。
 
-我的长期关注方向是 **AI 与人的持续交互**：多模态模型如何理解环境，Agent 如何更新记忆、组织任务上下文，以及这些能力如何支持持续的人机协作。目前，我正在构建 **SenseMem、FateBridge 和 QianYe**，分别探索全模态记忆与上下文、可追溯的领域计算，以及家庭记忆与协作叙事。
+我的长期关注方向是 **AI 与人的持续交互**：多模态模型如何理解环境，Agent 如何更新记忆、组织任务上下文，以及这些能力如何支持持续的人机协作。目前，我正在构建 **SenseMem、FateBridge 和 QianYe**，分别探索全模态记忆与上下文、传统术数与占星的领域计算，以及家庭记忆与协作叙事。
 
 我的 MBTI 是 **INTJ**。文学塑造了我理解人的方式，也影响着我对情感智能和产品体验的判断。
 
@@ -101,7 +101,7 @@ redirect_from:
 </figure>
 <div class="paper-box-text" markdown="1">
 
-我主导 **Memory Kernel** 的架构设计与实现，围绕**原始观察、知识更新与任务上下文**建立统一内容契约，涵盖文本、图像、音频、视频及其有序组合。内核以证据、身份、时空与版本关系组织记忆，按需接入模型完成 Memory Formation。可审计、可回滚的操作支持 Consolidation、Correction、Reinforcement 与可逆 Forgetting，使长期记忆能够随新观察持续修正。
+我主导 **Memory Kernel** 的架构设计与实现，围绕**原始观察、知识更新与任务上下文**建立统一内容契约，涵盖文本、图像、音频、视频及其有序组合。内核以身份、时空与版本关系组织记忆，按需接入模型完成 Memory Formation。记忆通过 Consolidation、Correction、Reinforcement 与可逆 Forgetting 随新观察持续更新。
 
 </div>
 </div>
@@ -112,7 +112,7 @@ redirect_from:
 </figure>
 <div class="paper-box-text" markdown="1">
 
-**Hybrid Retrieval** 融合 Dense Retrieval、Lexical Search、时空与人物约束及可选 Semantic Reranking，检索当前任务所需的记忆与证据。**Context Compiler** 再按条目、字符与媒体预算编排上下文，保留支撑证据、呈现冲突与信息缺口，并为 Grounded Answering 提供引用依据。
+**Hybrid Retrieval** 融合 Dense Retrieval、Lexical Search、时空与人物约束及可选 Semantic Reranking，检索当前任务所需的记忆。**Context Compiler** 根据条目、字符与媒体预算组织上下文，为 Agent 的任务执行与回答提供所需信息。
 
 </div>
 </div>
@@ -187,11 +187,11 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ### <span class="brand-mark"><img class="brand-logo brand-logo--project" src="/images/logos/fatebridge.png" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span> [FateBridge](https://github.com/thomas-yanxin/FateBridge) {#fatebridge}
 
-我发起并开发 FateBridge，为 **Agentic Harness** 构建**可追溯的本地领域计算引擎（Domain Computation Engine）**。项目将传统术数与占星规则编码为具有明确输入输出契约的计算工具，为 Agent 的问题理解、工具调用与结果解释提供共享的计算依据。
+我发起并开发 FateBridge，为 **Agentic Harness** 构建**本地领域计算引擎（Domain Computation Engine）**。项目将传统术数与占星规则编码为具有明确输入输出契约的计算工具，让 Agent 能够调用领域计算并解释结果。
 
-项目集成八字、紫微、星盘等 **92 个 MCP 工具**，并提供 CLI 与 REST API。统一工具目录（Tool Catalog）、Schema 校验与共享执行层复用领域服务和计算内核。结构化结果、时间口径与运行元数据（Run Metadata）共同记录计算条件和执行过程，支持结果溯源与按预算交付。
+项目集成八字、紫微、星盘等 **92 个 MCP 工具**，并提供 CLI 与 REST API。统一工具目录（Tool Catalog）、Schema 校验与共享执行层复用领域服务和计算内核，提供结构化结果并支持按预算交付。
 
-我围绕**历法与节气边界、时区与真太阳时、规则来源及流派差异**设计计算内核，通过算法回归、独立参考与跨接口校验检查计算一致性。系统关联输入条件、计算结果与规则来源，为 Agent 组织可核查的领域上下文，并保留不同规则口径的解释依据。
+我围绕**历法与节气边界、时区与真太阳时、规则来源及流派差异**设计计算内核，通过算法回归、独立参考与跨接口校验检查计算一致性。Agent 可以结合输入条件与所选规则解释计算结果。
 
 </div>
 
@@ -199,7 +199,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">📖</span></span> <span class="project-label">QianYe（亲百问）</span> {#qianye}
 
-我主导亲百问的**产品设计与微信小程序研发**，围绕 **Family Memory & Collaborative Storytelling** 构建以人为中心的 AI 辅助家庭记忆产品。以照片、物件与声音触发讲述，将家庭成员的异步叙事组织为可共同核对、阅读的记忆手帐，作为公益数字产品持续推进。
+我主导亲百问的**产品设计与微信小程序研发**，围绕 **Family Memory & Collaborative Storytelling** 构建以人为中心的 AI 辅助家庭记忆产品。以照片、物件与声音触发讲述，将家庭成员的异步叙事组织为可共同阅读的记忆手帐，作为公益数字产品持续推进。
 
 系统采用原生微信小程序、CloudBase 云函数与共享业务模块，将录音、ASR 转写与可选 LLM 润色接入“讲述、核对、入册”的人机协作流程。异步任务衔接转写与内容整理，分段保存和草稿恢复支持中断后继续，大字与清晰的操作状态方便长辈使用。
 
