@@ -3,11 +3,8 @@
    ========================================================================== */
 
 %tab-focus {
-  /* Default*/
-  outline: thin dotted $warning-color;
-  /* Webkit*/
-  outline: 5px auto $warning-color;
-  outline-offset: -2px;
+  outline: 2px solid $academic-accent;
+  outline-offset: 4px;
 }
 
 /*
