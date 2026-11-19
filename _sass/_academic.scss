@@ -158,6 +158,11 @@ a {
   text-underline-offset: .2em;
   text-decoration-thickness: 1px;
 
+  // Pointer clicks should not inherit the theme's legacy orange focus ring.
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
   &:focus-visible {
     outline: 2px solid $academic-accent;
     outline-offset: 4px;
