@@ -19,7 +19,7 @@ html {
   font-size: 100%;
   scroll-padding-top: 6.5rem;
   scroll-behavior: smooth;
-  scrollbar-color: #b7c6c3 $background-color;
+  scrollbar-color: $academic-scrollbar $background-color;
 }
 
 body {
@@ -69,6 +69,13 @@ body {
 
 .page__content .brand-logo--wide {
   width: 1.75rem;
+}
+
+.page__content .brand-logo--xd-lab {
+  // Compensate for the transparent padding around the symbol.
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
 }
 
 .page__content .brand-logo--inline {
@@ -123,17 +130,27 @@ body {
 }
 
 .brand-heading {
-  display: inline-grid;
-  grid-template-columns: 1.5rem minmax(0, 1fr);
+  display: flex;
+  flex: 1 1 auto;
   align-items: start;
-  column-gap: .45em;
+  gap: .45em;
+  min-width: 0;
   max-width: 100%;
 
-  > :last-child { align-self: baseline; }
+  > .brand-mark { flex: 0 0 1.5rem; }
+
+  > :last-child {
+    min-width: 0;
+    align-self: baseline;
+    // Keep Chinese phrases intact; long English labels can still wrap at words.
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    text-wrap: balance;
+  }
 }
 
 ::selection {
-  background: #dcebe5;
+  background: $academic-selection;
   color: $academic-ink;
 }
 
@@ -198,7 +215,7 @@ summary:focus-visible {
   line-height: 1.7;
 
   .intro-lead {
-    margin-bottom: .75rem;
+    margin-bottom: 1.25rem;
     font-size: 1.125rem;
     line-height: 1.6;
   }
@@ -225,17 +242,17 @@ summary:focus-visible {
   }
 
   h2 {
-    margin: $academic-section-gap 0 .875rem;
-    font-size: 1.625rem;
+    margin: 0 0 1.75rem;
+    font-size: 1.75rem;
   }
 
-  > h1, > h2 {
+  .home-section > h1, .home-section > h2 {
     font-style: italic;
     font-weight: 400;
   }
 
-  h3 {
-    margin: 1.5rem 0 .5rem;
+  h3, h4 {
+    margin: 2rem 0 .875rem;
     color: $academic-ink;
     font-family: $academic-display;
     font-size: 1.1875rem;
@@ -245,11 +262,68 @@ summary:focus-visible {
   }
 
   p { margin: 0 0 $academic-paragraph-gap; text-wrap: pretty; }
-  // Above 500 selects WenKai's real bold face while softening Sentient's emphasis.
-  strong { color: $academic-ink; font-weight: $academic-emphasis-weight; }
+  strong {
+    color: $academic-strong-ink;
+    // Select WenKai's native Bold; soften variable Latin faces independently.
+    font-weight: $academic-strong-weight;
+    font-variation-settings: "wght" $academic-strong-latin-axis;
+    font-synthesis: none;
+  }
 
-  h3 a { text-decoration: none; }
-  h3 a:hover { text-decoration: underline; }
+  h3 a, h4 a { text-decoration: none; }
+  h3 a:hover, h4 a:hover { text-decoration: underline; }
+
+  // Whitespace and a fine rule separate chapters in the open reading flow.
+  .home-section {
+    display: flow-root;
+    margin-top: $academic-section-gap;
+
+    &:first-child { margin-top: 0; }
+
+    > h2 {
+      margin-inline: -$academic-section-inset;
+      padding: 1rem $academic-section-inset;
+      border-top: 1px solid $academic-rule;
+    }
+
+    > :last-child { margin-bottom: 0; }
+    > h2 + h3, > h2 + .role-heading { margin-top: 0; }
+  }
+
+  // Companies are the parent group; projects remain open, subordinate entries.
+  .experience-entry {
+    > :last-child { margin-bottom: 0; }
+
+    + .experience-entry { margin-top: 3.5rem; }
+  }
+
+  .experience-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .625rem 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+
+    h3 {
+      margin: 0;
+      font-family: $sans-serif;
+      font-size: 1.3125rem;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+    .experience-date {
+      flex-shrink: 0;
+      margin: 0;
+      color: $academic-muted;
+      font-family: $monospace;
+      font-size: .8125rem;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+  }
 
   a {
     text-decoration-color: rgba($academic-accent, .35);
@@ -270,7 +344,7 @@ summary:focus-visible {
     font-size: $academic-dense-size;
     line-height: 1.6;
   }
-  li { padding-left: .25rem; margin-bottom: .375rem; }
+  li { padding-left: .25rem; margin-bottom: .625rem; }
   li::marker { color: $academic-muted; font-size: .8em; }
 
   .anchor {
@@ -284,11 +358,11 @@ summary:focus-visible {
     align-items: baseline;
     justify-content: space-between;
     gap: .375rem 1.25rem;
-    margin: $academic-role-gap 0 .75rem;
+    margin: $academic-role-gap 0 1rem;
     font-family: $sans-serif;
     line-height: 1.5;
 
-    strong { font-size: 1.0625rem; }
+    strong { font-size: 1.125rem; }
     br { display: none; }
     em {
       display: block;
@@ -301,17 +375,18 @@ summary:focus-visible {
     }
   }
 
-  h2 + .role-heading { margin-top: 1rem; }
-
   .news-list {
     list-style: none;
     padding: 0;
-    margin-top: 0;
+    margin: 0;
     li {
       position: relative;
-      padding-left: 5.25rem;
-      margin-bottom: .375rem;
+      padding: .75rem 0 .75rem 5.25rem;
+      margin: 0;
       line-height: 1.6;
+
+      &:first-child { padding-top: 0; }
+      &:last-child { padding-bottom: 0; }
     }
     li > em:first-child {
       position: absolute;
@@ -332,8 +407,8 @@ summary:focus-visible {
     font-size: .8125rem;
     font-variant-numeric: tabular-nums;
   }
-  .publication-list > li { margin-bottom: .75rem; }
-  .media-list > li { margin-bottom: 1rem; }
+  .publication-list > li { margin-bottom: 1rem; }
+  .media-list > li { margin-bottom: 1.25rem; }
 }
 
 html[lang="en"] {
@@ -345,9 +420,10 @@ html[lang="en"] {
 }
 
 .archive-details {
-  margin: .75rem 0 0;
+  margin: 1.5rem 0 0;
 
   summary {
+    min-height: 48px;
     padding: .75rem 0;
     color: $academic-accent;
     font-family: $sans-serif;
@@ -375,10 +451,26 @@ html[lang="en"] {
   #main { padding: 0 24px; margin: 1.25rem auto 3rem; gap: 1.25rem; }
   .page__content {
     h1, #about-me { font-size: 1.875rem; }
-    h2 { font-size: 1.4375rem; margin-top: 2.25rem; }
-    h3 { font-size: 1.125rem; }
+    h2 { font-size: 1.5rem; }
+    h3, h4 { font-size: 1.125rem; }
+    .home-section {
+      margin-top: 3rem;
+
+      > h2 {
+        margin-inline: -1rem;
+        margin-bottom: 1.5rem;
+        padding: .875rem 1rem;
+      }
+    }
+    .experience-entry + .experience-entry { margin-top: 2.75rem; }
+    .experience-heading {
+      flex-direction: column;
+      gap: .5rem;
+
+      h3 { font-size: 1.1875rem; }
+    }
     .role-heading { flex-direction: column; gap: .25rem; }
-    .news-list li { padding-left: 4.5rem; margin-bottom: .625rem; }
+    .news-list li { padding-left: 4.5rem; }
   }
 }
 

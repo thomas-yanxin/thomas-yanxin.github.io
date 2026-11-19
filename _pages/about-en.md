@@ -6,20 +6,26 @@ lang: en
 author_profile: true
 ---
 
+<section class="home-section home-section--about" aria-labelledby="about" markdown="1">
+
 <div class="anchor" id="about-en"></div>
 
 # <span class="section-emoji" aria-hidden="true">👋</span> About {#about}
 
-I am **Xin Yan (颜鑫)**, a creator, builder and researcher, and an **entrepreneur at heart**. I start with real needs, turn ideas into products, and bring models, engineering and evaluation together to deliver and iterate.
+I am **Xin Yan (颜鑫)**, a creator, builder and researcher, and an **entrepreneur at heart**. I build **models and agent systems for sustained human–AI interaction**. Starting from product definition, I coordinate data, training, system architecture and evaluation to turn research and engineering into working products.
 {: .intro-lead}
 
-As a **Senior Algorithm Engineer at XYRobot (心言机器人)**, I lead **robotics algorithm architecture**, development of the **xyVL embodied foundation model series**, and the design and implementation of **SenseMem**. Previously, I led the **Xinyuan series of domain-specific models** at **Cylingo Group (测测)**. I graduated in Automation from **East China University of Science and Technology**.
+As a **Senior Algorithm Engineer at XYRobot (心言机器人)**, I lead **robotics algorithm architecture**, the **xyVL embodied native multimodal foundation models** and their data and evaluation systems, and **SenseMem**. Previously, I led the **Xinyuan series of domain-specific models** at **Cylingo Group (测测)**. I graduated in Automation from **East China University of Science and Technology**.
 
-My long-term focus is **AI that interacts with people over time**: systems that understand context, remember shared experiences and update their judgments as new information arrives. My current projects put that direction into practice: **SenseMem** for agentic multimodal memory, **FateBridge** for traditional metaphysics and astrology computation, and **QianYe** for family memory and shared storytelling.
+My long-term focus is **AI that interacts with people over time**: how multimodal models understand environments, how agents revise memories and assemble task context, and how these capabilities support sustained human–AI collaboration. My current projects explore **omni-modal memory and context** through **SenseMem**, source-traceable domain computation through **FateBridge**, and family memory and collaborative storytelling through **QianYe**.
 
 My MBTI type is **INTJ**. Literature shapes how I understand people and informs my approach to affective intelligence and product experience.
 
 As a **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)</span>**, I contribute to open-source projects and technical education. Projects I have started or contributed to have earned **30000+ GitHub Stars** in total. Through **open-source projects, teaching, writing and [public talks](#talks-media-en)**, I share practical experience across product design, system implementation, evaluation and iteration.
+
+</section>
+
+<section class="home-section home-section--news" aria-labelledby="news" markdown="1">
 
 <div class="anchor" id="news-en"></div>
 
@@ -34,42 +40,49 @@ As a **<span class="brand-token"><img class="brand-logo brand-logo--inline" src=
 * *2025.07* <span class="news-emoji" aria-hidden="true">🎧</span> Joint interview by <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Tongyi Lab</span> and <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span> <span class="media-link">\| 🎧 [Podcast](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)</span>.
 {: .news-list role="list"}
 
+</section>
+
+<section class="home-section home-section--experience" aria-labelledby="experience" markdown="1">
+
 <div class="anchor" id="experience-en"></div>
 
 ## <span class="section-emoji" aria-hidden="true">💼</span> Experience {#experience}
 
-<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo brand-logo--wide" src="/images/logos/xyrobot.png" alt="" aria-hidden="true" width="32" height="22" loading="lazy" decoding="async"></span><span>XYRobot (心言机器人) | Senior Algorithm Engineer</span></strong><br>
-*January 2026 - Present*
-{: .role-heading}
+<div class="experience-entry" markdown="1">
+
+<header class="experience-heading">
+<h3 class="brand-heading"><span class="brand-mark"><img class="brand-logo brand-logo--wide" src="/images/logos/xyrobot.png" alt="" aria-hidden="true" width="32" height="22" loading="lazy" decoding="async"></span><span>XYRobot (心言机器人) | Senior Algorithm Engineer</span></h3>
+<p class="experience-date">January 2026 - Present</p>
+</header>
 
 <div class="paper-box">
-<h3 class="project-title"><span class="brand-mark"><span class="project-emoji" aria-hidden="true">🤖</span></span> <a href="/images/xinyan-robot-xyvl-pipeline.png">xyVL: Embodied Foundation Model Series</a></h3>
+<h4 class="project-title"><span class="brand-mark"><span class="project-emoji" aria-hidden="true">🤖</span></span> <a href="/images/xinyan-robot-xyvl-pipeline.png">xyVL: Embodied Native Multimodal Foundation Models</a></h4>
 <div class="project-row">
 <figure class="project-figure project-figure--portrait">
   <a href="/images/xinyan-robot-xyvl-pipeline.png"><img src="/images/xinyan-robot-xyvl-pipeline.png" alt="Robotics algorithm pipeline: multi-source data is normalized, annotated and filtered by xyJudge into xyData, then used for SFT, on-policy distillation and GRPO training of xyVL. Click to view the full-size image." loading="lazy" width="1276" height="1291" decoding="async"></a>
 </figure>
 <div class="paper-box-text" markdown="1">
 
-I lead algorithm architecture for **XYRobot (心言机器人)** and development of the **xyVL embodied foundation model series**, building a development pipeline across **multimodal data curation, automated quality assessment and post-training**.
+I lead algorithm architecture for **XYRobot (心言机器人)** and the joint development of **xyVL, xyData and xyJudge**. The three form a coordinated system for embodied native multimodal foundation models, automated multimodal data curation and a unified embodied **Rubrics System**. They are designed together around environmental understanding, reasoning, navigation and planning. xyData organizes the learning distribution; xyJudge translates quality requirements and task objectives into evaluation criteria; xyVL develops task capabilities through multimodal post-training.
 
-**xyData: Multimodal Data Curation.** I brought together **50+ open-source datasets with approximately 45 million raw samples** from <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span>, <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/github.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">GitHub</span> and <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span>, covering text, images, video, robotics and autonomous driving. Schema normalization, quality filtering and difficulty grading produced **18 million curated samples**. I designed data mixtures around task distribution, difficulty and model suitability for SFT, distillation and reinforcement learning.
+**xyData: Automated multimodal data curation across the training data pipeline.** I integrated **50+ open-source datasets with approximately 45 million raw samples** from <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span>, <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/github.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">GitHub</span> and <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span>, covering text, images, video, robotics and autonomous driving. Data ingestion, schema normalization, quality filtering and difficulty grading produced **18 million curated samples**. I designed **data mixtures** around task distribution, difficulty and model suitability, organizing training distributions for SFT, distillation and reinforcement learning.
 
 </div>
 </div>
 <div class="paper-box-text" markdown="1">
 
-**xyJudge: Model-as-a-Judge Evaluation and Annotation.** I combined heuristic checks for sample length, language, duplication and schema compliance with **Qwen3.6-35B-A3B** judgments of quality, difficulty, repetition, complexity and coherence. Asynchronous concurrency and resumable processing support evaluation and annotation across tens of millions of samples.
+**xyJudge: A unified embodied Rubrics System.** Structured evaluation criteria connect data quality with embodied task requirements, combining heuristic checks with **model-as-a-judge** assessment. Rules check sample length, language, duplication and schema compliance. **Qwen3.6-35B-A3B** produces structured labels for quality, difficulty, duplication, complexity and coherence. Asynchronous concurrency and checkpoint recovery support evaluation and annotation at the scale of tens of millions of samples, providing consistent criteria for xyData filtering and training data organization.
 
-**Multimodal Post-training: SFT → On-Policy Distillation (OPD) → GRPO.** I build on **Qwen3.5** with a staged training pipeline: multimodal instruction tuning, on-policy distillation from **Qwen3.5-27B**, and GRPO with rewards for reasoning, safety, navigation and planning. This work targets environmental understanding and embodied task capabilities.
+**xyVL: Embodied native multimodal foundation models.** I build on **Qwen3.5** with **SFT → On-Policy Distillation (OPD) → GRPO**. SFT adapts instruction following and task behavior. OPD uses **Qwen3.5-27B** to supervise sequences generated by the student itself. GRPO uses task rewards for reasoning, safety, navigation and planning. This multimodal **post-training** is coordinated with xyData mixtures and xyJudge evaluation criteria to target environmental understanding and embodied task capabilities.
 
 </div>
 </div>
 
 <div class="paper-box paper-box--sensemem">
-<h3 class="project-title"><span class="brand-mark"><img class="brand-logo brand-logo--project brand-logo--sensemem" src="/images/logos/sensemem.png" alt="" aria-hidden="true" width="30" height="30" loading="lazy" decoding="async"></span> <a href="https://github.com/SenseMem/SenseMem">SenseMem: Agentic Multimodal Memory</a></h3>
+<h4 class="project-title"><span class="brand-mark"><img class="brand-logo brand-logo--project brand-logo--sensemem" src="/images/logos/sensemem.png" alt="" aria-hidden="true" width="30" height="30" loading="lazy" decoding="async"></span> <a href="https://github.com/SenseMem/SenseMem">SenseMem: Agentic Omni-modal ContextOS</a></h4>
 <div class="paper-box-text" markdown="1">
 
-**Vision & Design.** I created SenseMem as a unified **Omni-modal Memory & Context Layer** for **agentic harnesses, personal assistants and embodied interaction**. It connects the context and shared experiences accumulated over time with the task an agent faces now. Its design follows the **3S** principles: **Smarter** organizes task context through memory formation, revision and recall. **Swifter** supports flexible capability composition, model selection and system integration. **Stronger** optimizes performance across modalities, tasks and deployment environments.
+I initiated SenseMem as an **Agentic Omni-modal ContextOS** for long-term interaction. It organizes experiences across text, images, audio and video into revisable memory, providing the memory and context layer for **personal agents, agentic harnesses and embodied interaction systems**. Its **3S** principles guide the design: **Smarter** organizes task context through memory formation, revision and recall. **Swifter** supports capability composition, model selection and integration. **Stronger** optimizes performance across modalities, tasks and deployment environments.
 
 </div>
 <div class="project-row">
@@ -79,7 +92,7 @@ I lead algorithm architecture for **XYRobot (心言机器人)** and development 
 </figure>
 <div class="paper-box-text" markdown="1">
 
-I lead the design and implementation of the **Memory Kernel**, unifying text, images, audio, video and their ordered combinations in one content contract. The kernel connects source observations, evolving knowledge and task context while managing evidence, identity, time, space and versions. Optional models support memory formation; auditable, reversible operations handle consolidation, correction, reinforcement and cognitive forgetting.
+I lead the design and implementation of the **Memory Kernel**, connecting **source observations, knowledge revision and task context** through a unified content contract. It covers text, images, audio, video and their ordered combinations. Evidence, identity, time, space and versions organize memory, with models integrated as needed for memory formation. Auditable, reversible operations support consolidation, correction, reinforcement and reversible forgetting as new observations arrive.
 
 </div>
 </div>
@@ -90,29 +103,34 @@ I lead the design and implementation of the **Memory Kernel**, unifying text, im
 </figure>
 <div class="paper-box-text" markdown="1">
 
-**Hybrid Retrieval** combines dense and lexical search with temporal, spatial and identity constraints and optional semantic reranking. The **Context Compiler** assembles memory and supporting evidence within item, character and media budgets, reports conflicts and information gaps, and supplies citations for grounded answering.
+**Hybrid Retrieval** combines dense and lexical search with temporal, spatial and identity constraints and optional semantic reranking to retrieve task-relevant memories and evidence. The **Context Compiler** assembles them within item, character and media budgets. It preserves supporting evidence, surfaces conflicts and information gaps, and supplies citations for grounded answering.
 
 </div>
 </div>
 <div class="paper-box-text" markdown="1">
 
-SQLite and original media preserve authoritative state, while Zvec provides a rebuildable index. Typed contracts connect local or remote embedding, generation, speech, vision and memory-processing models. SDK, REST, MCP and CLI interfaces share the kernel and integrate with the host harness's goals, scheduling and actions.
+SQLite and original media preserve authoritative state; Zvec provides a rebuildable index. Typed contracts connect local or remote embedding, generation, speech, vision and memory-processing models. SDK, REST, MCP and CLI interfaces share the kernel, connecting memory and context operations with the host harness's goals, scheduling and actions.
 
 </div>
 <div class="paper-box-text" markdown="1">
 
-SenseMem achieves **state-of-the-art results** on memory benchmarks including **MOSAIC, Mem-Gallery, ATM-Bench and LoCoMo-Refined**. **MOSAIC** evaluates omni-modal memory across text, images, audio and video. **Mem-Gallery** addresses visual personal memory and image-grounded dialogue. **ATM-Bench** tests retrieval and reasoning over heterogeneous personal archives, including email, images and video. **LoCoMo-Refined** evaluates long-term memory across multiple dialogue sessions. Together, these results show **broad capability and leading performance across memory scenarios**, from omni-modal interaction and personal media to long-running conversations.
+SenseMem achieves **state-of-the-art results** on memory benchmarks including **MOSAIC, Mem-Gallery, ATM-Bench and LoCoMo-Refined**. **MOSAIC** evaluates omni-modal memory across text, images, audio and video. **Mem-Gallery** addresses visual personal memory and image-grounded dialogue. **ATM-Bench** tests retrieval and reasoning over heterogeneous personal archives, including email, images and video. **LoCoMo-Refined** evaluates long-term memory across multiple dialogue sessions. These benchmarks assess memory capabilities and task performance across omni-modal interaction, personal media and long-running dialogue.
 
 </div>
 </div>
 
-<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/cylingo.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>Cylingo Group (测测) | Senior Algorithm Engineer</span></strong><br>
-*March 2024 - January 2026*
-{: .role-heading}
+</div>
 
-I led the **Xinyuan series of domain-specific models** from data curation through training, evaluation and deployment. The work covered multi-source multimodal data, continual pre-training, SFT, RLHF and multidimensional evaluation. I coordinated algorithm and engineering teams of **5–20 people** and delivered selected open-source releases. The series has accumulated **20,000+ downloads** across <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span> and <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span>.
+<div class="experience-entry" markdown="1">
 
-For psychological support, education and companionship, I made **conversational continuity, affective expression, knowledge grounding and domain adaptation** priorities for training and evaluation. Failure analysis and user feedback guided improvements. I aligned model and deployment choices with product needs, balancing domain performance, general capabilities, inference latency, ecosystem support and maintenance costs.
+<header class="experience-heading">
+<h3 class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/cylingo.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>Cylingo Group (测测) | Senior Algorithm Engineer</span></h3>
+<p class="experience-date">March 2024 - January 2026</p>
+</header>
+
+I led the **Xinyuan series of domain-specific models**, bringing **domain adaptation, interaction alignment and deployment constraints** into one development process. The work covered multi-source multimodal data curation, continual pre-training, SFT, RLHF and multidimensional evaluation. I coordinated algorithm and engineering teams of **5–20 people**, advancing training, deployment and selected open-source releases. The series has accumulated **20,000+ downloads** across <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span> and <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span>.
+
+For psychological support, education and companionship, I translated **conversational continuity, affective expression, knowledge grounding and domain adaptation** into training and evaluation criteria. Failure analysis and user feedback guided improvements. Model and deployment decisions jointly considered domain performance, general capabilities, inference latency, ecosystem support and maintenance costs, aligning model development with interaction needs and operating conditions.
 
 Selected work:
 
@@ -120,21 +138,32 @@ Selected work:
 * <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/xinyuan.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)</span>: Based on Qwen2-VL-2B-Instruct and trained on **5M+ multimodal samples**, with gains over the base model on multiple visual-understanding benchmarks. Ranked **first in the <4B parameter category** on the OpenCompass & Hugging Face Open VLM Leaderboard in **September 2024**. See the model card for training and evaluation details and the [ModelScope event report](https://developer.aliyun.com/article/1664742) for coverage of the result.
 * Presented "Open Source Technology Driving Pan-Psychological Services and AI Inclusion" at the **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span> Developer Co-Creation Event** and joined a [<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Tongyi Lab</span> × ModelScope interview](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg) on model selection, evaluation, personalization and on-device deployment.
 
-<strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/xd-lab.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>X-D Lab | Co-founder</span></strong><br>
-*June 2023 - March 2024*
-{: .role-heading}
+</div>
+
+<div class="experience-entry" markdown="1">
+
+<header class="experience-heading">
+<h3 class="brand-heading"><span class="brand-mark"><img class="brand-logo brand-logo--xd-lab" src="/images/logos/xd-lab-symbol.png" alt="" aria-hidden="true" width="32" height="32" loading="lazy" decoding="async"></span><span>X-D Lab | Co-founder</span></h3>
+<p class="experience-date">June 2023 - March 2024</p>
+</header>
 
 <div class="project-entry" markdown="1">
 
-### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">🐳</span></span> [Health LLM Knowledge Platform: MindChat & Sunsimiao](https://github.com/X-D-Lab) {#health-llm-knowledge-platform-mindchat--sunsimiao}
+#### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">🐳</span></span> [Health LLM Knowledge Platform: MindChat & Sunsimiao](https://github.com/X-D-Lab) {#health-llm-knowledge-platform-mindchat--sunsimiao}
 
-MindChat grew from a conversation with my teacher about family companionship into a **domain-specific LLM** project for psychological dialogue and medical knowledge. As a **co-founder of X-D Lab**, I was responsible for **model training** and collaborated with the team on data construction, model evaluation and application integration.
+MindChat grew from a conversation with my teacher about family companionship into **domain-model research for psychological dialogue and medical knowledge**. As a **co-founder of X-D Lab**, I was responsible for **model training**, collaborating with the team on domain data construction, evaluation and application integration.
 
-I worked on domain data cleaning, domain adaptation and instruction tuning, and investigated retrieval, memory and context management in multi-turn dialogue. I evaluated conversational continuity, knowledge grounding and domain suitability, using practical dialogue needs to guide domain training.
+I worked on domain data cleaning, **domain adaptation and instruction tuning**, and investigated **retrieval, memory and context management** in multi-turn interaction. Conversational continuity, knowledge grounding and domain suitability guided evaluation, translating practical dialogue needs into domain training and system design.
 
 The team released [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao), including models, inference examples and deployment materials. I brought this experience in domain training, dialogue evaluation and application integration into the design of subsequent agentic memory systems.
 
 </div>
+
+</div>
+
+</section>
+
+<section class="home-section home-section--projects" aria-labelledby="selected-projects" markdown="1">
 
 <div class="anchor" id="projects-en"></div>
 
@@ -144,11 +173,11 @@ The team released [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsimiao
 
 ### <span class="brand-mark"><img class="brand-logo brand-logo--project" src="/images/logos/fatebridge.png" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span> [FateBridge: A Traditional Metaphysics and Astrology Engine for Agentic Harnesses](https://github.com/thomas-yanxin/FateBridge) {#fatebridge-a-traditional-metaphysics-and-astrology-engine-for-agentic-harnesses}
 
-I created FateBridge, a local **domain computation engine** for **agentic harnesses**. It turns traditional metaphysics and astrology rules into structured domain tools, connecting the host agent's workflow from understanding a question to invoking calculations and explaining the results.
+I initiated and developed FateBridge as a **source-traceable local domain computation engine** for **agentic harnesses**. It encodes traditional metaphysics and astrology rules as tools with explicit input and output contracts, providing a shared computational basis for question understanding, tool invocation and result interpretation.
 
-The project integrates **92 MCP tools**, including BaZi, Zi Wei Dou Shu and Western astrology, alongside CLI and REST API access. A unified tool catalog, schema validation and shared execution layer reuse domain services and calculation kernels. Structured results, time conventions and run metadata support provenance tracking and delivery within response budgets.
+The project integrates **92 MCP tools**, including BaZi, Zi Wei Dou Shu and Western astrology, alongside CLI and REST API access. A unified tool catalog, schema validation and shared execution layer reuse domain services and calculation kernels. Structured results, time conventions and run metadata record calculation conditions and execution, supporting provenance tracking and delivery within response budgets.
 
-I design the calculation kernels around **calendar and solar-term boundaries, time zones, true solar time and differences between rule traditions**. I check the calculations through algorithm regressions, independent references and cross-interface tests. The system links input conditions, calculation results and rule sources to provide traceable domain context for the agent.
+I design the calculation kernels around **calendar and solar-term boundaries, time zones, true solar time and differences between rule traditions**. Algorithm regressions, independent references and cross-interface checks examine computational consistency. The system links input conditions, results and rule sources, giving the agent verifiable domain context and an explicit basis for explaining different rule conventions.
 
 </div>
 
@@ -156,11 +185,11 @@ I design the calculation kernels around **calendar and solar-term boundaries, ti
 
 ### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">📖</span></span> <span class="project-label">QianYe (亲百问): Family Memory and Shared Storytelling</span> {#qianye--family-memory-and-shared-storytelling}
 
-I led **product design and WeChat mini program development** for QianYe, a public-interest product for **family memory and collaborative storytelling**. Photographs, familiar objects and voices prompt relatives to share stories asynchronously, creating a memory journal they can review and read together.
+I led **product design and WeChat mini program development** for QianYe, a public-interest product for **AI-assisted family memory and collaborative storytelling**. Photographs, familiar objects and voices prompt asynchronous narration, creating a memory journal that relatives can review and read together.
 
-A native WeChat mini program, CloudBase functions and shared business modules connect recording, ASR transcription and optional LLM editing in a storytelling, review and journal workflow. Asynchronous jobs handle transcription and content processing. Segmented saving and draft recovery let people resume their stories, while larger text and clear interaction states support older adults.
+A native WeChat mini program, CloudBase functions and shared business modules connect recording, ASR transcription and optional LLM editing within a storytelling, review and journal workflow. Asynchronous jobs coordinate transcription and content processing. Segmented saving and draft recovery support interrupted sessions; larger text and clear interaction states support older adults.
 
-The product centers the storyteller: original audio, images and transcripts remain available, and users can publish the original transcript or choose and review an AI-edited version. Family spaces and invitations manage reading and contribution permissions, giving storytellers and their relatives control over how their stories are told and shared.
+The product is designed around **storyteller agency and family collaboration**. It preserves original audio, images and transcripts. Users can add the original transcript to the journal or choose and review an AI-edited version. Family spaces and invitations manage reading and contribution permissions, leaving decisions about expression and sharing with storytellers and their relatives.
 
 </div>
 
@@ -168,9 +197,9 @@ The product centers the storyteller: original audio, images and transcripts rema
 
 ### <span class="brand-mark"><img class="brand-logo brand-logo--project" src="/images/logos/colugomum.png" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span> [ColugoMum: Smart Retail Settlement Platform](https://github.com/thomas-yanxin/ColugoMum) {#colugomum-smart-retail-settlement-platform}
 
-I was responsible for **project management, algorithm adaptation and on-device frontend development** for ColugoMum, an **image-retrieval-based** smart retail checkout platform. The work addressed product recognition, similar packaging and a continuously changing catalog.
+I was responsible for **project management, algorithm adaptation and on-device frontend development** for ColugoMum, an **image-retrieval-based** smart retail checkout system. A continuously updated retrieval gallery supports product recognition, with recognition and update workflows designed around similar packaging and a changing product catalog.
 
-Using **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddleClas</span> / PP-ShiTu**, I built datasets, tuned lightweight models and integrated cloud, edge and frontend components. Incremental retrieval-gallery updates introduced new categories with less repeated training. I adapted the application for limited samples, similar packaging and on-device inference latency.
+Using **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddleClas</span> / PP-ShiTu**, I built datasets, tuned lightweight models and integrated cloud, edge and frontend components. Incremental gallery updates introduced new categories with less repeated training. I adapted retrieval models, the gallery and the application around limited samples, similar packaging and on-device inference latency.
 
 The project received the **National First Prize at the 2022 China Robot and Artificial Intelligence Competition**, appeared at **Baidu Wave Summit 2021+**, and led to a [paper](https://ieeexplore.ieee.org/document/9851085), open-source code and teaching materials. Methods and experiments are described in the [technical article](https://developer.cloud.tencent.com/article/2146677).
 
@@ -180,13 +209,17 @@ The project received the **National First Prize at the 2022 China Robot and Arti
 
 ### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">💬</span></span> [OXiaoPeng: A Model Application Built from Community Needs](https://github.com/thomas-yanxin/OXiaoPeng) {#oxiaopeng-a-model-application-built-from-community-needs}
 
-OXiaoPeng is a **conversational AI application** for WeChat communities. It began with advertisement moderation, member welcomes and common-question answering. I then integrated ERNIE, PanGu, Yuan, ChatYuan and ChatGPT, bringing conversation and text-to-image services into everyday community use. Both its requirements and its name came from the community.
+OXiaoPeng is a **conversational AI application** exploring model integration and generative services in WeChat communities. It began with advertisement moderation, member welcomes and common-question answering. I progressively integrated ERNIE, PanGu, Yuan, ChatYuan and ChatGPT, bringing conversation and text-to-image services into everyday community interaction. Both its requirements and its name came from the community.
 
-I handled **model API integration, feature development and service maintenance**, turning user feedback into product improvements. I adapted upstream APIs and dependencies, maintained text-to-image services and restored them after disruptions, supporting the application's ongoing use in its communities.
+I handled **model API integration, feature development and service maintenance**, translating community feedback into improvements in model access and interaction. Upstream API and dependency adaptation, text-to-image service maintenance and recovery from disruptions supported the sustained operation of generative AI services in these communities.
 
 Early deployments served **2,000+ direct users**, with an **indirect reach of 20,000+ people**, across several AI open-source communities. The project received an **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenI</span> project incubation award in 2022** and was shortlisted for an **interview for the 2023 MiraclePlus Spring Camp (S23)**. ["2022, My Year with OpenI"](https://www.cnblogs.com/thomas-yanxin/p/17067454.html) records the project's growth and the community's role.
 
 </div>
+
+</section>
+
+<section class="home-section home-section--publications" aria-labelledby="publications--ip" markdown="1">
 
 <div class="anchor" id="publications-ip-en"></div>
 
@@ -214,6 +247,10 @@ See [Google Scholar](https://scholar.google.com/citations?user=WYuXNL0AAAAJ&hl=e
 * Utility Model Patent: **Smart Retail Settlement Platform**, ZL 2022 2 0828888.8; CN 216979871 U \| [certificate](/proof/专利-2022208288888智能零售结算平台.pdf).
 * Software Copyrights: **ColugoMum**, 2022SRE010935 \| [certificate](/proof/软件著作权-袋鼯麻麻.jpg); **Intelligent Waste Sorting System**, 2021SR0986633 \| [certificate](/proof/软件著作权-慧眼识垃圾.jpg); **Domain-Knowledge-Based Q&A System**, 2022SRE025369 \| [certificate](/proof/软件著作权-自动问答.pdf).
 {: .publication-list}
+
+</section>
+
+<section class="home-section home-section--media" aria-labelledby="talks--media" markdown="1">
 
 <div class="anchor" id="talks-media-en"></div>
 
@@ -267,6 +304,10 @@ I speak at technical conferences, developer events and courses on **model select
 
 </details>
 
+</section>
+
+<section class="home-section home-section--community" aria-labelledby="community--activities" markdown="1">
+
 <div class="anchor" id="community-activities-en"></div>
 
 ## <span class="section-emoji" aria-hidden="true">🌱</span> Community & Activities {#community--activities}
@@ -303,6 +344,10 @@ I contribute to **open-source projects, technical education and developer commun
 * 2021: Shanghai <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddlePaddle</span> Navigator Group × Wujiaochang Innovation and Entrepreneurship Academy meetup <span class="media-link">\| 📄 [Article](https://mp.weixin.qq.com/s/NMJVAttPUHiZEaIIz1zQoA)</span>.
 
 </details>
+
+</section>
+
+<section class="home-section home-section--awards" aria-labelledby="awards--honors" markdown="1">
 
 <div class="anchor" id="awards-honors-en"></div>
 
@@ -363,6 +408,10 @@ I contribute to **open-source projects, technical education and developer commun
 
 </details>
 
+</section>
+
+<section class="home-section home-section--education" aria-labelledby="education" markdown="1">
+
 <div class="anchor" id="education-en"></div>
 
 ## <span class="section-emoji" aria-hidden="true">🎓</span> Education {#education}
@@ -370,6 +419,10 @@ I contribute to **open-source projects, technical education and developer commun
 <strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/ecust.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>East China University of Science and Technology | School of Information Science and Engineering | Automation</span></strong><br>
 *September 2019 - June 2023*
 {: .role-heading}
+
+</section>
+
+<section class="home-section home-section--contact" aria-labelledby="contact" markdown="1">
 
 <div class="anchor" id="now-next-en"></div>
 <div class="anchor" id="contact-en"></div>
@@ -379,3 +432,5 @@ I contribute to **open-source projects, technical education and developer commun
 For technical collaboration, project partnerships, speaking invitations or feedback on **multimodal models, agent systems, memory architectures and embodied intelligence**, contact [yx20001210@gmail.com](mailto:yx20001210@gmail.com). Find my open-source code and recent work on <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/github.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[GitHub](https://github.com/thomas-yanxin)</span>.
 
 [← 中文](/)
+
+</section>

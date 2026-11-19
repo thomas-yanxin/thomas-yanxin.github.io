@@ -13,7 +13,7 @@
 
 /* Color, type and whitespace mark project starts within the reading flow. */
 .paper-box, .project-entry {
-  > h3 {
+  > h3, > h4 {
     display: grid;
     grid-template-columns: 1.5rem minmax(0, 1fr);
     align-items: start;
@@ -51,7 +51,8 @@
 
 .paper-box + .paper-box, .project-entry + .project-entry,
 .paper-box + .project-entry, .project-entry + .paper-box {
-  margin-top: $academic-project-gap + 1rem;
+  margin-top: $academic-project-gap;
+  padding-top: $academic-project-gap;
 }
 
 .project-entry {
@@ -111,13 +112,15 @@
 }
 
 @media (max-width: 599px) {
-  .page__content .paper-box > h3, .page__content .project-entry > h3 {
+  .page__content .paper-box > h3, .page__content .project-entry > h3,
+  .page__content .paper-box > h4, .page__content .project-entry > h4 {
     font-size: 1.1875rem;
   }
 }
 
 @media print {
-  .page__content .paper-box > h3, .page__content .project-entry > h3 {
+  .page__content .paper-box > h3, .page__content .project-entry > h3,
+  .page__content .paper-box > h4, .page__content .project-entry > h4 {
     color: $academic-ink;
   }
 }
