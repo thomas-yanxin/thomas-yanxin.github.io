@@ -2,38 +2,40 @@
 
 yx20001210@gmail.com 北京 [个人主页](https://thomas-yanxin.github.io) [GitHub](https://github.com/thomas-yanxin)
 
-从产品需求出发，统筹模型 Post-Training、Agentic Harness 与工程评测，交付具身智能与 Omni-modal ContextOS。发起和参与的开源项目累计 **30,000+ GitHub Stars**。
+主导具身多模态模型与 Agent 长期记忆研发，负责评测标准、训练方案与工程交付。具备 **10 人算法与工程团队**管理经验。
+
+发起和参与的开源项目累计 **30,000+ GitHub Stars**。
 
 ## 工作经历
 
 ### 心言机器人 高级算法工程师 ｜ 2026.01 - 至今 北京
 
-负责机器人算法架构，主导 xyVL 具身原生多模态基座模型项目及 SenseMem ContextOS 研发。
+负责机器人算法架构，主导 xyVL 与 SenseMem ContextOS 研发。
 
-- **xyVL：** 构建统一具身 Rubrics System **xyJudge**，以规则与模型裁判执行结构化评估与标注；建设全流程自动化多模态数据治理系统 **xyData**，整合 **50+ 数据集、约 4500 万条原始样本**，经 Schema 统一、质量筛选与自动标注形成 **1800 万条精选样本**，按任务、难度与训练阶段设计 Data Mixture。在两者基础上搭建 SFT → On-Policy Distillation → GRPO 具身原生模型训练 Pipeline，围绕环境理解、导航与规划设计奖励，最终产出 **xyVL** 多模态基座模型。
-- **[SenseMem](https://github.com/SenseMem/SenseMem)：** 发起 **Agentic Omni-modal ContextOS**，主导产品定义与 Memory Kernel 实现，为个性化助手、Agentic Harness 和具身交互提供长期记忆与任务上下文。
+- **xyVL：** 主导具身模型训练路线，构建 **xyJudge**，用规则校验 Schema 和语言、检测重复样本，由模型裁判标注质量和难度。通过 **xyData** 将 50+ 数据集的约 4500 万条原始样本治理为 **1800 万条精选训练样本**，按任务、难度与训练阶段设计 Data Mixture。搭建 SFT → On-Policy Distillation → GRPO 训练流程，为环境理解、导航与规划设计奖励，最终产出 **xyVL** 具身原生多模态基座模型。
+- **[SenseMem](https://github.com/SenseMem/SenseMem)：** 发起 **Agentic Omni-modal ContextOS**，主导产品定义与 **Memory Kernel** 架构及实现，为 Personal Agent、Agentic Harness 和具身交互提供长期记忆与任务上下文。
 
-  统一文本、图像、音频与视频内容契约，按身份、时空、证据与版本关联原始观察和知识，支持可审计、可回滚的更新。
+  统一文本、图像、音频与视频契约，分层管理原始观察与派生知识。以身份、时空、证据与版本约束更新，支持审计和回滚。
 
-  Hybrid Retrieval 结合语义、关键词与人物时空约束；Context Compiler 按任务及上下文预算编排记忆、媒体与证据。
+  Hybrid Retrieval 结合语义、关键词与人物时空约束。Context Compiler 按任务与预算编排记忆、媒体与证据，标示冲突和缺口。
 
-  截至 2026 年 11 月 12 日，在 MOSAIC、ATM-Bench、Mem-Gallery、LoCoMo-Refined 等记忆基准上取得 **SOTA**。
+  截至 2026 年 11 月 12 日，在权威 Memory Benchmarks 上取得 **SOTA**，覆盖 MOSAIC、ATM-Bench、Mem-Gallery 和 LoCoMo-Refined。
 
 ### 心言集团 高级算法工程师 ｜ 2024.03 - 2026.01 北京
 
-统筹 **10 人**算法与工程团队，主导 Xinyuan 系列 **Mid-Training 与 Post-Training**、数据治理、偏好优化与评测部署；累计下载 **2 万+**。
-- **[Xinyuan-LLM-14B](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)：** 基于 Qwen3-14B-Base，组织 100K+ 心理对话与 1M+ 医疗语料，完成领域适配与 Post-Training；围绕多轮连贯性、共情表达与知识依据开展行为评测，以失败样本和用户反馈驱动迭代。
-- **[Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)：** 基于 Qwen2-VL-2B-Instruct，以 **500 万+ 多模态样本**开展 Vision-Language Post-Training，面向端侧视觉理解。2024 年 9 月在 OpenCompass & Hugging Face Open VLM Leaderboard 的 **<4B 参数组排名第一**。
+统筹 **10 人团队**交付 Xinyuan 系列，主导数据治理、**Mid-Training 与 Post-Training**、偏好对齐与评测部署。累计下载 **2 万+**。
+- **[Xinyuan-LLM-14B](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)：** 面向心理支持对话，将多轮连贯性、共情表达与知识依据纳入行为评测。基于 Qwen3-14B-Base，组织 100K+ 心理对话和 1M+ 医疗语料开展领域适配与 Post-Training，依据失败样本和用户反馈迭代。
+- **[Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)：** 2024 年 9 月在 OpenCompass & Hugging Face Open VLM Leaderboard 的 **<4B 参数组排名第一**。面向端侧视觉理解，选用 Qwen2-VL-2B-Instruct，以 **500 万+ 多模态样本**开展 Vision-Language Post-Training。
 
-### [X-D Lab](https://github.com/X-D-Lab) Co-Founder ｜ 2023.06 - 2024.03 上海
+### [X-D Lab](https://github.com/X-D-Lab) 联合创始人 ｜ 2023.06 - 2024.03 上海
 
-- **[MindChat](https://github.com/X-D-Lab/MindChat)：** 联合发起并负责心理对话模型 Post-Training，协同数据、评测与应用集成。基于百万级心理对话训练共情回应与苏格拉底式问询，开源 MindChat-LLM 系列及英文评测模型 MindChat-Evaluator，支持私有化部署；GitHub Stars 700+。
-- **[Sunsimiao](https://github.com/X-D-Lab/Sunsimiao)：** 构建百万级医学指令集，以 LoRA、QLoRA 参数高效微调，开展医学问答与考试评测，开源模型与部署材料。
+- **[MindChat](https://github.com/X-D-Lab/MindChat)：** 联合发起并负责心理对话模型 Post-Training，以百万级多轮语料训练共情回应与苏格拉底式问询，协同数据、评测与应用集成。开源可私有部署的 MindChat-LLM 系列与英文评测模型 MindChat-Evaluator，获 700+ GitHub Stars。
+- **[Sunsimiao](https://github.com/X-D-Lab/Sunsimiao)：** 构建百万级医学指令集，以 LoRA、QLoRA 微调，以医学问答与考试评估模型，开源模型与部署材料。
 
 ## 其他项目
 
-- **[FateBridge](https://github.com/thomas-yanxin/FateBridge)：** 面向 Agentic Harness 发起并开发 **Domain Computation Engine**，提供术数与占星领域的 **92 个 CLI 工具**及 MCP 与 REST API。统一 Tool Catalog 与执行层，对历法与时区计算开展回归校验，关联规则来源，提供可追溯的领域上下文。
-- **[亲百问](https://thomas-yanxin.github.io/#qianye)：** 主导公益家庭记忆产品与微信小程序研发，以 CloudBase、录音和 ASR 串联“讲述、核对、入册”；支持异步处理、草稿恢复与家庭权限，保留原始记录，由讲述者核对可选 AI 润色。
+- **[FateBridge](https://github.com/thomas-yanxin/FateBridge)：** 发起并开发面向 Agentic Harness 的 **Domain Computation Engine**，通过共享 Tool Catalog 与执行层交付术数与占星领域的 **92 个 CLI 工具**及 MCP 与 REST API。对历法边界和时区计算开展回归校验，将计算结果关联至规则来源。
+- **[亲百问](https://thomas-yanxin.github.io/#qianye)：** 主导公益家庭记忆产品定义与微信小程序研发，以 CloudBase、录音和 ASR 支撑“讲述、核对、入册”。通过异步转写和草稿恢复支持中断后继续，保留原始记录，由讲述者核对可选的 AI 润色版本，按家庭权限分享。
 
 ## 技术技能
 
