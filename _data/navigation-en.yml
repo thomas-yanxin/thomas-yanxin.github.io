@@ -27,8 +27,5 @@ main:
   - title: "Education"
     url: "/en/#education-en"
 
-  - title: "Contact"
-    url: "/en/#contact-en"
-
   - title: "中文"
     url: "/"

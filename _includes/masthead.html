@@ -7,7 +7,9 @@
 {% endif %}
 <header class="masthead">
   <nav class="masthead__inner-wrap" aria-label="{% if page.lang == 'zh-CN' %}主导航{% else %}Main navigation{% endif %}">
-    <a class="site-name" href="{{ home_anchor }}">Xin Yan<span lang="zh-CN">颜鑫</span></a>
+    <a class="site-name" href="{{ home_anchor }}" aria-label="Xin Yan" lang="en">
+      {% include xy-opening.svg masthead=true %}
+    </a>
     <details class="site-menu" open>
       <summary>{% if page.lang == 'zh-CN' %}目录{% else %}Menu{% endif %}<svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M4 7l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></summary>
       <ul class="site-links" role="list">

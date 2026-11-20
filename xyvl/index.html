@@ -1,0 +1,74 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>xyData · xyJudge · xyVL</title>
+  <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.dataset.embed = '';</script>
+  <style>
+    @font-face {
+      font-family: "Cal Sans";
+      src: url("./CalSansVF.woff2") format("woff2");
+      font-weight: 400;
+      font-display: swap;
+    }
+
+    body {
+      margin: 0;
+      color: #171717;
+      background: #fff;
+    }
+
+    main {
+      min-block-size: 100vh;
+      min-block-size: 100svh;
+      display: grid;
+      place-items: center;
+    }
+
+    .xyvl-motion {
+      position: relative;
+      inline-size: min(calc(100% - 16px), 1080px, calc((100svh - 28px) * 560 / 440));
+      margin: 0;
+    }
+
+    .xyvl-motion svg {
+      display: block;
+      inline-size: 100%;
+      block-size: auto;
+    }
+
+    .xyvl-motion button {
+      position: absolute;
+      inset: 0;
+      inline-size: 100%;
+      border: 0;
+      padding: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .xyvl-motion button:focus-visible {
+      outline: 1px solid currentColor;
+      outline-offset: -1px;
+    }
+
+    html[data-embed] .xyvl-motion {
+      inline-size: 100%;
+    }
+  </style>
+  <script src="./motion.js" defer></script>
+</head>
+<body>
+  <main>
+    <figure class="xyvl-motion">
+      {% include_relative drawing.svg %}
+      <button id="xyvl-playback" type="button" aria-label="Replay animation" hidden></button>
+    </figure>
+  </main>
+</body>
+</html>

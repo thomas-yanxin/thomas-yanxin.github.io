@@ -10,6 +10,7 @@ layout: compress
   </head>
 
   <body>
+    {% if page.permalink == '/' or page.permalink == '/en/' %}{% include home-opening.html %}{% endif %}
     <a class="skip-link" href="#main">{% if page.lang == 'zh-CN' %}跳转到正文{% else %}Skip to content{% endif %}</a>
 
     {% include browser-upgrade.html %}

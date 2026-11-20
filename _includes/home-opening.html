@@ -1,0 +1,75 @@
+<dialog class="home-opening" aria-label="{% if page.lang == 'zh-CN' %}XY 开屏{% else %}XY opening{% endif %}">
+  <div class="home-opening__content">
+    <button class="home-opening__art" type="button" aria-label="{% if page.lang == 'zh-CN' %}进入首页{% else %}Enter site{% endif %}">
+      {% include xy-opening.svg %}
+    </button>
+    <div class="home-opening__verse">
+      <p class="home-opening__chinese" lang="zh-CN">大道泛兮，其可<span class="home-opening__marked">左右<svg class="home-opening__mark" viewBox="0 0 100 16" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false"><path d="M25 8h50 M21 12l8-8 M71 12l8-8" vector-effect="non-scaling-stroke" /></svg></span></p>
+      <p class="home-opening__english" lang="en">The divine law is a stream overflowing left and right.</p>
+    </div>
+  </div>
+</dialog>
+<script>
+  (function (opening) {
+    var navigation = performance.getEntriesByType('navigation')[0];
+    if (!opening.showModal || !opening.getAnimations || location.hash || document.hidden || (navigation && navigation.type === 'back_forward')) return;
+    var motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (motion.matches) return;
+    var sessionKey = 'xy-opening-flat-gears-seen';
+    try {
+      if (sessionStorage.getItem(sessionKey)) return;
+    } catch (error) {}
+
+    function dismiss() {
+      if (opening.open) opening.close();
+    }
+
+    function afterAnimation(element, name, callback) {
+      var animation = element.getAnimations().find(function (candidate) {
+        return candidate.animationName === name;
+      });
+      if (animation) animation.finished.then(callback, dismiss);
+      else dismiss();
+    }
+
+    var svg = opening.querySelector('.home-opening__art svg');
+    var drawing = svg.querySelector('.xy-opening__drawing');
+    var train = drawing.querySelector('.xy-opening__train');
+
+    function revealHome() {
+      if (!opening.open) return;
+      var mastheadDrawing = document.querySelector('.site-name__gears .xy-opening__drawing');
+      if (!mastheadDrawing) return dismiss();
+      var source = svg.getScreenCTM();
+      var target = mastheadDrawing.getScreenCTM();
+      if (!source || !target || !source.a || !target.a) return dismiss();
+
+      var dock = source.inverse().multiply(target);
+      drawing.style.setProperty('--home-opening-dock-x', dock.e + 'px');
+      drawing.style.setProperty('--home-opening-dock-y', dock.f + 'px');
+      drawing.style.setProperty('--home-opening-dock-scale', dock.a);
+      opening.classList.add('home-opening--leaving');
+      afterAnimation(drawing, 'home-opening-dock', dismiss);
+    }
+
+    var controller = new AbortController();
+    var options = {passive: true, signal: controller.signal};
+    opening.addEventListener('click', dismiss, options);
+    opening.addEventListener('wheel', dismiss, options);
+    window.addEventListener('pagehide', dismiss, options);
+    window.addEventListener('hashchange', dismiss, options);
+    motion.addEventListener('change', dismiss, options);
+    opening.addEventListener('close', function () {
+      controller.abort();
+      opening.classList.remove('home-opening--leaving');
+    }, {once: true});
+
+    opening.showModal();
+    opening.focus({preventScroll: true});
+    try {
+      sessionStorage.setItem(sessionKey, '1');
+    } catch (error) {}
+    afterAnimation(train, 'xy-opening-turn', revealHome);
+  })(document.currentScript.previousElementSibling);
+</script>
+<div class="reading-sheet" aria-hidden="true"></div>

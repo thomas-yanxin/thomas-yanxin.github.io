@@ -67,19 +67,17 @@
     align-items: center;
     gap: .625rem;
     min-height: 40px;
-    color: $academic-accent;
+    color: #000;
     font-size: .875rem;
     line-height: 1.5;
     text-decoration: none;
-    transition: color .18s ease;
 
-    &:hover {
-      color: $academic-secondary;
-      .link-label {
-        text-decoration: underline;
-        text-decoration-thickness: 1px;
-        text-underline-offset: .25em;
-      }
+    &:focus-visible { outline-color: currentColor; }
+
+    &:hover .link-label {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: .25em;
     }
   }
 
@@ -113,8 +111,6 @@
     li { flex: 1 0 4rem; }
     a { justify-content: center; min-height: 44px; font-size: .875rem; }
     .link-label { display: none; }
-    .author__link--primary .link-label { display: inline; }
-    .author__link--primary i, .desktop-label { display: none; }
     i { font-size: 1rem; }
   }
 }

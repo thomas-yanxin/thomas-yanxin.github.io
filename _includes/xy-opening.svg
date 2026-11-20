@@ -1,0 +1,169 @@
+{% if include.masthead %}{% assign xy_id = 'xy-masthead' %}{% else %}{% assign xy_id = 'xy-opening' %}{% endif %}
+<svg xmlns="http://www.w3.org/2000/svg"
+     {% if include.masthead %}class="site-name__gears" width="488" height="335" viewBox="44 39 488 335"
+     {% else %}width="560" height="440" viewBox="0 0 560 440"{% endif %}
+     fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+     data-plotter="" aria-hidden="true" focusable="false">
+  <defs>
+    <path id="{{ xy_id }}-x-tooth" data-teeth="40" data-pitch-radius="112" vector-effect="non-scaling-stroke"
+          d="M104.6763 -8.2382 A105 105 0 0 1 104.7543 -7.1796
+             Q104.8637 -5.5832 105.0967 -5.5956
+             C105.0967 -5.5956 105.55 -5.6195 106.4469 -5.523
+             C107.3437 -5.4265 108.6841 -5.2092 110.424 -4.7323
+             C112.164 -4.2554 114.3032 -3.5186 116.7654 -2.3957
+             Q117.3306 -2.1338 117.3379 -1.6839 A117.35 117.35 0 0 1 117.3379 1.6839
+             Q117.3306 2.1338 116.7654 2.3957
+             C114.3032 3.5186 112.164 4.2554 110.424 4.7323
+             C108.6841 5.2092 107.3437 5.4265 106.4469 5.523
+             C105.55 5.6195 105.0967 5.5956 105.0967 5.5956
+             Q104.8637 5.5832 104.7543 7.1796 A105 105 0 0 1 104.6763 8.2382"/>
+    <path id="{{ xy_id }}-y-tooth" data-teeth="30" data-pitch-radius="84" vector-effect="non-scaling-stroke"
+          d="M76.5782 -8.0487 A77 77 0 0 1 76.7106 -6.6701
+             Q76.8492 -5.0759 78.7626 -5.2023
+             C78.7626 -5.2023 79.1524 -5.2278 79.9237 -5.1459
+             C80.695 -5.0641 81.8477 -4.8743 83.3397 -4.4495
+             C84.8316 -4.0246 86.6627 -3.3641 88.7588 -2.3538
+             Q89.3259 -2.075 89.3352 -1.6251 A89.35 89.35 0 0 1 89.3352 1.6251
+             Q89.3259 2.075 88.7588 2.3538
+             C86.6627 3.3641 84.8316 4.0246 83.3397 4.4495
+             C81.8477 4.8743 80.695 5.0641 79.9237 5.1459
+             C79.1524 5.2278 78.7626 5.2023 78.7626 5.2023
+             Q76.8492 5.0759 76.7106 6.6701 A77 77 0 0 1 76.5782 8.0487"/>
+    <path id="{{ xy_id }}-x-pocket" vector-effect="non-scaling-stroke"
+          d="M19.0211 -6.1803 C16.7344 -13.2182 22.8749 -16.7231 33.4815 -27.3297
+             C47.6236 -41.4718 67.7047 -59.0789 72.407 -52.6068 A89.5 89.5 0 0 1 72.407 52.6068
+             C67.7047 59.0789 47.6236 41.4718 33.4815 27.3297
+             C22.8749 16.7231 16.7344 13.2182 19.0211 6.1803 A20 20 0 0 0 19.0211 -6.1803Z"/>
+    <path id="{{ xy_id }}-y-pocket" vector-effect="non-scaling-stroke"
+          d="M14.8349 -5.9937 C12.8527 -10.9 13.9278 -16.5236 19.2909 -25.8128
+             C26.4417 -38.1984 37.6703 -52.0545 41.9878 -48.3014 A64 64 0 0 1 41.9878 48.3014
+             C37.6703 52.0545 26.4417 38.1984 19.2909 25.8128
+             C13.9278 16.5236 12.8527 10.9 14.8349 5.9937 A16 16 0 0 0 14.8349 -5.9937Z"/>
+    <g id="{{ xy_id }}-x-quadrant">
+      <use href="#{{ xy_id }}-x-tooth"/>
+      <use href="#{{ xy_id }}-x-tooth" transform="rotate(9)"/>
+      <use href="#{{ xy_id }}-x-tooth" transform="rotate(18)"/>
+      <use href="#{{ xy_id }}-x-tooth" transform="rotate(27)"/>
+      <use href="#{{ xy_id }}-x-tooth" transform="rotate(36)"/>
+      <use href="#{{ xy_id }}-x-tooth" transform="rotate(45)"/>
+      <use href="#{{ xy_id }}-x-tooth" transform="rotate(54)"/>
+      <use href="#{{ xy_id }}-x-tooth" transform="rotate(63)"/>
+      <use href="#{{ xy_id }}-x-tooth" transform="rotate(72)"/>
+      <use href="#{{ xy_id }}-x-tooth" transform="rotate(81)"/>
+    </g>
+    <g id="{{ xy_id }}-y-sector">
+      <use href="#{{ xy_id }}-y-tooth"/>
+      <use href="#{{ xy_id }}-y-tooth" transform="rotate(12)"/>
+      <use href="#{{ xy_id }}-y-tooth" transform="rotate(24)"/>
+      <use href="#{{ xy_id }}-y-tooth" transform="rotate(36)"/>
+      <use href="#{{ xy_id }}-y-tooth" transform="rotate(48)"/>
+      <use href="#{{ xy_id }}-y-tooth" transform="rotate(60)"/>
+      <use href="#{{ xy_id }}-y-tooth" transform="rotate(72)"/>
+      <use href="#{{ xy_id }}-y-tooth" transform="rotate(84)"/>
+      <use href="#{{ xy_id }}-y-tooth" transform="rotate(96)"/>
+      <use href="#{{ xy_id }}-y-tooth" transform="rotate(108)"/>
+    </g>
+    <clipPath id="{{ xy_id }}-x-sleeve">
+      <path id="{{ xy_id }}-x-bearing" clip-rule="evenodd" vector-effect="non-scaling-stroke"
+            d="M14 0 A14 14 0 1 0 -14 0 A14 14 0 1 0 14 0Z
+               M6.5 0 A6.5 6.5 0 1 0 -6.5 0 A6.5 6.5 0 1 0 6.5 0Z"/>
+    </clipPath>
+    <clipPath id="{{ xy_id }}-y-sleeve">
+      <path id="{{ xy_id }}-y-bearing" clip-rule="evenodd" vector-effect="non-scaling-stroke"
+            d="M11.5 0 A11.5 11.5 0 1 0 -11.5 0 A11.5 11.5 0 1 0 11.5 0Z
+               M5.25 0 A5.25 5.25 0 1 0 -5.25 0 A5.25 5.25 0 1 0 5.25 0Z"/>
+    </clipPath>
+    <path id="{{ xy_id }}-sleeve-hatch" vector-effect="non-scaling-stroke"
+          d="M-15 3 L3 -15 M-15 15 L15 -15 M-3 15 L15 -3"/>
+    <clipPath id="{{ xy_id }}-x-rim">
+      <path clip-rule="evenodd"
+            d="M105 0 A105 105 0 1 0 -105 0 A105 105 0 1 0 105 0Z
+               M97 0 A97 97 0 1 0 -97 0 A97 97 0 1 0 97 0Z"/>
+    </clipPath>
+    <clipPath id="{{ xy_id }}-y-rim">
+      <path clip-rule="evenodd"
+            d="M77 0 A77 77 0 1 0 -77 0 A77 77 0 1 0 77 0Z
+               M70.5 0 A70.5 70.5 0 1 0 -70.5 0 A70.5 70.5 0 1 0 70.5 0Z"/>
+    </clipPath>
+    <path id="{{ xy_id }}-rim-hatch" vector-effect="non-scaling-stroke"
+          d="{% for intercept in (-12..12) %}M-105 {{ intercept | times: 12 | plus: 105 }}l210 -210 {% endfor %}"/>
+  </defs>
+
+  <metadata>Geometric construction. The Y center is 186 units right of X and 12° below the horizontal. Both pitch radii are scaled by (186 / cos(12°)) / (112 + 84) for tangency.</metadata>
+  <g class="xy-opening__drawing" transform="translate(190 191)">
+    <g class="xy-opening__draft">
+      <g data-plotter-role="centerline" stroke-opacity=".14" stroke-dasharray="8 3 1 3" stroke-linecap="butt">
+        <path d="M-132 0 H284.1554" transform="rotate(12)" vector-effect="non-scaling-stroke"/>
+        <path d="M0 -130 V121 M186 -60 V132" vector-effect="non-scaling-stroke"/>
+        <path d="M0 -100 V-42 M0 42 V92" transform="translate(106.2857 22.5917) rotate(12)"
+              vector-effect="non-scaling-stroke"/>
+      </g>
+      <path data-plotter-role="dimension" stroke-opacity=".32"
+            vector-effect="non-scaling-stroke"
+            d="M0 125 V167 M186 136 V167 M0 161 H186
+               M-4 165 l8 -8 M182 165 l8 -8"/>
+      <path data-plotter-role="dimension" stroke-opacity=".32" transform="translate(186 39.5355)"
+            vector-effect="non-scaling-stroke"
+            d="M94 0 H112 M91.9459 19.5437 L109.5525 23.2861
+               M104 0 A104 104 0 0 1 101.7274 21.6228"/>
+      <g font-family="Cal Sans, sans-serif" font-size="12" font-weight="400"
+         fill="currentColor" stroke="none" opacity=".5">
+        <text x="93" y="153" text-anchor="middle">186</text>
+        <text x="301" y="54.5355">12°</text>
+      </g>
+    </g>
+
+    <g class="xy-opening__train" data-plotter-role="primary">
+      <g transform="scale(.97018036)">
+        <circle r="112" data-plotter-role="centerline" stroke-opacity=".14" stroke-dasharray="8 3 1 3"
+                stroke-linecap="butt" vector-effect="non-scaling-stroke"/>
+        <g clip-path="url(#{{ xy_id }}-x-rim)">
+          <use href="#{{ xy_id }}-rim-hatch" data-plotter-role="hatch" stroke-opacity=".18"/>
+        </g>
+        <g class="xy-opening__wheel xy-opening__wheel--x">
+          <g transform="rotate(9.75)">
+            <use href="#{{ xy_id }}-x-quadrant"/>
+            <use href="#{{ xy_id }}-x-quadrant" transform="rotate(90)"/>
+            <use href="#{{ xy_id }}-x-quadrant" transform="rotate(180)"/>
+            <use href="#{{ xy_id }}-x-quadrant" transform="rotate(270)"/>
+          </g>
+          <g>
+            <use href="#{{ xy_id }}-x-pocket"/>
+            <use href="#{{ xy_id }}-x-pocket" transform="rotate(90)"/>
+            <use href="#{{ xy_id }}-x-pocket" transform="rotate(180)"/>
+            <use href="#{{ xy_id }}-x-pocket" transform="rotate(270)"/>
+          </g>
+        </g>
+        <circle r="97" data-plotter-role="secondary" stroke-opacity=".32" vector-effect="non-scaling-stroke"/>
+        <g clip-path="url(#{{ xy_id }}-x-sleeve)">
+          <use href="#{{ xy_id }}-sleeve-hatch" data-plotter-role="hatch" stroke-opacity=".18"/>
+        </g>
+        <use href="#{{ xy_id }}-x-bearing"/>
+      </g>
+      <g transform="translate(186 39.5355) scale(.97018036)">
+        <circle r="84" data-plotter-role="centerline" stroke-opacity=".14" stroke-dasharray="8 3 1 3"
+                stroke-linecap="butt" vector-effect="non-scaling-stroke"/>
+        <g clip-path="url(#{{ xy_id }}-y-rim)">
+          <use href="#{{ xy_id }}-rim-hatch" data-plotter-role="hatch" stroke-opacity=".18"/>
+        </g>
+        <g class="xy-opening__wheel xy-opening__wheel--y">
+          <g transform="rotate(189)">
+            <use href="#{{ xy_id }}-y-sector"/>
+            <use href="#{{ xy_id }}-y-sector" transform="rotate(120)"/>
+            <use href="#{{ xy_id }}-y-sector" transform="rotate(240)"/>
+          </g>
+          <g transform="rotate(-90)">
+            <use href="#{{ xy_id }}-y-pocket"/>
+            <use href="#{{ xy_id }}-y-pocket" transform="rotate(120)"/>
+            <use href="#{{ xy_id }}-y-pocket" transform="rotate(240)"/>
+          </g>
+        </g>
+        <circle r="70.5" data-plotter-role="secondary" stroke-opacity=".32" vector-effect="non-scaling-stroke"/>
+        <g clip-path="url(#{{ xy_id }}-y-sleeve)">
+          <use href="#{{ xy_id }}-sleeve-hatch" data-plotter-role="hatch" stroke-opacity=".18"/>
+        </g>
+        <use href="#{{ xy_id }}-y-bearing"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -8,6 +8,8 @@ author_profile: true
 
 <section class="home-section home-section--about" aria-labelledby="about" markdown="1">
 
+{% include home-solar.svg %}
+
 <div class="anchor" id="about-en"></div>
 
 # <span class="section-emoji" aria-hidden="true">👋</span> About {#about}
@@ -17,7 +19,7 @@ I am **Xin Yan (颜鑫)**, a creator, builder and researcher, and an **entrepren
 
 As a **Senior Algorithm Engineer at XYRobot (心言机器人)**, I lead **robotics algorithm architecture**, the **xyVL embodied native multimodal foundation models** and their data and evaluation systems, and **SenseMem**. Previously, I led the **Xinyuan series of domain-specific models** at **Cylingo Group (测测)**. I graduated in Automation from **East China University of Science and Technology**.
 
-My long-term focus is **AI that interacts with people over time**: how multimodal models understand environments, how agents revise memories and assemble task context, and how these capabilities support sustained human–AI collaboration. My current projects explore **omni-modal memory and context** through **SenseMem**, traditional metaphysics and astrology computation through **FateBridge**, and family memory and collaborative storytelling through **QianYe**.
+My long-term focus is **AI that interacts with people over time**: how multimodal models understand environments, how agents revise memories and assemble task context, and how these capabilities support sustained human–AI collaboration.
 
 My MBTI type is **INTJ**. Literature shapes how I understand people and informs my approach to affective intelligence and product experience.
 
@@ -56,10 +58,10 @@ As a **<span class="brand-token"><img class="brand-logo brand-logo--inline" src=
 </header>
 
 <div class="paper-box">
-<h4 class="project-title"><span class="brand-mark"><span class="project-emoji" aria-hidden="true">🤖</span></span> <a href="/images/xinyan-robot-xyvl-pipeline.png">xyVL: Embodied Native Multimodal Foundation Models</a></h4>
+<h4 class="project-title"><span class="brand-mark"><span class="project-emoji" aria-hidden="true">🤖</span></span> <a href="/xyvl/?lang=en">xyVL: Embodied Native Multimodal Foundation Models</a></h4>
 <div class="project-row">
 <figure class="project-figure project-figure--portrait">
-  <a href="/images/xinyan-robot-xyvl-pipeline.png"><img src="/images/xinyan-robot-xyvl-pipeline.png" alt="Robotics algorithm pipeline: multi-source data is normalized, annotated and filtered by xyJudge into xyData, then used for SFT, on-policy distillation and GRPO training of xyVL. Click to view the full-size image." loading="lazy" width="1276" height="1291" decoding="async"></a>
+  <iframe class="xyvl-embed" src="/xyvl/?lang=en&amp;embed=1" title="Animated xyData, xyJudge, and xyVL co-design" loading="lazy" width="560" height="440"></iframe>
 </figure>
 <div class="paper-box-text" markdown="1">
 
@@ -197,9 +199,9 @@ The product is designed around **storyteller agency and family collaboration**. 
 
 ### <span class="brand-mark"><img class="brand-logo brand-logo--project" src="/images/logos/colugomum.png" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span> [ColugoMum: Smart Retail Settlement Platform](https://github.com/thomas-yanxin/ColugoMum) {#colugomum-smart-retail-settlement-platform}
 
-I was responsible for **project management, algorithm adaptation and on-device frontend development** for ColugoMum, an **image-retrieval-based** smart retail checkout system. A continuously updated retrieval gallery supports product recognition, with recognition and update workflows designed around similar packaging and a changing product catalog.
+I founded and launched ColugoMum, an **image-retrieval-based** smart retail checkout system, and was responsible for **project management, algorithm adaptation and on-device frontend development**. A continuously updated retrieval gallery supports product recognition, with recognition and update workflows designed around similar packaging and a changing product catalog.
 
-Using **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddleClas</span> / PP-ShiTu**, I built datasets, tuned lightweight models and integrated cloud, edge and frontend components. Incremental gallery updates introduced new categories with less repeated training. I adapted retrieval models, the gallery and the application around limited samples, similar packaging and on-device inference latency.
+Using **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PP-ShiTu</span>**, I built datasets, tuned lightweight models and integrated cloud, edge and frontend components. Incremental gallery updates introduced new categories with less repeated training. I adapted retrieval models, the gallery and the application around limited samples, similar packaging and on-device inference latency.
 
 The project received the **National First Prize at the 2022 China Robot and Artificial Intelligence Competition**, appeared at **Baidu Wave Summit 2021+**, and led to a [paper](https://ieeexplore.ieee.org/document/9851085), open-source code and teaching materials. Methods and experiments are described in the [technical article](https://developer.cloud.tencent.com/article/2146677).
 
@@ -209,7 +211,7 @@ The project received the **National First Prize at the 2022 China Robot and Arti
 
 ### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">💬</span></span> [OXiaoPeng: A Model Application Built from Community Needs](https://github.com/thomas-yanxin/OXiaoPeng) {#oxiaopeng-a-model-application-built-from-community-needs}
 
-OXiaoPeng is a **conversational AI application** exploring model integration and generative services in WeChat communities. It began with advertisement moderation, member welcomes and common-question answering. I progressively integrated ERNIE, PanGu, Yuan, ChatYuan and ChatGPT, bringing conversation and text-to-image services into everyday community interaction. Both its requirements and its name came from the community.
+I founded and launched OXiaoPeng, a **conversational AI application** exploring model integration and generative services in WeChat communities. It began with advertisement moderation, member welcomes and common-question answering. I progressively integrated ERNIE, PanGu, Yuan, ChatYuan and ChatGPT, bringing conversation and text-to-image services into everyday community interaction. Both its requirements and its name came from the community.
 
 I handled **model API integration, feature development and service maintenance**, translating community feedback into improvements in model access and interaction. Upstream API and dependency adaptation, text-to-image service maintenance and recovery from disruptions supported the sustained operation of generative AI services in these communities.
 
@@ -422,15 +424,3 @@ I contribute to **open-source projects, technical education and developer commun
 
 </section>
 
-<section class="home-section home-section--contact" aria-labelledby="contact" markdown="1">
-
-<div class="anchor" id="now-next-en"></div>
-<div class="anchor" id="contact-en"></div>
-
-## <span class="section-emoji" aria-hidden="true">💬</span> Contact {#contact}
-
-For technical collaboration, project partnerships, speaking invitations or feedback on **multimodal models, agent systems, memory architectures and embodied intelligence**, contact [yx20001210@gmail.com](mailto:yx20001210@gmail.com). Find my open-source code and recent work on <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/github.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[GitHub](https://github.com/thomas-yanxin)</span>.
-
-[← 中文](/)
-
-</section>

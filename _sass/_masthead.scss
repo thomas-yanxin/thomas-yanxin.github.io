@@ -1,3 +1,9 @@
+:root {
+  --masthead-height: 4.25rem;
+  --xy-masthead-stroke: .64px;
+  --xy-masthead-opacity: .78;
+}
+
 .masthead {
   position: sticky;
   top: 0;
@@ -12,7 +18,7 @@
   align-items: center;
   gap: 1.5rem;
   max-width: $academic-width;
-  min-height: 64px;
+  min-height: var(--masthead-height);
   margin: 0 auto;
   padding: 0 $academic-gutter;
 
@@ -21,26 +27,19 @@
 
 .site-name {
   display: flex;
-  align-items: baseline;
-  flex-shrink: 0;
+  align-items: center;
+  min-width: 0;
   min-height: 44px;
-  padding-top: .4rem;
   color: $academic-ink;
-  font-family: $academic-display;
-  font-size: 1.25rem;
-  font-style: italic;
-  font-weight: 600;
-  letter-spacing: -.01em;
-  white-space: nowrap;
+}
 
-  span {
-    margin-left: .625rem;
-    color: $academic-muted;
-    font-family: inherit;
-    font-size: .875rem;
-    font-weight: 400;
-    letter-spacing: normal;
-  }
+.site-name__gears {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: min(2.75rem, calc(var(--masthead-height) - 1.25rem));
+  stroke-width: var(--xy-masthead-stroke);
+  opacity: var(--xy-masthead-opacity);
 }
 
 .site-menu {
@@ -54,13 +53,11 @@
     gap: .5rem;
     min-height: 44px;
     padding: 0 .625rem;
-    color: $academic-ink;
     font-size: .875rem;
     list-style: none;
     cursor: pointer;
 
     &::-webkit-details-marker { display: none; }
-    &:hover { color: $academic-secondary; }
     svg { transition: transform .2s ease; }
   }
 
@@ -78,35 +75,24 @@
   li { margin: 0; }
 
   a {
-    position: relative;
     display: flex;
     align-items: center;
     min-height: 44px;
-    color: $academic-muted;
     font-size: .875rem;
     font-weight: 400;
     white-space: nowrap;
-    transition: color .18s ease;
-
-    &::after {
-      position: absolute;
-      right: 0;
-      bottom: .375rem;
-      left: 0;
-      height: 1px;
-      background: $academic-secondary;
-      content: "";
-      opacity: 0;
-      transition: opacity .18s ease;
-    }
-
-    &:hover, &[aria-current="location"] {
-      color: $academic-accent;
-      &::after { opacity: 1; }
-    }
-
-    &[aria-current="location"] { font-weight: 500; }
   }
+}
+
+.site-menu summary, .site-links a, .language-switch {
+  color: #000;
+
+  &:focus-visible { outline-color: currentColor; }
+}
+
+.site-links a[aria-current="location"], .language-switch:active {
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .language-switch {
@@ -117,11 +103,8 @@
   min-width: 44px;
   min-height: 44px;
   padding: 0 .375rem;
-  color: $academic-accent;
   font-size: .875rem;
   font-weight: 500;
-
-  &:hover { color: $academic-secondary; }
 }
 
 @media (min-width: $academic-desktop) and (max-width: 1279px) {
@@ -133,7 +116,7 @@
 }
 
 @media (max-width: ($academic-desktop - 1px)) {
-  .masthead__inner-wrap { gap: 1rem; min-height: 64px; }
+  .masthead__inner-wrap { gap: 1rem; }
   .site-menu summary { display: flex; }
 
   .site-links {
@@ -145,7 +128,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: .25rem 1.5rem;
     padding: 1rem 1.25rem;
-    max-height: calc(100vh - 80px);
+    max-height: calc(100vh - var(--masthead-height) - 1rem);
     overflow-y: auto;
     background: $background-color;
     border: 1px solid $academic-rule;
@@ -154,13 +137,13 @@
       align-items: center;
       font-size: .9375rem;
       white-space: normal;
-
-      &::after { right: auto; width: 1.5rem; bottom: .25rem; }
     }
   }
 }
 
 @media (max-width: 599px) {
+  :root { --masthead-height: 3.5rem; }
+
   .masthead__inner-wrap { padding: 0 20px; gap: .75rem; }
   .site-links { left: 20px; right: 20px; }
 }

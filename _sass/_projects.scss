@@ -98,6 +98,15 @@
   }
 }
 
+.xyvl-embed {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 560 / 440;
+  border: 1px solid $academic-rule;
+  border-radius: 3px;
+}
+
 @container project (max-width: 44rem) {
   .project-row {
     grid-template-columns: minmax(0, 1fr);

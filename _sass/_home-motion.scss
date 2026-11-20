@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "Zhi Mang Xing Opening";
+  src: url("../../assets/fonts/zhi-mang-xing/zhi-mang-xing-opening.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@property --xy-opening-drive {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
+
+@property --home-solar-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
+
+$home-opening-exit: 880ms;
+$xy-gear-cycle: 4.4s;
+$xy-gear-docked-angle: -144deg;
+
+.home-opening:not([open]) { display: none; }
+
+html:has(.home-opening[open]) { overflow: clip; }
+
+body:has(.home-opening[open]) { overflow: hidden; }
+
+body:has(.reading-sheet) {
+  isolation: isolate;
+  overflow-x: clip;
+}
+
+.page__content {
+  .home-section--about,
+  .home-section--news,
+  .home-section--projects {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .home-solar,
+  .home-section--news::before,
+  .home-section--projects::before {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .home-solar {
+    display: block;
+    inset-block-start: -3.75rem;
+    inset-inline-end: -$academic-section-inset;
+    width: min(74%, 43rem);
+    height: auto;
+    overflow: visible;
+    color: #365185;
+    opacity: .155;
+  }
+
+  .home-solar__art {
+    transform-box: view-box;
+    translate: 46%;
+  }
+
+  .home-section--news::before,
+  .home-section--projects::before {
+    content: "";
+    background: center / contain no-repeat;
+    opacity: .18;
+  }
+
+  .home-section--news::before {
+    inset-block-start: -.5rem;
+    inset-inline-start: 36%;
+    width: min(45%, 23rem);
+    aspect-ratio: 356 / 80;
+    background-image: url("../../images/home-damping-compact.svg");
+  }
+
+  .home-section--projects::before {
+    inset-block-start: -3.875rem;
+    inset-inline-end: 7%;
+    width: min(34%, 14.5rem);
+    aspect-ratio: 311 / 111;
+    background-image: url("../../images/home-linkage-compact.svg");
+  }
+}
+
+.reading-sheet {
+  position: fixed;
+  z-index: -1;
+  inset: 0 12px;
+  max-width: $academic-width - 32px;
+  margin-inline: auto;
+  border-inline-start: 1px solid rgba($academic-accent, .11);
+  pointer-events: none;
+}
+
+@media (max-width: 759px) {
+  .reading-sheet { inset-inline: 9px; }
+
+  .page__content {
+    .home-solar {
+      inset-block-start: -1.75rem;
+      inset-inline-end: -.75rem;
+      width: min(98%, 28rem);
+      opacity: .115;
+    }
+
+    .home-solar__art { translate: 40%; }
+
+    .home-section--news::before {
+      inset-block-start: .5rem;
+      inset-inline: auto 3%;
+      width: min(52%, 17rem);
+    }
+
+    .home-section--projects::before {
+      inset-block-start: -2.75rem;
+      inset-inline-end: 0;
+      width: min(42%, 12rem);
+    }
+  }
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .xy-opening__wheel {
+    transform-origin: 0 0;
+  }
+
+  .xy-opening__wheel--x {
+    transform: rotate(calc(var(--xy-opening-drive) * -.75));
+  }
+
+  .xy-opening__wheel--y {
+    transform: rotate(var(--xy-opening-drive));
+  }
+
+  .site-name__gears .xy-opening__train {
+    animation: xy-masthead-turn $xy-gear-cycle linear infinite;
+  }
+
+  body:has(.home-opening[open]) .site-name__gears {
+    visibility: hidden;
+
+    .xy-opening__train { animation-play-state: paused; }
+  }
+
+  .home-opening[open] {
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    overflow: clip;
+    color: $academic-ink;
+    background: transparent;
+
+    &::backdrop { background: transparent; }
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: -26vw 0 0;
+      border-bottom: 1px solid transparent;
+      background: $background-color;
+      pointer-events: none;
+      transform: translateY(12vw) skewY(12deg);
+    }
+
+    .home-opening__content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+    }
+
+    .home-opening__art {
+      position: relative;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      cursor: pointer;
+
+      &:focus-visible { outline: 1px solid $academic-ink; outline-offset: 3px; }
+
+      svg {
+        display: block;
+        width: min(100vw, 620px, calc((100svh - 150px) * 560 / 440));
+        height: auto;
+        overflow: visible;
+      }
+    }
+
+    .home-opening__verse {
+      position: relative;
+      margin-top: clamp(-2.5rem, -5vw, -1rem);
+      padding: 0 1rem;
+      text-align: center;
+    }
+
+    .home-opening__chinese {
+      margin: 0;
+      font-family: "Zhi Mang Xing Opening", "STXingkai", "KaiTi", cursive;
+      font-size: clamp(1.65rem, 4.5vw, 2.2rem);
+      font-weight: 400;
+      line-height: 1.45;
+      letter-spacing: .09em;
+      white-space: nowrap;
+    }
+
+    .home-opening__marked {
+      position: relative;
+      display: inline-block;
+    }
+
+    .home-opening__mark {
+      position: absolute;
+      inset-block-end: -.02em;
+      inset-inline-start: 0;
+      width: 100%;
+      height: .32em;
+      opacity: .5;
+      pointer-events: none;
+    }
+
+    .home-opening__english {
+      margin: .4rem 0 0;
+      font-family: "Sentient", Georgia, "Times New Roman", serif;
+      font-size: clamp(.88rem, 2.8vw, 1.12rem);
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.4;
+    }
+
+    .xy-opening__train {
+      animation: xy-opening-turn $xy-gear-cycle linear both;
+    }
+
+    &.home-opening--leaving {
+      .home-opening__verse { animation: home-opening-verse-out .35s ease-out both; }
+
+      &::before {
+        border-bottom-color: rgba($academic-ink, .22);
+        animation: home-opening-sheet $home-opening-exit cubic-bezier(.66,.04,.29,1) both;
+      }
+
+      .xy-opening__drawing {
+        transform-origin: 0 0;
+        animation: home-opening-dock $home-opening-exit cubic-bezier(.46,.03,.2,1) both;
+      }
+
+      .xy-opening__train {
+        animation: xy-opening-coast $home-opening-exit linear both;
+      }
+    }
+  }
+
+  .page__content .home-section > h2.chapter-entered {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: -1px 0 auto;
+      height: 1px;
+      background: $academic-accent;
+      transform-origin: left;
+      animation: chapter-rule .95s ease-out both;
+    }
+  }
+
+  .project-figure.figure-entered > img,
+  .project-figure.figure-entered > a > img {
+    animation: figure-settle .65s cubic-bezier(.2,.7,.25,1) backwards;
+  }
+}
+
+@keyframes xy-opening-turn {
+  from { --xy-opening-drive: 0deg; }
+  to { --xy-opening-drive: -120deg; }
+}
+
+@keyframes xy-opening-coast {
+  from { --xy-opening-drive: -120deg; }
+  to { --xy-opening-drive: #{$xy-gear-docked-angle}; }
+}
+
+@keyframes xy-masthead-turn {
+  from { --xy-opening-drive: #{$xy-gear-docked-angle}; }
+  to { --xy-opening-drive: #{$xy-gear-docked-angle - 120deg}; }
+}
+
+@keyframes home-opening-sheet {
+  to { transform: translateY(-100%) skewY(12deg); }
+}
+
+@keyframes home-opening-verse-out {
+  to { opacity: 0; }
+}
+
+@keyframes home-opening-dock {
+  to {
+    transform: translate(var(--home-opening-dock-x), var(--home-opening-dock-y)) scale(var(--home-opening-dock-scale));
+    stroke-width: var(--xy-masthead-stroke);
+    opacity: var(--xy-masthead-opacity);
+  }
+}
+
+@keyframes chapter-rule {
+  0% { transform: scaleX(0); opacity: .65; }
+  70% { transform: scaleX(1); opacity: .5; }
+  100% { transform: scaleX(1); opacity: 0; }
+}
+
+@keyframes figure-settle {
+  from { opacity: .8; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media print {
+  .home-opening, .reading-sheet,
+  .page__content .home-solar,
+  .page__content .home-section--news::before,
+  .page__content .home-section--projects::before { display: none; }
+}

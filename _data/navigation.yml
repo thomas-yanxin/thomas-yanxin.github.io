@@ -25,10 +25,7 @@ main:
     url: "/#awards-honors"
 
   - title: "Education"
-    url: "/#-educations"
-
-  - title: "Contact"
-    url: "/#contact"
+    url: "/#education"
 
   - title: "EN"
     url: "/en/"

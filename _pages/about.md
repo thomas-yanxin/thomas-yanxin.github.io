@@ -18,6 +18,8 @@ redirect_from:
 
 <section class="home-section home-section--about" aria-labelledby="about-me" markdown="1">
 
+{% include home-solar.svg %}
+
 # <span class="section-emoji" aria-hidden="true">👋</span> About Me {#about-me}
 
 我是**颜鑫（Xin Yan）**，一名创作者、开发者与研究者，本质上是一名**创业者**。我的工作围绕**面向持续人机交互的模型与 Agent 系统**展开，从产品定义出发，统筹数据、训练、系统架构与评估，将研究与工程转化为可交付的产品。
@@ -25,7 +27,7 @@ redirect_from:
 
 现任**心言机器人高级算法工程师**，负责**机器人算法架构**，主导 **xyVL 具身原生多模态基座模型**及其数据与评价体系，以及 **SenseMem** 研发；此前在**心言集团（测测）**主导 **Xinyuan 系列垂域大模型**研发。我毕业于**华东理工大学自动化专业**。
 
-我的长期关注方向是 **AI 与人的持续交互**：多模态模型如何理解环境，Agent 如何更新记忆、组织任务上下文，以及这些能力如何支持持续的人机协作。目前，我正在构建 **SenseMem、FateBridge 和 QianYe**，分别探索全模态记忆与上下文、传统术数与占星的领域计算，以及家庭记忆与协作叙事。
+我的长期关注方向是 **AI 与人的持续交互**：多模态模型如何理解环境，Agent 如何更新记忆、组织任务上下文，以及这些能力如何支持持续的人机协作。
 
 我的 MBTI 是 **INTJ**。文学塑造了我理解人的方式，也影响着我对情感智能和产品体验的判断。
 
@@ -65,10 +67,10 @@ redirect_from:
 </header>
 
 <div class="paper-box">
-<h4 class="project-title"><span class="brand-mark"><span class="project-emoji" aria-hidden="true">🤖</span></span> <a href="/images/xinyan-robot-xyvl-pipeline.png">xyVL：具身原生多模态基座模型</a></h4>
+<h4 class="project-title"><span class="brand-mark"><span class="project-emoji" aria-hidden="true">🤖</span></span> <a href="/xyvl/">xyVL：具身原生多模态基座模型</a></h4>
 <div class="project-row">
 <figure class="project-figure project-figure--portrait">
-  <a href="/images/xinyan-robot-xyvl-pipeline.png"><img src="/images/xinyan-robot-xyvl-pipeline.png" alt="心言机器人算法流程：多源数据汇聚与格式统一，经 xyJudge 标注筛选形成 xyData，再通过 SFT、On-Policy 蒸馏与 GRPO 训练 xyVL。点击查看原图。" loading="lazy" width="1276" height="1291" decoding="async"></a>
+  <iframe class="xyvl-embed" src="/xyvl/?embed=1" title="xyData、xyJudge 与 xyVL 的协同设计动效" loading="lazy" width="560" height="440"></iframe>
 </figure>
 <div class="paper-box-text" markdown="1">
 
@@ -215,13 +217,13 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 </figure>
 <div class="paper-box-text" markdown="1">
 
-我负责 ColugoMum 的**项目管理、算法适配与端侧前端开发**，构建基于 **Image Retrieval** 的智能零售结算系统。以可持续更新的商品检索库支撑商品识别，围绕相似包装区分与动态商品目录设计识别和更新流程。
+我创立并推出 ColugoMum，负责**项目管理、算法适配与端侧前端开发**，构建基于 **Image Retrieval** 的智能零售结算系统。以可持续更新的商品检索库支撑商品识别，围绕相似包装区分与动态商品目录设计识别和更新流程。
 
 </div>
 </div>
 <div class="paper-box-text" markdown="1">
 
-基于 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PaddleClas</span> / PP-ShiTu** 完成数据构建、轻量化模型调优与云边端集成。通过检索库增量更新接入新类别，减少重复训练需求；针对小样本、相似包装与端侧推理延迟，协同调整检索模型、商品库与应用方案。
+基于 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PP-ShiTu</span>** 完成数据构建、轻量化模型调优与云边端集成。通过检索库增量更新接入新类别，减少重复训练需求；针对小样本、相似包装与端侧推理延迟，协同调整检索模型、商品库与应用方案。
 
 项目获得 **2022 年第 24 届中国机器人及人工智能大赛全国一等奖**，亮相 **Baidu Wave Summit 2021+**，并形成[论文](https://ieeexplore.ieee.org/document/9851085)、开源代码与教学实践。相关方法与实验见[技术文章](https://developer.cloud.tencent.com/article/2146677)。
 
@@ -232,7 +234,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">💬</span></span> [欧小鹏 OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng) {#oxiaopeng}
 
-欧小鹏是面向微信社群的 **Conversational AI Application**，探索多模型接入与生成式服务的社区应用。从广告处理、新成员欢迎与常见问题问答起步，逐步接入 ERNIE、PanGu、Yuan、ChatYuan 与 ChatGPT，将对话与 Text-to-Image 服务纳入日常社群交互。项目需求与名称均来自社群共创。
+我创立并推出欧小鹏，这是一款面向微信社群的 **Conversational AI Application**，探索多模型接入与生成式服务的社区应用。从广告处理、新成员欢迎与常见问题问答起步，逐步接入 ERNIE、PanGu、Yuan、ChatYuan 与 ChatGPT，将对话与 Text-to-Image 服务纳入日常社群交互。项目需求与名称均来自社群共创。
 
 我负责**模型 API 集成、功能迭代与服务维护**，将社群反馈转化为模型接入与交互功能的改进。通过上游 API 和依赖适配、文生图服务维护与故障恢复，支持生成式 AI 服务在真实社区中的持续运营。
 
@@ -450,12 +452,3 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 </section>
 
-<section class="home-section home-section--contact" aria-labelledby="contact" markdown="1">
-
-<div class="anchor" id="now-next"></div>
-
-## <span class="section-emoji" aria-hidden="true">💬</span> Contact {#contact}
-
-欢迎围绕**多模态模型、Agent 系统、记忆架构与具身智能**开展技术交流与合作。项目合作、公开分享或使用反馈，请联系 [yx20001210@gmail.com](mailto:yx20001210@gmail.com)。更多开源代码与近期工作见 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/github.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[GitHub](https://github.com/thomas-yanxin)</span>。
-
-</section>

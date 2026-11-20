@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="home-solar" width="560" height="440"
+     viewBox="0 0 560 440" fill="none" stroke="currentColor" stroke-width="1"
+     aria-hidden="true" focusable="false">
+  <metadata>Schematic projection of eight circular orbits, with solid near arcs, dashed far arcs and a dotted asteroid belt. Filled sectors mark the anti-solar halves of Jupiter and Saturn. Hatching marks the overlap of Saturn's projected shadow strip and its schematic ring band, drawn in the orbital plane. Distances, sizes, phases and periods are stylized.</metadata>
+  <style>
+    .home-solar__track { transform: scale(var(--radius)); }
+    .home-solar__rotor {
+      --home-solar-angle: var(--phase);
+      transform: rotate(var(--home-solar-angle));
+    }
+    .home-solar__radius { transform: translateX(calc(var(--radius) * 1px)); }
+    .home-solar__upright { transform: rotate(calc(0deg - var(--home-solar-angle))); }
+    .home-solar__night {
+      transform: rotate(atan2(calc(.5 * sin(var(--home-solar-angle))), cos(var(--home-solar-angle))));
+    }
+    .home-solar__track, .home-solar__rotor, .home-solar__upright, .home-solar__night { transform-origin: 0 0; }
+    @media screen and (prefers-reduced-motion: no-preference) {
+      .home-solar__rotor {
+        animation: home-solar-orbit var(--period) linear infinite paused;
+      }
+      .home-solar[data-orbit-playing] .home-solar__rotor { animation-play-state: running; }
+    }
+    @keyframes home-solar-orbit {
+      from { --home-solar-angle: var(--phase); }
+      to { --home-solar-angle: calc(var(--phase) - 1turn); }
+    }
+  </style>
+  <defs>
+    <g id="home-solar-track">
+      <path d="M-1 0 A1 1 0 0 0 1 0" opacity=".58" vector-effect="non-scaling-stroke"/>
+      <path d="M-1 0 A1 1 0 0 1 1 0" opacity=".42" stroke-dasharray="3 5" vector-effect="non-scaling-stroke"/>
+    </g>
+    <clipPath id="home-solar-saturn-band">
+      <path d="M-15 0 A15 15 0 1 0 15 0 A15 15 0 1 0 -15 0Z
+               M-10.4 0 A10.4 10.4 0 1 0 10.4 0 A10.4 10.4 0 1 0 -10.4 0Z"
+            clip-rule="evenodd" stroke="none"/>
+    </clipPath>
+  </defs>
+  <g class="home-solar__art" transform="translate(280 220) rotate(-24)">
+    <g transform="scale(1 .5)">
+      <circle r="98" opacity=".28" stroke-dasharray="1 5" vector-effect="non-scaling-stroke"/>
+      <g data-planet="mercury" style="--radius:32; --phase:218deg; --period:16s">
+        <use class="home-solar__track" href="#home-solar-track"/>
+        <g class="home-solar__rotor"><g class="home-solar__radius"><g class="home-solar__upright">
+          <circle r="1.8" transform="scale(1 2)" fill="currentColor" stroke="none"/>
+        </g></g></g>
+      </g>
+      <g data-planet="venus" style="--radius:43; --phase:42deg; --period:27s">
+        <use class="home-solar__track" href="#home-solar-track"/>
+        <g class="home-solar__rotor"><g class="home-solar__radius"><g class="home-solar__upright">
+          <circle r="2.7" transform="scale(1 2)" fill="currentColor" stroke="none"/>
+        </g></g></g>
+      </g>
+      <g data-planet="earth" style="--radius:61; --phase:118deg; --period:39s">
+        <use class="home-solar__track" href="#home-solar-track"/>
+        <g class="home-solar__rotor"><g class="home-solar__radius"><g class="home-solar__upright">
+          <circle r="3" transform="scale(1 2)" fill="currentColor" stroke="none"/>
+        </g></g></g>
+      </g>
+      <g data-planet="mars" style="--radius:80; --phase:295deg; --period:53s">
+        <use class="home-solar__track" href="#home-solar-track"/>
+        <g class="home-solar__rotor"><g class="home-solar__radius"><g class="home-solar__upright">
+          <circle r="2.2" transform="scale(1 2)" fill="currentColor" stroke="none"/>
+        </g></g></g>
+      </g>
+      <g data-planet="jupiter" style="--radius:119; --phase:170deg; --period:94s">
+        <use class="home-solar__track" href="#home-solar-track"/>
+        <g class="home-solar__rotor"><g class="home-solar__radius"><g class="home-solar__upright">
+          <g transform="scale(1 2)">
+            <path class="home-solar__night" d="M0 -6.7 A6.7 6.7 0 0 1 0 6.7Z"
+                  fill="currentColor" fill-opacity=".72" stroke="none"/>
+            <circle r="6.7" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g></g></g>
+      </g>
+      <g data-planet="saturn" style="--radius:160; --phase:56deg; --period:142s">
+        <use class="home-solar__track" href="#home-solar-track"/>
+        <g class="home-solar__rotor"><g class="home-solar__radius">
+          <g opacity=".76">
+            <circle r="15" vector-effect="non-scaling-stroke"/>
+            <circle r="10.4" vector-effect="non-scaling-stroke"/>
+            <path d="M4.8 4.8l9.6 -9.6 M8.8 4.8l9.6 -9.6 M12.8 4.8l9.6 -9.6"
+                  clip-path="url(#home-solar-saturn-band)" vector-effect="non-scaling-stroke"/>
+          </g>
+          <g class="home-solar__upright"><g transform="scale(1 2)">
+            <path class="home-solar__night" d="M0 -4.8 A4.8 4.8 0 0 1 0 4.8Z"
+                  fill="currentColor" fill-opacity=".72" stroke="none"/>
+            <circle r="4.8" vector-effect="non-scaling-stroke"/>
+          </g></g>
+        </g></g>
+      </g>
+      <g data-planet="uranus" style="--radius:201; --phase:207deg; --period:184s">
+        <use class="home-solar__track" href="#home-solar-track"/>
+        <g class="home-solar__rotor"><g class="home-solar__radius"><g class="home-solar__upright">
+          <circle r="3.8" transform="scale(1 2)" fill="currentColor" stroke="none"/>
+        </g></g></g>
+      </g>
+      <g data-planet="neptune" style="--radius:249; --phase:350deg; --period:240s">
+        <use class="home-solar__track" href="#home-solar-track"/>
+        <g class="home-solar__rotor"><g class="home-solar__radius"><g class="home-solar__upright">
+          <circle r="3.6" transform="scale(1 2)" fill="currentColor" stroke="none"/>
+        </g></g></g>
+      </g>
+    </g>
+    <circle r="11" vector-effect="non-scaling-stroke"/>
+    <circle r="4" opacity=".52" vector-effect="non-scaling-stroke"/>
+  </g>
+</svg>

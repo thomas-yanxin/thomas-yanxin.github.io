@@ -10,10 +10,3 @@ Source fonts:
 
 - https://github.com/adobe-fonts/source-han-sans/tree/release/OTF/SimplifiedChinese
 - License: SIL Open Font License 1.1, preserved in `Sans-LICENSE.txt` and the fonts' metadata.
-
-## Retained assets
-
-The earlier Source Han Serif SC SemiBold and Liberation Serif Bold Italic subsets are retained as historical assets and are not referenced by the current stylesheet. Their license notices remain in `Serif-LICENSE.txt` and `Name-LICENSE.txt`.
-
-- https://github.com/adobe-fonts/source-han-serif/tree/release/OTF/SimplifiedChinese
-- https://github.com/liberationfonts/liberation-fonts
