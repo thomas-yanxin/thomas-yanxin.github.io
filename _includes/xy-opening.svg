@@ -1,6 +1,6 @@
 {% if include.masthead %}{% assign xy_id = 'xy-masthead' %}{% else %}{% assign xy_id = 'xy-opening' %}{% endif %}
 <svg xmlns="http://www.w3.org/2000/svg"
-     {% if include.masthead %}class="site-name__curves" width="474" height="402" viewBox="46 18 474 402"
+     {% if include.masthead %}class="site-name__curves" width="33" height="28" viewBox="46 18 474 402"
      {% else %}width="560" height="440" viewBox="0 0 560 440"{% endif %}
      fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
      font-family="Cal Sans, sans-serif" font-size="11" font-weight="400"
