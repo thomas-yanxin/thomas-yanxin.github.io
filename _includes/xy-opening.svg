@@ -1,168 +1,133 @@
 {% if include.masthead %}{% assign xy_id = 'xy-masthead' %}{% else %}{% assign xy_id = 'xy-opening' %}{% endif %}
 <svg xmlns="http://www.w3.org/2000/svg"
-     {% if include.masthead %}class="site-name__gears" width="488" height="335" viewBox="44 39 488 335"
+     {% if include.masthead %}class="site-name__curves" width="474" height="402" viewBox="46 18 474 402"
      {% else %}width="560" height="440" viewBox="0 0 560 440"{% endif %}
      fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+     font-family="Cal Sans, sans-serif" font-size="11" font-weight="400"
      data-plotter="" aria-hidden="true" focusable="false">
+  <metadata>f(x) = sin(2x); g(x) = x − 4 sin x. The shared origin is (280, 220) before translation.
+    The scale is 80 by 55 SVG units per coordinate unit. The second crossing lies at x ≈ 2.221.</metadata>
   <defs>
-    <path id="{{ xy_id }}-x-tooth" data-teeth="40" data-pitch-radius="112" vector-effect="non-scaling-stroke"
-          d="M104.6763 -8.2382 A105 105 0 0 1 104.7543 -7.1796
-             Q104.8637 -5.5832 105.0967 -5.5956
-             C105.0967 -5.5956 105.55 -5.6195 106.4469 -5.523
-             C107.3437 -5.4265 108.6841 -5.2092 110.424 -4.7323
-             C112.164 -4.2554 114.3032 -3.5186 116.7654 -2.3957
-             Q117.3306 -2.1338 117.3379 -1.6839 A117.35 117.35 0 0 1 117.3379 1.6839
-             Q117.3306 2.1338 116.7654 2.3957
-             C114.3032 3.5186 112.164 4.2554 110.424 4.7323
-             C108.6841 5.2092 107.3437 5.4265 106.4469 5.523
-             C105.55 5.6195 105.0967 5.5956 105.0967 5.5956
-             Q104.8637 5.5832 104.7543 7.1796 A105 105 0 0 1 104.6763 8.2382"/>
-    <path id="{{ xy_id }}-y-tooth" data-teeth="30" data-pitch-radius="84" vector-effect="non-scaling-stroke"
-          d="M76.5782 -8.0487 A77 77 0 0 1 76.7106 -6.6701
-             Q76.8492 -5.0759 78.7626 -5.2023
-             C78.7626 -5.2023 79.1524 -5.2278 79.9237 -5.1459
-             C80.695 -5.0641 81.8477 -4.8743 83.3397 -4.4495
-             C84.8316 -4.0246 86.6627 -3.3641 88.7588 -2.3538
-             Q89.3259 -2.075 89.3352 -1.6251 A89.35 89.35 0 0 1 89.3352 1.6251
-             Q89.3259 2.075 88.7588 2.3538
-             C86.6627 3.3641 84.8316 4.0246 83.3397 4.4495
-             C81.8477 4.8743 80.695 5.0641 79.9237 5.1459
-             C79.1524 5.2278 78.7626 5.2023 78.7626 5.2023
-             Q76.8492 5.0759 76.7106 6.6701 A77 77 0 0 1 76.5782 8.0487"/>
-    <path id="{{ xy_id }}-x-pocket" vector-effect="non-scaling-stroke"
-          d="M19.0211 -6.1803 C16.7344 -13.2182 22.8749 -16.7231 33.4815 -27.3297
-             C47.6236 -41.4718 67.7047 -59.0789 72.407 -52.6068 A89.5 89.5 0 0 1 72.407 52.6068
-             C67.7047 59.0789 47.6236 41.4718 33.4815 27.3297
-             C22.8749 16.7231 16.7344 13.2182 19.0211 6.1803 A20 20 0 0 0 19.0211 -6.1803Z"/>
-    <path id="{{ xy_id }}-y-pocket" vector-effect="non-scaling-stroke"
-          d="M14.8349 -5.9937 C12.8527 -10.9 13.9278 -16.5236 19.2909 -25.8128
-             C26.4417 -38.1984 37.6703 -52.0545 41.9878 -48.3014 A64 64 0 0 1 41.9878 48.3014
-             C37.6703 52.0545 26.4417 38.1984 19.2909 25.8128
-             C13.9278 16.5236 12.8527 10.9 14.8349 5.9937 A16 16 0 0 0 14.8349 -5.9937Z"/>
-    <g id="{{ xy_id }}-x-quadrant">
-      <use href="#{{ xy_id }}-x-tooth"/>
-      <use href="#{{ xy_id }}-x-tooth" transform="rotate(9)"/>
-      <use href="#{{ xy_id }}-x-tooth" transform="rotate(18)"/>
-      <use href="#{{ xy_id }}-x-tooth" transform="rotate(27)"/>
-      <use href="#{{ xy_id }}-x-tooth" transform="rotate(36)"/>
-      <use href="#{{ xy_id }}-x-tooth" transform="rotate(45)"/>
-      <use href="#{{ xy_id }}-x-tooth" transform="rotate(54)"/>
-      <use href="#{{ xy_id }}-x-tooth" transform="rotate(63)"/>
-      <use href="#{{ xy_id }}-x-tooth" transform="rotate(72)"/>
-      <use href="#{{ xy_id }}-x-tooth" transform="rotate(81)"/>
-    </g>
-    <g id="{{ xy_id }}-y-sector">
-      <use href="#{{ xy_id }}-y-tooth"/>
-      <use href="#{{ xy_id }}-y-tooth" transform="rotate(12)"/>
-      <use href="#{{ xy_id }}-y-tooth" transform="rotate(24)"/>
-      <use href="#{{ xy_id }}-y-tooth" transform="rotate(36)"/>
-      <use href="#{{ xy_id }}-y-tooth" transform="rotate(48)"/>
-      <use href="#{{ xy_id }}-y-tooth" transform="rotate(60)"/>
-      <use href="#{{ xy_id }}-y-tooth" transform="rotate(72)"/>
-      <use href="#{{ xy_id }}-y-tooth" transform="rotate(84)"/>
-      <use href="#{{ xy_id }}-y-tooth" transform="rotate(96)"/>
-      <use href="#{{ xy_id }}-y-tooth" transform="rotate(108)"/>
-    </g>
-    <clipPath id="{{ xy_id }}-x-sleeve">
-      <path id="{{ xy_id }}-x-bearing" clip-rule="evenodd" vector-effect="non-scaling-stroke"
-            d="M14 0 A14 14 0 1 0 -14 0 A14 14 0 1 0 14 0Z
-               M6.5 0 A6.5 6.5 0 1 0 -6.5 0 A6.5 6.5 0 1 0 6.5 0Z"/>
+    <clipPath id="{{ xy_id }}-window">
+      <rect class="xy-opening__aperture" x="30" width="500" height="440"/>
     </clipPath>
-    <clipPath id="{{ xy_id }}-y-sleeve">
-      <path id="{{ xy_id }}-y-bearing" clip-rule="evenodd" vector-effect="non-scaling-stroke"
-            d="M11.5 0 A11.5 11.5 0 1 0 -11.5 0 A11.5 11.5 0 1 0 11.5 0Z
-               M5.25 0 A5.25 5.25 0 1 0 -5.25 0 A5.25 5.25 0 1 0 5.25 0Z"/>
+    <clipPath id="{{ xy_id }}-lens">
+      <path d="M280 220 C285.92 211.86 291.84 203.72 297.77 196.37 C303.69 189.01 309.61 182.46 315.53 177.32
+                 C321.45 172.18 327.38 168.48 333.3 166.55 C339.22 164.63 345.14 164.5 351.07 166.16
+                 C356.99 167.83 362.91 171.29 368.83 176.22 C374.75 181.14 380.68 187.53 386.6 194.77
+                 C392.52 202 398.44 210.08 404.36 218.21 C410.29 226.35 416.21 234.55 422.13 242.01
+                 C428.05 249.47 433.97 256.19 439.9 261.53 C445.82 266.87 451.74 270.82 457.66 273
+                 C451.74 286.92 445.82 299.4 439.9 310.23 C433.97 321.06 428.05 330.24 422.13 337.64
+                 C416.21 345.04 410.29 350.66 404.36 354.47 C398.44 358.28 392.52 360.27 386.6 360.5
+                 C380.68 360.72 374.75 359.19 368.83 356.02 C362.91 352.86 356.99 348.07 351.07 341.87
+                 C345.14 335.66 339.22 328.06 333.3 319.32 C327.38 310.59 321.45 300.74 315.53 290.1
+                 C309.61 279.47 303.69 268.06 297.77 256.24 C291.84 244.43 285.92 232.21 280 220 Z"/>
     </clipPath>
-    <path id="{{ xy_id }}-sleeve-hatch" vector-effect="non-scaling-stroke"
-          d="M-15 3 L3 -15 M-15 15 L15 -15 M-3 15 L15 -3"/>
-    <clipPath id="{{ xy_id }}-x-rim">
-      <path clip-rule="evenodd"
-            d="M105 0 A105 105 0 1 0 -105 0 A105 105 0 1 0 105 0Z
-               M97 0 A97 97 0 1 0 -97 0 A97 97 0 1 0 97 0Z"/>
-    </clipPath>
-    <clipPath id="{{ xy_id }}-y-rim">
-      <path clip-rule="evenodd"
-            d="M77 0 A77 77 0 1 0 -77 0 A77 77 0 1 0 77 0Z
-               M70.5 0 A70.5 70.5 0 1 0 -70.5 0 A70.5 70.5 0 1 0 70.5 0Z"/>
-    </clipPath>
-    <path id="{{ xy_id }}-rim-hatch" vector-effect="non-scaling-stroke"
-          d="{% for intercept in (-12..12) %}M-105 {{ intercept | times: 12 | plus: 105 }}l210 -210 {% endfor %}"/>
+    <mask id="{{ xy_id }}-x" maskUnits="userSpaceOnUse" x="0" y="0" width="560" height="440">
+      <rect class="xy-opening__mask-base" width="560" height="440" fill="white" stroke="none"/>
+      <g class="xy-opening__trace" stroke="white" stroke-width="3">
+        <path class="xy-opening__trace-x" pathLength="1"
+              d="M280 220 C274.44 227.65 268.88 235.29 263.31 242.28 C257.75 249.28 252.19 255.61 246.63 260.74
+                 C241.07 265.88 235.5 269.82 229.94 272.22 C224.38 274.62 218.82 275.48 213.26 274.74
+                 C207.7 273.99 202.13 271.63 196.57 267.87 C191.01 264.1 185.45 258.93 179.89 252.79
+                 C174.32 246.65 168.76 239.55 163.2 232.09"/>
+        <path class="xy-opening__trace-x" pathLength="1"
+              d="M280 220 C285.24 212.8 290.47 205.6 295.71 198.95 C300.94 192.3 306.18 186.2 311.42 181.11
+                 C316.65 176.02 321.89 171.94 327.12 169.19 C332.36 166.43 337.6 165 342.83 165"/>
+        <path class="xy-opening__trace-x" pathLength="1"
+              d="M280 220 C274.14 207.92 268.28 195.84 262.43 184.14 C256.57 172.44 250.71 161.14 244.85 150.58
+                 C238.99 140.03 233.13 130.24 227.28 121.53 C221.42 112.82 215.56 105.2 209.7 98.94
+                 C203.84 92.69 197.98 87.81 192.13 84.5 C186.27 81.2 180.41 79.48 174.55 79.48"/>
+        <path class="xy-opening__trace-x" pathLength="1"
+              d="M280 220 C284.65 229.6 289.31 239.2 293.96 248.6 C298.62 258.01 303.27 267.22 307.93 276.05
+                 C312.58 284.87 317.23 293.32 321.89 301.2"/>
+      </g>
+    </mask>
+    <mask id="{{ xy_id }}-y" maskUnits="userSpaceOnUse" x="0" y="0" width="560" height="440">
+      <rect class="xy-opening__mask-base" width="560" height="440" fill="white" stroke="none"/>
+      <g class="xy-opening__trace" stroke="white" stroke-width="3">
+        <path class="xy-opening__trace-y" pathLength="1"
+              d="M457.66 273 C451.4 270.69 445.14 266.41 438.89 260.61 C432.63 254.8 426.37 247.48 420.11 239.43
+                 C413.85 231.38 407.59 222.61 401.33 214.05 C395.07 205.5 388.81 197.17 382.55 189.96
+                 C376.29 182.75 370.03 176.67 363.78 172.37"/>
+        <path class="xy-opening__trace-y" pathLength="1"
+              d="M457.66 273 C463.39 259.52 469.12 244.7 474.85 228.78 C480.58 212.85 486.3 195.83 492.03 178
+                 C497.76 160.17 503.49 141.54 509.22 122.45 C514.94 103.36 520.67 83.8 526.4 64.14"/>
+        <path class="xy-opening__trace-tail" pathLength="1"
+              d="M457.66 273 C451.74 286.92 445.82 299.4 439.9 310.23 C433.98 321.05 428.06 330.23 422.14 337.63
+                 C416.22 345.03 410.3 350.65 404.38 354.46 C398.46 358.27 392.54 360.26 386.62 360.49
+                 C380.7 360.73 374.78 359.19 368.86 356.03 C362.94 352.87 357.02 348.09 351.09 341.9
+                 C345.17 335.7 339.25 328.1 333.33 319.37"/>
+      </g>
+    </mask>
   </defs>
 
-  <metadata>Geometric construction. The Y center is 186 units right of X and 12° below the horizontal. Both pitch radii are scaled by (186 / cos(12°)) / (112 + 84) for tangency.</metadata>
-  <g class="xy-opening__drawing" transform="translate(190 191)">
-    <g class="xy-opening__draft">
-      <g data-plotter-role="centerline" stroke-opacity=".14" stroke-dasharray="8 3 1 3" stroke-linecap="butt">
-        <path d="M-132 0 H284.1554" transform="rotate(12)" vector-effect="non-scaling-stroke"/>
-        <path d="M0 -130 V121 M186 -60 V132" vector-effect="non-scaling-stroke"/>
-        <path d="M0 -100 V-42 M0 42 V92" transform="translate(106.2857 22.5917) rotate(12)"
-              vector-effect="non-scaling-stroke"/>
+  <g class="xy-opening__drawing">
+    <g transform="translate(-46.4 0)">
+      <path data-plotter-role="grid" stroke-opacity=".06" vector-effect="non-scaling-stroke"
+            d="M120 49V385 M200 74.4823V385 M360 49V138 M360 156V385 M440 49V385 M520 49V385
+               M108 55H532 M108 110H532 M108 165H532 M108 275H532 M108 330H532 M108 385H532"/>
+      <g clip-path="url(#{{ xy_id }}-window)">
+        <path class="xy-opening__hatch" data-plotter-role="hatch" stroke-opacity=".22"
+              vector-effect="non-scaling-stroke" clip-path="url(#{{ xy_id }}-lens)"
+              d="{% for intercept in (0..30) %}M{{ intercept | times: 12 | plus: 10 }} 385l330 -330 {% endfor %}"/>
       </g>
-      <path data-plotter-role="dimension" stroke-opacity=".32"
-            vector-effect="non-scaling-stroke"
-            d="M0 125 V167 M186 136 V167 M0 161 H186
-               M-4 165 l8 -8 M182 165 l8 -8"/>
-      <path data-plotter-role="dimension" stroke-opacity=".32" transform="translate(186 39.5355)"
-            vector-effect="non-scaling-stroke"
-            d="M94 0 H112 M91.9459 19.5437 L109.5525 23.2861
-               M104 0 A104 104 0 0 1 101.7274 21.6228"/>
-      <g font-family="Cal Sans, sans-serif" font-size="12" font-weight="400"
-         fill="currentColor" stroke="none" opacity=".5">
-        <text x="93" y="153" text-anchor="middle">186</text>
-        <text x="301" y="54.5355">12°</text>
+      <path data-plotter-role="guide" stroke-opacity=".14" vector-effect="non-scaling-stroke"
+            d="M107 220H544 M280 44V385"/>
+      <circle data-plotter-role="guide" stroke-opacity=".14" vector-effect="non-scaling-stroke"
+              cx="280" cy="220" r="2.5"/>
+      <path data-plotter-role="secondary" stroke-opacity=".32" vector-effect="non-scaling-stroke"
+            d="M120 218v4 M200 218v4 M360 218v4 M440 218v4 M520 218v4
+               M278 55h4 M278 110h4 M278 165h4 M278 275h4 M278 330h4 M278 385h4"/>
+      <g fill="currentColor" stroke="none">
+        <text x="552" y="215" opacity=".72">x</text>
+        <text x="280" y="35" text-anchor="middle" opacity=".72">y</text>
+        <text x="261" y="213" opacity=".5">0</text>
       </g>
-    </g>
-
-    <g class="xy-opening__train" data-plotter-role="primary">
-      <g transform="scale(.97018036)">
-        <circle r="112" data-plotter-role="centerline" stroke-opacity=".14" stroke-dasharray="8 3 1 3"
-                stroke-linecap="butt" vector-effect="non-scaling-stroke"/>
-        <g clip-path="url(#{{ xy_id }}-x-rim)">
-          <use href="#{{ xy_id }}-rim-hatch" data-plotter-role="hatch" stroke-opacity=".18"/>
+      <g class="xy-opening__annotations">
+        <path data-plotter-role="centerline" stroke-opacity=".14" stroke-dasharray="8 3 1 3"
+              vector-effect="non-scaling-stroke" d="M457.66 227V263.99"/>
+        <path data-plotter-role="dimension" stroke-opacity=".32" vector-effect="non-scaling-stroke"
+              d="M280 385V407 M457.66 385V407 M280 401H333.83 M403.83 401H457.66 M276 405l8 -8 M453.66 405l8 -8"/>
+        <g fill="currentColor" stroke="none" text-anchor="middle">
+          <text class="xy-opening__formula" x="342.83" y="150" opacity=".72"><tspan font-style="italic">f</tspan>(<tspan font-style="italic">x</tspan>) = sin(2<tspan font-style="italic">x</tspan>)</text>
+          <text class="xy-opening__formula" x="174.55" y="68.48" opacity=".72"><tspan font-style="italic">g</tspan>(<tspan font-style="italic">x</tspan>) = <tspan font-style="italic">x</tspan> − 4 sin <tspan font-style="italic">x</tspan></text>
+          <text x="368.83" y="405" opacity=".5">Δx ≈ 2.221</text>
         </g>
-        <g class="xy-opening__wheel xy-opening__wheel--x">
-          <g transform="rotate(9.75)">
-            <use href="#{{ xy_id }}-x-quadrant"/>
-            <use href="#{{ xy_id }}-x-quadrant" transform="rotate(90)"/>
-            <use href="#{{ xy_id }}-x-quadrant" transform="rotate(180)"/>
-            <use href="#{{ xy_id }}-x-quadrant" transform="rotate(270)"/>
-          </g>
-          <g>
-            <use href="#{{ xy_id }}-x-pocket"/>
-            <use href="#{{ xy_id }}-x-pocket" transform="rotate(90)"/>
-            <use href="#{{ xy_id }}-x-pocket" transform="rotate(180)"/>
-            <use href="#{{ xy_id }}-x-pocket" transform="rotate(270)"/>
-          </g>
-        </g>
-        <circle r="97" data-plotter-role="secondary" stroke-opacity=".32" vector-effect="non-scaling-stroke"/>
-        <g clip-path="url(#{{ xy_id }}-x-sleeve)">
-          <use href="#{{ xy_id }}-sleeve-hatch" data-plotter-role="hatch" stroke-opacity=".18"/>
-        </g>
-        <use href="#{{ xy_id }}-x-bearing"/>
       </g>
-      <g transform="translate(186 39.5355) scale(.97018036)">
-        <circle r="84" data-plotter-role="centerline" stroke-opacity=".14" stroke-dasharray="8 3 1 3"
-                stroke-linecap="butt" vector-effect="non-scaling-stroke"/>
-        <g clip-path="url(#{{ xy_id }}-y-rim)">
-          <use href="#{{ xy_id }}-rim-hatch" data-plotter-role="hatch" stroke-opacity=".18"/>
-        </g>
-        <g class="xy-opening__wheel xy-opening__wheel--y">
-          <g transform="rotate(189)">
-            <use href="#{{ xy_id }}-y-sector"/>
-            <use href="#{{ xy_id }}-y-sector" transform="rotate(120)"/>
-            <use href="#{{ xy_id }}-y-sector" transform="rotate(240)"/>
-          </g>
-          <g transform="rotate(-90)">
-            <use href="#{{ xy_id }}-y-pocket"/>
-            <use href="#{{ xy_id }}-y-pocket" transform="rotate(120)"/>
-            <use href="#{{ xy_id }}-y-pocket" transform="rotate(240)"/>
-          </g>
-        </g>
-        <circle r="70.5" data-plotter-role="secondary" stroke-opacity=".32" vector-effect="non-scaling-stroke"/>
-        <g clip-path="url(#{{ xy_id }}-y-sleeve)">
-          <use href="#{{ xy_id }}-sleeve-hatch" data-plotter-role="hatch" stroke-opacity=".18"/>
-        </g>
-        <use href="#{{ xy_id }}-y-bearing"/>
+      <g clip-path="url(#{{ xy_id }}-window)">
+        <path class="xy-opening__context" data-plotter-role="secondary" stroke-opacity=".16"
+                vector-effect="non-scaling-stroke"
+                d="M160 227.76 C161.07 229.21 162.13 230.66 163.2 232.09
+                   M342.83 165 C346.32 165 349.81 165.63 353.3 166.87 C356.79 168.12 360.29 169.97 363.78 172.37
+                   M457.66 273 C462.72 274.86 467.79 275.43 472.85 274.67 C477.91 273.92 482.97 271.84 488.03 268.57
+                   C493.09 265.3 498.15 260.86 503.22 255.55 C508.28 250.24 513.34 244.07 518.4 237.47
+                   M126.4 118.88 C131.75 110.17 137.1 102.85 142.45 96.99 C147.8 91.13 153.15 86.74 158.5 83.83
+                   C163.85 80.92 169.2 79.48 174.55 79.48 M321.89 301.2 C325.7 307.67 329.52 313.75 333.33 319.37"/>
+        <path class="xy-opening__letter" data-plotter-role="primary" data-letter="x"
+              mask="url(#{{ xy_id }}-x)" vector-effect="non-scaling-stroke"
+              d="M163.2 232.09 C168.76 239.55 174.32 246.65 179.89 252.79 C185.45 258.93 191.01 264.1 196.57 267.87
+                 C202.13 271.63 207.7 273.99 213.26 274.74 C218.82 275.48 224.38 274.62 229.94 272.22
+                 C235.5 269.82 241.07 265.88 246.63 260.74 C252.19 255.61 257.75 249.28 263.31 242.28
+                 C268.88 235.29 274.44 227.65 280 220 C285.24 212.8 290.47 205.6 295.71 198.95
+                 C300.94 192.3 306.18 186.2 311.42 181.11 C316.65 176.02 321.89 171.94 327.12 169.19
+                 C332.36 166.43 337.6 165 342.83 165
+                 M174.55 79.48 C180.41 79.48 186.27 81.2 192.13 84.5 C197.98 87.81 203.84 92.69 209.7 98.94
+                 C215.56 105.2 221.42 112.82 227.28 121.53 C233.13 130.24 238.99 140.03 244.85 150.58
+                 C250.71 161.14 256.57 172.44 262.43 184.14 C268.28 195.84 274.14 207.92 280 220
+                 C284.65 229.6 289.31 239.2 293.96 248.6 C298.62 258.01 303.27 267.22 307.93 276.05
+                 C312.58 284.87 317.23 293.32 321.89 301.2"/>
+        <path class="xy-opening__letter" data-plotter-role="primary" data-letter="y"
+              mask="url(#{{ xy_id }}-y)" vector-effect="non-scaling-stroke"
+              d="M363.78 172.37 C370.03 176.67 376.29 182.75 382.55 189.96 C388.81 197.17 395.07 205.5 401.33 214.05
+                 C407.59 222.61 413.85 231.38 420.11 239.43 C426.37 247.48 432.63 254.8 438.89 260.61
+                 C445.14 266.41 451.4 270.69 457.66 273
+                 M333.33 319.37 C339.25 328.1 345.17 335.7 351.09 341.9 C357.02 348.09 362.94 352.87 368.86 356.03
+                 C374.78 359.19 380.7 360.73 386.62 360.49 C392.54 360.26 398.46 358.27 404.38 354.46
+                 C410.3 350.65 416.22 345.03 422.14 337.63 C428.06 330.23 433.98 321.05 439.9 310.23
+                 C445.82 299.4 451.74 286.92 457.66 273 C463.39 259.52 469.12 244.7 474.85 228.78
+                 C480.58 212.85 486.3 195.83 492.03 178 C497.76 160.17 503.49 141.54 509.22 122.45
+                 C514.94 103.36 520.67 83.8 526.4 64.14"/>
       </g>
     </g>
   </g>

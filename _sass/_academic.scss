@@ -188,7 +188,7 @@ summary:focus-visible {
 
 #main {
   display: grid;
-  grid-template-columns: 200px minmax(0, 1fr);
+  grid-template-columns: $academic-sidebar-width minmax(0, 1fr);
   align-items: start;
   gap: 64px;
   max-width: $academic-width;

@@ -15,7 +15,7 @@
     if (!opening.showModal || !opening.getAnimations || location.hash || document.hidden || (navigation && navigation.type === 'back_forward')) return;
     var motion = window.matchMedia('(prefers-reduced-motion: reduce)');
     if (motion.matches) return;
-    var sessionKey = 'xy-opening-flat-gears-seen';
+    var sessionKey = 'xy-opening-curves-seen';
     try {
       if (sessionStorage.getItem(sessionKey)) return;
     } catch (error) {}
@@ -34,13 +34,13 @@
 
     var svg = opening.querySelector('.home-opening__art svg');
     var drawing = svg.querySelector('.xy-opening__drawing');
-    var train = drawing.querySelector('.xy-opening__train');
+    var aperture = svg.querySelector('.xy-opening__aperture');
 
     function revealHome() {
       if (!opening.open) return;
-      var mastheadDrawing = document.querySelector('.site-name__gears .xy-opening__drawing');
+      var mastheadDrawing = document.querySelector('.site-name__curves .xy-opening__drawing');
       if (!mastheadDrawing) return dismiss();
-      var source = svg.getScreenCTM();
+      var source = drawing.getScreenCTM();
       var target = mastheadDrawing.getScreenCTM();
       if (!source || !target || !source.a || !target.a) return dismiss();
 
@@ -69,7 +69,7 @@
     try {
       sessionStorage.setItem(sessionKey, '1');
     } catch (error) {}
-    afterAnimation(train, 'xy-opening-turn', revealHome);
+    afterAnimation(aperture, 'xy-opening-unfold', revealHome);
   })(document.currentScript.previousElementSibling);
 </script>
-<div class="reading-sheet" aria-hidden="true"></div>
+<div class="reading-sheet" aria-hidden="true"><span class="reading-sheet__geometry"></span></div>

@@ -1,7 +1,6 @@
 :root {
   --masthead-height: 4.25rem;
-  --xy-masthead-stroke: .64px;
-  --xy-masthead-opacity: .78;
+  --xy-masthead-opacity: .86;
 }
 
 .masthead {
@@ -33,12 +32,11 @@
   color: $academic-ink;
 }
 
-.site-name__gears {
+.site-name__curves {
   display: block;
   width: auto;
   max-width: 100%;
-  height: min(2.75rem, calc(var(--masthead-height) - 1.25rem));
-  stroke-width: var(--xy-masthead-stroke);
+  height: 1.75rem;
   opacity: var(--xy-masthead-opacity);
 }
 
@@ -107,8 +105,15 @@
   font-weight: 500;
 }
 
+@media (min-width: $large) {
+  .site-name {
+    flex: 0 0 $academic-avatar-width;
+    justify-content: center;
+  }
+}
+
 @media (min-width: $academic-desktop) {
-  .site-name { flex: 0 0 200px; }
+  .site-name { margin-inline-end: $academic-sidebar-width - $academic-avatar-width; }
 
   .site-menu {
     flex: 1 1 auto;

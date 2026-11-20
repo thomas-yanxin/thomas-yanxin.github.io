@@ -31,7 +31,7 @@ redirect_from:
 
 我的 MBTI 是 **INTJ**。文学塑造了我理解人的方式，也影响着我对情感智能和产品体验的判断。
 
-作为 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)</span>**，我参与开源共建与技术教育。我发起和参与的开源项目累计获得 **30000+ GitHub Stars**。通过**开源项目、课程、写作与[公开分享](#talks-media)**，我分享从产品构想到系统实现、评估与迭代的实践。
+作为 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)</span>**，我参与开源共建与技术教育。我发起和参与的开源项目累计获得 **Github 30,000+ Stars**。通过**开源项目、课程、写作与[公开分享](#talks-media)**，我分享从产品构想到系统实现、评估与迭代的实践。
 
 </section>
 

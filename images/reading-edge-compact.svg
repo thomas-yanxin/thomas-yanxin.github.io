@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="240 100 80 183" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+  <!-- Compact crop of reading-edge.svg; the page supplies the shared axis. -->
+  <path d="M280 104.000000A36.000000 36.000000 0 0 0 280 176.000000 M280 176.000000A22.249224 22.249224 0 0 1 280 220.498447" opacity=".32" stroke-dasharray="2 2" vector-effect="non-scaling-stroke"/>
+  <path d="M280 104 A36.000000 36.000000 0 0 1 280 176.000000 A22.249224 22.249224 0 0 0 280 220.498447 A13.750776 13.750776 0 0 1 280 248.000000 A8.498447 8.498447 0 0 0 280 264.996894 A5.252329 5.252329 0 0 1 280 275.501553" vector-effect="non-scaling-stroke"/>
+</svg>
