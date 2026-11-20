@@ -9,7 +9,6 @@
 title                    : "Xin Yan"
 description              : ""
 repository               : "thomas-yanxin/thomas-yanxin.github.io"
-google_scholar_stats_use_cdn : True
 
 # google analytics
 google_analytics_id      :  "G-9QYY1EBEZB"
@@ -65,7 +64,6 @@ include:
   - _pages
   - files
 exclude:
-  - docs
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
