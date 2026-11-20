@@ -107,8 +107,23 @@
   font-weight: 500;
 }
 
+@media (min-width: $academic-desktop) {
+  .site-name { flex: 0 0 200px; }
+
+  .site-menu {
+    flex: 1 1 auto;
+    margin-left: calc(64px - 1.5rem);
+  }
+
+  .site-links {
+    justify-content: space-between;
+    gap: .625rem;
+  }
+}
+
 @media (min-width: $academic-desktop) and (max-width: 1279px) {
   .masthead__inner-wrap { gap: 1rem; }
+  .site-menu { margin-left: calc(64px - 1rem); }
   .site-links {
     gap: .625rem;
     a { font-size: .8125rem; }
