@@ -100,7 +100,11 @@ h2 {
   letter-spacing: 0.04em;
   break-after: avoid;
 }
-.entry, section > .bullet-list { margin-inline-start: var(--content-indent); }
+section > .bullet-list { margin-inline-start: var(--content-indent); }
+.entry {
+  --project-indent: 1.55em;
+  margin-inline-start: calc(var(--content-indent) / 2);
+}
 .entry + .entry { margin-top: var(--role-gap); }
 .entry-heading {
   display: flex;
@@ -114,8 +118,9 @@ h2 {
 h3 { font-size: 10.7pt; line-height: 1.35; }
 .role { display: inline-block; margin-inline-start: 3mm; font-size: 10.2pt; white-space: nowrap; }
 .meta { display: inline-flex; gap: 2mm; color: var(--muted); font-size: var(--meta-size); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.entry-intro { margin: 0 0 0.9mm var(--content-indent); color: var(--secondary); }
+.entry-intro { margin: 0 0 0.9mm var(--project-indent); color: var(--secondary); }
 .bullet-list { padding-inline-start: calc(var(--content-indent) - 0.3mm); list-style: disc; }
+.entry > .bullet-list { padding-inline-start: calc(var(--project-indent) - 0.3mm); }
 .bullet-list > li { padding-inline-start: 0.3mm; break-inside: avoid; }
 .bullet-list > li::marker { color: var(--muted); font-size: calc(var(--body-size) * 0.65); }
 .bullet-list > li + li { margin-top: var(--item-gap); }
@@ -145,6 +150,7 @@ h3 { font-size: 10.7pt; line-height: 1.35; }
 @media print {
   body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .sheet { margin: 0; }
+  .entry > .bullet-list { letter-spacing: -0.008em; }
   #skills-heading + .bullet-list { letter-spacing: -0.006em; }
 }
 @media screen and (max-width: 820px) {
@@ -169,7 +175,7 @@ h3 { font-size: 10.7pt; line-height: 1.35; }
 </style></head><body><main class="sheet" aria-label="颜鑫的个人简历"><div class="page-body">
 <header class="identity"><div class="identity-copy"><h1><span class="name-cn">颜鑫</span> <span class="name-en" lang="en">Xin Yan</span></h1><address class="contact"><span><a href="mailto:yx20001210@gmail.com">yx20001210@gmail.com</a></span><span>北京</span><span><a href="https://thomas-yanxin.github.io">个人主页</a></span><span><a href="https://github.com/thomas-yanxin">GitHub</a></span></address></div><img class="portrait" src="../images/zhengjianzhao.JPEG" width="170" height="220" alt="颜鑫的证件照">
 <div class="summary">
-<p>将产品需求转化为训练与评测目标，主导具身多模态模型研发，搭建 <span class="term">Agentic Harness</span>，用评测结果和用户反馈迭代模型与系统。</p>
+<p>从 0 到 1 定义并实现 AI 产品。围绕用户任务协同设计交互、模型训练、<span class="term" lang="en">Agentic Harness</span> 与评测，用评测结果和用户反馈迭代方案。</p>
 <p>曾带领 <strong>10 人算法与工程团队</strong>交付多个多模态大模型并推动开源。发起和参与的开源项目累计获 <strong>30,000+ GitHub Stars</strong>。</p>
 </div>
 </header>
@@ -243,9 +249,9 @@ h3 { font-size: 10.7pt; line-height: 1.35; }
 <section aria-labelledby="honors-heading">
 <h2 id="honors-heading">荣誉与社区</h2>
 <ul class="bullet-list" role="list">
-<li><strong>企业导师</strong> 北京大学信息科学技术学院<img class="cv-logo" src="../images/logos/pku.png" width="13" height="13" alt="" aria-hidden="true"> 本科实验班“信班”，<span class="term mentor-term">2025.02 - 2025.08</span></li>
+<li><strong>企业导师</strong> 北京大学信息科学技术学院<img class="cv-logo" src="../images/logos/pku.png" width="13" height="13" alt="" aria-hidden="true"> 本科实验班“信班”<span class="term mentor-term">（2025 年 2 月至 8 月）</span></li>
 <li><strong>主要奖项</strong> MindChat 团队获 2025 合成数据大赛灵溪 AI for Mental Health 主题赛<strong>一等奖</strong>；2024 中国国际大学生创新大赛铜奖；2023“互联网+”全国铜奖、省级金奖；2022“互联网+”全国银奖、第 24 届中国机器人及人工智能大赛全国一等奖</li>
-<li><strong>社区经历</strong> Datawhale 成员、Qwen Ambassador、百度飞桨开发者技术专家；<span class="term">2021-2022</span> 年任飞桨领航团华东地区负责人，覆盖 7 省 50+ 高校；华东理工大学飞桨团队创始负责人</li>
+<li><strong>社区经历</strong> Datawhale 成员、Qwen Ambassador、百度飞桨开发者技术专家；<span class="term">2021 至 2022 年</span>任飞桨领航团华东地区负责人，覆盖 7 省 50+ 高校；华东理工大学飞桨团队创始负责人</li>
 </ul>
 </section>
 </div>
