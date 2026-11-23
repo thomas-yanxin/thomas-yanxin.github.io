@@ -1,70 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="home-bg home-bg--horizon" data-plotter="" data-home-motion="horizon" width="960" height="320" viewBox="0 0 960 320" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" aria-hidden="true" focusable="false">
+<svg xmlns="http://www.w3.org/2000/svg" class="home-rail home-rail--horizon" data-plotter="" data-home-motion="horizon" width="420" height="44" viewBox="0 0 420 44" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" aria-hidden="true" focusable="false">
   <style data-plotter-styles="true">
     [data-plotter] { stroke: var(--plotter-ink, currentColor); }
     [data-plotter] [data-plotter-role="primary"] { stroke-width: var(--plotter-stroke-primary, 1); opacity: var(--plotter-opacity-primary, 1); stroke-dasharray: none; }
     [data-plotter] [data-plotter-role="secondary"] { stroke-width: var(--plotter-stroke-secondary, 1); opacity: var(--plotter-opacity-secondary, 0.32); stroke-dasharray: none; }
     [data-plotter] [data-plotter-role="guide"] { stroke-width: var(--plotter-stroke-guide, 1); opacity: var(--plotter-opacity-guide, 0.14); stroke-dasharray: none; }
+    [data-plotter] [data-plotter-role="grid"] { stroke-width: var(--plotter-stroke-grid, 1); opacity: var(--plotter-opacity-grid, 0.06); stroke-dasharray: none; }
     [data-plotter] [data-plotter-role="hatch"] { stroke-width: var(--plotter-stroke-hatch, 1); opacity: var(--plotter-opacity-hatch, 0.18); stroke-dasharray: none; }
     [data-plotter] [data-plotter-role="centerline"] { stroke-width: var(--plotter-stroke-guide, 1); opacity: var(--plotter-opacity-guide, 0.14); stroke-dasharray: 8 3 1 3; }
-    [data-plotter] [data-plotter-role="transfer"] { stroke-width: var(--plotter-stroke-secondary, 1); opacity: var(--plotter-opacity-secondary, 0.32); stroke-dasharray: 4 6; }
   </style>
-  <defs>
-    <clipPath id="home-horizon-lune">
-      <path d="M884.631 118.855A70 70 0 0 1 884.631 201.145L876.541 195.267A60 60 0 0 0 876.541 124.733Z"/>
-    </clipPath>
-  </defs>
   <g data-plotter-role="guide">
-    <path vector-effect="non-scaling-stroke" d="M312 54H682"/>
-    <path vector-effect="non-scaling-stroke" d="M340 50V54 M348 50V54 M356 50V54 M372 50V54 M380 50V54 M388 50V54 M404 50V54 M412 50V54 M420 50V54 M436 50V54 M444 50V54 M452 50V54 M468 50V54 M476 50V54 M484 50V54 M500 50V54 M508 50V54 M516 50V54 M532 50V54 M540 50V54 M548 50V54 M564 50V54 M572 50V54 M580 50V54 M596 50V54 M604 50V54 M612 50V54 M628 50V54 M636 50V54 M644 50V54 M652 50V54"/>
-    <circle cx="812" cy="160" r="108" vector-effect="non-scaling-stroke"/>
-    <path vector-effect="non-scaling-stroke" d="M919.589 169.413L924.570 169.849 M918.359 178.754L923.283 179.622 M913.487 196.938L918.185 198.648 M909.881 205.643L914.413 207.756 M900.468 221.946L904.564 224.814 M894.733 229.421L898.563 232.635 M881.421 242.733L884.635 246.563 M873.946 248.468L876.814 252.564 M857.643 257.881L859.756 262.413 M848.938 261.487L850.648 266.185 M830.754 266.359L831.622 271.283 M821.413 267.589L821.849 272.570 M802.587 267.589L802.151 272.570 M793.246 266.359L792.378 271.283 M775.062 261.487L773.352 266.185 M766.357 257.881L764.244 262.413 M750.054 248.468L747.186 252.564 M742.579 242.733L739.365 246.563 M729.267 229.421L725.437 232.635 M723.532 221.946L719.436 224.814 M714.119 205.643L709.587 207.756 M710.513 196.938L705.815 198.648 M705.641 178.754L700.717 179.622 M704.411 169.413L699.430 169.849 M704.411 150.587L699.430 150.151 M705.641 141.246L700.717 140.378 M710.513 123.062L705.815 121.352 M714.119 114.357L709.587 112.244 M723.532 98.054L719.436 95.186 M729.267 90.579L725.437 87.365 M742.579 77.267L739.365 73.437 M750.054 71.532L747.186 67.436 M766.357 62.119L764.244 57.587 M775.062 58.513L773.352 53.815 M793.246 53.641L792.378 48.717 M802.587 52.411L802.151 47.430 M821.413 52.411L821.849 47.430 M830.754 53.641L831.622 48.717 M848.938 58.513L850.648 53.815 M857.643 62.119L859.756 57.587 M873.946 71.532L876.814 67.436 M881.421 77.267L884.635 73.437 M894.733 90.579L898.563 87.365 M900.468 98.054L904.564 95.186 M909.881 114.357L914.413 112.244 M913.487 123.062L918.185 121.352 M918.359 141.246L923.283 140.378 M919.589 150.587L924.570 150.151"/>
-    <path vector-effect="non-scaling-stroke" d="M632 316A260 260 0 0 1 948 224"/>
-  </g>
-  <g data-plotter-role="secondary">
-    <path vector-effect="non-scaling-stroke" d="M364 46V58 M396 46V58 M428 46V58 M460 46V58 M492 46V58 M524 46V58 M556 46V58 M588 46V58 M620 46V58"/>
-    <path vector-effect="non-scaling-stroke" d="M361 57L367 51 M489 57L495 51 M617 57L623 51"/>
-    <path vector-effect="non-scaling-stroke" d="M309 54H315 M312 51V57 M943 54H949 M946 51V57"/>
-    <circle cx="812" cy="160" r="118" vector-effect="non-scaling-stroke"/>
-    <path vector-effect="non-scaling-stroke" d="M920.000 160.000L930.000 160.000 M916.320 187.952L925.979 190.541 M905.531 214.000L914.191 219.000 M888.368 236.368L895.439 243.439 M866.000 253.531L871.000 262.191 M839.952 264.320L842.541 273.979 M812.000 268.000L812.000 278.000 M784.048 264.320L781.459 273.979 M758.000 253.531L753.000 262.191 M735.632 236.368L728.561 243.439 M718.469 214.000L709.809 219.000 M707.680 187.952L698.021 190.541 M704.000 160.000L694.000 160.000 M707.680 132.048L698.021 129.459 M718.469 106.000L709.809 101.000 M735.632 83.632L728.561 76.561 M758.000 66.469L753.000 57.809 M784.048 55.680L781.459 46.021 M812.000 52.000L812.000 42.000 M839.952 55.680L842.541 46.021 M866.000 66.469L871.000 57.809 M888.368 83.632L895.439 76.561 M905.531 106.000L914.191 101.000 M916.320 132.048L925.979 129.459"/>
-    <path vector-effect="non-scaling-stroke" d="M930.000 160.000L941.000 160.000 M812.000 278.000L812.000 289.000 M694.000 160.000L683.000 160.000 M812.000 42.000L812.000 31.000"/>
-    <path vector-effect="non-scaling-stroke" d="M901.631 252.631H907.631 M904.631 249.631V255.631 M716.369 252.631H722.369 M719.369 249.631V255.631 M716.369 67.369H722.369 M719.369 64.369V70.369 M901.631 67.369H907.631 M904.631 64.369V70.369"/>
-    <circle cx="812" cy="160" r="7" vector-effect="non-scaling-stroke"/>
+    <path vector-effect="non-scaling-stroke" d="M36 24H392"/>
+    <path vector-effect="non-scaling-stroke" d="M68 20V24 M76 20V24 M84 20V24 M100 20V24 M108 20V24 M116 20V24 M132 20V24 M140 20V24 M148 20V24 M164 20V24 M172 20V24 M180 20V24 M196 20V24 M204 20V24 M212 20V24 M228 20V24 M236 20V24 M244 20V24 M260 20V24 M268 20V24 M276 20V24 M292 20V24 M300 20V24 M308 20V24 M324 20V24 M332 20V24 M340 20V24 M356 20V24 M364 20V24 M372 20V24"/>
   </g>
   <g data-plotter-role="centerline">
-    <path vector-effect="non-scaling-stroke" d="M726 54H898 M708 160H792 M832 160H916 M812 56V140 M812 180V264"/>
-    <circle cx="812" cy="160" r="82" vector-effect="non-scaling-stroke"/>
-    <circle cx="812" cy="160" r="52" vector-effect="non-scaling-stroke"/>
+    <path vector-effect="non-scaling-stroke" d="M220 6V15 M220 31V40"/>
   </g>
-  <g data-plotter-role="transfer">
-    <path vector-effect="non-scaling-stroke" d="M702.567 86.187A132 132 0 0 1 762.552 37.612"/>
-    <path vector-effect="non-scaling-stroke" d="M701.422 80.297L702.567 86.187L708.457 85.042" style="stroke-dasharray:none"/>
+  <g data-plotter-role="secondary">
+    <path vector-effect="non-scaling-stroke" d="M60 17V29 M92 17V29 M124 17V29 M156 17V29 M188 17V29 M220 17V29 M252 17V29 M284 17V29 M316 17V29 M348 17V29 M380 17V29"/>
+    <path vector-effect="non-scaling-stroke" d="M57 27L63 21 M217 27L223 21 M377 27L383 21"/>
+    <path vector-effect="non-scaling-stroke" d="M21 24H27 M24 21V27 M401 24H407 M404 21V27"/>
   </g>
-  <g data-plotter-role="primary">
-    <circle cx="812" cy="160" r="14" vector-effect="non-scaling-stroke"/>
-    <circle cx="812" cy="160" r="2" vector-effect="non-scaling-stroke"/>
-  </g>
-  <path data-horizon-proj="" data-plotter-role="centerline" vector-effect="non-scaling-stroke" d="M747.383 56V105.516"/>
-  <circle data-horizon-proj-dot="" data-plotter-role="secondary" cx="747.383" cy="54" r="2" vector-effect="non-scaling-stroke"/>
-  <g data-horizon-cursor="" transform="translate(-100.865 0)">
-    <path data-plotter-role="secondary" vector-effect="non-scaling-stroke" d="M480 49V59 M504 49V59 M492 38V46 M492 62V70"/>
-    <path data-plotter-role="primary" vector-effect="non-scaling-stroke" d="M492 48L498 54L492 60L486 54Z"/>
-  </g>
-  <g data-horizon-rete="" transform="rotate(-128 812 160)">
-    <path data-plotter-role="hatch" clip-path="url(#home-horizon-lune)" vector-effect="non-scaling-stroke" d="M868 116L904 80 M868 124L904 88 M868 132L904 96 M868 140L904 104 M868 148L904 112 M868 156L904 120 M868 164L904 128 M868 172L904 136 M868 180L904 144 M868 188L904 152 M868 196L904 160 M868 204L904 168 M868 212L904 176 M868 220L904 184 M868 228L904 192 M868 236L904 200 M868 244L904 208"/>
-    <circle data-plotter-role="secondary" cx="828" cy="160" r="60" vector-effect="non-scaling-stroke"/>
-    <circle data-plotter-role="secondary" cx="828" cy="160" r="2" vector-effect="non-scaling-stroke"/>
-    <path data-plotter-role="secondary" vector-effect="non-scaling-stroke" d="M898 160H903 M828 230V235 M758 160H753 M828 90V85"/>
-    <circle data-plotter-role="primary" cx="828" cy="160" r="70" vector-effect="non-scaling-stroke"/>
-    <path data-plotter-role="primary" vector-effect="non-scaling-stroke" d="M905.5 157.5L908.0 160L905.5 162.5L903.0 160Z M828 235.0L830.5 237.5L828 240.0L825.5 237.5Z M750.5 157.5L753.0 160L750.5 162.5L748.0 160Z M828 80.0L830.5 82.5L828 85.0L825.5 82.5Z"/>
-  </g>
-  <g data-horizon-deferent="" transform="rotate(-142 812 160)">
-    <path data-plotter-role="secondary" vector-effect="non-scaling-stroke" d="M826 160H890.5 M798 160H756"/>
-    <path data-plotter-role="primary" vector-effect="non-scaling-stroke" d="M756 160L752 156L748 160L752 164Z"/>
-    <circle data-plotter-role="primary" cx="894" cy="160" r="3.5" vector-effect="non-scaling-stroke"/>
-    <circle data-plotter-role="centerline" cx="894" cy="160" r="18" vector-effect="non-scaling-stroke"/>
-    <g data-horizon-epicycle="" transform="rotate(-38 894 160)">
-      <path data-plotter-role="secondary" vector-effect="non-scaling-stroke" d="M897.5 160H908"/>
-      <circle data-plotter-role="primary" cx="912" cy="160" r="4" vector-effect="non-scaling-stroke"/>
-    </g>
+  <g data-horizon-cursor="" transform="translate(-92.8 0)">
+    <path data-plotter-role="secondary" vector-effect="non-scaling-stroke" d="M208 19V29 M232 19V29 M220 8V16 M220 32V40"/>
+    <path data-plotter-role="primary" vector-effect="non-scaling-stroke" d="M220 18L226 24L220 30L214 24Z"/>
   </g>
 </svg>

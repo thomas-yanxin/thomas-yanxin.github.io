@@ -167,7 +167,7 @@ The team open-sourced [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsi
 
 <section class="home-section home-section--projects" aria-labelledby="selected-projects" markdown="1">
 
-{% include home-harmonic.svg %}
+{% include home-xy-rail.svg %}
 
 <div class="anchor" id="projects-en"></div>
 
@@ -427,4 +427,8 @@ Recipient of **2 National First Prizes**{: .key-accent}, **1 National Silver and
 {: .role-heading}
 
 </section>
+
+<aside class="home-colophon" aria-hidden="true">
+{% include home-xy-matrix.svg %}
+</aside>
 

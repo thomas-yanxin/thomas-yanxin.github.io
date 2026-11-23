@@ -178,7 +178,7 @@ redirect_from:
 
 <section class="home-section home-section--projects" aria-labelledby="selected-projects" markdown="1">
 
-{% include home-harmonic.svg %}
+{% include home-xy-rail.svg %}
 
 <div class="anchor" id="projects"></div>
 <div class="anchor" id="-projects"></div>
@@ -453,4 +453,8 @@ redirect_from:
 {: .role-heading}
 
 </section>
+
+<aside class="home-colophon" aria-hidden="true">
+{% include home-xy-matrix.svg %}
+</aside>
 

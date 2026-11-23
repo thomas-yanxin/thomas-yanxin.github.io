@@ -27,68 +27,56 @@ body:has(.home-opening) {
   .home-section--about,
   .home-section--projects {
     position: relative;
-    isolation: isolate;
   }
 
-  .home-bg {
+  .home-rail {
     position: absolute;
-    z-index: -1;
+    inset-inline-end: -$academic-section-inset;
     display: block;
-    inset-inline: -$academic-section-inset;
-    width: calc(100% + #{$academic-section-inset * 2});
     height: auto;
-    overflow: hidden;
     color: #1c2f57;
+    opacity: .56;
     pointer-events: none;
     user-select: none;
   }
 
-  .home-bg--horizon {
-    inset-block-start: -1.5rem;
-    opacity: .42;
-    -webkit-mask-image:
-      radial-gradient(ellipse 46% 36% at 62% 18%, #000 42%, rgba(0, 0, 0, .32) 76%, transparent 100%),
-      radial-gradient(ellipse 28% 66% at 85% 50%, rgba(0, 0, 0, .62) 24%, rgba(0, 0, 0, .24) 64%, transparent 100%);
-    -webkit-mask-composite: source-over;
-    mask-image:
-      radial-gradient(ellipse 46% 36% at 62% 18%, #000 42%, rgba(0, 0, 0, .32) 76%, transparent 100%),
-      radial-gradient(ellipse 28% 66% at 85% 50%, rgba(0, 0, 0, .62) 24%, rgba(0, 0, 0, .24) 64%, transparent 100%);
-    mask-composite: add;
+  .home-rail--horizon {
+    inset-block-start: .05rem;
+    width: min(390px, calc(100% - 250px));
   }
 
-  .home-bg--harmonic {
-    inset-block-start: 0;
-    opacity: .40;
-    -webkit-mask-image:
-      radial-gradient(ellipse 46% 38% at 55% 16%, #000 44%, rgba(0, 0, 0, .34) 78%, transparent 100%),
-      radial-gradient(ellipse 28% 72% at 86% 50%, rgba(0, 0, 0, .66) 28%, rgba(0, 0, 0, .26) 68%, transparent 100%);
-    -webkit-mask-composite: source-over;
-    mask-image:
-      radial-gradient(ellipse 46% 38% at 55% 16%, #000 44%, rgba(0, 0, 0, .34) 78%, transparent 100%),
-      radial-gradient(ellipse 28% 72% at 86% 50%, rgba(0, 0, 0, .66) 28%, rgba(0, 0, 0, .26) 68%, transparent 100%);
-    mask-composite: add;
+  .home-rail--xy {
+    inset-block-start: .3rem;
+    width: min(312px, calc(100% - 290px));
   }
-}
 
-@media (max-width: 924px) {
-  .page__content {
-    .home-bg--horizon { opacity: .30; }
-    .home-bg--harmonic { opacity: .28; }
+  .home-colophon {
+    display: flex;
+    justify-content: center;
+    margin-top: $academic-section-gap;
+    margin-inline: -$academic-section-inset;
+    padding: 2.75rem $academic-section-inset .25rem;
+    border-top: 1px solid $academic-rule;
+  }
+
+  .home-matrix {
+    display: block;
+    width: min(216px, 64vw);
+    height: auto;
+    color: #1c2f57;
+    opacity: .62;
+    pointer-events: none;
+    user-select: none;
   }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 780px) {
   .page__content {
-    .home-bg {
-      inset-inline: -1rem;
-      width: calc(100% + 2rem);
-    }
+    .home-rail { display: none; }
 
-    .home-bg--horizon,
-    .home-bg--harmonic {
-      opacity: .22;
-      -webkit-mask-image: radial-gradient(ellipse 52% 68% at 86% 36%, rgba(0, 0, 0, .7) 20%, rgba(0, 0, 0, .22) 65%, transparent 100%);
-      mask-image: radial-gradient(ellipse 52% 68% at 86% 36%, rgba(0, 0, 0, .7) 20%, rgba(0, 0, 0, .22) 65%, transparent 100%);
+    .home-colophon {
+      margin-top: 3rem;
+      padding-top: 2rem;
     }
   }
 }
@@ -362,5 +350,6 @@ body:has(.home-opening) {
 
 @media print {
   .home-opening,
-  .page__content .home-bg { display: none; }
+  .page__content .home-rail,
+  .page__content .home-colophon { display: none; }
 }
