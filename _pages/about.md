@@ -11,7 +11,9 @@ redirect_from:
 
 <section class="home-section home-section--about" aria-labelledby="about-me" markdown="1">
 
+<div class="home-astrolabe-wrap" aria-hidden="true">
 {% include home-horizon.svg %}
+</div>
 
 # <span class="section-emoji" aria-hidden="true">👋</span> About Me {#about-me}
 

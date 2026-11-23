@@ -138,20 +138,26 @@
 
   var horizon = document.querySelector('[data-home-motion="horizon"]');
   if (horizon) {
-    var cursorEl = horizon.querySelector('[data-horizon-cursor]');
-    if (cursorEl) {
-      var horizonInitPhase = Math.acos(-0.58);
-      function applyHorizon(phase) {
-        var dx = 160 * Math.cos(phase);
-        cursorEl.setAttribute('transform', 'translate(' + dx.toFixed(3) + ' 0)');
+    var reteEl = horizon.querySelector('[data-horizon-rete]');
+    var deferentEl = horizon.querySelector('[data-horizon-deferent]');
+    var epicycleEl = horizon.querySelector('[data-horizon-epicycle]');
+    if (reteEl && deferentEl && epicycleEl) {
+      function applyHorizon(reteDeg, defDeg, epiDeg) {
+        reteEl.setAttribute('transform', 'rotate(' + reteDeg.toFixed(3) + ' 142 142)');
+        deferentEl.setAttribute('transform', 'rotate(' + defDeg.toFixed(3) + ' 142 142)');
+        epicycleEl.setAttribute('transform', 'rotate(' + epiDeg.toFixed(3) + ' 224 142)');
       }
       createMotionLoop(
         horizon,
         function (elapsed) {
-          applyHorizon(horizonInitPhase + (2 * Math.PI / 16) * elapsed);
+          applyHorizon(
+            -128 - (360 / 36) * elapsed,
+            -142 + (360 / 16) * elapsed,
+            -38 - (360 / (16 / 3)) * elapsed
+          );
         },
         function () {
-          applyHorizon(horizonInitPhase);
+          applyHorizon(-128, -142, -38);
         }
       );
     }

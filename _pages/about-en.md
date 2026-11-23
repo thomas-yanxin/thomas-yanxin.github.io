@@ -8,7 +8,9 @@ author_profile: true
 
 <section class="home-section home-section--about" aria-labelledby="about" markdown="1">
 
+<div class="home-astrolabe-wrap" aria-hidden="true">
 {% include home-horizon.svg %}
+</div>
 
 <div class="anchor" id="about-en"></div>
 
