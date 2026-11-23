@@ -334,7 +334,7 @@ summary:focus-visible {
   a {
     text-decoration-color: rgba($academic-accent, .35);
 
-    &:hover {
+    &:hover, &:active {
       color: $academic-secondary;
       text-decoration-color: currentColor;
 
@@ -405,7 +405,7 @@ summary:focus-visible {
       line-height: 1.9693;
     }
 
-    li:first-child > em:first-child { color: $academic-secondary; font-weight: 500; }
+    li:first-child > em:first-child { color: $academic-accent; font-weight: 500; }
   }
 
   .publication-list a[href*="doi.org/"] {
@@ -437,7 +437,7 @@ html[lang="en"] {
     font-weight: 500;
     cursor: pointer;
 
-    &:hover { color: $academic-secondary; }
+    &:hover, &:active { color: $academic-secondary; }
     &::marker { font-size: .75em; }
   }
 

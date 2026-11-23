@@ -30,7 +30,7 @@
       color: inherit;
       transition: color 180ms cubic-bezier(.16, 1, .3, 1);
 
-      &:hover, &:focus-visible { color: $academic-secondary; }
+      &:hover, &:active, &:focus-visible { color: $academic-secondary; }
     }
   }
 }
@@ -94,6 +94,8 @@
       font-size: .8125rem;
       border: 0;
       text-decoration: none;
+
+      &:hover, &:active { color: $academic-secondary; }
     }
   }
 }

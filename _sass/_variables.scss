@@ -65,8 +65,8 @@ $border-color               : #e5e8eb;
 $academic-ink               : #232d38;
 $academic-muted             : #626c77;
 $academic-rule              : $border-color;
-$academic-accent            : #0237bd;
-$academic-secondary         : mix(#000, $academic-accent, 25%);
+$academic-accent            : #0e2269;
+$academic-secondary         : #0237bd;
 $academic-selection         : mix($academic-accent, $background-color, 13%);
 $academic-scrollbar         : mix($academic-accent, $background-color, 29%);
 $academic-display           : $site-font-family;
@@ -120,7 +120,7 @@ $xing-color                 : #006567;
 
 /* links */
 $link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color-hover           : $academic-secondary;
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
