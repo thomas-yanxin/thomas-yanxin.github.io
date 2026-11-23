@@ -165,34 +165,96 @@
 
   var harmonic = document.querySelector('[data-home-motion="harmonic"]');
   if (harmonic) {
-    var discEl = harmonic.querySelector('[data-harmonic-disc]');
-    var contactEl = harmonic.querySelector('[data-harmonic-contact]');
-    var vlineEl = harmonic.querySelector('[data-harmonic-vline]');
-    var axisNodeEl = harmonic.querySelector('[data-harmonic-axis-node]');
-    var orbEl = harmonic.querySelector('[data-harmonic-orb]');
-    if (discEl && contactEl && vlineEl && axisNodeEl && orbEl) {
+    var xyPointEl = harmonic.querySelector('[data-xy-point]');
+    var xyProjXEl = harmonic.querySelector('[data-xy-proj-x]');
+    var xyProjYEl = harmonic.querySelector('[data-xy-proj-y]');
+    var xyQuadEl = harmonic.querySelector('[data-xy-quadrant]');
+    var xyVxEl = harmonic.querySelector('[data-xy-vx]');
+    var xyVyEl = harmonic.querySelector('[data-xy-vy]');
+    var xyBarXEl = harmonic.querySelector('[data-xy-bar-x]');
+    var xyBarYEl = harmonic.querySelector('[data-xy-bar-y]');
+    var xyBusEl = harmonic.querySelector('[data-xy-bus]');
+    var xyBusMidEl = harmonic.querySelector('[data-xy-bus-mid]');
+    if (
+      xyPointEl && xyProjXEl && xyProjYEl && xyQuadEl &&
+      xyVxEl && xyVyEl && xyBarXEl && xyBarYEl && xyBusEl && xyBusMidEl
+    ) {
       var harmonicInView = hasIntersectionObserver ? isInViewport(harmonic) : true;
       var harmonicFrame = 0;
       var harmonicElapsed = 0;
       var harmonicLastTick;
+      var xyBeats = [
+        { x0: 0.5, y0: -0.5, x1: -0.5, y1: 0.5, move: 1.80, hold: 0.55 },
+        { x0: -0.5, y0: 0.5, x1: 0.5, y1: 0.5, move: 1.40, hold: 0.50 },
+        { x0: 0.5, y0: 0.5, x1: -0.5, y1: -0.5, move: 1.80, hold: 0.55 },
+        { x0: -0.5, y0: -0.5, x1: 0.0, y1: 0.0, move: 1.05, hold: 0.45 },
+        { x0: 0.0, y0: 0.0, x1: 0.0, y1: 1.0, move: 1.40, hold: 0.55 },
+        { x0: 0.0, y0: 1.0, x1: 1.0, y1: 0.0, move: 1.80, hold: 0.50 },
+        { x0: 1.0, y0: 0.0, x1: 0.5, y1: -0.5, move: 1.05, hold: 0.55 }
+      ];
+      var xyCycle = xyBeats.reduce(function (sum, b) {
+        return sum + b.move + b.hold;
+      }, 0);
 
-      function applyHarmonic(deg) {
-        var rad = (deg * Math.PI) / 180;
-        var c = Math.cos(rad);
-        var s = Math.sin(rad);
-        var dx = 46 * c;
-        var dy = 46 * s;
-        discEl.setAttribute(
-          'transform',
-          'translate(' + dx.toFixed(3) + ' ' + dy.toFixed(3) + ') rotate(' + (-deg).toFixed(3) + ' 824 140)'
-        );
-        contactEl.setAttribute('transform', 'rotate(' + deg.toFixed(3) + ' 824 140)');
-        var lx = 524 + 148 * c;
-        var ly = 42 + 22 * Math.sin(2 * rad);
-        vlineEl.setAttribute('d', 'M' + lx.toFixed(3) + ' 14V70');
-        axisNodeEl.setAttribute('transform', 'translate(' + (148 * c).toFixed(3) + ' 0)');
-        orbEl.setAttribute('cx', lx.toFixed(3));
-        orbEl.setAttribute('cy', ly.toFixed(3));
+      function easeInOutCubic(t) {
+        return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+      }
+
+      function applyXY(ux, uy) {
+        var px = 824 + 96 * ux;
+        var py = 136 + 96 * uy;
+        var bx = 508 + 96 * ux;
+        var by = 508 + 96 * uy;
+        var mid = (bx + by) / 2;
+
+        xyPointEl.setAttribute('transform', 'translate(' + px.toFixed(3) + ' ' + py.toFixed(3) + ')');
+        xyVxEl.setAttribute('transform', 'translate(' + px.toFixed(3) + ' 250)');
+        xyVyEl.setAttribute('transform', 'translate(938 ' + py.toFixed(3) + ')');
+
+        var projX = '';
+        if (py - 7 > 40) projX += 'M' + px.toFixed(3) + ' 40V' + (py - 7).toFixed(3);
+        if (py + 7 < 246) projX += (projX ? ' ' : '') + 'M' + px.toFixed(3) + ' ' + (py + 7).toFixed(3) + 'V246';
+        xyProjXEl.setAttribute('d', projX);
+
+        var projY = '';
+        if (px - 7 > 728) projY += 'M728 ' + py.toFixed(3) + 'H' + (px - 7).toFixed(3);
+        if (px + 7 < 934) projY += (projY ? ' ' : '') + 'M' + (px + 7).toFixed(3) + ' ' + py.toFixed(3) + 'H934';
+        xyProjYEl.setAttribute('d', projY);
+
+        xyQuadEl.setAttribute('x', Math.min(824, px).toFixed(3));
+        xyQuadEl.setAttribute('y', Math.min(136, py).toFixed(3));
+        xyQuadEl.setAttribute('width', Math.abs(px - 824).toFixed(3));
+        xyQuadEl.setAttribute('height', Math.abs(py - 136).toFixed(3));
+
+        xyBarXEl.setAttribute('transform', 'translate(' + bx.toFixed(3) + ' 28)');
+        xyBarYEl.setAttribute('cx', by.toFixed(3));
+        xyBusMidEl.setAttribute('cx', mid.toFixed(3));
+
+        var busD;
+        if (Math.abs(bx - by) <= 6.4) {
+          busD = 'M' + bx.toFixed(3) + ' 32.5V41.8 M' + by.toFixed(3) + ' 46.2V56';
+        } else if (bx < by) {
+          busD = 'M' + bx.toFixed(3) + ' 32.5V44H' + (mid - 2.2).toFixed(3) +
+                 ' M' + (mid + 2.2).toFixed(3) + ' 44H' + by.toFixed(3) + 'V56';
+        } else {
+          busD = 'M' + bx.toFixed(3) + ' 32.5V44H' + (mid + 2.2).toFixed(3) +
+                 ' M' + (mid - 2.2).toFixed(3) + ' 44H' + by.toFixed(3) + 'V56';
+        }
+        xyBusEl.setAttribute('d', busD);
+      }
+
+      function sampleXY(elapsed) {
+        var t = ((elapsed % xyCycle) + xyCycle) % xyCycle;
+        for (var i = 0; i < xyBeats.length; i++) {
+          var b = xyBeats[i];
+          var span = b.move + b.hold;
+          if (t < span) {
+            var u = t < b.move ? easeInOutCubic(t / b.move) : 1;
+            return [b.x0 + (b.x1 - b.x0) * u, b.y0 + (b.y1 - b.y0) * u];
+          }
+          t -= span;
+        }
+        return [0.5, -0.5];
       }
 
       function stepHarmonic(now) {
@@ -200,7 +262,8 @@
           harmonicElapsed += Math.min((now - harmonicLastTick) / 1000, 0.1);
         }
         harmonicLastTick = now;
-        applyHarmonic(-124 - (360 / 12) * harmonicElapsed);
+        var pos = sampleXY(harmonicElapsed);
+        applyXY(pos[0], pos[1]);
         if (harmonicInView && !document.hidden && !reducedMotion.matches) {
           harmonicFrame = window.requestAnimationFrame(stepHarmonic);
         } else {
@@ -216,7 +279,7 @@
         harmonicLastTick = undefined;
         if (reducedMotion.matches) {
           harmonicElapsed = 0;
-          applyHarmonic(-124);
+          applyXY(0.5, -0.5);
           return;
         }
         if (harmonicInView && !document.hidden) {
@@ -233,7 +296,7 @@
       document.addEventListener('visibilitychange', syncHarmonic);
       if (reducedMotion.addEventListener) reducedMotion.addEventListener('change', syncHarmonic);
       else reducedMotion.addListener(syncHarmonic);
-      applyHarmonic(-124);
+      applyXY(0.5, -0.5);
       syncHarmonic();
     }
   }
