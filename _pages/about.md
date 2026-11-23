@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "颜鑫 Xin Yan · Creator · Builder · Researcher"
-excerpt: "颜鑫（Xin Yan），创业者、创作者、开发者与研究者，关注多模态 AI、Agent 系统与具身智能，构建 SenseMem、FateBridge 与 QianYe。现任心言机器人高级算法工程师。"
+excerpt: "颜鑫（Xin Yan），创业者、算法架构师与研究者，专注具身原生多模态基座模型、Agentic Omni-modal ContextOS 与持续人机交互的端到端 Co-design。现任心言机器人高级算法工程师，主导 xyVL 与 SenseMem 研发。"
 lang: zh-CN
 author_profile: true
 redirect_from: 
@@ -15,16 +15,16 @@ redirect_from:
 
 # <span class="section-emoji" aria-hidden="true">👋</span> About Me {#about-me}
 
-我是**颜鑫（Xin Yan）**，一名创作者、开发者与研究者，本质上是一名**创业者**。我的工作围绕**面向持续人机交互的模型与 Agent 系统**展开，从产品定义出发，统筹数据、训练、系统架构与评估，将研究与工程转化为可交付的产品。
+我是**颜鑫（Xin Yan）**，创作者、开发者、研究者，本质上是一名 **AI 产品与系统创业者**。我长期专注**持续人机交互与具身智能**，以端到端 **Co-design** 方法论，将**产品定义、多模态数据与 Rubrics、基座模型后训练、Agentic Harness 与系统评估**闭环打通，把前沿算法转化为可规模化交付的产品能力。
 {: .intro-lead}
 
-现任**心言机器人高级算法工程师**，负责**机器人算法架构**，主导 **xyVL 具身原生多模态基座模型**及其数据与评价体系，以及 **SenseMem** 研发；此前在**心言集团（测测）**主导 **Xinyuan 系列垂域大模型**研发。我毕业于**华东理工大学自动化专业**。
+现任**心言机器人高级算法工程师**，负责**机器人算法架构**，主导 **xyVL 具身原生多模态基座模型**（协同 **xyData** 与 **xyJudge** Rubrics 体系）及全模态记忆系统 **SenseMem（Agentic Omni-modal ContextOS，在 MOSAIC 等四项记忆基准取得 SOTA）**；此前在**心言集团（测测）**带领 5–20 人团队主导 **Xinyuan 系列垂域与多模态大模型**研发（累计下载 **2 万+**，**Xinyuan-VL-2B** 获 OpenCompass & Hugging Face Open VLM Leaderboard **<4B 参数组第一**）；更早作为联合创始人创立 **X-D Lab**，开源 **MindChat** 与 **Sunsimiao**。毕业于**华东理工大学自动化专业**。
 
-我的长期关注方向是 **AI 与人的持续交互**：多模态模型如何理解环境，Agent 如何更新记忆、组织任务上下文，以及这些能力如何支持持续的人机协作。
+我的核心研究与工程主线聚焦于 **AI 与人的长期共生交互**：如何通过 **Data–Rubrics–Policy Co-design** 构建面向真实物理环境的具身多模态模型，如何借助 **Agentic Memory 与 Context Engineering** 让智能体在全模态交互中持续更新认知与编排上下文，以及如何通过全双工视听交互与情感智能让技术真正理解人。
 
-我的 MBTI 是 **INTJ**。文学塑造了我理解人的方式，也影响着我对情感智能和产品体验的判断。
+我的 MBTI 是 **INTJ**。文学塑造了我理解人的颗粒度，也构成了我在情感智能与产品体验判断上的底层直觉。
 
-作为 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)</span>**，我参与开源共建与技术教育。我发起和参与的开源项目累计获得 **Github 30,000+ Stars**。通过**开源项目、课程、写作与[公开分享](#talks-media)**，我分享从产品构想到系统实现、评估与迭代的实践。
+作为 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)</span>**、**Qwen Ambassador** 与**北京大学信班企业导师**，我深度参与开源生态与技术教育。发起及参与的开源项目累计获得 **GitHub 30,000+ Stars**，合著清华大学出版社专著 1 部，在 **IEEE TIFS / TCE** 等期刊发表论文多篇，并持续通过**开源共建、课程写作与[公开演讲](#talks-media)**分享一线实践。
 
 </section>
 
@@ -34,13 +34,13 @@ redirect_from:
 
 ## <span class="section-emoji" aria-hidden="true">📰</span> News {#news}
 
-* *2026.11* <span class="news-emoji" aria-hidden="true">📺</span> 接受**<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/zhejiang-tv.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">浙江卫视</span>**专访 <span class="media-link">\| 🎬 [视频](http://wap.cztv.com/tv/35/2991249.html)</span>。
-* *2026.08* <span class="news-emoji" aria-hidden="true">🔥</span> 获 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelbest.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">面壁智能</span> & <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openbmb.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenBMB</span>社区「**火种说**」专题报道，分享 **YRobot 全双工桌面陪伴机器人**的开发实践 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q)</span>。
-* *2026.05* <span class="news-emoji" aria-hidden="true">📖</span> 合著出版《LangChain 大模型应用开发：从入门到实践》，清华大学出版社，周涛、薛栋、**颜鑫** 编著。
-* *2026.01* <span class="news-emoji" aria-hidden="true">🏆</span> MindChat 团队获得 2025 合成数据大赛 · 灵溪 AI for Mental Health 主题赛**一等奖** <span class="media-link">\| 📄 [文章](https://www.shobserver.com/wx/detail.do?id=1047568)</span>。
-* *2025.09* <span class="news-emoji" aria-hidden="true">🎤</span> 受邀 2025 年<span class="brand-token"><img class="brand-logo brand-logo--wordmark" src="/images/logos/apsara-wordmark.png" alt="" aria-hidden="true" width="386" height="38" loading="lazy" decoding="async"><span class="visually-hidden">云栖大会</span></span>「做 AI，Z 世代不一样！」分论坛 **Speaker** <span class="media-link">\| 🎬 [视频](https://yunqi.aliyun.com/2025/session?agendaId=6012)</span>。
-* *2025.07* <span class="news-emoji" aria-hidden="true">🥉</span> 获得 2024 年中国国际大学生创新大赛**铜奖**。
-* *2025.07* <span class="news-emoji" aria-hidden="true">🎧</span> 接受 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span>与<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 社区联合采访，分享情感智能、模型评估与文学对技术实践的影响 <span class="media-link">\| 🎧 [播客](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)</span>。
+* *2026.11* <span class="news-emoji" aria-hidden="true">📺</span> 接受**<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/zhejiang-tv.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">浙江卫视</span>**人物专访，分享 AI 具身与情感交互一线实践 <span class="media-link">\| 🎬 [视频](http://wap.cztv.com/tv/35/2991249.html)</span>。
+* *2026.08* <span class="news-emoji" aria-hidden="true">🔥</span> 获 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelbest.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">面壁智能</span> & <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openbmb.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenBMB</span> 社区「**火种说**」深度专题报道，解析 **YRobot 全双工全模态桌面陪伴机器人**工程实践 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q)</span>。
+* *2026.05* <span class="news-emoji" aria-hidden="true">📖</span> 合著专著《LangChain 大模型应用开发：从入门到实践》由**清华大学出版社**正式出版（周涛、薛栋、**颜鑫** 编著）。
+* *2026.01* <span class="news-emoji" aria-hidden="true">🏆</span> **MindChat** 团队斩获 2025 合成数据大赛 · 灵溪 AI for Mental Health 主题赛**一等奖** <span class="media-link">\| 📄 [文章](https://www.shobserver.com/wx/detail.do?id=1047568)</span>。
+* *2025.09* <span class="news-emoji" aria-hidden="true">🎤</span> 受邀登台 2025 年<span class="brand-token"><img class="brand-logo brand-logo--wordmark" src="/images/logos/apsara-wordmark.png" alt="" aria-hidden="true" width="386" height="38" loading="lazy" decoding="async"><span class="visually-hidden">云栖大会</span></span>「做 AI，Z 世代不一样！」分论坛担任 **Speaker** <span class="media-link">\| 🎬 [视频](https://yunqi.aliyun.com/2025/session?agendaId=6012)</span>。
+* *2025.07* <span class="news-emoji" aria-hidden="true">🥉</span> 荣获 2024 年中国国际大学生创新大赛**全国铜奖**。
+* *2025.07* <span class="news-emoji" aria-hidden="true">🎧</span> 接受 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span> × <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 联合深度专访，探讨情感智能、评估驱动迭代与文学对 AI 产品直觉的影响 <span class="media-link">\| 🎧 [播客](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)</span>。
 {: .news-list role="list"}
 
 </section>
@@ -67,17 +67,17 @@ redirect_from:
 </figure>
 <div class="paper-box-text" markdown="1">
 
-我负责**心言机器人**算法架构，主导由具身原生多模态基座模型 **xyVL**、全流程自动化多模态数据治理系统 **xyData** 与统一具身 **Rubrics System：xyJudge** 组成的协同研发体系。三者围绕具身环境理解、推理、导航与规划共同设计：xyData 组织学习分布，xyJudge 将质量要求与任务目标落实为评价规约，xyVL 通过多模态后训练形成任务能力。
+负责**心言机器人**核心算法架构，主导构建 **Data–Rubrics–Model Co-design** 具身研发闭环，统筹具身原生多模态基座模型 **xyVL**、全流程自动化多模态数据引擎 **xyData** 与统一具身 **Rubrics System：xyJudge**。三者围绕具身环境理解、空间推理、安全对齐、导航与规划深度协同：xyData 精确塑形训练分布，xyJudge 将质量标准与具身任务目标转化为可执行评价规约，xyVL 通过多阶段多模态后训练兑现物理世界任务能力。
 
-**xyData：全流程自动化多模态数据治理系统。** 整合 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span>、<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/github.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">GitHub</span> 与 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span> 等平台的 **50+ 个开源数据集、约 4500 万条原始样本**，覆盖文本、图像、视频、机器人与自动驾驶。通过数据接入、Schema 统一、质量筛选与难度分级，构建 **1800 万条精选样本**。按任务分布、难度和模型适配性设计 **Data Mixture**，为 SFT、Distillation 与 Reinforcement Learning 组织对应的训练分布。
+**xyData｜全流程自动化多模态数据治理引擎。** 系统整合 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span>、<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/github.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">GitHub</span> 与 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span> 等平台 **50+ 开源数据集、约 4500 万条原始样本**，横跨文本、图像、视频、机器人操作与自动驾驶。经自动化接入、Schema 统一、质量门控与难度分层，提炼 **1800 万条高信噪比精选样本**；并按任务分布、难度梯度与模型适配性设计分阶段 **Data Mixture**，定向驱动 SFT、Distillation 与 RL 训练。
 
 </div>
 </div>
 <div class="paper-box-text" markdown="1">
 
-**xyJudge：统一的具身 Rubrics System。** 以结构化评价规约组织数据质量与具身任务要求，将启发式规则与 **Model-as-a-Judge** 自动评估统一起来。规则侧检查样本长度、语言、重复与 Schema 合规性；模型侧由 **Qwen3.6-35B-A3B** 输出质量、难度、重复度、复杂度与连贯性标签。异步并发与断点恢复支撑千万级样本的评估与自动标注，为 xyData 的筛选和训练数据组织提供一致的评价依据。
+**xyJudge｜统一具身 Rubrics System。** 将数据质量门控与具身任务规范抽象为结构化 **Rubrics**，融合确定性启发式规则与 **Model-as-a-Judge** 自动裁判。规则侧严格校验长度、语种、重复与 Schema 合规性；模型侧基于 **Qwen3.6-35B-A3B** 对质量、难度、冗余度、复杂度与连贯性进行多维结构化打标。借助异步高并发与断点续传机制，支撑**千万级样本**的高吞吐自动化评估与标注，为 xyData 筛选与后训练配比提供统一、可复现的评价基线。
 
-**xyVL：具身原生多模态基座模型。** 以 **Qwen3.5** 为基座，组织 **SFT → On-Policy Distillation（OPD）→ GRPO** 的多模态 **Post-Training**。SFT 进行指令与任务适配；OPD 以 **Qwen3.5-27B** 为教师，在学生自身生成的序列上提供监督；GRPO 围绕推理、安全、导航与规划组织任务奖励。模型训练与 xyData 的样本配比、xyJudge 的评价要求协同，面向环境理解与具身任务能力开展适配。
+**xyVL｜具身原生多模态基座模型。** 以 **Qwen3.5** 为基座，搭建 **SFT → On-Policy Distillation（OPD）→ GRPO** 三阶段多模态 **Post-Training** 管线：SFT 完成指令与具身任务对齐；OPD 引入 **Qwen3.5-27B** 作为教师模型，直接在学生自身生成的 On-Policy 轨迹上施加监督以消除分布偏移；GRPO 围绕推理、安全、导航与规划设计任务奖励。后训练全程与 xyData 配比策略、xyJudge 评价规约协同迭代，夯实具身环境感知与规划决策底座。
 
 </div>
 </div>
@@ -86,7 +86,7 @@ redirect_from:
 <h4 class="project-title"><span class="brand-mark"><img class="brand-logo brand-logo--project brand-logo--sensemem" src="/images/logos/sensemem.png" alt="" aria-hidden="true" width="30" height="30" loading="lazy" decoding="async"></span> <a href="https://github.com/SenseMem/SenseMem">SenseMem：Agentic Omni-modal ContextOS</a></h4>
 <div class="paper-box-text" markdown="1">
 
-我发起 SenseMem，构建面向长期交互的**全模态记忆与上下文系统（Agentic Omni-modal ContextOS）**。系统将文本、图像、音频与视频中的交互经验组织为可更新的记忆，作为 **Personal Agent、Agentic Harness 与具身交互系统**的记忆与上下文层。项目以 **3S** 为设计原则：**Smarter**，通过记忆形成、修正与召回组织任务上下文；**Swifter**，支持能力组合、模型选择与系统接入；**Stronger**，面向多样部署环境优化跨模态、跨任务表现。
+发起并架构 **SenseMem**，打造面向长期交互的**全模态记忆与上下文操作系统（Agentic Omni-modal ContextOS）**，为 **Personal Agent、Agentic Harness 与具身交互系统**提供持久记忆与 **Context Engineering** 底座。系统将文本、图像、音频与视频中的持续交互经验转化为可演化、可溯源的动态记忆，围绕 **3S** 架构原则设计：**Smarter**（以全生命周期记忆形成、认知修正与精准召回编排任务上下文）、**Swifter**（可组合模型后端与多协议无缝接入）、**Stronger**（面向端云多样部署环境优化跨模态、跨任务泛化表现）。
 
 </div>
 <div class="project-row">
@@ -96,7 +96,7 @@ redirect_from:
 </figure>
 <div class="paper-box-text" markdown="1">
 
-我主导 **Memory Kernel** 的架构设计与实现，围绕**原始观察、知识更新与任务上下文**建立统一内容契约，涵盖文本、图像、音频、视频及其有序组合。内核以身份、时空与版本关系组织记忆，按需接入模型完成 Memory Formation。记忆通过 Consolidation、Correction、Reinforcement 与可逆 Forgetting 随新观察持续更新。
+主导 **Memory Kernel** 核心架构与实现，建立覆盖文本、图像、音频、视频及其有序组合的统一内容契约，坚持 **Source-first** 分层设计——严格分离不可变原始观察与派生知识。内核以身份、时空、证据链与版本血缘约束记忆演化，按需编排模型执行 Memory Formation，并通过可审计、可回滚的 **Consolidation、Correction、Reinforcement 与可逆 Forgetting** 机制随新观察持续自我更新。
 
 </div>
 </div>
@@ -107,13 +107,18 @@ redirect_from:
 </figure>
 <div class="paper-box-text" markdown="1">
 
-**Hybrid Retrieval** 融合 Dense Retrieval、Lexical Search、时空与人物约束及可选 Semantic Reranking，检索当前任务所需的记忆。**Context Compiler** 根据条目、字符与媒体预算组织上下文，为 Agent 的任务执行与回答提供所需信息。
+**Hybrid Retrieval** 深度融合 Dense Retrieval、Lexical Search、时空与人物实体约束及可选 Semantic Reranking，精准召回任务关联记忆。**Context Compiler** 在严格的条目、字符与媒体预算内动态编排记忆、原始媒体与证据闭包，并显式标示认知冲突与信息缺口，为 Host Agent 的可靠推理与有据回答提供高密度上下文。
 
 </div>
 </div>
 <div class="paper-box-text" markdown="1">
 
-SenseMem 在 **MOSAIC、Mem-Gallery、ATM-Bench、LoCoMo-Refined** 等记忆 Benchmarks 上取得 **SOTA**：**MOSAIC** 面向文本、图像、音频与视频的全模态记忆，**Mem-Gallery** 面向视觉个性化记忆与图像关联对话，**ATM-Bench** 面向邮件、图像与视频等异构个人档案的检索与推理，**LoCoMo-Refined** 面向多会话长期对话记忆。这些基准从全模态交互、个人媒体与长期对话等场景评估系统的记忆能力与任务表现。
+底层由 **SQLite 与原生媒体**保障权威状态持久化，配合可随时重建的 **Zvec** 索引；通过强类型契约解耦本地与远程 Embedding、生成、语音、视觉及记忆处理模型，并经由共享内核的 **SDK、REST、MCP 与 CLI** 统一接口与宿主 Agentic Harness 的目标、调度及动作闭环对接。
+
+</div>
+<div class="paper-box-text" markdown="1">
+
+截至 2026 年 11 月，SenseMem 在 **MOSAIC、Mem-Gallery、ATM-Bench、LoCoMo-Refined** 四项权威记忆基准上全面取得 **SOTA**：覆盖全模态跨会话记忆（**MOSAIC**）、视觉个性化记忆与图像关联对话（**Mem-Gallery**）、邮件/图像/视频等异构个人档案检索推理（**ATM-Bench**）以及多会话长期对话记忆（**LoCoMo-Refined**），系统验证了其在全模态交互、个人媒体与长程对话场景下的领先实力。
 
 </div>
 </div>
@@ -127,15 +132,15 @@ SenseMem 在 **MOSAIC、Mem-Gallery、ATM-Bench、LoCoMo-Refined** 等记忆 Ben
 <p class="experience-date">2024.03 - 2026.01</p>
 </header>
 
-我主导 **Xinyuan 系列垂域大模型**研发，将**领域适配、交互对齐与部署约束**纳入同一研发流程，覆盖多源多模态数据治理、增量预训练、SFT、RLHF 与多维评估。我统筹 **5–20 人**的算法与工程团队，推进模型训练、部署及部分模型开源。系列模型在 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span>、<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span> 等平台累计下载 **2 万+**。
+主导 **Xinyuan 系列垂域与多模态大模型**从 0 到 1 研发与交付，统筹 **5–20 人**算法与工程团队，将**领域适配、交互对齐与端云部署约束**纳入统一工程闭环，完整覆盖多源多模态数据治理、**Mid-Training / 增量预训练、SFT、RLHF 偏好对齐**、多维评测与生产部署。系列开源模型在 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/huggingface.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Hugging Face</span> 与 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">ModelScope</span> 累计下载 **2 万+**。
 
-面向心理、教育与陪伴场景，我将**对话连续性、情感表达、知识依据与领域适配**转化为训练与评价维度，通过失败样本分析和用户反馈确定改进方向。基座选型、模型规模与部署方案同时考虑领域表现、通用能力、推理延迟、生态支持和维护成本，使模型能力与交互需求、运行条件共同约束研发决策。
+面向心理支持、教育与陪伴场景，推行 **Eval-Driven 迭代范式**：将**多轮对话连续性、共情表达颗粒度、专业知识依据与领域安全**转化为可量化训练与评价维度，依托失败样本归因与真实用户反馈持续闭环优化；在基座选型与参数规模决策上，系统权衡领域效果、通用能力保持、推理延迟、部署生态与维护成本，确保模型能力与业务交付条件高度对齐。
 
-代表性工作：
+代表性成果：
 
-* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/xinyuan.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)</span>：基于 Qwen3-14B-Base，面向心理支持与教育等领域训练，公开模型权重与部署说明。
-* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/xinyuan.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)</span>：基于 Qwen2-VL-2B-Instruct，使用 **500 万+ 多模态样本**训练，2024 年 9 月在 OpenCompass & Hugging Face Open VLM Leaderboard 的 **<4B 参数组排名第一**。相关成果见[魔搭开发者共创会记录](https://developer.aliyun.com/article/1664742)。
-* 在**<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 开发者共创会**分享《开源技术驱动下的泛心理服务与 AI 普惠实践之路》，并参与[<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span> × 魔搭社区专访](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)，讨论模型选型、评估、个性化与端侧部署的取舍。
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/xinyuan.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Xinyuan-VL-2B](https://huggingface.co/Cylingo/Xinyuan-VL-2B)</span>：面向端侧视觉理解场景，基于 Qwen2-VL-2B-Instruct 以 **500 万+ 多模态样本**开展 Vision-Language Post-Training，2024 年 9 月登顶 OpenCompass & Hugging Face Open VLM Leaderboard **<4B 参数组第一**。相关成果见[魔搭开发者共创会记录](https://developer.aliyun.com/article/1664742)。
+* <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/xinyuan.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Xinyuan-LLM-14B-0428](https://huggingface.co/Cylingo/Xinyuan-LLM-14B-0428)</span>：基于 Qwen3-14B-Base，融合 **100K+ 心理对话与 1M+ 医疗语料**完成领域适配与后训练，开源完整模型权重与私有化部署方案。
+* 受邀在**<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 开发者共创会**作主题分享《开源技术驱动下的泛心理服务与 AI 普惠实践之路》，并参与[<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span> × 魔搭社区深度专访](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)，系统阐述垂域模型选型、评估闭环、个性化与端侧部署的一线权衡。
 
 </div>
 
@@ -154,15 +159,15 @@ SenseMem 在 **MOSAIC、Mem-Gallery、ATM-Bench、LoCoMo-Refined** 等记忆 Ben
 </figure>
 <div class="paper-box-text" markdown="1">
 
-MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为面向**心理对话与医疗知识的领域模型**研发实践。作为 **X-D Lab 联合创始人**，我负责**模型训练**，并与团队协作完成领域数据构建、模型评估和应用集成。
+**MindChat** 源于与导师关于家人陪伴的真实探讨，成长为面向**心理对话与医疗知识**的开源垂域大模型矩阵。作为 **X-D Lab 联合创始人**，我主导**核心模型后训练**，并与团队协同完成百万级领域语料构建、评测体系搭建与应用集成。
 
 </div>
 </div>
 <div class="paper-box-text" markdown="1">
 
-我围绕领域语料清洗、**Domain Adaptation 与 Instruction Tuning**开展模型适配，并研究多轮交互中的 **Retrieval、Memory 与 Context Management**。以对话连续性、知识依据和领域适用性组织评价，将真实对话中的需求落实到领域训练与系统设计。
+围绕心理与医疗场景的领域语料治理、**Domain Adaptation 与 Instruction Tuning**，系统训练多轮共情回应与苏格拉底式问询能力，并同步探索多轮对话中的 **Retrieval、Memory 与 Context Management**。团队基于百万级语料构建覆盖多参数规模（0.5B–14B）的开源模型与英文心理评测模型，以对话连续性、知识依据与领域适用性驱动持续迭代。
 
-团队开源了 [MindChat](https://github.com/X-D-Lab/MindChat) 与 [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao) 的模型、推理示例和部署材料。我将领域训练、对话评估与应用集成中的经验延续到后续的 Agentic Memory 系统设计。
+开源发布 [MindChat](https://github.com/X-D-Lab/MindChat) 与 [Sunsimiao](https://github.com/X-D-Lab/Sunsimiao) 全套模型权重、推理示例与私有化部署方案，获科学网、机器之心与通义千问官方报道，团队后续凭借 MindChat 荣获 2025 合成数据大赛灵溪 AI for Mental Health 主题赛一等奖。这一阶段沉淀的对话评估与上下文治理经验，直接演化为后续 **SenseMem** Agentic Memory 系统的核心设计脉络。
 
 </div>
 </div>
@@ -182,11 +187,11 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ### <span class="brand-mark"><img class="brand-logo brand-logo--project" src="/images/logos/fatebridge.png" alt="" aria-hidden="true" width="24" height="24" loading="lazy" decoding="async"></span> [FateBridge](https://github.com/thomas-yanxin/FateBridge) {#fatebridge}
 
-我发起并开发 FateBridge，为 **Agentic Harness** 构建**本地领域计算引擎（Domain Computation Engine）**。项目将传统术数与占星规则编码为具有明确输入输出契约的计算工具，让 Agent 能够调用领域计算并解释结果。
+发起并研发 **FateBridge**，面向 **Agentic Harness** 构建确定性**本地领域计算引擎（Domain Computation Engine）**。针对大模型在复杂历法与符号推理中易产生幻觉的痛点，将传统术数与占星体系编码为具备严格输入输出契约的可验证工具，使 Agent 基于精确计算结果展开可溯源解释。
 
-项目集成八字、紫微、星盘等 **92 个 MCP 工具**，并提供 CLI 与 REST API。统一工具目录（Tool Catalog）、Schema 校验与共享执行层复用领域服务和计算内核，提供结构化结果并支持按预算交付。
+系统集成八字、紫微斗数、西方星盘等 **92 个 MCP 工具**，并同步提供 **CLI 与 REST API**。通过统一 **Tool Catalog**、强 Schema 校验与共享执行层复用领域服务与计算内核，输出结构化结果并原生支持按 Token/内容预算交付。
 
-我围绕**历法与节气边界、时区与真太阳时、规则来源及流派差异**设计计算内核，通过算法回归、独立参考与跨接口校验检查计算一致性。Agent 可以结合输入条件与所选规则解释计算结果。
+计算内核深度攻克**历法与节气边界、时区与真太阳时换算、规则来源标注及多流派差异**，建立算法回归测试、独立参考对账与跨接口一致性校验体系，确保 Agent 每一次推演都可锚定具体输入条件与规则出处。
 
 </div>
 
@@ -194,11 +199,11 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">📖</span></span> <span class="project-label">QianYe（亲百问）</span> {#qianye}
 
-我主导亲百问的**产品设计与微信小程序研发**，围绕 **Family Memory & Collaborative Storytelling** 构建以人为中心的 AI 辅助家庭记忆产品。以照片、物件与声音触发讲述，将家庭成员的异步叙事组织为可共同阅读的记忆手帐，作为公益数字产品持续推进。
+主导**亲百问**产品定义与全栈微信小程序研发，围绕 **Family Memory & Collaborative Storytelling** 打造以人为中心的公益 AI 家庭记忆产品。以老照片、物件与声音为叙事触发器，将家庭成员的异步口述整理为可跨代共读的家庭记忆手帐。
 
-系统采用原生微信小程序、CloudBase 云函数与共享业务模块，将录音、ASR 转写与可选 LLM 润色接入“讲述、核对、入册”的人机协作流程。异步任务衔接转写与内容整理，分段保存和草稿恢复支持中断后继续，大字与清晰的操作状态方便长辈使用。
+采用原生微信小程序、CloudBase 云函数与共享业务模块，将录音、异步 ASR 转写与可选 LLM 润色融入“**讲述 → 核对 → 入册**”人机协作闭环；通过分段保存、草稿恢复、适老化大字与清晰状态反馈，确保长辈在真实使用中可随时中断、无负担续写。
 
-产品围绕**讲述者的表达自主权与家庭协作**设计：保留原声、原图与原始转写，支持原文直接入册，或由本人选择、核对 AI 润色版本。家庭空间与邀请机制管理阅读和参与权限，让内容表达与分享范围由讲述者和家人共同决定。
+产品坚持**讲述者的表达自主权与家庭隐私边界**：完整保留原声、原图与原始转写，支持原文直接入册或由本人逐字核对 AI 润色版本；通过家庭空间与精细化邀请权限管理，让每一段记忆的表达方式与分享范围始终由讲述者和家人共同决定。
 
 </div>
 
@@ -210,15 +215,15 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 </figure>
 <div class="paper-box-text" markdown="1">
 
-我创立并推出 ColugoMum，负责**项目管理、算法适配与端侧前端开发**，构建基于 **Image Retrieval** 的智能零售结算系统。以可持续更新的商品检索库支撑商品识别，围绕相似包装区分与动态商品目录设计识别和更新流程。
+创立并推出 **ColugoMum**，统筹**项目管理、视觉算法适配与端侧前端研发**，构建基于 **Image Retrieval** 的云边端智能零售结算系统。以可动态扩展的商品特征检索库替代传统闭集分类，精准应对细粒度相似包装与高频上新的动态 SKU 目录。
 
 </div>
 </div>
 <div class="paper-box-text" markdown="1">
 
-基于 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PP-ShiTu</span>** 完成数据构建、轻量化模型调优与云边端集成。通过检索库增量更新接入新类别，减少重复训练需求；针对小样本、相似包装与端侧推理延迟，协同调整检索模型、商品库与应用方案。
+基于 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/paddlepaddle.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">PP-ShiTu</span>** 完成数据构建、轻量化检索模型调优与云边端全链路集成。支持新商品**免重训增量入库**，并围绕小样本、相似包装区分与端侧低延迟推理协同优化模型、特征库与交互方案。
 
-项目获得 **2022 年第 24 届中国机器人及人工智能大赛全国一等奖**，亮相 **Baidu Wave Summit 2021+**，并形成[论文](https://ieeexplore.ieee.org/document/9851085)、开源代码与教学实践。相关方法与实验见[技术文章](https://developer.cloud.tencent.com/article/2146677)。
+项目斩获 **2022 年第 24 届中国机器人及人工智能大赛全国一等奖**，受邀亮相 **Baidu Wave Summit 2021+**，并沉淀为 **IEEE CISCE [论文](https://ieeexplore.ieee.org/document/9851085)**、授权实用新型专利、软件著作权、开源代码与飞桨官方产业教学范例。方法与实验详见[技术文章](https://developer.cloud.tencent.com/article/2146677)。
 
 </div>
 </div>
@@ -227,11 +232,11 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ### <span class="brand-mark"><span class="project-emoji" aria-hidden="true">💬</span></span> [欧小鹏 OXiaoPeng](https://github.com/thomas-yanxin/OXiaoPeng) {#oxiaopeng}
 
-我创立并推出欧小鹏，这是一款面向微信社群的 **Conversational AI Application**，探索多模型接入与生成式服务的社区应用。从广告处理、新成员欢迎与常见问题问答起步，逐步接入 ERNIE、PanGu、Yuan、ChatYuan 与 ChatGPT，将对话与 Text-to-Image 服务纳入日常社群交互。项目需求与名称均来自社群共创。
+创立并推出**欧小鹏**，是大模型应用早期面向微信社群的 **Multi-Model Conversational & Generative AI Agent**。从社群广告治理、迎新与 FAQ 问答起步，率先将 ERNIE、PanGu、Yuan、ChatYuan、ChatGPT 与 Text-to-Image 能力编排进真实社群日常交互，产品需求与命名均由开源社区共创。
 
-我负责**模型 API 集成、功能迭代与服务维护**，将社群反馈转化为模型接入与交互功能的改进。通过上游 API 和依赖适配、文生图服务维护与故障恢复，支持生成式 AI 服务在真实社区中的持续运营。
+独立负责**多模型 API 编排、功能迭代与线上高可用维护**，持续应对上游接口变更、依赖适配与文生图服务故障恢复，在早期探索阶段实现了生成式 AI 应用在真实高频社群中的长期稳定运行。
 
-项目早期服务多个 AI 开源社群，累计直接用户 **2000+**、间接覆盖 **2 万+**，获得 **2022 年<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">启智社区</span>优秀孵化项目奖**，并入围 **2023 年奇绩春季创业营（S23）面试**。[《2022，我与启智》](https://www.cnblogs.com/thomas-yanxin/p/17067454.html)记录了项目的成长与社区的参与。
+早期服务多个 AI 开源社群，累计直接用户 **2,000+**、间接覆盖 **20,000+**；荣获 **2022 年<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openi.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">启智社区</span>优秀孵化项目奖**，并入围 **2023 年奇绩创坛春季创业营（S23）面试**。成长记录见[《2022，我与启智》](https://www.cnblogs.com/thomas-yanxin/p/17067454.html)。
 
 </div>
 
@@ -243,7 +248,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ## <span class="section-emoji" aria-hidden="true">📚</span> Publications & IP {#publications--ip}
 
-完整论文记录见 [Google Scholar](https://scholar.google.com/citations?user=WYuXNL0AAAAJ&hl=zh-CN)。
+累计合著专著 **1 部**（清华大学出版社）、在 **IEEE TIFS / TCE / CISCE** 等国际期刊与会议发表论文多篇，获授权**实用新型专利 1 项、软件著作权 3 项**；完整发表记录见 [Google Scholar](https://scholar.google.com/citations?user=WYuXNL0AAAAJ&hl=zh-CN)。
 
 ### Book
 
@@ -278,7 +283,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ## <span class="section-emoji" aria-hidden="true">🎙️</span> Talks & Media {#talks--media}
 
-我受邀在技术大会、开发者社区与课程中分享**模型选型、评估与应用开发**经验，并通过公开访谈讨论文学、情感智能与产品设计如何影响技术实践。
+受邀在**云栖大会、魔搭社区、百度飞桨、Datawhale** 等一线技术大会与开发者平台分享**多模态模型选型、评估闭环与 Agent 应用架构**；多次获**浙江卫视、通义实验室 × 魔搭社区、面壁智能 × OpenBMB、Founder Park、科学网**等权威媒体深度专访，探讨具身全双工交互、情感智能与人文视角如何反哺 AI 系统设计。
 
 ### Invited Talks
 
@@ -291,13 +296,13 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 ### Media Coverage
 
 * **火种说｜从“能听能看”到“共情响应”：一个算法工程师的全双工机器人探索** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q)</span><br>
-  分享 YRobot 桌面陪伴机器人的开发实践，围绕本地部署的 MiniCPM-o 4.5，讨论视听同步、实时打断、回声处理与动作协同如何支持自然交互。
+  深度复盘 **YRobot** 全双工桌面陪伴机器人实践，围绕端侧本地部署的 **MiniCPM-o 4.5**，拆解视听同步、实时打断（Barge-in）、回声消除与具身动作协同如何构建自然共情交互。
 * **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span> × <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭社区</span>｜写代码，也写情绪** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/a16sWs_QPtvoeY4J5eexTg)</span> <span class="media-link">\| 🎬 [视频](https://www.bilibili.com/video/BV1GVgNzLEHs/)</span> <span class="media-link">\| 🎧 [播客](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)</span>（47:52）<br>
-  谈情感智能的研究动机、文学对理解人的影响，以及评估如何指导模型改进。
+  对话探讨情感智能的研究起点、文学训练如何赋能人机交互直觉，以及如何用结构化评估驱动模型持续迭代。
 * **Founder Park｜<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Qwen 3</span> 与垂域模型实践** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/pb8eoQhvAF9O5N3CSO7rIg)</span> <span class="media-link">\| 📄 [文章](https://news.sina.com.cn/sx/2025-04-30/detail-ineuxrwv4808216.shtml)</span>（转载）<br>
-  从语音转写丢失的情感线索谈起，讨论后训练中领域与通用能力的平衡，以及成本、生态和产品流程对技术选择的影响。
+  从语音转写中流失的情感副语言线索切入，剖析后训练中垂域能力与通用能力的平衡，以及推理成本、开源生态与产品闭环对技术路线的决定性影响。
 * **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/sciencenet.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">科学网</span> / 中国科学报｜人皆孤独？他们用通义千问开发了一款心理大模型** <span class="media-link">\| 📄 [文章](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm)</span><br>
-  回顾 MindChat 从家人陪伴的讨论走向模型实践的过程，以及早期对模型持续迭代、生态与场景适配的考虑。
+  记录 **MindChat** 从家人陪伴需求出发走向开源心理大模型的创业与研发历程，呈现早期对模型迭代、生态协同与真实场景适配的思考。
 {: .media-list}
 
 <details class="archive-details" markdown="1">
@@ -335,7 +340,7 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 
 ## <span class="section-emoji" aria-hidden="true">🌱</span> Community & Activities {#community--activities}
 
-我持续参与**开源项目、技术教学与开发者社区建设**，将研发经验转化为可实践的课程和项目。通过高校活动、社区协作与长期维护，连接开发者、使用者和新的合作机会。
+长期深耕**开源社区共建、高校人才培养与产学研生态连接**：从创立高校 AI 科创社团、统筹华东七省 50+ 高校开发者网络，到受聘**北京大学本科实验班“信班”企业导师**，持续将一线算法与工程方法论转化为开源项目与体系化课程。
 
 <strong class="brand-heading"><span class="brand-mark"><img class="brand-logo" src="/images/logos/pku.png" alt="" aria-hidden="true" width="22" height="22" loading="lazy" decoding="async"></span><span>北京大学信息科学技术学院 | 本科实验班“信班”企业导师</span></strong><br>
 *2025.02 - 2025.08*
@@ -375,6 +380,8 @@ MindChat 起于我和老师关于家人陪伴的一次讨论，逐步发展为�
 <div class="anchor" id="awards-honors"></div>
 
 ## <span class="section-emoji" aria-hidden="true">🏅</span> Awards & Honors {#awards--honors}
+
+累计斩获**国家级竞赛一等奖 2 项、中国国际大学生创新大赛（原“互联网+”）全国银奖 1 项与铜奖 2 项**，以及**百度飞桨开发者技术专家（PPDE）、开放原子开源基金会活力开源贡献者、Qwen Ambassador、百度 AIStudio 年度影响力人物 TOP10** 等开源生态核心荣誉。
 
 ### Featured Awards
 
