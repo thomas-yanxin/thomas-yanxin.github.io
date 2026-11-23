@@ -22,7 +22,7 @@ html:has(.home-opening[open]) { overflow: clip; }
 
 body:has(.home-opening[open]) { overflow: hidden; }
 
-body:has(.reading-sheet) {
+body:has(.home-opening) {
   isolation: isolate;
   overflow-x: clip;
 }
@@ -83,47 +83,7 @@ body:has(.reading-sheet) {
   }
 }
 
-.reading-sheet {
-  position: fixed;
-  z-index: -1;
-  inset: 0 12px;
-  max-width: $academic-width - 32px;
-  margin-inline: auto;
-  color: rgba($academic-accent, .14);
-  pointer-events: none;
-
-  &::before {
-    content: "";
-    position: absolute;
-    inset-inline-start: 0;
-    inset-block: 0;
-    width: 1px;
-    background: currentColor;
-  }
-}
-
-.reading-sheet__geometry {
-  position: absolute;
-  inset-block-start: 7rem;
-  inset-inline-start: -31.5px;
-  width: 64px;
-  aspect-ratio: 80 / 183;
-  background: rgba($academic-accent, .38);
-  -webkit-mask: url("../../images/reading-edge-compact.svg") center / contain no-repeat;
-  mask: url("../../images/reading-edge-compact.svg") center / contain no-repeat;
-}
-
-@media (max-width: 1320px) {
-  .reading-sheet__geometry {
-    inset-inline-start: -14.5px;
-    width: 30px;
-  }
-}
-
 @media (max-width: 759px) {
-  .reading-sheet { inset-inline: 9px; }
-  .reading-sheet__geometry { display: none; }
-
   .page__content {
     .home-solar {
       inset-block-start: -1.75rem;
@@ -416,7 +376,7 @@ body:has(.reading-sheet) {
 }
 
 @media print {
-  .home-opening, .reading-sheet,
+  .home-opening,
   .page__content .home-solar,
   .page__content .home-section--news::before,
   .page__content .home-section--projects::before { display: none; }

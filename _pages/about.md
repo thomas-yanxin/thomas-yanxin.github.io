@@ -37,7 +37,7 @@ redirect_from:
 * *2026.11* <span class="news-emoji" aria-hidden="true">📺</span> 接受**<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/zhejiang-tv.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">浙江卫视</span>**人物专访，分享 AI 具身与情感交互一线实践 <span class="media-link">\| 🎬 [视频](http://wap.cztv.com/tv/35/2991249.html)</span>。
 * *2026.08* <span class="news-emoji" aria-hidden="true">🔥</span> 获 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelbest.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">面壁智能</span> & <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/openbmb.svg" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">OpenBMB</span> 社区「**火种说**」深度专题报道，解析 **YRobot 全双工全模态桌面陪伴机器人**{: .key-accent}工程实践 <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/8pZUlvvhBve3G9CBNt_Q3Q)</span>。
 * *2026.05* <span class="news-emoji" aria-hidden="true">📖</span> 合著专著《LangChain 大模型应用开发：从入门到实践》由**清华大学出版社**{: .key-accent}正式出版（周涛、薛栋、**颜鑫** 编著）。
-* *2026.01* <span class="news-emoji" aria-hidden="true">🏆</span> **MindChat** 团队斩获 2025 合成数据大赛 · 灵溪 AI for Mental Health 主题赛**一等奖**{: .key-accent} <span class="media-link">\| 📄 [文章](https://www.shobserver.com/wx/detail.do?id=1047568)</span>。
+* *2026.01* <span class="news-emoji" aria-hidden="true">🏆</span> **MindChat** 团队斩获 2025 合成数据大赛灵溪 AI for Mental Health 主题赛**一等奖**{: .key-accent} <span class="media-link">\| 📄 [文章](https://www.shobserver.com/wx/detail.do?id=1047568)</span>。
 * *2025.09* <span class="news-emoji" aria-hidden="true">🎤</span> 受邀登台 2025 年<span class="brand-token"><img class="brand-logo brand-logo--wordmark" src="/images/logos/apsara-wordmark.png" alt="" aria-hidden="true" width="386" height="38" loading="lazy" decoding="async"><span class="visually-hidden">云栖大会</span></span>「做 AI，Z 世代不一样！」分论坛担任 **Speaker** <span class="media-link">\| 🎬 [视频](https://yunqi.aliyun.com/2025/session?agendaId=6012)</span>。
 * *2025.07* <span class="news-emoji" aria-hidden="true">🥉</span> 荣获 2024 年中国国际大学生创新大赛**全国铜奖**。
 * *2025.07* <span class="news-emoji" aria-hidden="true">🎧</span> 接受 <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/tongyi.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">通义实验室</span> × <span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/modelscope.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">魔搭 ModelScope</span> 联合深度专访，探讨情感智能、评估驱动迭代与文学对 AI 产品直觉的影响 <span class="media-link">\| 🎧 [播客](https://www.xiaoyuzhoufm.com/episode/6878c7f5a9dec92500c5c93e)</span>。
@@ -301,7 +301,7 @@ redirect_from:
   对话探讨情感智能的研究起点、文学训练如何赋能人机交互直觉，以及如何用结构化评估驱动模型持续迭代。
 * **Founder Park｜<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Qwen 3</span> 与垂域模型实践** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/pb8eoQhvAF9O5N3CSO7rIg)</span> <span class="media-link">\| 📄 [文章](https://news.sina.com.cn/sx/2025-04-30/detail-ineuxrwv4808216.shtml)</span>（转载）<br>
   从语音转写中流失的情感副语言线索切入，剖析后训练中垂域能力与通用能力的平衡，以及推理成本、开源生态与产品闭环对技术路线的决定性影响。
-* **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/sciencenet.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">科学网</span> · 中国科学报｜人皆孤独？他们用通义千问开发了一款心理大模型** <span class="media-link">\| 📄 [文章](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm)</span><br>
+* **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/sciencenet.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">科学网</span>与中国科学报｜人皆孤独？他们用通义千问开发了一款心理大模型** <span class="media-link">\| 📄 [文章](https://news.sciencenet.cn/htmlnews/2023/12/513458.shtm)</span><br>
   记录 **MindChat** 从家人陪伴需求出发走向开源心理大模型的创业与研发历程，呈现早期对模型迭代、生态协同与真实场景适配的思考。
 {: .media-list}
 
@@ -385,7 +385,7 @@ redirect_from:
 
 ### Featured Awards
 
-* 2025 合成数据大赛 · 灵溪 AI for Mental Health 主题赛**一等奖（MindChat 团队）** <span class="media-link">\| 📄 [文章](https://www.shobserver.com/wx/detail.do?id=1047568)</span>
+* 2025 合成数据大赛灵溪 AI for Mental Health 主题赛**一等奖（MindChat 团队）** <span class="media-link">\| 📄 [文章](https://www.shobserver.com/wx/detail.do?id=1047568)</span>
 * 2024 中国国际大学生创新大赛「人因智能关键技术——非接触集成式驾驶员状态智能检测边缘计算技术」**铜奖**
 * 2023 第 9 届中国国际“互联网+”大学生创新创业大赛「灵心智能」**铜奖**
 * 2022 第 8 届中国国际“互联网+”大学生创新创业大赛「晓声科技」**银奖** <span class="media-link">\| 📄 [文章](https://mp.weixin.qq.com/s/EujzF8ubT_1PkoMs3u-qTw)</span>
