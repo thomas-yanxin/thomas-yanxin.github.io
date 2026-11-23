@@ -456,7 +456,8 @@ redirect_from:
 
 </section>
 
-<aside class="home-colophon" aria-hidden="true">
+<aside class="home-colophon" aria-label="尾题">
 {% include home-xy-matrix.svg %}
+<p class="home-colophon__motto home-colophon__motto--zh" lang="zh-CN">系统 <span class="home-colophon__sep" aria-hidden="true">·</span> 结构 <span class="home-colophon__sep" aria-hidden="true">·</span> 逻辑</p>
 </aside>
 

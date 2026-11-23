@@ -430,7 +430,8 @@ Recipient of **2 National First Prizes**{: .key-accent}, **1 National Silver and
 
 </section>
 
-<aside class="home-colophon" aria-hidden="true">
+<aside class="home-colophon" aria-label="Colophon">
 {% include home-xy-matrix.svg %}
+<p class="home-colophon__motto home-colophon__motto--en" lang="en">Systems <span class="home-colophon__sep" aria-hidden="true">·</span> Structure <span class="home-colophon__sep" aria-hidden="true">·</span> Logic</p>
 </aside>
 

@@ -6,6 +6,14 @@
   font-display: block;
 }
 
+@font-face {
+  font-family: "Zhi Mang Xing Colophon";
+  src: url("../../assets/fonts/zhi-mang-xing/zhi-mang-xing-colophon.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 $home-opening-exit: 880ms;
 $xy-opening-cycle: 5.6s;
 $xy-masthead-cycle: 6.8s;
@@ -65,10 +73,11 @@ body:has(.home-opening) {
 
   .home-colophon {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: $academic-section-gap;
     margin-inline: -$academic-section-inset;
-    padding: 2.75rem $academic-section-inset .25rem;
+    padding: 2.75rem $academic-section-inset .5rem;
     border-top: 1px solid $academic-rule;
   }
 
@@ -80,6 +89,38 @@ body:has(.home-opening) {
     opacity: .62;
     pointer-events: none;
     user-select: none;
+  }
+
+  .home-colophon__motto {
+    margin: .35rem 0 0;
+    color: rgba(#1c2f57, .78);
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .home-colophon__motto--zh {
+    font-family: "Zhi Mang Xing Colophon", "STXingkai", "KaiTi", cursive;
+    font-size: clamp(1.25rem, 2.8vw, 1.45rem);
+    font-weight: 400;
+    letter-spacing: .14em;
+    text-indent: .14em;
+  }
+
+  .home-colophon__motto--en {
+    font-family: "Sentient", Georgia, "Times New Roman", serif;
+    font-size: clamp(.95rem, 2vw, 1.05rem);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: .04em;
+    text-indent: .04em;
+  }
+
+  .home-colophon__sep {
+    display: inline-block;
+    margin-inline: .15em;
+    font-family: "Sentient", "LXGW WenKai", Georgia, serif;
+    font-style: normal;
+    opacity: .58;
   }
 }
 
