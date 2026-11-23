@@ -18,13 +18,13 @@ redirect_from:
 我是**颜鑫（Xin Yan）**，创作者、开发者、研究者，本质上是一名 **AI 产品与系统创业者**。我长期专注**持续人机交互与具身智能**，以端到端 **Co-design** 方法论，将**产品定义、多模态数据与 Rubrics、基座模型后训练、Agentic Harness 与系统评估**闭环打通，把前沿算法转化为可规模化交付的产品能力。
 {: .intro-lead}
 
-现任**心言机器人高级算法工程师**，负责**机器人算法架构**，主导 **xyVL 具身原生多模态基座模型**（协同 **xyData** 与 **xyJudge** Rubrics 体系）及全模态记忆系统 **SenseMem（Agentic Omni-modal ContextOS，在 MOSAIC 等四项记忆基准取得 SOTA）**；此前在**心言集团（测测）**带领 5–20 人团队主导 **Xinyuan 系列垂域与多模态大模型**研发（累计下载 **2 万+**，**Xinyuan-VL-2B** 获 OpenCompass & Hugging Face Open VLM Leaderboard **<4B 参数组第一**）；更早作为联合创始人创立 **X-D Lab**，开源 **MindChat** 与 **Sunsimiao**。毕业于**华东理工大学自动化专业**。
+现任**心言机器人高级算法工程师**，负责**机器人算法架构**，主导 **xyVL 具身原生多模态基座模型**及配套的 **xyData** 与 **xyJudge** Rubrics 体系，并发起全模态记忆系统 **SenseMem**，在 MOSAIC 等四项权威记忆基准取得 **SOTA**。此前在**心言集团**带领 5–20 人团队主导 **Xinyuan 系列垂域与多模态大模型**研发，累计下载 **2 万+**，其中 **Xinyuan-VL-2B** 登顶 OpenCompass & Hugging Face Open VLM Leaderboard **<4B 参数组第一**。更早作为联合创始人创立 **X-D Lab**，开源 **MindChat** 与 **Sunsimiao**。毕业于**华东理工大学自动化专业**。
 
 我的核心研究与工程主线聚焦于 **AI 与人的长期共生交互**：如何通过 **Data–Rubrics–Policy Co-design** 构建面向真实物理环境的具身多模态模型，如何借助 **Agentic Memory 与 Context Engineering** 让智能体在全模态交互中持续更新认知与编排上下文，以及如何通过全双工视听交互与情感智能让技术真正理解人。
 
 我的 MBTI 是 **INTJ**。文学塑造了我理解人的颗粒度，也构成了我在情感智能与产品体验判断上的底层直觉。
 
-作为 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)</span>**、**Qwen Ambassador** 与**北京大学信班企业导师**，我深度参与开源生态与技术教育。发起及参与的开源项目累计获得 **GitHub 30,000+ Stars**，合著清华大学出版社专著 1 部，在 **IEEE TIFS / TCE** 等期刊发表论文多篇，并持续通过**开源共建、课程写作与[公开演讲](#talks-media)**分享一线实践。
+作为 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/datawhale.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">[Datawhale Member](https://mp.weixin.qq.com/s/_I-aNX1lAPV2_eYoS0w_Bg)</span>**、**<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/qwen.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">Qwen Ambassador</span>** 与 **<span class="brand-token"><img class="brand-logo brand-logo--inline" src="/images/logos/pku.png" alt="" aria-hidden="true" width="18" height="18" loading="lazy" decoding="async">北京大学信班企业导师</span>**，我深度参与开源生态与技术教育。发起及参与的开源项目累计获得 **GitHub 30,000+ Stars**，合著清华大学出版社专著 1 部，在 **IEEE TIFS / TCE** 等期刊发表论文多篇，并持续通过**开源共建、课程写作与[公开演讲](#talks-media)**分享一线实践。
 
 </section>
 
