@@ -276,6 +276,13 @@ summary:focus-visible {
     font-synthesis: none;
   }
 
+  .key-accent {
+    color: $academic-accent;
+    font-weight: $academic-strong-weight;
+    font-variation-settings: "wght" $academic-strong-latin-axis;
+    font-synthesis: none;
+  }
+
   h3 a, h4 a { text-decoration: none; }
   h3 a:hover, h4 a:hover { text-decoration: underline; }
 
