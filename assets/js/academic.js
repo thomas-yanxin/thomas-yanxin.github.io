@@ -78,19 +78,149 @@
   }
   updateCurrentSection();
 
+  var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
   if ('IntersectionObserver' in window) {
-    var solar = document.querySelector('.home-solar');
-    if (solar) {
-      var solarInView = false;
-      function syncSolar() {
-        solar.toggleAttribute('data-orbit-playing', solarInView && !document.hidden);
+    var horizon = document.querySelector('[data-home-motion="horizon"]');
+    if (horizon) {
+      var reteEl = horizon.querySelector('[data-horizon-rete]');
+      var deferentEl = horizon.querySelector('[data-horizon-deferent]');
+      var epicycleEl = horizon.querySelector('[data-horizon-epicycle]');
+      var cursorEl = horizon.querySelector('[data-horizon-cursor]');
+      var projEl = horizon.querySelector('[data-horizon-proj]');
+      var projDotEl = horizon.querySelector('[data-horizon-proj-dot]');
+      var horizonInView = false;
+      var horizonFrame = 0;
+      var horizonElapsed = 0;
+      var horizonLastTick;
+
+      function applyHorizon(reteDeg, defDeg, epiDeg) {
+        reteEl.setAttribute('transform', 'rotate(' + reteDeg.toFixed(3) + ' 812 160)');
+        deferentEl.setAttribute('transform', 'rotate(' + defDeg.toFixed(3) + ' 812 160)');
+        epicycleEl.setAttribute('transform', 'rotate(' + epiDeg.toFixed(3) + ' 894 160)');
+        var rad = (defDeg * Math.PI) / 180;
+        var c = Math.cos(rad);
+        var s = Math.sin(rad);
+        cursorEl.setAttribute('transform', 'translate(' + (128 * c).toFixed(3) + ' 0)');
+        var px = 812 + 82 * c;
+        var py = 160 + 82 * s;
+        projEl.setAttribute('d', 'M' + px.toFixed(3) + ' 56V' + (py - 4).toFixed(3));
+        projDotEl.setAttribute('cx', px.toFixed(3));
       }
-      var solarObserver = new IntersectionObserver(function (entries) {
-        solarInView = entries[0].isIntersecting;
-        syncSolar();
-      });
-      solarObserver.observe(solar);
-      document.addEventListener('visibilitychange', syncSolar);
+
+      function stepHorizon(now) {
+        if (horizonLastTick !== undefined) {
+          horizonElapsed += (now - horizonLastTick) / 1000;
+        }
+        horizonLastTick = now;
+        applyHorizon(
+          -128 - (360 / 64) * horizonElapsed,
+          -142 - (360 / 28) * horizonElapsed,
+          -38 - (360 / (28 / 3)) * horizonElapsed
+        );
+        if (horizonInView && !document.hidden && !reducedMotion.matches) {
+          horizonFrame = window.requestAnimationFrame(stepHorizon);
+        } else {
+          horizonFrame = 0;
+        }
+      }
+
+      function syncHorizon() {
+        if (horizonFrame) {
+          window.cancelAnimationFrame(horizonFrame);
+          horizonFrame = 0;
+        }
+        horizonLastTick = undefined;
+        if (reducedMotion.matches) {
+          horizonElapsed = 0;
+          applyHorizon(-128, -142, -38);
+          return;
+        }
+        if (horizonInView && !document.hidden) {
+          horizonFrame = window.requestAnimationFrame(stepHorizon);
+        }
+      }
+
+      new IntersectionObserver(function (entries) {
+        horizonInView = entries[0].isIntersecting;
+        syncHorizon();
+      }).observe(horizon);
+      document.addEventListener('visibilitychange', syncHorizon);
+      if (reducedMotion.addEventListener) reducedMotion.addEventListener('change', syncHorizon);
+      else reducedMotion.addListener(syncHorizon);
+      applyHorizon(-128, -142, -38);
+      syncHorizon();
+    }
+
+    var harmonic = document.querySelector('[data-home-motion="harmonic"]');
+    if (harmonic) {
+      var discEl = harmonic.querySelector('[data-harmonic-disc]');
+      var contactEl = harmonic.querySelector('[data-harmonic-contact]');
+      var vlineEl = harmonic.querySelector('[data-harmonic-vline]');
+      var axisNodeEl = harmonic.querySelector('[data-harmonic-axis-node]');
+      var orbEl = harmonic.querySelector('[data-harmonic-orb]');
+      var harmonicInView = false;
+      var harmonicFrame = 0;
+      var harmonicElapsed = 0;
+      var harmonicLastTick;
+
+      function applyHarmonic(deg) {
+        var rad = (deg * Math.PI) / 180;
+        var c = Math.cos(rad);
+        var s = Math.sin(rad);
+        var dx = 46 * c;
+        var dy = 46 * s;
+        discEl.setAttribute(
+          'transform',
+          'translate(' + dx.toFixed(3) + ' ' + dy.toFixed(3) + ') rotate(' + (-deg).toFixed(3) + ' 824 140)'
+        );
+        contactEl.setAttribute('transform', 'rotate(' + deg.toFixed(3) + ' 824 140)');
+        var lx = 524 + 148 * c;
+        var ly = 42 + 22 * Math.sin(2 * rad);
+        vlineEl.setAttribute('d', 'M' + lx.toFixed(3) + ' 14V70');
+        axisNodeEl.setAttribute('transform', 'translate(' + (148 * c).toFixed(3) + ' 0)');
+        orbEl.setAttribute('cx', lx.toFixed(3));
+        orbEl.setAttribute('cy', ly.toFixed(3));
+      }
+
+      function stepHarmonic(now) {
+        if (harmonicLastTick !== undefined) {
+          harmonicElapsed += (now - harmonicLastTick) / 1000;
+        }
+        harmonicLastTick = now;
+        applyHarmonic(-124 - (360 / 20) * harmonicElapsed);
+        if (harmonicInView && !document.hidden && !reducedMotion.matches) {
+          harmonicFrame = window.requestAnimationFrame(stepHarmonic);
+        } else {
+          harmonicFrame = 0;
+        }
+      }
+
+      function syncHarmonic() {
+        if (harmonicFrame) {
+          window.cancelAnimationFrame(harmonicFrame);
+          harmonicFrame = 0;
+        }
+        harmonicLastTick = undefined;
+        if (reducedMotion.matches) {
+          harmonicElapsed = 0;
+          applyHarmonic(-124);
+          return;
+        }
+        if (harmonicInView && !document.hidden) {
+          harmonicFrame = window.requestAnimationFrame(stepHarmonic);
+        }
+      }
+
+      new IntersectionObserver(function (entries) {
+        harmonicInView = entries[0].isIntersecting;
+        syncHarmonic();
+      }).observe(harmonic);
+      document.addEventListener('visibilitychange', syncHarmonic);
+      if (reducedMotion.addEventListener) reducedMotion.addEventListener('change', syncHarmonic);
+      else reducedMotion.addListener(syncHarmonic);
+      applyHarmonic(-124);
+      syncHarmonic();
     }
 
     var entrances = new IntersectionObserver(function (entries) {

@@ -8,7 +8,7 @@ author_profile: true
 
 <section class="home-section home-section--about" aria-labelledby="about" markdown="1">
 
-{% include home-solar.svg %}
+{% include home-horizon.svg %}
 
 <div class="anchor" id="about-en"></div>
 
@@ -166,6 +166,8 @@ The team open-sourced [MindChat](https://github.com/X-D-Lab/MindChat) and [Sunsi
 </section>
 
 <section class="home-section home-section--projects" aria-labelledby="selected-projects" markdown="1">
+
+{% include home-harmonic.svg %}
 
 <div class="anchor" id="projects-en"></div>
 

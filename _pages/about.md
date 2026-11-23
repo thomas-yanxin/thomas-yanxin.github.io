@@ -11,7 +11,7 @@ redirect_from:
 
 <section class="home-section home-section--about" aria-labelledby="about-me" markdown="1">
 
-{% include home-solar.svg %}
+{% include home-horizon.svg %}
 
 # <span class="section-emoji" aria-hidden="true">👋</span> About Me {#about-me}
 
@@ -177,6 +177,8 @@ redirect_from:
 </section>
 
 <section class="home-section home-section--projects" aria-labelledby="selected-projects" markdown="1">
+
+{% include home-harmonic.svg %}
 
 <div class="anchor" id="projects"></div>
 <div class="anchor" id="-projects"></div>

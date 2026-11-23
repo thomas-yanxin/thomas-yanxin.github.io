@@ -82,6 +82,20 @@
   }
 
   i { width: 1.1rem; text-align: center; font-size: .85rem; }
+
+  .author__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    svg {
+      display: block;
+      width: 1.1rem;
+      height: 1.1rem;
+      fill: currentColor;
+    }
+  }
 }
 
 @media (max-width: 924px) {
@@ -112,6 +126,7 @@
     a { justify-content: center; min-height: 44px; font-size: .875rem; }
     .link-label { display: none; }
     i { font-size: 1rem; }
+    .author__icon svg { width: 1.25rem; height: 1.25rem; }
   }
 }
 

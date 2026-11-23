@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="home-bg home-bg--harmonic" data-plotter="" data-home-motion="harmonic" width="960" height="280" viewBox="0 0 960 280" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  <style data-plotter-styles="true">
+    [data-plotter] { stroke: var(--plotter-ink, currentColor); }
+    [data-plotter] [data-plotter-role="primary"] { stroke-width: var(--plotter-stroke-primary, 1); opacity: var(--plotter-opacity-primary, 1); stroke-dasharray: none; }
+    [data-plotter] [data-plotter-role="secondary"] { stroke-width: var(--plotter-stroke-secondary, 1); opacity: var(--plotter-opacity-secondary, 0.32); stroke-dasharray: none; }
+    [data-plotter] [data-plotter-role="guide"] { stroke-width: var(--plotter-stroke-guide, 1); opacity: var(--plotter-opacity-guide, 0.14); stroke-dasharray: none; }
+    [data-plotter] [data-plotter-role="hatch"] { stroke-width: var(--plotter-stroke-hatch, 1); opacity: var(--plotter-opacity-hatch, 0.18); stroke-dasharray: none; }
+    [data-plotter] [data-plotter-role="centerline"] { stroke-width: var(--plotter-stroke-guide, 1); opacity: var(--plotter-opacity-guide, 0.14); stroke-dasharray: 8 3 1 3; }
+    [data-plotter] [data-plotter-role="transfer"] { stroke-width: var(--plotter-stroke-secondary, 1); opacity: var(--plotter-opacity-secondary, 0.32); stroke-dasharray: 4 6; }
+  </style>
+  <defs>
+    <clipPath id="home-harmonic-quadrant">
+      <path d="M824 140L870 140A46 46 0 0 0 824 94Z"/>
+    </clipPath>
+  </defs>
+  <g data-plotter-role="guide">
+    <path vector-effect="non-scaling-stroke" d="M352 20H696 M352 64H696 M376 16V68 M524 16V68 M672 16V68"/>
+    <circle cx="824" cy="140" r="108" vector-effect="non-scaling-stroke"/>
+    <circle cx="824" cy="140" r="46" vector-effect="non-scaling-stroke"/>
+    <path vector-effect="non-scaling-stroke" d="M928.320 167.952L932.184 168.988 M917.531 194.000L920.995 196.000 M878.000 233.531L880.000 236.995 M851.952 244.320L852.988 248.184 M796.048 244.320L795.012 248.184 M770.000 233.531L768.000 236.995 M730.469 194.000L727.005 196.000 M719.680 167.952L715.816 168.988 M719.680 112.048L715.816 111.012 M730.469 86.000L727.005 84.000 M770.000 46.469L768.000 43.005 M796.048 35.680L795.012 31.816 M851.952 35.680L852.988 31.816 M878.000 46.469L880.000 43.005 M917.531 86.000L920.995 84.000 M928.320 112.048L932.184 111.012"/>
+  </g>
+  <g data-plotter-role="secondary">
+    <path vector-effect="non-scaling-stroke" d="M376 38V46 M450 38V46 M524 38V46 M598 38V46 M672 38V46"/>
+    <path vector-effect="non-scaling-stroke" d="M337 42H343 M340 39V45 M705 42H711 M708 39V45"/>
+    <path vector-effect="non-scaling-stroke" d="M672.00 42.00 L671.82 44.16 L671.29 46.29 L670.40 48.39 L669.16 50.42 L667.56 52.37 L665.63 54.22 L663.35 55.96 L660.73 57.56 L657.79 59.01 L654.52 60.29 L650.94 61.40 L647.06 62.33 L642.87 63.05 L638.41 63.58 L633.66 63.89 L628.65 64.00 L623.39 63.89 L617.89 63.58 L612.16 63.05 L606.22 62.33 L600.09 61.40 L593.77 60.29 L587.28 59.01 L580.64 57.56 L573.86 55.96 L566.96 54.22 L559.96 52.37 L552.87 50.42 L545.72 48.39 L538.51 46.29 L531.26 44.16 L524.00 42.00 L516.74 39.84 L509.49 37.71 L502.28 35.61 L495.13 33.58 L488.04 31.63 L481.04 29.78 L474.14 28.04 L467.36 26.44 L460.72 24.99 L454.23 23.71 L447.91 22.60 L441.78 21.67 L435.84 20.95 L430.11 20.42 L424.61 20.11 L419.35 20.00 L414.34 20.11 L409.59 20.42 L405.13 20.95 L400.94 21.67 L397.06 22.60 L393.48 23.71 L390.21 24.99 L387.27 26.44 L384.65 28.04 L382.37 29.78 L380.44 31.63 L378.84 33.58 L377.60 35.61 L376.71 37.71 L376.18 39.84 L376.00 42.00 L376.18 44.16 L376.71 46.29 L377.60 48.39 L378.84 50.42 L380.44 52.37 L382.37 54.22 L384.65 55.96 L387.27 57.56 L390.21 59.01 L393.48 60.29 L397.06 61.40 L400.94 62.33 L405.13 63.05 L409.59 63.58 L414.34 63.89 L419.35 64.00 L424.61 63.89 L430.11 63.58 L435.84 63.05 L441.78 62.33 L447.91 61.40 L454.23 60.29 L460.72 59.01 L467.36 57.56 L474.14 55.96 L481.04 54.22 L488.04 52.37 L495.13 50.42 L502.28 48.39 L509.49 46.29 L516.74 44.16 L524.00 42.00 L531.26 39.84 L538.51 37.71 L545.72 35.61 L552.87 33.58 L559.96 31.63 L566.96 29.78 L573.86 28.04 L580.64 26.44 L587.28 24.99 L593.77 23.71 L600.09 22.60 L606.22 21.67 L612.16 20.95 L617.89 20.42 L623.39 20.11 L628.65 20.00 L633.66 20.11 L638.41 20.42 L642.87 20.95 L647.06 21.67 L650.94 22.60 L654.52 23.71 L657.79 24.99 L660.73 26.44 L663.35 28.04 L665.63 29.78 L667.56 31.63 L669.16 33.58 L670.40 35.61 L671.29 37.71 L671.82 39.84Z"/>
+    <path vector-effect="non-scaling-stroke" d="M932.000 140.000L940.000 140.000 M900.368 216.368L906.024 222.024 M824.000 248.000L824.000 256.000 M747.632 216.368L741.976 222.024 M716.000 140.000L708.000 140.000 M747.632 63.632L741.976 57.976 M824.000 32.000L824.000 24.000 M900.368 63.632L906.024 57.976"/>
+    <path vector-effect="non-scaling-stroke" d="M944.000 140.000H950.000 M947.000 137.000V143.000 M821.000 263.000H827.000 M824.000 260.000V266.000 M698.000 140.000H704.000 M701.000 137.000V143.000 M821.000 17.000H827.000 M824.000 14.000V20.000"/>
+    <circle cx="824" cy="140" r="2.5" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g data-plotter-role="centerline">
+    <path vector-effect="non-scaling-stroke" d="M340 42H720"/>
+    <path data-harmonic-vline="" vector-effect="non-scaling-stroke" d="M441.239 14V70"/>
+    <path vector-effect="non-scaling-stroke" d="M732.000 140.000L818.000 140.000 M830.000 140.000L916.000 140.000 M758.946 74.946L819.757 135.757 M828.243 144.243L889.054 205.054 M824.000 48.000L824.000 134.000 M824.000 146.000L824.000 232.000 M889.054 74.946L828.243 135.757 M819.757 144.243L758.946 205.054"/>
+  </g>
+  <g data-plotter-role="transfer">
+    <path vector-effect="non-scaling-stroke" d="M722.234 76.410A120 120 0 0 1 773.286 31.243"/>
+    <path vector-effect="non-scaling-stroke" d="M720.885 70.563L722.234 76.410L728.080 75.060" style="stroke-dasharray:none"/>
+  </g>
+  <path data-harmonic-axis-node="" data-plotter-role="primary" transform="translate(-82.761 0)" vector-effect="non-scaling-stroke" d="M524 38.5L527.5 42L524 45.5L520.5 42Z"/>
+  <circle data-harmonic-orb="" data-plotter-role="primary" cx="441.239" cy="62.398" r="4" vector-effect="non-scaling-stroke"/>
+  <circle data-plotter-role="primary" cx="824" cy="140" r="92" vector-effect="non-scaling-stroke"/>
+  <g data-harmonic-contact="" transform="rotate(-124 824 140)">
+    <circle data-plotter-role="secondary" cx="916" cy="140" r="2.5" vector-effect="non-scaling-stroke"/>
+  </g>
+  <g data-harmonic-disc="" transform="translate(-25.723 -38.136) rotate(124 824 140)">
+    <path data-plotter-role="hatch" clip-path="url(#home-harmonic-quadrant)" vector-effect="non-scaling-stroke" d="M820 94L874 40 M820 102L874 48 M820 110L874 56 M820 118L874 64 M820 126L874 72 M820 134L874 80 M820 142L874 88 M820 150L874 96 M820 158L874 104 M820 166L874 112 M820 174L874 120 M820 182L874 128 M820 190L874 136"/>
+    <path data-plotter-role="secondary" vector-effect="non-scaling-stroke" d="M781.5 140H821.5 M826.5 140H866.5 M824 97.5V137.5 M824 142.5V182.5"/>
+    <circle data-plotter-role="secondary" cx="824" cy="140" r="2.5" vector-effect="non-scaling-stroke"/>
+    <circle data-plotter-role="primary" cx="824" cy="140" r="46" vector-effect="non-scaling-stroke"/>
+    <circle data-plotter-role="primary" cx="870" cy="140" r="3.5" vector-effect="non-scaling-stroke"/>
+    <circle data-plotter-role="primary" cx="824" cy="94" r="3.5" vector-effect="non-scaling-stroke"/>
+    <circle data-plotter-role="primary" cx="778" cy="140" r="3.5" vector-effect="non-scaling-stroke"/>
+    <circle data-plotter-role="primary" cx="824" cy="186" r="3.5" vector-effect="non-scaling-stroke"/>
+  </g>
+</svg>

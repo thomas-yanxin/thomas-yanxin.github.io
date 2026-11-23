@@ -6,17 +6,13 @@
   font-display: block;
 }
 
-@property --home-solar-angle {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0deg;
-}
-
 $home-opening-exit: 880ms;
 $xy-opening-cycle: 5.6s;
 $xy-masthead-cycle: 6.8s;
 
 .home-opening:not([open]) { display: none; }
+
+html:has(.home-opening) { overflow-x: clip; }
 
 html:has(.home-opening[open]) { overflow: clip; }
 
@@ -29,81 +25,70 @@ body:has(.home-opening) {
 
 .page__content {
   .home-section--about,
-  .home-section--news,
   .home-section--projects {
     position: relative;
     isolation: isolate;
   }
 
-  .home-solar,
-  .home-section--news::before,
-  .home-section--projects::before {
+  .home-bg {
     position: absolute;
     z-index: -1;
-    pointer-events: none;
-  }
-
-  .home-solar {
     display: block;
-    inset-block-start: -3.75rem;
-    inset-inline-end: -$academic-section-inset;
-    width: min(74%, 43rem);
+    inset-inline: -$academic-section-inset;
+    width: calc(100% + #{$academic-section-inset * 2});
     height: auto;
-    overflow: visible;
-    color: #365185;
-    opacity: .155;
+    overflow: hidden;
+    color: #1c2f57;
+    pointer-events: none;
+    user-select: none;
   }
 
-  .home-solar__art {
-    transform-box: view-box;
-    translate: 46%;
+  .home-bg--horizon {
+    inset-block-start: -1.5rem;
+    opacity: .42;
+    -webkit-mask-image:
+      radial-gradient(ellipse 46% 36% at 62% 18%, #000 42%, rgba(0, 0, 0, .32) 76%, transparent 100%),
+      radial-gradient(ellipse 28% 66% at 85% 50%, rgba(0, 0, 0, .62) 24%, rgba(0, 0, 0, .24) 64%, transparent 100%);
+    -webkit-mask-composite: source-over;
+    mask-image:
+      radial-gradient(ellipse 46% 36% at 62% 18%, #000 42%, rgba(0, 0, 0, .32) 76%, transparent 100%),
+      radial-gradient(ellipse 28% 66% at 85% 50%, rgba(0, 0, 0, .62) 24%, rgba(0, 0, 0, .24) 64%, transparent 100%);
+    mask-composite: add;
   }
 
-  .home-section--news::before,
-  .home-section--projects::before {
-    content: "";
-    background: center / contain no-repeat;
-    opacity: .18;
-  }
-
-  .home-section--news::before {
-    inset-block-start: -.5rem;
-    inset-inline-start: 36%;
-    width: min(45%, 23rem);
-    aspect-ratio: 356 / 80;
-    background-image: url("../../images/home-damping-compact.svg");
-  }
-
-  .home-section--projects::before {
-    inset-block-start: -3.875rem;
-    inset-inline-end: 7%;
-    width: min(34%, 14.5rem);
-    aspect-ratio: 311 / 111;
-    background-image: url("../../images/home-linkage-compact.svg");
+  .home-bg--harmonic {
+    inset-block-start: 0;
+    opacity: .38;
+    -webkit-mask-image:
+      radial-gradient(ellipse 44% 38% at 58% 16%, #000 42%, rgba(0, 0, 0, .30) 76%, transparent 100%),
+      radial-gradient(ellipse 26% 68% at 86% 52%, rgba(0, 0, 0, .58) 24%, rgba(0, 0, 0, .22) 64%, transparent 100%);
+    -webkit-mask-composite: source-over;
+    mask-image:
+      radial-gradient(ellipse 44% 38% at 58% 16%, #000 42%, rgba(0, 0, 0, .30) 76%, transparent 100%),
+      radial-gradient(ellipse 26% 68% at 86% 52%, rgba(0, 0, 0, .58) 24%, rgba(0, 0, 0, .22) 64%, transparent 100%);
+    mask-composite: add;
   }
 }
 
-@media (max-width: 759px) {
+@media (max-width: 924px) {
   .page__content {
-    .home-solar {
-      inset-block-start: -1.75rem;
-      inset-inline-end: -.75rem;
-      width: min(98%, 28rem);
-      opacity: .115;
+    .home-bg--horizon { opacity: .30; }
+    .home-bg--harmonic { opacity: .28; }
+  }
+}
+
+@media (max-width: 599px) {
+  .page__content {
+    .home-bg {
+      inset-inline: -1rem;
+      width: calc(100% + 2rem);
     }
 
-    .home-solar__art { translate: 40%; }
-
-    .home-section--news::before {
-      inset-block-start: .5rem;
-      inset-inline: auto 3%;
-      width: min(52%, 17rem);
-    }
-
-    .home-section--projects::before {
-      inset-block-start: -2.75rem;
-      inset-inline-end: 0;
-      width: min(42%, 12rem);
+    .home-bg--horizon,
+    .home-bg--harmonic {
+      opacity: .22;
+      -webkit-mask-image: radial-gradient(ellipse 52% 68% at 86% 36%, rgba(0, 0, 0, .7) 20%, rgba(0, 0, 0, .22) 65%, transparent 100%);
+      mask-image: radial-gradient(ellipse 52% 68% at 86% 36%, rgba(0, 0, 0, .7) 20%, rgba(0, 0, 0, .22) 65%, transparent 100%);
     }
   }
 }
@@ -377,7 +362,5 @@ body:has(.home-opening) {
 
 @media print {
   .home-opening,
-  .page__content .home-solar,
-  .page__content .home-section--news::before,
-  .page__content .home-section--projects::before { display: none; }
+  .page__content .home-bg { display: none; }
 }
